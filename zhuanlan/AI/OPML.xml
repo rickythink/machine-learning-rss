@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<opml version="1.1">
+ <head>
+  <title>AI - 知乎专栏</title>
+ </head>
+ <body>
+   <outline text="AI - 知乎专栏">
+  
+    <outline type="rss" title="智能单元" xmlUrl="https://raw.githubusercontent.com/RickyWong33/zhihu_rss/master/zhuanlan/AI/intelligentunit.xml" htmlUrl="https://zhuanlan.zhihu.com/intelligentunit"/>
+  
+    <outline type="rss" title="Hic Rhodus, hic salta" xmlUrl="https://raw.githubusercontent.com/RickyWong33/zhihu_rss/master/zhuanlan/AI/HicRhodushicsalta.xml" htmlUrl="https://zhuanlan.zhihu.com/HicRhodushicsalta"/>
+  
+    <outline type="rss" title="深度学习大讲堂" xmlUrl="https://raw.githubusercontent.com/RickyWong33/zhihu_rss/master/zhuanlan/AI/dlclass.xml" htmlUrl="https://zhuanlan.zhihu.com/dlclass"/>
+  
+    <outline type="rss" title="ResysChina" xmlUrl="https://raw.githubusercontent.com/RickyWong33/zhihu_rss/master/zhuanlan/AI/resyschina.xml" htmlUrl="https://zhuanlan.zhihu.com/resyschina"/>
+  
+    <outline type="rss" title="炼丹实验室" xmlUrl="https://raw.githubusercontent.com/RickyWong33/zhihu_rss/master/zhuanlan/AI/easyml.xml" htmlUrl="https://zhuanlan.zhihu.com/easyml"/>
+  
+    <outline type="rss" title="无痛的机器学习" xmlUrl="https://raw.githubusercontent.com/RickyWong33/zhihu_rss/master/zhuanlan/AI/hsmyy.xml" htmlUrl="https://zhuanlan.zhihu.com/hsmyy"/>
+  
+    <outline type="rss" title="impress your cat" xmlUrl="https://raw.githubusercontent.com/RickyWong33/zhihu_rss/master/zhuanlan/AI/impress-your-cat.xml" htmlUrl="https://zhuanlan.zhihu.com/impress-your-cat"/>
+  
+    <outline type="rss" title="机器学习笔记" xmlUrl="https://raw.githubusercontent.com/RickyWong33/zhihu_rss/master/zhuanlan/AI/mlearn.xml" htmlUrl="https://zhuanlan.zhihu.com/mlearn"/>
+  
+    <outline type="rss" title="PaperWeekly" xmlUrl="https://raw.githubusercontent.com/RickyWong33/zhihu_rss/master/zhuanlan/AI/paperweekly.xml" htmlUrl="https://zhuanlan.zhihu.com/paperweekly"/>
+  
+    <outline type="rss" title="远东轶事" xmlUrl="https://raw.githubusercontent.com/RickyWong33/zhihu_rss/master/zhuanlan/AI/yuandong.xml" htmlUrl="https://zhuanlan.zhihu.com/yuandong"/>
+  
+  </outline>
+ </body>
+</opml>
