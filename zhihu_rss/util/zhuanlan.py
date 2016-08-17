@@ -86,7 +86,7 @@ info ==> 'https://zhuanlan.zhihu.com/api/columns/%s' % name
 posts ==> 'https://zhuanlan.zhihu.com/api/columns/%s/posts' % name
 读取到的json
 '''
-def zhuanlan2rss(name,info,posts):
+def zhuanlan2rss(name,info,posts,addr):
 	posts = json.loads(posts)
 	rss = posts2rss(name, info, posts, pic='cf')
-	rss.write_xml(open("zhihu_rss/rss/%s.xml" %(name), 'w'),'utf-8')
+	rss.write_xml(open(addr, 'w'),'utf-8')
