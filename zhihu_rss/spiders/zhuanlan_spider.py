@@ -20,8 +20,9 @@ class zhuanlan_spider(CrawlSpider):
 	def __init__(self, category=None):
 		self.index = 0L
 		self.result = list()
-		self.lists = open('zhihu_rss/list/lists.txt','r')
-		for l in open('zhihu_rss/list/lists.txt'):
+		txt = 'zhihu_rss/list/zhuanlan/AI/lists.txt'
+		self.lists = open(txt,'r')
+		for l in open(txt):
 			l = self.lists.readline().strip()
 			n = l.split('/')[-1]
 			info_url = "https://zhuanlan.zhihu.com/api/columns/%s" %(n)
@@ -44,7 +45,8 @@ class zhuanlan_spider(CrawlSpider):
 		print 'parsing page: %s' % response.url
 		info = response.meta['info']
 		name_url = response.url.split('/')[-2]
-		zrss.zhuanlan2rss(name_url,info,response.body)
+		addr = "zhihu_rss/rss/zhuanlan/AI/%s.xml" %(name_url)
+		zrss.zhuanlan2rss(name_url,info,response.body,addr)
 
 		self.index +=1
 		if self.index < self.max:
