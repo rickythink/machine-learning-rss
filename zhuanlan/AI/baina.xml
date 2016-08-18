@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>黑斑马团队-深度学习笔记 - 知乎专栏</title><link>https://zhuanlan.zhihu.com/baina</link><description>黑斑马团队是百纳下属的游戏团队。百纳是海豚浏览器的研发者。
+现团队致力于研究人工智能、深度学习、计算机视觉及其在游戏领域的运用。
+我们大量招收上述领域专家和高级技术人员。</description><lastBuildDate>Thu, 18 Aug 2016 17:39:59 GMT</lastBuildDate><generator>Ricky</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>SVM简介</title><link>https://zhuanlan.zhihu.com/p/21932911</link><description>SVM（支持向量机）主要用于分类问题，主要的应用场景有字符识别、面部识别、行人检测、文本分类等领域。&lt;p&gt;通常SVM用于二元分类问题，对于多元分类通常将其分解为多个二元分类问题，再进行分类。下面我们首先讨论一下二元分类问题。&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;线性可分数据集与线性不可分数据集&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;对于二元分类问题，如果存在一个分隔超平面能够将不同类别的数据完美的分隔开（即两类数据正好完全落在超平面的两侧），则称其为线性可分。反之，如果不存在这样的超平面，则称其为线性不可分。&lt;/p&gt;&lt;p&gt;所谓超平面，是指能够将n维空间划分为两部分的分隔面，其形如&lt;equation&gt;w^Tx+b=0&lt;/equation&gt;。简单来说，对于二维空间（指数据集有两个特征），对应的超平面就是一条直线；对于三维空间（指数据集拥有三个特征），对应的超平面就是一个平面。可以依次类推到n维空间。&lt;/p&gt;&lt;p&gt;在下面的图片中，左边的图表示二维空间的一个线性可分数据集，右图表示的是二维空间的一个线性不可分数据集。可以直观的看到，对于左图，我们很容易找到这样一条直线将红色点和蓝色点完全分隔开。但是对于右图，我们无法找到这样的直线。&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic2.zhimg.com/b6a3fa2731b6679da247ea1cee2aee02.png" data-rawwidth="541" data-rawheight="238"&gt;&lt;p&gt;线性不可分出现的原因：&lt;/p&gt;&lt;p&gt;（1）数据集本身就是线性不可分隔的。上图中右图就是数据集本身线性不可分的情况。这一点没有什么疑问，主要是第二点。&lt;/p&gt;&lt;p&gt;（2）由于数据集中存在噪声，或者人工对数据赋予分类标签出错等情况的原因导致数据集线性不可分。下图展示的就是由于噪声或者分错出错导致线性不可分的情况。&lt;/p&gt;&lt;p&gt;现在，只关注图中的实心点、空心点，以及绿色线段。&lt;b&gt;可以看到实心点和空心点大致分布在绿色线段的两侧，但是在实心点的一侧混杂了两个空心点，在空心点的一侧混杂了一个实心点&lt;/b&gt;，即此时绿色直线并没有完全将数据分为两类，即该数据集是线性不可分的。在后面我们会提到通过修正线性可分模型以使得模型能够“包容”数据集中的噪点，以使得SVM能够处理这种类型的线性不可分情况。&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic3.zhimg.com/f7050c1a1445a36d4eb5b6524da5ee8d.png" data-rawwidth="436" data-rawheight="386"&gt;&lt;p&gt;SVM的目标就是找到这样的一个超平面（对于上图来说，就是找到一条直线），使得不同类别的数据能够落在超平面的两侧。&lt;/p&gt;&lt;p&gt;&lt;b&gt;2. 分类效果好坏&lt;/b&gt;&lt;/p&gt;&lt;p&gt;对于线性可分数据集，有时我们可以找到无数多条直线进行分隔，那么如何判断哪一个超平面是最佳的呢?&lt;/p&gt;&lt;p&gt;我们先来看一个简单的例子。图中‘x’和‘o’分别代表数据的两种不同类型。可以看到存在图中这样一条直线将数据划分成两类。对于图中的A、B、C三点，虽然它们都被划分在了‘x’类，但是我们A、B、C真正属于‘x’类的把握却是不一样的，直觉上我们认为有足够大的把握A点确实属于'x'类，但是对于C点我们却没有足够的把握，因为图中分隔直线的稍稍偏离，C点有可能就被划分到了直线的另一侧。&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic4.zhimg.com/93695a259ffce22ccf80b925624bbd68.png" data-rawwidth="383" data-rawheight="338"&gt;&lt;p&gt;所以，SVM的目标是使得训练集中的所有数据点都距离分隔平面足够远，更确切地说是，&lt;b&gt;使距离分隔平面最近的点的距离最大。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;3. 距离衡量标准&lt;/b&gt;&lt;/p&gt;&lt;p&gt;上面提到了SVM的中心思想，即，&lt;b&gt;使距离分隔平面最近的点的距离最大&lt;/b&gt;。那么这个距离如何衡量呢？&lt;/p&gt;&lt;p&gt;通常采用&lt;b&gt;几何间隔&lt;/b&gt;作为距离度量的方式。简单来说，就是点到超平面的几何距离。&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic1.zhimg.com/1c9a8a6be8fe0037a5e2036c9973bc7a.png" data-rawwidth="380" data-rawheight="325"&gt;例如，在上图的二维空间中，点A到分隔超平面（直线）的距离即为线段AB的长度。&lt;/p&gt;&lt;p&gt;几何间隔的计算公式如下：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic2.zhimg.com/a7f7d415274417933da6489eed6eb575.png" data-rawwidth="423" data-rawheight="104"&gt;其中，y表示数据点的类别标签，w和b分别是超平面&lt;equation&gt;w^Tx+b=0&lt;/equation&gt;的参数。&lt;/p&gt;&lt;p&gt;注：&lt;/p&gt;&lt;p&gt;（1）在SVM的二元分类中，通常将数据分为“1”类（也称为正类或正例）和“-1”类（也称为负类负例）。通常对于数据点&lt;equation&gt;x_0&lt;/equation&gt;，如果&lt;equation&gt;w^Tx_0+b&amp;gt;0&lt;/equation&gt;，则其被分为正类，反之，如果&lt;equation&gt;w^Tx+b&amp;lt;0&lt;/equation&gt;则被分为负类。那么通过在几何间隔的计算中加入乘法因子y，即可保证只要数据点被分在了正确的类别，那么其几何间隔一定是一个正值。&lt;/p&gt;&lt;p&gt;（2）其中&lt;equation&gt;y^{(i)}(w^Tx+b)&lt;/equation&gt;通常也称为&lt;b&gt;函数间隔&lt;/b&gt;。当w的模||w||等于1时，函数间隔和几何间隔相等。函数间隔存在的一个问题是：等比放大w和b，函数间隔也会等比增大，而分隔超平面却不会发生变化。几何间隔可以看做是函数间隔的“&lt;b&gt;正规化”。&lt;/b&gt;几何间隔不会随着w和b的等比缩放而变化。&lt;/p&gt;&lt;p&gt;&lt;b&gt;4. 支持向量的概念和最优间隔分类器&lt;/b&gt;&lt;/p&gt;&lt;p&gt;所谓SVM，即支持向量机，那么到底什么是支持向量呢？&lt;/p&gt;&lt;p&gt;如下图所示，实心点和空心点分别代表数据的两种类别，他们被黄色区域中间的直线分隔成两部分。被蓝色和红色圆圈圈出的点即为&lt;b&gt;支持向量&lt;/b&gt;。所谓支持向量，就是指&lt;b&gt;距离分隔超平面最近的点。&lt;/b&gt;&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic3.zhimg.com/2b95db3701cf744d226913abfed2fbf0.png" data-rawwidth="221" data-rawheight="228"&gt;&lt;p&gt;那么：要最大化最近的点到分隔超平面的距离，就是最大化支持向量到超平面的距离。&lt;/p&gt;&lt;p&gt;则我们要优化的目标就是：（具体推导这里不具体详述，可以参考附录中的参考资料）&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic4.zhimg.com/e926f06894088f492fa27315dba31d27.png" data-rawwidth="469" data-rawheight="140"&gt;&lt;p&gt;这就是&lt;b&gt;最大间隔分类器&lt;/b&gt;的模型，也是SVM的雏形，其&lt;b&gt;可以利用二次优化软件（QP）直接求解。但是计算效率不高（甚至可以说非常低）。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;5.通过拉格朗日对偶法优化最优间隔分类器模型&lt;/b&gt;&lt;/p&gt;&lt;p&gt;为了提高计算效率以及方便使用核函数，采用拉格朗日对偶，将原始优化模型变成了如下对偶形式：&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic1.zhimg.com/149f83f632103db7341badaeb416d84f.png" data-rawwidth="622" data-rawheight="217"&gt;&lt;/p&gt;&lt;p&gt;公式的推导非常复杂，这里也不再赘述，详细参考后面给出的资料。&lt;/p&gt;&lt;p&gt;这里只需要知道&lt;b&gt;，&lt;/b&gt;&lt;b&gt;alpha仅在支持向量处为非零值。也就是说实际计算时，公式右边有大量零值，非常节省计算量。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;6. 模型修正和线性不可分的处理&lt;/b&gt;&lt;/p&gt;&lt;p&gt;在第二部分，我们提到：在分类问题中，并不是训练集的分类函数越“完美”越好，因为数据集中本来就存在噪声，且可能存在人工添加分类标签出错的情况。过于“完美”反而会导致过拟合，使得模型失去一般性（可推广性）。&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic2.zhimg.com/f7050c1a1445a36d4eb5b6524da5ee8d.png" data-rawwidth="436" data-rawheight="386"&gt;&lt;p&gt;为了修正这些分类错误的情况，需要修正模型，加上惩罚系数C。其中&lt;equation&gt;\varepsilon &lt;/equation&gt;表示错误分类的点到正确边界的距离。（即图中的紫色线段长度）&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic3.zhimg.com/3942f21e8988ad7da82fe36a8dcfd847.png" data-rawwidth="480" data-rawheight="75"&gt;修正后的模型，可以“容忍”模型错误分类的情况，并且通过惩罚系数的约束，使得模型错误分类的情况尽可能合理。&lt;/p&gt;&lt;p&gt;&lt;b&gt;7.核函数&lt;/b&gt;&lt;/p&gt;&lt;p&gt;在线性不可分的情况下的另一种处理方式是使用核函数，其基本思想是：&lt;b&gt;将原本的低维特征空间映射到一个更高维的特征空间，从而使得数据集线性可分。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic4.zhimg.com/177cc99803cbc7fe259dad3b0af2aff3.png" data-rawwidth="446" data-rawheight="216"&gt;在上面的图中，左侧的图是一个二维特征空间中的线性不可分数据集，其具有两个特征（x1，x2）。&lt;/p&gt;&lt;p&gt;通过特征映射：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic1.zhimg.com/16e3db5aaeec9d5ab933aafde1dd9f74.png" data-rawwidth="280" data-rawheight="225"&gt;我们可以得到右侧的图，其是一个三维特征空间中的线性可分数据集，具有三个特征（z1,z2,z3）。&lt;/p&gt;&lt;p&gt;即：我们通过特征映射，将一个二维的线性不可分数据集成功映射到了三维空间的线性可分数据集。&lt;/p&gt;&lt;p&gt;关于核函数有一个形象的解释：世界上本来没有两个完全一样的物体，对于所有的两个物体，我们可以通过增加维度来让他们最终有所区别，比如说两本书，从(&lt;b&gt;颜色，内容&lt;/b&gt;)两个维度来说，可能是一样的，我们可以加上&lt;b&gt;作者&lt;/b&gt;这个维度，是在不行我们还可以加入&lt;b&gt;页码&lt;/b&gt;，可以加入 &lt;b&gt;拥有者&lt;/b&gt;，可以加入
+&lt;b&gt;购买地点&lt;/b&gt;，可以加入
+&lt;b&gt;笔记内容&lt;/b&gt;等等。&lt;b&gt;当维度增加到无限维的时候，一定可以让任意的两个物体可分了。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;这与核函数将低维特征映射到高维特征的思想基本类似。&lt;/p&gt;&lt;p&gt;常用的核函数有:&lt;/p&gt;&lt;p&gt;(1)多项式核函数&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic2.zhimg.com/523a6125abc4806416ad62202a186af9.png" data-rawwidth="308" data-rawheight="63"&gt;（2）高斯核函数&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic3.zhimg.com/826fa7c2702cdf94442e3855db4c93fd.png" data-rawwidth="300" data-rawheight="62"&gt;那么&lt;b&gt;如何应用核函数呢？&lt;/b&gt;&lt;/p&gt;回顾上面我们构建的模型：&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic4.zhimg.com/b3fdfaf3810a6cef1cd78def816b1b14.png" data-rawwidth="359" data-rawheight="186"&gt;注意到公式红色部分，表示两个&lt;equation&gt;x_i&lt;/equation&gt;和&lt;equation&gt;x_j&lt;/equation&gt;做内积，要应用核函数，我们只需要将这个部分替换为对应的核函数即可。&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic1.zhimg.com/20ee16aa7169d64047abfd81e024215b.png" data-rawwidth="249" data-rawheight="66"&gt;&lt;p&gt;&lt;b&gt;8. SMO算法&lt;/b&gt;&lt;/p&gt;&lt;p&gt;SMO算法就是为了高效计算上述优化模型而提出的。其是由&lt;b&gt;坐标上升算法&lt;/b&gt;衍生而来。&lt;/p&gt;&lt;p&gt;所谓坐标上升算法，就是指：对于含有多个变量的优化问题：每次只调整一个变量，而保证其他变量不变，来对模型进行优化，直到收敛。&lt;/p&gt;&lt;p&gt;举一个最简单的例子，对于如下优化问题：&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic2.zhimg.com/8f76d6cfa231032b81abe4f88390ab26.png" data-rawwidth="424" data-rawheight="91"&gt;&lt;p&gt;从任意点开始应用坐标上升算法，结果都会收敛到（0,0）。&lt;/p&gt;&lt;p&gt;不妨假设我们选择初始点（5,8），首先我们只调整x1的值，而保证x2的值不变，得到解（0,8）；然后我们只调整x2的值，而保证x1的值不变，得到解（0,0）；进一步，我们再次只调整x1的值，而保证x2的值不变，发现结果仍然是（0,0），说明收敛，算法结束，最终结果为（0,0）。&lt;/p&gt;&lt;p&gt;SMO的思想类似，由于约束条件 &lt;equation&gt;\sum_{i=1}^{m}{\alpha _iy^{(i)}} &lt;/equation&gt;的存在，如果按照坐标上升算法，每次只修改一个&lt;equation&gt;\alpha &lt;/equation&gt;的值，是不可行的（因为&lt;equation&gt;\alpha &lt;/equation&gt;的值完全取决于剩下的m-1个&lt;equation&gt;\alpha &lt;/equation&gt;值）。所以&lt;b&gt;每次至少改变一对&lt;/b&gt;&lt;b&gt;a的值。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;因而，类似坐标上升，&lt;b&gt;SMO算法每次选择一对可以进行优化的a值进行优化&lt;/b&gt;&lt;b&gt;，直到收敛&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;&lt;b&gt;9. SVM在多分类问题中的应用&lt;/b&gt;&lt;/p&gt;&lt;p&gt;SVM模型可以非常方便的进行二元分类问题的处理，不过也有许多方法将其扩展到多元分类问题中去。&lt;/p&gt;&lt;p&gt;常用的方法有一对其余法、一对一法等。详细可以参考一下&lt;a href="http://blog.sina.com.cn/s/blog_5eef0840010147pa.html" data-title="这里" class="" data-editable="true"&gt;这里&lt;/a&gt;。&lt;/p&gt;&lt;p&gt;&lt;b&gt;10. SVM应用实例&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;（1）SVM在手写识别中的应用&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;问题定义&lt;/b&gt;：如何利用SVM算法识别出数字0-9。在这里我们只讨论二元分类的情况，即判断一个手写数字是两个数字中的哪一个（例如，判断其是1还是9，在后面，我们会简要给出将其扩展到多元分类的方法）&lt;/p&gt;&lt;p&gt;&lt;b&gt;手写体的获取和处理&lt;/b&gt;：采集数字1和9的手写体，并将其转换为字符点阵。如下图所示，是一个手写数字1的字符点阵。其是一个32*32的点阵。&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic3.zhimg.com/7c4d48e7c4f89c38511ab27e6661242c.png" data-rawwidth="275" data-rawheight="522"&gt;&lt;p&gt;&lt;b&gt;特征和类别标签&lt;/b&gt;：可以看到，每个数字的形状都是由1024个点描述的，因而训练样例具有1024个特征，每个特征对应字符点阵中的一点。类别标签只需要将同一类数字赋予相同类别即可，例如，将数字1归为“1”类，将数字9归为“-1”类。&lt;/p&gt;&lt;p&gt;&lt;b&gt;模型训练&lt;/b&gt;&lt;b&gt;：&lt;/b&gt;利用上述SMO算法，得到分类模型。&lt;/p&gt;&lt;p&gt;&lt;b&gt;模型优化&lt;/b&gt;&lt;b&gt;：&lt;/b&gt;调整核函数参数，以使得模型达到最小的泛化错误。通过&lt;b&gt;交叉验证&lt;/b&gt;，以取得最好的参数：&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic4.zhimg.com/4b7c646c263fa044a688dcb7575a911f.png" data-rawwidth="643" data-rawheight="298"&gt;&lt;/p&gt;&lt;p&gt;可以看到，当核参数大小在10附近时，具有较优的表现。&lt;/p&gt;&lt;p&gt;&lt;b&gt;（2）鸢尾花的分类&lt;/b&gt;&lt;/p&gt;&lt;p&gt;数据来源是UCI数据集iris。下面是数据的特征和不同的类别。&lt;/p&gt;&lt;p&gt;特征：&lt;/p&gt;&lt;p&gt;(1).
+sepal length in cm 萼片长度&lt;/p&gt;&lt;p&gt;(2).
+sepal width in cm  萼片宽度&lt;/p&gt;&lt;p&gt;(3).
+petal length in cm  花瓣长度&lt;/p&gt;&lt;p&gt;(4).
+petal width in cm  花瓣宽度&lt;/p&gt;&lt;p&gt;类别： &lt;/p&gt;&lt;p&gt;--
+Iris Setosa &lt;/p&gt;&lt;p&gt;--
+Iris Versicolour &lt;/p&gt;&lt;p&gt;--
+Iris Virginica&lt;/p&gt;&lt;p&gt;&lt;b&gt;数据预处理&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Shuffle操作：&lt;/p&gt;&lt;p&gt;UCI上的该数据集是按类别顺序排列的，为了方便建模和交叉验证，需要&lt;b&gt;随机打乱顺序&lt;/b&gt;，使其无序化。这样做的目的是：避免训练数据集中全部出现的是同一类数据。&lt;/p&gt;&lt;p&gt;左图和右图分别是打乱前后的数据集。&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic1.zhimg.com/d9db69e861eb91e5d229d4bcbc258a0c.png" data-rawwidth="882" data-rawheight="356"&gt;&lt;b&gt;SVM建模&lt;/b&gt;&lt;/p&gt;&lt;p&gt;实现SMO算法，使用高斯核函数，分别实现Iris Setosa - NON_Iris Setosa分类器，Iris Versicolour –
+NON_Iris Versicolour 分类器。&lt;b&gt;并&lt;/b&gt;&lt;b&gt;保存模型参数到文件中。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;参数alpha（部分）：可以看到，105个训练样例中，只有4个alpha为非零值。即只有4个支持向量。（&lt;b&gt;支持向量数远远小于样例数。&lt;/b&gt;）&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic2.zhimg.com/daae001331a7f64770b6ea194069d4d4.png" data-rawwidth="400" data-rawheight="361"&gt;参数b：&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic3.zhimg.com/67a2b47ddcecc29276d1eec17be2b21a.png" data-rawwidth="433" data-rawheight="48"&gt;&lt;p&gt;&lt;b&gt;多元分类处理&lt;/b&gt;&lt;/p&gt;&lt;p&gt;采用了类似&lt;b&gt;决策树&lt;/b&gt;的方式。（这种方式存在的不足是：&lt;b&gt;如果上层分类出现误差，那么误差会累积到下层分类&lt;/b&gt;，不过在这个分类问题中，采用这种方式效果还可以。）&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic4.zhimg.com/568a86f23e83209a8727a29dc3f3246d.png" data-rawwidth="559" data-rawheight="509"&gt;&lt;b&gt;模型效果&lt;/b&gt;&lt;/p&gt;&lt;p&gt;训练错误率（模型对训练数据集中的数据分类的错误率）：7.6%&lt;/p&gt;&lt;p&gt;泛化错误率（模型对测试数据集中的数据分类的错误率） ：6.7%&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic1.zhimg.com/d3b49143c441ab6c8ba5f5d5cfe0cfb6.png" data-rawwidth="685" data-rawheight="67"&gt;&lt;b&gt;模型优化&lt;/b&gt;&lt;/p&gt;&lt;p&gt;在这里，我主要是修改核参数：&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic2.zhimg.com/d2b6dae19811326506b563ef525a7834.png" data-rawwidth="520" data-rawheight="378"&gt;&lt;p&gt;可以看到，调整不同的参数值，可以得到不同的训练错误率和泛化错误率。&lt;/p&gt;&lt;p&gt;&lt;b&gt;其他可能可以进行优化的地方&lt;/b&gt;&lt;/p&gt;(a)增大数据集(b)改变惩罚参数C(c)使用其他的多分类策略&lt;b&gt;9.附录&lt;/b&gt;（1）支持向量机SVM基础：这个讲解比较简洁清晰，基本不涉及公式证明，详见&lt;a href="http://www.cnblogs.com/LeftNotEasy/archive/2011/05/02/basic-of-svm.html" data-editable="true" data-title="这里"&gt;这里&lt;/a&gt;。（2）吴恩达教授机器学习课程，可以在coursera或者网易公开课上观看。（3）支持向量机通俗导论（理解SVM的三层境界）：比较全面，但是个人感觉一开始比较难以看懂。详见&lt;a href="http://blog.csdn.net/v_july_v/article/details/7624837"&gt;这里&lt;/a&gt;。</description><author>平衡木</author><pubDate>Tue, 09 Aug 2016 11:36:56 GMT</pubDate></item><item><title>从零实现一个多层神经网络</title><link>https://zhuanlan.zhihu.com/p/21616225</link><description>&lt;p&gt;编译自pangolulu的&lt;a data-title="Github" data-editable="true" href="https://github.com/pangolulu/neural-network-from-scratch"&gt;Github&lt;/a&gt;。&lt;/p&gt;&lt;p&gt;在这篇文章里，我们将实现一个多层神经网络。层的数目和每一层的维度将作为参数。例如，[2,3,2]代表了一个维度为2的输入层，一个三维隐含层和一个2维（二值分类）输出层的神经网络。&lt;/p&gt;&lt;h2&gt;生成数据集&lt;/h2&gt;&lt;p&gt;首先我们生成一个测试用的数据集。&lt;a data-title="scikit-learn" data-editable="true" href="http://scikit-learn.org/"&gt;scikit-learn&lt;/a&gt;有一些有用的数据集生成工具供我们使用。这里我们使用 &lt;a data-title="make_moons" data-editable="true" href="http://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_moons.html"&gt;make_moons&lt;/a&gt;函数。&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;#Generate a dataset and plot it
+np.random.seed(0)
+X, y = sklearn.datasets.make_moon(200, noise=0.2)
+plt.scatter(X[:,0], X[:,1], s=40, c=y, cmap=plt.cm.Spectral)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="479" data-rawwidth="606" src="caa8b9e96ae1bf562acfa503503eb9d3.png"&gt;我们生成的数据集有两类，用图形表示为红色的点和蓝色的点。我们的目标是训练一个机器学习分类器，能根据给出的坐标正确预测点的分类。&lt;/p&gt;&lt;h2&gt;神经网络&lt;/h2&gt;&lt;p&gt;你可以阅读这个教程（&lt;a href="http://cs231n.github.io/neural-networks-1"&gt;http://cs231n.github.io/neural-networks-1&lt;/a&gt;)以了解神经网络的基本概念，如激活函数，feed-forward computation等等。&lt;/p&gt;&lt;p&gt;我们希望这个网络的输出是一些概率，因此在输出层的激活函数上我们选择softmax，softmax是一个将原始分数转换为概率的简单方法。如果你熟悉logistic函数，你可以认为softmax是它在多个分类时的泛化函数。&lt;/p&gt;&lt;p&gt;当你选择了softmax作为输出时，你可以使用交叉熵函数（cross-entropy loss）作为损失函数。更多关于损失函数的讨论可以看&lt;a data-editable="true" class="" data-title="这里" href="http://cs231n.github.io/neural-networks-2/#losses"&gt;这里&lt;/a&gt;。&lt;/p&gt;&lt;h2&gt;参数学习&lt;/h2&gt;&lt;p&gt;参数学习意味着找到那些使得损失函数在训练数据集上有最小值的参数（如W_1, b_1, W_2, b_2)。&lt;/p&gt;&lt;p&gt;我们可以使用梯度下降法来找到最小值，这里将实现它的普通版本，即带固定学习速率的批量梯度下降法。变种有SGD（随机梯度下降）或者小批量梯度下降法，这些算法一般都有较好的表现。如果你想使用其中一个，一般你还需要对学习速率进行消退（&lt;a data-editable="true" class="" data-title="decay the learning rate over time" href="http://cs231n.github.io/neural-networks-3/#anneal"&gt;decay the learning rate over time&lt;/a&gt;).&lt;/p&gt;&lt;p&gt;梯度下降的关键是如何计算损失函数对于参数的梯度。其中一个方法叫做&lt;a data-title="反向传播" data-editable="true" href="https://en.wikipedia.org/wiki/Backpropagation"&gt;反向传播&lt;/a&gt;。 你可以在&lt;a data-title="这里" data-editable="true" href="http://colah.github.io/posts/2015-08-Backprop"&gt;这里&lt;/a&gt;或者&lt;a data-title="这里" data-editable="true" href="http://cs231n.github.io/optimization-2/"&gt;这里&lt;/a&gt;读到更多关于反向传播的内容。&lt;/p&gt;&lt;h2&gt;实现&lt;/h2&gt;&lt;p&gt;我们从给出神经网络的计算图开始：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="349" data-rawwidth="964" src="0e3ccea0517177408b52ecb1512c3e8c.png"&gt;在计算图中，可以看到它包含三个组件，门、层和输出。这里有两种门（乘法门和加法门），还有tanh层和softmax输出层。&lt;/p&gt;&lt;p&gt;门（gate）、层（layer)和输出（output）可以看作计算图的操作单元，这些操作单元将实现它们自己内部的导数（相对于它们的输入），并且按计算图所示使用链式法则。下图很好地解释了这一概念：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="522" data-rawwidth="997" src="26cd821304e501c30a9fa44472d9af05.png"&gt;gate.py&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;import numpy as np
+class MultiplyGate:
+  def forward(self, W, X):
+    return np.dot(X, W)
+  
+  def backward(self, W, X, dZ):
+    dW = np.dot(np.transpose(X), dZ)
+    dX = np.dot(dZ, np.transpose(W))
+    return dW, dX
+
+class AddGate:
+  def forward(self, X, b):
+    return X + b
+
+  def backward(self, X, b, dZ)
+    dX = dZ * np.ones_like(X)
+    db = np.dot(np.ones(1, dZ.shape[0], dtype = np.float(64), dZ)
+    return db, dX
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;layer.py&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;import numpy as np
+
+class Sigmoid:
+  def forward(self, X):
+    return 1.0 / (1.0 + np.exp(-X))
+
+  def backward(self, X, top_diff):
+    output = self.forward(X)
+    return (1.0 - output) * output * top_diff
+
+class Tanh:
+  def forward(self, X):
+    return np.tanh(X)
+
+  def backward(self, X, top_diff):
+    output = self.forward(X)
+    return (1.0 - np.square(output)) * top_diff
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;output.py&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;import numpy as np
+
+class Softmax:
+  def predict(self, X):
+    exp_scores = np.exp(X)
+    return exp_scores / np.sum(exp_scores, axis = 1, keepdims = True)
+
+  def loss(self, X, y):
+    num_examples = X.shape[0]
+    probs = self.predict(X)
+    correct_logprobs = -np.log(probs[range(num_examples), y])
+    data_loss = np.sum(correct_logprobs)
+    return 1./num_examples * data_loss
+
+  def diff(self, X, y):
+    num_examples = X.shape[0]
+    probs = self.predict(X)
+    probs =[range(num_examples), y] -= 1
+    return probs
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;我们可以用一个名为Model的类来实现神经网络。并在__init__函数里初始化参数。你可以传入参数 layers_dim = [2, 3, 2]， 表明输入层维度为2， 一个隐层是三维的，而输出是二维的。&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;class Model:
+  def __init__(self, layers_dim):
+    self.b = []
+    self.W = []
+    for i in range(len(layers_dim) - 1):
+      self.W.append(np.random.randn(layers_dim[i], layers_dim[i + 1]/np.sqrt(layes_dim[i]）
+      self.b.append(np.random(randn(layers_dim[i + 1].reshape(1, layers_dim[ i + 1]))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;现在来实现损失函数，它只不过是我们定义的神经网络的前向传播计算：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;def calculate_loss(self, X, y):
+  mulGate = MultiplyGate()
+  addGate = AddGate()
+  layer = Tanh()
+  softmaxOutput = softmax()
+
+  input = X
+  for i in range(len(self.W)):
+    mul = mulGate.forward(self.W[i], input)
+    add = addGate.forward(mul, self.b[i])
+    input = layer.forward(add)
+
+  return softmaxOutput.loss(input, y)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;我们还定义一个帮助函数，来计算网络的输出。它如我们前面所述一样作前向传播计算并返回最高概率的分类。&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;def predict(self, X):
+  mulGate = MultiplyGate()
+  addGate = AddGate()
+  layer = Tanh()
+  softmaxOutput = Softmax()
+
+  input = X
+  for i in range(len(self.W)):
+    mul = mulGate.forward(self.W[i], input)
+    add = addGate.forward(mul, self.b[i])
+    input = layer.forward(add)
+
+  probs = softmaxOutput.predict(input)
+  return np.argmax(probs, axis = 1)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;最后我们来定义训练函数。它实现了基于反向传播算法的批量梯度下降法：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;def train(self, X, y, num_passes=20000, epsilon=0.01, reg_lambda=0.01, print_loss=False):
+    mulGate = MultiplyGate()
+    addGate = AddGate()
+    layer = Tanh()
+    softmaxOutput = Softmax()
+
+    for epoch in range(num_passes):
+        # Forward propagation
+        input = X
+        forward = [(None, None, input)]
+        for i in range(len(self.W)):
+            mul = mulGate.forward(self.W[i], input)
+            add = addGate.forward(mul, self.b[i])
+            input = layer.forward(add)
+            forward.append((mul, add, input))
+
+        # Back propagation
+        dtanh = softmaxOutput.diff(forward[len(forward)-1][2], y)
+        for i in range(len(forward)-1, 0, -1):
+            dadd = layer.backward(forward[i][1], dtanh)
+            db, dmul = addGate.backward(forward[i][0], self.b[i-1], dadd)
+            dW, dtanh = mulGate.backward(self.W[i-1], forward[i-1][2], dmul)
+            # Add regularization terms (b1 and b2 don't have regularization terms)
+            dW += reg_lambda * self.W[i-1]
+            # Gradient descent parameter update
+            self.b[i-1] += -epsilon * db
+            self.W[i-1] += -epsilon * dW
+
+        if print_loss and epoch % 1000 == 0:
+            print("Loss after iteration %i: %f" %(epoch, self.calculate_loss(X, y)))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;让我们看看如果我们训练有一个大小为3隐层，会得到什么：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;import matplotlib.pyplot as plt
+import numpy as np
+import sklearn
+import sklearn.datasets
+import sklearn.linear_model
+import mlnn
+from utils import plot_decision_boundary
+
+# Generate a dataset and plot it
+np.random.seed(0)
+X, y = sklearn.datasets.make_moons(200, noise=0.20)
+plt.scatter(X[:,0], X[:,1], s=40, c=y, cmap=plt.cm.Spectral)
+plt.show()
+
+layers_dim = [2, 3, 2]
+
+model = mlnn.Model(layers_dim)
+model.train(X, y, num_passes=20000, epsilon=0.01, reg_lambda=0.01, print_loss=True)
+
+# Plot the decision boundary
+plot_decision_boundary(lambda x: model.predict(x), X, y)
+plt.title("Decision Boundary for hidden layer size 3")
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="489" data-rawwidth="598" src="e73d7e987819fd2aa5d14df94514147a.png"&gt;看上去相当不错。我们的神经网络能够找到将两种点成功分开的决策边界。&lt;/p&gt;&lt;p&gt;注：plot_decision_boundary函数引用自&lt;a class="" href="http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch"&gt;http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch&lt;/a&gt;：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;import matplotlib.pyplot as plt
+import numpy as np
+
+# Helper function to plot a decision boundary.
+def plot_decision_boundary(pred_func, X, y):
+    # Set min and max values and give it some padding
+    x_min, x_max = X[:, 0].min() - .5, X[:, 0].max() + .5
+    y_min, y_max = X[:, 1].min() - .5, X[:, 1].max() + .5
+    h = 0.01
+    # Generate a grid of points with distance h between them
+    xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
+    # Predict the function value for the whole gid
+    Z = pred_func(np.c_[xx.ravel(), yy.ravel()])
+    Z = Z.reshape(xx.shape)
+    # Plot the contour and training examples
+    plt.contourf(xx, yy, Z, cmap=plt.cm.Spectral)
+    plt.scatter(X[:, 0], X[:, 1], c=y, cmap=plt.cm.Spectral)
+&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt; 进一步工作&lt;/h2&gt;&lt;ol&gt;&lt;li&gt;不用批量梯度下降法，而使用 minibatch gradient 来训练网络。 Minibatch gradient descent通常会有更好的表现(&lt;a data-title="more info" data-editable="true" href="http://cs231n.github.io/optimization-1/#gd"&gt;more info&lt;/a&gt;).&lt;/li&gt;&lt;li&gt;我们使用了一个固定的学习速率 epsilon。实现一个学习速度的退火算法 (&lt;a data-title="more info" data-editable="true" href="http://cs231n.github.io/neural-networks-3/#anneal"&gt;more info&lt;/a&gt;).&lt;/li&gt;&lt;li&gt;我们使用了 tanh函数作为激活函数。使用其它函数试试 (&lt;a class="" data-title="more info" data-editable="true" href="http://cs231n.github.io/neural-networks-1/#actfun"&gt;more info&lt;/a&gt;).&lt;/li&gt;&lt;li&gt;将网络从2个分类扩展到3个分类。你将需要生成合适的数据集。&lt;/li&gt;&lt;li&gt;尝试其它的参数更新策略，如Momentum update, Nesterov momentum, Adagrad, RMSprop 和Adam (&lt;a data-title="more info" data-editable="true" href="http://cs231n.github.io/neural-networks-3/#update"&gt;more info&lt;/a&gt;).&lt;/li&gt;&lt;li&gt;在这里（&lt;a href="http://cs231n.github.io/neural-networks-2"&gt;http://cs231n.github.io/neural-networks-2&lt;/a&gt; and &lt;a class="" href="http://cs231n.github.io/neural-networks-3"&gt;http://cs231n.github.io/neural-networks-3&lt;/a&gt;）还可以找到一些其它的训练神经网络的技巧，如dropout reglarization, batch normazation, Gradient checks and Model Ensembles.&lt;/li&gt;&lt;/ol&gt;&lt;h2&gt;延伸阅读&lt;/h2&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="http://cs231n.github.io/"&gt;http://cs231n.github.io/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch"&gt;http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://colah.github.io/posts/2015-08-Backprop/"&gt;http://colah.github.io/posts/2015-08-Backprop/&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</description><author>杨勇</author><pubDate>Sat, 16 Jul 2016 20:30:07 GMT</pubDate></item><item><title>反向传播：可计算的图形（Computational Graphs: Backpropagation)</title><link>https://zhuanlan.zhihu.com/p/21612460</link><description>&lt;p&gt;本文编译自Colah的&lt;a data-title="博客" data-editable="true" href="http://colah.github.io/posts/2015-08-Backprop/"&gt;博客&lt;/a&gt;。未经作者允许，侵权即删除。&lt;/p&gt;&lt;h2&gt;导言&lt;/h2&gt;&lt;p&gt;反向传播是使得训练深度模型在计算上可控的关键算法。 对于现代神经网络，它可以使得梯度下降训练比原始实现快上千万倍。这是个在训练中只需要花一周还是要花200000年的差距。&lt;/p&gt;&lt;p&gt;除了在深度学习中的使用以外，后向传播在许多其它领域也是强大的计算工具，比如从天气预报到分析数值的稳定性--只不过用了不同的叫法而已。实际上，这个算法在不同的领域至少被重新发明了几十次（见&lt;a data-title="Griewank 2010" data-editable="true" href="http://www.math.uiuc.edu/documenta/vol-ismp/52_griewank-andreas-b.pdf"&gt;Griewank 2010&lt;/a&gt;) 。较通用的、与应用场景无关的叫法，是逆向微分（Reverse-mode differentiation）。&lt;/p&gt;&lt;p&gt;从根本上说，它是一种快速计算导数的技术。它还是你的工具箱里一种关键的工具，除了深度学习，在很多数值计算场合也有广泛的应用。&lt;/p&gt;&lt;h2&gt;可计算图形（Computational Graphs)&lt;/h2&gt;&lt;p&gt;可计算图形是思考数学表达式的有效方法。例如，考虑表达式：&lt;equation&gt;e=(a+b)*(b+1)&lt;/equation&gt;，这里有三个操作，两次加法和一次乘法。为叙述方便，让我们引入两个中间变量，c和d，以便每一个输出都有一个变量名。现在我们有：&lt;/p&gt;&lt;equation&gt;c&amp;amp;=a+b\\
+d&amp;amp;=b+1\\
+e&amp;amp;=c*d&lt;/equation&gt;&lt;p&gt;为了生成计算图形，我们将每个操作以及它们的输入变量装入一个个结点。如果一个结果的取值是另一个结点的输入，就在两个结点间画一个箭头。&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="800" data-rawwidth="1383" src="ee59254c9432b47cfcc3b11eab3e5984.png"&gt;这种图形在计算机科学中很常见，特别是提到函数式编程时。它们非常接近依赖图或者调用图的概念。它们也是流行的深度学习框架&lt;a data-title="Theano" data-editable="true" href="http://deeplearning.net/software/theano/"&gt;Theano&lt;/a&gt;的核心抽象。&lt;/p&gt;&lt;p&gt;我们可以给输入变量赋值并沿着图向上计算各结点的值。例如，取&lt;equation&gt;a=2 ,b=1&lt;/equation&gt;:&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="811" data-rawwidth="1403" src="e240455dc2a4d3383b43b3428310a921.png"&gt;最后表达式的值是6.&lt;/p&gt;&lt;h2&gt;可计算图形求导&lt;/h2&gt;&lt;p&gt;要理解可计算图形的求导，关键是要理解各条边上的导数。如果a直接影响到c，那么我们希望知道a是如何影响到c。如果a改变了一小点，c将发生多大的改变？我们将其称之为c对于a的偏导数。&lt;/p&gt;&lt;p&gt;为了计算图中的偏导数，我们需要加法和乘法规则：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="117" data-rawwidth="240" src="2e44d1eb137a2f39446551fa1e91dab4.png"&gt;下图的各条边加上了偏导数标签。&lt;/p&gt;&lt;img rel="noreferrer" data-rawheight="793" data-rawwidth="1405" src="986aacfebb87f4e9573fa2fe87f439d1.png"&gt;&lt;p&gt;如何理解没有直接连接的各个结点之间的相互影响？考虑e是如何被a影响的。如果我们以一倍的速度改变a，那么c也以一倍的速度改变，而c引起e以2倍速改变。 因此，e对a以1*2的速率改变。&lt;/p&gt;&lt;p&gt;通用的规则是，将一个结点到另一个结点的所有可能路径加起来，乘以每条边上的导数。例如，求e对b的偏导数可得：&lt;/p&gt;&lt;equation&gt;\frac{\partial a}{\partial b} =1\times 2+1 \times 3&lt;/equation&gt;&lt;p&gt;这代表了b是如何通过c来影响e以及b是如何通过d来影响e。&lt;/p&gt;&lt;p&gt;这个通过的“把各个路径加起来”的规则只是&lt;a data-title="multivariate chain rule" data-editable="true" href="https://en.wikipedia.org/wiki/Chain_rule#Higher_dimensions"&gt;multivariate chain rule&lt;/a&gt;的另一种表达方式。&lt;/p&gt;&lt;h2&gt;因子路径（Factoring Path）&lt;/h2&gt;&lt;p&gt; “只是把各个路径加起来”的问题是，它非常容易导致可能路径的复合爆炸式增长。 &lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="402" data-rawwidth="1660" src="7135381d92d390586db9a95f333d9855.png"&gt;在上图中，从X到Y有三条路径，而从Y到Z还有三条路径。如果我们要求得导数&lt;equation&gt;\frac{\partial Z}{\partial X} &lt;/equation&gt;，我们需要做3*3=9条路径上的求和。&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="74" data-rawwidth="439" src="88d92212340a0c6afb7d6ea34a23137b.png"&gt;上面的例子中仍然只有9条路径，但是随着图形变得更加复杂，路径数很容易呈指数增长。除了简单地把所有的路径加起来之外，更好的方式是将它们因式化：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="64" data-rawwidth="248" src="096494ab9d90a1146f01a61b45d0e335.png"&gt;这就是前向微分和逆向微分切入的地方。它们都是通过因式化求和的有效算法。这种方法不是将所有的路径显示求和，而是将所有的路径与回退路径合并起来，两个算法都只遍历每个结点一次。&lt;/p&gt;&lt;p&gt;前向微分从图的输入结点开始，并向尾端移动。在每个结点，将所有传入的路径求和。所有的这些路径代表了一个结点影响另一个结点的方向：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="560" data-rawwidth="1660" src="b5d1eb6d23bd1ca0da5d17e180b4c379.png"&gt;另一方面，逆向微分，从图的输出结点开始，并向起点移动。在每一个结点，它合并了从那个结点出射的所有路径。&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="577" data-rawwidth="1660" src="2139c78a49d22677576d42f727667c30.png"&gt;前向微分跟踪输入是如何影响所有结点的，而逆向微分则跟踪每一个结点将如何影响到输出。也即，前向微分将操作符&lt;equation&gt;\frac{\partial}{\partial X}&lt;/equation&gt;应用到每一个结点，而逆向微分则是将操作&lt;equation&gt;\frac{\partial Z}{\partial }&lt;/equation&gt;应用到每一个结点。&lt;/p&gt;&lt;h2&gt;计算向量&lt;/h2&gt;&lt;p&gt;到现在为止，你可能会好奇为什么我们要关心逆向微分。看上去它只是换了个奇怪的方式去做跟前向微分一样的事情而已。这么做有什么好处吗？&lt;/p&gt;&lt;p&gt;再看一遍最初的例子：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="793" data-rawwidth="1405" src="986aacfebb87f4e9573fa2fe87f439d1.png"&gt;我们可以用从b点开始使用前向微分模式，这样我们得到每一点对于b的导数。&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="806" data-rawwidth="1415" src="e95c5db967156fdf71b278181c6850ac.png"&gt;如果我们从e点向下做逆向微分呢，这将给出e对所有点的导数：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="833" data-rawwidth="1408" src="92cb5ae353459f3dbdcb9e3d0644df5a.png"&gt;前向微分只给出了输出针对单个输入的导数，而逆向微分给出了输出针对每一个输入的导数。&lt;/p&gt;&lt;p&gt;在这个图中，这种方法只获得2倍的加速。如果想象一个有着上百万个输入、一个输入的场景，前向微分要求我们遍历图上百万次，而逆向模式则可以一次遍历就获得所有的导数。一个百万量级的加速是相当不错的！&lt;/p&gt;&lt;p&gt;当训练神经网络时，我们将代价（一个描述神经网络表现的数值）看作是参数（一组描述网络如何运作的数值）的函数。我们希望计算出代价对于每个参数的导数，以便运用梯度下降法。百万个，或者上千万个参数现在在神经网络里已很常见了。因此，逆向微分，或者按神经网络场景下的叫法，后向传播，给了我们相当大的加速。&lt;/p&gt;</description><author>杨勇</author><pubDate>Sat, 16 Jul 2016 18:52:51 GMT</pubDate></item><item><title>作业：softmax.ipynb</title><link>https://zhuanlan.zhihu.com/p/21545241</link><description>&lt;p&gt;这个作业与svm.ipynb类似，要求：&lt;/p&gt;&lt;ol&gt;&lt;li&gt;为类Softmax分类器实现一个全向量化运算的损失函数 。类Softmax分类器定义在linear_classifier.py中，而损失函数实现在 softmax.py文件中。&lt;/li&gt;&lt;li&gt;实现一个基于微分分析梯度法的全向量化运算表达式（包含在损失函数定义中）。&lt;/li&gt;&lt;li&gt;与数值梯度法求出的损失函数和梯度值进行比较。&lt;/li&gt;&lt;li&gt;使用校验数据集来调节学习速率和正则化强度两个超参数。&lt;/li&gt;&lt;li&gt;使用SGD方法来优化损失函数&lt;/li&gt;&lt;li&gt;将最终学习到的权重集可视化。&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;在svm和softmax作业中都只讲了1和2的实现，强调公式推导和算法的性能优化（主要是使用向量化运算），并没有对一些辅助性功能及运行结果作说明。这篇文章补上这部分内容。&lt;/p&gt;&lt;p&gt;在softmax_loss_naive和 softmax_loss_vectorized 完成后，要求对两个函数的运行时间进行对比，在我的MBA上，前者运行时间是后者的14倍。&lt;/p&gt;&lt;p&gt;接下来是对softmax进行训练，并找到最优的超参数。下面的代码是留空处应该补全的代码：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;for lr in learning_rates:
+    for rs in regularization_strengths:
+        print 'Trying learning rate as %f, regularization strength as %f' % (lr, rs)  #01
+        softmax = Softmax()
+        softmax.train(X_train, y_train, learning_rate=lr, reg=rs,
+                      num_iters=1500, verbose=True)
+        
+        y_train_pred = softmax.predict(X_train)
+        training_accuracy = np.mean(y_train == y_train_pred)
+        
+        y_val_pred = softmax.predict(X_val)
+        val_accuracy = np.mean(y_val == y_val_pred)
+        
+        results[(lr, rs)] = (training_accuracy, val_accuracy)
+
+        if val_accuracy &amp;gt; best_val:
+            best_val = val_accuracy
+            best_softmax = softmax
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这里对学习速度和正则化惩罚强度两个超参数各给出了两组数据：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;learning_rates = [1e-7, 5e-7]
+regularization_strengths = [5e4, 1e8]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;由于精度问题，#01行处的代码会将1e-7显示为零。当正则化惩罚强度参数为1e8时，在我的MBA和python 2.7上运行出错：&lt;/p&gt;&lt;pre&gt;&lt;code lang="pytb"&gt;Trying learning rate as 0.000000, regularization strength as 100000000.000000
+reg penalty is 1530787.678522
+iteration 0 / 1500: loss 1530793.446178
+iteration 100 / 1500: loss nan
+iteration 200 / 1500: loss nan
+iteration 300 / 1500: loss nan
+iteration 400 / 1500: loss nan
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;出现数值溢出，导致loss取值为非数字（nan， Not a number)。这是因为当强度参数取值为1e8时，正则化惩罚达到 1530787，不光远远超过loss的基本值，也会传递给第二次参与计算的权重集W，从而最终导致在sum(W*W)的计算中溢出。&lt;/p&gt;&lt;p&gt;最后一段代码揭示了经过学习而得的权重集W在本质上应该是什么：W中的每一个分类对应的数值（维度为D的数组，D = 32 * 32 * 3），本质是就是这个分类中所有图像的像素值的综合，因而将它还原成图像后，你会发现它就是它所代表的分类的图像。在我的机器上，经过训练后的W图形化后的结果如下：&lt;/p&gt;&lt;img rel="noreferrer" data-rawheight="374" data-rawwidth="580" src="4345363b19348e31cfb77127c915135d.png"&gt;</description><author>杨勇</author><pubDate>Sun, 10 Jul 2016 02:13:46 GMT</pubDate></item><item><title>Softmax损失函数及梯度的计算</title><link>https://zhuanlan.zhihu.com/p/21485970</link><description>&lt;p&gt;在 考虑数值计算稳定性情况下的Softmax损失函数的公式如下 ：&lt;/p&gt;&lt;equation&gt;L_i=-log(\frac{e^{f_{yi}-max(f_j)} }{\sum_j{e^{f_j-max(f_j)}}} )&lt;/equation&gt;&lt;p&gt;对所有样本及计入正则化惩罚后，损失函数公式为：&lt;/p&gt;&lt;equation&gt;L = \frac{1}{N} \sum_i{Li}+\lambda W&lt;/equation&gt;&lt;p&gt;我们先从 Li看起。&lt;/p&gt;&lt;p&gt;f(i,j)即矩阵f(x,w)中的第i,j个元素。我们与之前一样求出样本集与权重集之间的评分集即可。&lt;/p&gt;&lt;p&gt;max(fj)即在第i个样本的所有分类得分中最大的得分。从式中看，评分集中的每一个元素都需要减去这个最大得分，这可以通过矩阵操作的广播机制来完成。同时，广播机制对指数运算也一样有效。因此损失函数可以计算为：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;f = X.dot(W) # N by C 
+# f_max是对第i行元素的所有分类计分求最大值，所以axis = 1
+f_max = np.reshape(np.max(f, axis=1), (num_train, 1)) # N by 1 
+# 对每个计分求归一化概率，这个概率是每个样本在不同类别上的分布。 N by C
+prob = np.exp(f - f_max) / np.sum(np.exp(f - f_max), axis=1, keepdims=True)
+
+for i in xrange(num_train): 
+  for j in xrange(num_class): 
+    if (j == y[i]):
+      loss += -np.log(prob[i, j])) 
+
+loss /= num_train 
+loss += 0.5 * reg * np.sum(W * W)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这个损失函数计算的原理是，如果对于样本i，它的正确分类类别是j，那么如果 prob[i,j]的值为1，则说明分类正确，这种情况下对损失函数没有贡献。而如果分类错误，则prob[i,j]的值将是一个小于1的值，这种情况下将对损失函数有所贡献。优化权重将有可能使得prob[i,j]趋近于1，从而损失函数最小。在未经训练时，由于权重是随机生成的，因此应该每个分类的概率就是10%，因此 loss应该接近 -log (0.1) （在没有加正则化惩罚的情况下）.&lt;/p&gt;&lt;p&gt;梯度的推导如下：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="4160" data-rawwidth="3120" src="7bb80f61d496fc31306f1cb2ab228311.jpg"&gt;&lt;img rel="noreferrer" data-rawheight="4160" data-rawwidth="3120" src="af959dead43fb218dbe41717e9602295.jpg"&gt;上图中， &lt;equation&gt;p_{(i,m)}&lt;/equation&gt;（注意这里字母p是小写）是样本的分类概率，是一个Cx1的向量（假设有C个分类的话）。当m为正确分类时，其值为1，其它元素取值为0。这里&lt;i&gt;Pm&lt;/i&gt;是即&lt;i&gt;P[i,m&lt;/i&gt;]，是样本&lt;i&gt;i&lt;/i&gt;在第&lt;i&gt;m个分类上的概率。&lt;/i&gt; 在求损失函数时，我们已经得到了概率矩阵了，所以&lt;i&gt;P[i,m]&lt;/i&gt;已知。&lt;/p&gt;&lt;p&gt;简书网友Deeplayer有一个类似的&lt;a data-title="推导" data-editable="true" href="http://upload-images.jianshu.io/upload_images/2301760-1c7b8c12bbe6a1bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"&gt;推导&lt;/a&gt;，省去了一些中间过程，更为简洁和清晰。 &lt;/p&gt;&lt;p&gt;加上梯度后的softmax_loss_naive版本：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;num_train = X.shape[0]
+  num_classes = W.shape[1]  
+  f = X.dot(W)  #N by C
+  f_max = np.reshape(np.max(f, axis = 1), (num_train, 1))
+  prob = np.exp(f - f_max)/np.sum(np.exp(f-f_max), axis = 1, keepdims = True)
+  
+  for i in xrange(num_train):
+    for j in xrange(num_classes):
+        if (j == y[i]):
+            loss += -np.log(prob[i,j])
+            dW[:,j] += (1 - prob[i,j]) * X[i]
+        else:
+            dW[:,j] -= prob[i,j] * X[i]
+            
+  loss /= num_train
+  loss += 0.5 * reg * np.sum(W*W)
+  dW = -dW / num_train + reg * W&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;从 softmax_loss_naive出发，看看如何去掉循环：&lt;/p&gt;&lt;p&gt;loss出现在内循环中，只不过只有当 j==y[i]时，我们才把 -np.log(prob[i,j])加上去。所以如果我们能找出 j!=y[i] 的那些元素，将其prob[i,j]置为1，从而np.log(prob[i,j]) == 0，这样就可以直接对矩阵求和了。在linear_svm.py中，我们使用margins[np.arange(num_train), y] = 0的方法来对少数元素的值做更新，但这里我们需要的条件是j!= y[i]，而非j==y[i]，所以还要再想别的办法。对dW矩阵而言，应该是先在prob的基础上作出一个新的矩阵，使其元素为 prob的对应元素的负数，然后将那些 j==y[i]的元素加上1，然后将这个新的矩阵与X相乘。这两个矩阵刚好都可以用下面的keepProb来实现。&lt;/p&gt;&lt;p&gt;下面的代码是 softmax.py中TODO：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;#################################################################
+# TODO: Compute the softmax loss and its gradient using no explicit loops.  #
+# Store the loss in loss and the gradient in dW. If you are not careful     #
+# here, it is easy to run into numeric instability. Don't forget the        #
+# regularization!                                                        #
+ ################################################################&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;的内容：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;  num_train = X.shape[0]
+  num_classes = W.shape[1]
+  f = X.dot(W)  #N by C
+  f_max = np.reshape(np.max(f, axis = 1), (num_train, 1))
+  prob = np.exp(f - f_max)/np.sum(np.exp(f-f_max), axis = 1, keepdims = True)
+
+  keepProb = np.zeros_like(prob)
+  keepProb[np.arange(num_train), y] = 1.0
+  loss += -np.sum(keepProb * np.log(prob)) / num_train + 0.5 * reg * np.sum(W*W)
+  dW += -np.dot(X.T, keepProb - prob)/num_train + reg * W&lt;/code&gt;&lt;/pre&gt;</description><author>杨勇</author><pubDate>Sat, 09 Jul 2016 18:27:53 GMT</pubDate></item><item><title>SVM损失函数及梯度矩阵的计算</title><link>https://zhuanlan.zhihu.com/p/21478575</link><description>&lt;p&gt;在学完了CS231N的《再谈线性分类》后，就可以完成assignment 1中，SVM的损失函数的实现。具体的作业文件是svm.ipynb和cs231n\classfiers\linear_svm.py。与之关联的一个文件是cs231n\gradient_check.py，在这个文件里实现了原notes里提到的numerical gradient算法，不过它采用的是中心差值公式（centered difference formula）。&lt;/p&gt;&lt;p&gt;linear_svm.py一共留了两道编程题，一个是完成svm_loss_naive，一个是完成 svm_loss_vectorized。这两个函数都要求我们使用微分分析方法（而不是数值分析法）来计算梯度，svm_loss_naive中允许使用循环，更高一级的函数svm_loss_vectorized则要求使用向量来规避循环，以提升算法效率。可以看出，CS231N的课程设计对工程实践也很重视，并不是一门纯理论的课，所以在其作业中也花了较大篇幅来训练学生优化算法的能力。&lt;/p&gt;&lt;h2&gt;svm_loss_naive&lt;/h2&gt;&lt;p&gt;这个函数的框架代码给出如下：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;def svm_loss_naive(W, X, y, reg):
+  """
+  Structured SVM loss function, naive implementation (with loops).
+  Inputs have dimension D, there are C classes, and we operate on minibatches of N examples.
+  Inputs:
+  - W: A numpy array of shape (D, C) containing weights.
+  - X: A numpy array of shape (N, D) containing a minibatch of data.
+  - y: A numpy array of shape (N,) containing training labels; y[i] = c means that X[i] has label c, where 0 &amp;lt;= c &amp;lt;
+C.
+  - reg: (float) regularization strength
+
+  Returns a tuple of:
+  - loss as single float
+  - gradient with respect to weights W; an array of same shape as W
+  """
+  dW = np.zeros(W.shape) # initialize the gradient as zero
+  # compute the loss and the gradient
+  num_classes = W.shape[1]
+  num_train = X.shape[0]
+  loss = 0.0
+  for i in xrange(num_train):
+    scores = X[i].dot(W)
+    correct_class_score = scores[y[i]]
+    for j in xrange(num_classes):
+      if j == y[i]:
+        continue
+      margin = scores[j] - correct_class_score + 1 # note delta = 1
+      if margin &amp;gt; 0:
+        loss += margin
+  # Right now the loss is a sum over all training examples, but we want it
+  # to be an average instead so we divide by
+num_train.
+  loss /= num_train
+  # Add regularization to the loss.
+  loss += 0.5 * reg * np.sum(W * W)
+
+  return loss, dW&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;可以看出对于损失值的计算已经完成，就是对于公式：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="71" data-rawwidth="511" src="f7714c6fb06ed6d1f765ba17a696b0de.png"&gt;的直接翻译。这里f函数即为记分函数，计算方法为：&lt;/p&gt;&lt;p&gt;Scores = X[i].dot(W)&lt;/p&gt;&lt;p&gt;这样得出的scores是X[i]关于权重W（含偏置）的各个分类器的得分，是一个C维向量（假设共有C个分类）。&lt;/p&gt;&lt;p&gt;注意上面的运算中实际已将正确分类的得分求出来了，即scores[y[i]]。&lt;/p&gt;&lt;h2&gt;关于梯度矩阵dW的求法&lt;/h2&gt;&lt;p&gt;梯度矩阵dW由各样本i（i=1..N）在点W的各个分类方向 c(c=1..C）上的损失函数的梯度构成，指明了各样本在各个分类方向上的下降速度。&lt;/p&gt;&lt;img rel="noreferrer" data-rawheight="139" data-rawwidth="259" src="f6519c26daa418931fff16b56cb15b3c.png"&gt;结合样本Xi的损失函数Li的公式：&lt;img rel="noreferrer" data-rawheight="66" data-rawwidth="289" src="5df8d13cd86f98669eae8ef03e6cff1d.png"&gt;&lt;p&gt;可以得到：&lt;/p&gt;&lt;img rel="noreferrer" data-rawheight="78" data-rawwidth="386" src="9cf5d79f58ca3c63ea21b6a9c75940f5.png"&gt;&lt;img rel="noreferrer" data-rawheight="35" data-rawwidth="294" src="c6149bcc0b824799d33528f9afd01fd4.png"&gt;这里1(x)为示性函数，当x为真时函数取值1，当x为假时函数取值为0.
+
+&lt;p&gt;式子1）是W中对应第i个样本的正确分类Wyi的梯度。它的计算方法是，有多少个Wj导致边界值不被满足，从而就对损失函数产生多少次贡献。这个次数乘以Xi并取负数就是Wyi行对应的梯度。它的意义是（结合后面的SGD算法），既然Wyi的作用是要使得损失函数 Li最小，那么就给 Wyi加上若干个 Xi（这里为负号，但在SGD计算时采用负梯度方向，所以实际效果为相加），使得 Wyi的权重值变大，结果是新一轮迭代时损失函数应该变小。为什么是加上Xi呢？因为Xi包含着这个样本的全部特征。如果Xj也对应着分类Yi，则在Xj的梯度计算时，也会从Xj中提取一定量的特征加入到权利 Wyi中（这里Wyi与Wyi实际上是同一个分类的权重）。&lt;/p&gt;&lt;p&gt;式子2）则是W中对应第i个样本的不正确分类行Wi的梯度。注意在求导中，只有 i==j的那一行，才有可能对梯度产生贡献，i&amp;lt;&amp;gt;j时整个式子均为常数，而常数求导为零。所以最终导数形式与式子1）不同，没有了求和符号。&lt;/p&gt;&lt;p&gt;从上面的公式可以看出，这样计算出来的梯度矩阵，在SGD算法中确实会选择梯度下降最快的方向。&lt;/p&gt;&lt;h2&gt;算法实现&lt;/h2&gt;&lt;p&gt;由公式可以看出，dW(i,j)的值为：&lt;/p&gt;&lt;ol&gt;&lt;li&gt;-nXi，n取决于有多少个边界值大于零。由于它是对分类的循环，故可以放在上面的代码中的内循环中累加&lt;/li&gt;&lt;li&gt;Xi，当 j&amp;lt;&amp;gt;yi时。&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;最终代码为：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;def svm_loss_naive(W, X, y, reg):
+  """
+  Structured SVM loss function, naive implementation (with loops).
+
+  Inputs have dimension D, there are C classes, and we operate on minibatches
+  of N examples.
+
+  Inputs:
+  - W: A numpy array of shape (D, C) containing weights.
+  - X: A numpy array of shape (N, D) containing a minibatch of data.
+  - y: A numpy array of shape (N,) containing training labels; y[i] = c means
+    that X[i] has label c, where 0 &amp;lt;= c &amp;lt; C.
+  - reg: (float) regularization strength
+
+  Returns a tuple of:
+  - loss as single float
+  - gradient with respect to weights W; an array of same shape as W
+  """
+  dW = np.zeros(W.shape) # initialize the gradient as zero
+
+  # compute the loss and the gradient
+  num_classes = W.shape[1]
+  num_train = X.shape[0]
+  loss = 0.0
+  h = 0.00001
+  hW = W - h
+  for i in xrange(num_train):
+    scores = X[i].dot(W)
+    hscores = X[i].dot(hW)
+    correct_class_score = scores[y[i]]
+    for j in xrange(num_classes):
+      if j == y[i]:
+        continue
+      margin = scores[j] - correct_class_score + 1 # note delta = 1
+      if margin &amp;gt; 0:
+        loss += margin
+        dW[:,y[i]] += -X[i]
+        dW[:, j] += X[i]
+
+  # Right now the loss is a sum over all training examples, but we want it
+  # to be an average instead so we divide by num_train.
+  loss /= num_train
+  dW /= num_train
+
+  # Add regularization to the loss.
+  loss += reg * np.sum(W * W)
+  dW += 2 * reg * W         # (1)
+
+  return loss, dW
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;注意（1）处的代码。这是由加了正则化惩罚后的损失函数微分来的&lt;equation&gt;2\lambda W&lt;/equation&gt;。 &lt;/p&gt;&lt;p&gt;向量版的损失函数：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;def svm_loss_vectorized(W, X, y, reg):
+  """
+  Structured SVM loss function, vectorized implementation.
+
+  Inputs and outputs are the same as svm_loss_naive.
+  """
+  loss = 0.0
+  dW = np.zeros(W.shape) # initialize the gradient as zero
+
+  #######################################################################
+#TODO:                                                                 #
+# Implement a vectorized version of the structured SVM loss, storing 
+# the result loss.                                                    #
+  #######################################################################
+  scores = X.dot(W)  # N by C
+  num_train = X.shape[0]
+  num_classes = W.shape[1]
+  scores_correct = scores[np.arange(num_train), y] #1 by N
+  scores_correct = np.reshape(scores_correct, (num_train, 1)) # N by 1
+  margins = scores - scores_correct + 1.0 # N by C
+  margins[np.arange(num_train), y] = 0.0 
+  margins[margins &amp;lt;= 0] = 0.0
+  loss += np.sum(margins) / num_train
+  loss += 0.5 * reg * np.sum(W * W)
+  
+#Implement a vectorized version of the gradient for the structured SVM 
+# loss, storing the result dW.                                      
+#                                                                      
+# 从svm_loss_naive可知，既然dW的求法是在一个零矩阵上加上对应的Xi（j&amp;lt;&amp;gt;yi），或者 #减去若干个 Xi（j==yi),那么我们可以复用 margins 并通过计算其与X的积来得到最终结果
+
+  margins[margins &amp;gt; 0] = 1.0                         # 示性函数的意义
+  row_sum = np.sum(margins, axis=1)                  # 1 by N
+  margins[np.arange(num_train), y] = -row_sum        
+  dW += np.dot(X.T, margins)/num_train + reg * W     # D by C
+
+  return loss, dW
+&lt;/code&gt;&lt;/pre&gt;</description><author>杨勇</author><pubDate>Fri, 08 Jul 2016 20:42:34 GMT</pubDate></item><item><title>计算机视觉学习笔记（2.2）-课程作业</title><link>https://zhuanlan.zhihu.com/p/21358431</link><description>&lt;p&gt;&lt;i&gt;本笔记系列以斯坦福大学CS231N课程为大纲，海豚浏览器每周组织一次授课和习题答疑。 具体时间地点请见微信公众号黑斑马团队（zero_zebra)和QQ群(1429 61883)的发布。同时课程也通过腾讯课堂（百纳公开课）进行视频直播。欢迎参与学习。&lt;/i&gt;&lt;/p&gt;&lt;p&gt;在&lt;a data-title="这里" data-editable="true" href="http://vision.stanford.edu/teaching/cs231n/winter1516_assignment1.zip"&gt;这里&lt;/a&gt;下载斯坦福CS231N的课程作业。如果上述地址无法访问，也可以在QQ群（142961883）的群文件里下载。&lt;/p&gt;&lt;p&gt;解压缩后（比如根目标为CS231N），进入根目录，从这里启动python -m IPython notebook。在新打开的浏览器窗口中，点击knn.ipynb文件，打开一个新的窗口。回到先前的窗口，进入cs321n/classifiers目录，点击打开k_nearest_neighbor.py文件。我们的作业就在这两个文件里。&lt;/p&gt;&lt;p&gt;打开knn.ipynb，搜索“Inline question"，并在Your answer处作答。 &lt;/p&gt;&lt;p&gt;完成k_nearest_neighbor.py中几个标记为”pass“的代码段。当你完成代码后，保存，回到knn.ipynb，测试你的答案是否正确。&lt;/p&gt;&lt;p&gt;如果课程作业中遇到困难，可以在QQ群里进行提问，我们安排有人负责解答。&lt;/p&gt;</description><author>杨勇</author><pubDate>Wed, 15 Jun 2016 15:45:26 GMT</pubDate></item><item><title>计算机视觉学习笔记（2.1）-KNN算法中距离矩阵的计算</title><link>https://zhuanlan.zhihu.com/p/21354489</link><description>&lt;p&gt;本笔记系列以斯坦福大学CS231N课程为大纲，海豚浏览器每周组织一次授课和习题答疑。具体时间地点请见微信公众号黑斑马团队(zero_zebra)和QQ群（142961883）发布。同时课程通过腾讯课堂（百纳公开课）进行视频直播.欢迎参与学习.&lt;/p&gt;&lt;p&gt;在CS231N的第二课，k-nearest
+neighbor这部分中，核心就是计算训练集与测试集之元素之间的欧氏距离。课后作业要求从训练集取5000个图像，测试集取了500个图像，计
+算这5000个用于训练的图像与500个用于测试的图像之间的欧氏距离，其结果就是一个5000*500的距离矩阵。&lt;/p&gt;&lt;p&gt;课后作业总共留了三道关于距离矩阵的计算题，分别是由易到难，从使用二重循环到不使用循环。特别是不使用循环的方法，需要一点数学基础，不是特别直观。经过研究&lt;a class="" data-title="《Numpy/ScipyRecipes for Data Science: Computing Nearest Neighbors》" data-editable="true" href="https://www.researchgate.net/publication/283568278_NumPy_SciPy_Recipes_for_Data_Science_Computing_Nearest_Neighbors"&gt;《Numpy/Scipy
+Recipes for Data Science: Computing Nearest Neighbors》&lt;/a&gt;之后，决定把其中的方法写出来。&lt;/p&gt;&lt;h2&gt;任务定义&lt;/h2&gt;&lt;p&gt;给定&lt;equation&gt;m\times n&lt;/equation&gt;阶矩阵&lt;equation&gt;X&lt;/equation&gt;，满足&lt;equation&gt;X=[x_1, x_2, ...x_n]&lt;/equation&gt;。这里第&lt;equation&gt;i&lt;/equation&gt;列向量是&lt;equation&gt;m&lt;/equation&gt;维向量。求&lt;equation&gt;n\times n&lt;/equation&gt;矩阵，使得：&lt;/p&gt;&lt;equation&gt;D_{ij}=||x_i-x_j||^2&lt;/equation&gt;&lt;h2&gt;计算方法 &lt;/h2&gt;&lt;p&gt;这里提供4种方法，需要使用到以下Python库：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;import numpy as np
+import numpy.linalg as la&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;第一种方法：使用两重循环
+
+&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;def compute_squared_EDM_method(X):
+  # determin dimensions of data matrix
+  m,n = X.shape
+  # initialize squared EDM D
+  D = np.zeros([n, n])
+  # iterate over upper triangle of D
+  for i in range(n):
+    for j in range(i+1, n):
+      D[i,j] = la.norm(X[:, i] - X[:, j])**2
+      D[j,i] = D[i,j]    #*1
+return D&lt;/code&gt;&lt;/pre&gt;由于是计算矩阵自身行向量之间的距离，所以结果是一个对称的三角矩阵。注意*1行代码处所做的优化。 &lt;p&gt;在上述方法中我们使用了两层循环，因此代码虽不简洁，但十分易懂。 &lt;/p&gt;&lt;h2&gt;第二种方法 &lt;/h2&gt;&lt;p&gt; 在第一种方法中，我们使用了numpy的norm这个方法，这个方法从数学上讲，其计算公式是：&lt;equation&gt;||x_i-x_j ||=\sqrt{(x_i-x_j ) (x_i-x_j )^T }&lt;/equation&gt;&lt;/p&gt;&lt;p&gt;然后我们又将这个计算结果平方后赋给&lt;equation&gt;D_{ij}:D_{ij}=||x_i-x_j||^2&lt;/equation&gt;&lt;/p&gt;&lt;p&gt;因此，我们实际上是在计算：&lt;/p&gt;&lt;equation&gt;D_{ij}=(x_i-x_j ) (x_i-x_j )^T &lt;/equation&gt;&lt;p&gt;上述运算可以使用点积（即矩阵内积）来计算：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;D[i,j] = np.dot(X[:,i]-X[:,j],(X[:,i]-X[:,j]).T)&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;现在代码变化为：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;def compute_squared_EDM_method2(X):
+  # determin dimensions of data matrix
+  m,n = X.shape
+  # initialize squared EDM D
+  D = np.zeros([n, n])
+  # iterate over upper triangle of D
+  for i in range(n):
+    for j in range(i+1, n):
+      d = X[:,i] - X[:,j]
+      D[i,j] = np.dot(d, d)
+      D[j,i] = D[i,j]
+  return D
+&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;第三种方法：避免循环内的点积运算&lt;/h2&gt;&lt;p&gt;注意在上面的方法中，dot运算被调用了&lt;equation&gt;n^2-n&lt;/equation&gt;次，并且每次进行了&lt;equation&gt;m&lt;/equation&gt;次乘积运算和&lt;equation&gt;m-1&lt;/equation&gt;次加法运算。尽管numpy底层可能对点积运算做了优化，但这里还是存在可能进行进一步优化。请看下面的数学推导：&lt;/p&gt;&lt;equation&gt;\begin{split}
+D_{ij}&amp;amp;=(x_i-x_j)^T(x_i-x_j)\\
+&amp;amp;=x^T_ix_i-2x^T_ix_j+x^T_jx_j
+\end{split}&lt;/equation&gt;&lt;p&gt; 这里&lt;equation&gt;x^T_ix_i,x^T_jx_j,x^T_ix_j&lt;/equation&gt;属于格拉姆矩阵中的元素，可以通过在循环外计算矩阵，在循环内直接引用元素值即可，从而在循环内我们只需要做两次加（减）法运算：&lt;/p&gt;&lt;equation&gt;D_{ij}=G_{ii}-2G_{ij}+G_{jj}&lt;/equation&gt;&lt;p&gt;格拉姆矩阵的求法很简单，只需要：&lt;/p&gt;&lt;equation&gt;G=np.dot(X.T, X)&lt;/equation&gt;&lt;p&gt;现在代码变为：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;def compute_squared_EDM_method3(X):
+  # determin dimensions of data matrix
+  m,n = X.shape
+  # compute Gram matrix
+  G = np.dot(X.T, X)
+  # initialize squared EDM D
+  D = np.zeros([n, n])
+  # iterate over upper triangle of D
+  for i in range(n):
+    for j in range(i+1, n):
+      d = X[:,i] - X[:,j]
+      D[i,j] = G[i,i] - 2 * G[i,j] + G[j,j]
+      D[j,i] = D[i,j]
+  return D
+&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;第四种方法：避免循环&lt;/h2&gt;&lt;p&gt;假设距离矩阵可以表示为&lt;equation&gt;D = H+K-2G&lt;/equation&gt;，与公式&lt;equation&gt;D_{ij}=G_{ii}-2G_{ij}+G_{jj}&lt;/equation&gt;进行对比，有：&lt;/p&gt;&lt;equation&gt;H_{ij}=G_{ii}, K_{ij}=G_{jj}&lt;/equation&gt;&lt;p&gt;这里H中第&lt;i&gt;i&lt;/i&gt;行的每一个元素，取值都为&lt;equation&gt;G_{ii}&lt;/equation&gt;，也就是H的每一列，都对应着格拉姆矩阵的对角阵，因此，我们可以用下面的代码来计算H：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;H = np.tile(np.diag(G), (n,1))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;此外，由于&lt;equation&gt;K= H^T&lt;/equation&gt;,所以最终距离矩阵可以计算为&lt;/p&gt;&lt;equation&gt;D=H+H^T-2G&lt;/equation&gt;&lt;p&gt;现在，代码不再需要循环了：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;def compute_squared_EDM_method4(x):
+  m,n = X.shape
+  G = np.dot(X.T, X)
+  H = np.tile(np.diag(G), (n,1))
+  return H + H.T - 2*G&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;扩展：任意行（列）同秩矩阵间的距离矩阵计算&lt;/h2&gt;&lt;p&gt;上述方法解决了矩阵自身（列）向量之间的距离矩阵运算问题。对CS231N第二讲的课程作业来说，需要求解的问题是：&lt;/p&gt;&lt;p&gt;给定训练矩阵A为&lt;equation&gt;5000\times 3072&lt;/equation&gt;阶矩阵。这里5000 代表5000幅带标签的图，3072是其各像素在RGB三个通道下的取值数。给定测试集矩阵B为&lt;equation&gt;500\times 3072&lt;/equation&gt;阶矩阵。求矩阵B的各行与矩阵A的各行的距离（即两幅图的差异）矩阵，这个矩阵是一个&lt;equation&gt;5000\times 500&lt;/equation&gt;的矩阵。&lt;/p&gt;&lt;p&gt;更一般地，这个问题可以描述如下：&lt;/p&gt;&lt;p&gt;给定矩阵A为&lt;equation&gt;m\times k&lt;/equation&gt;阶矩阵，矩阵B为&lt;equation&gt;n\times k&lt;/equation&gt;阶矩阵，求矩阵B的任意行向量与矩阵A的任意行向量的距离矩阵&lt;equation&gt;D_{m\times n}&lt;/equation&gt;。这个矩阵的数学表达式为(a, b均为行向量）：&lt;/p&gt;&lt;equation&gt;\begin{split}
+D_{ij}&amp;amp;=(a_i-b_j)(a_i-b_j)^T\\
+&amp;amp;=a_ia^T_i-a_ib^T_j-b_ja^T_i+b_jb^T_j
+\end{split}&lt;/equation&gt;&lt;p&gt; 为方便讨论，我们将上述各项分别记为H, M, N, K，即：&lt;/p&gt;&lt;equation&gt;D_{m\times n}=H_{m\times m}-M_{m\times n}-N_{n\times m}+K_{n\times n}&lt;/equation&gt;&lt;p&gt;显然上述公式是无法进行运算的，因为除了M与D外，其它矩阵的秩各不相同。所以我们要回到前一个数学表达式上。&lt;/p&gt;&lt;ol&gt;&lt;li&gt;H对D的贡献是对于D的每一行，都加上&lt;equation&gt;a_ia^T_i&lt;/equation&gt;&lt;/li&gt;&lt;li&gt;K对于D的贡献是对于D的每一列，都加上&lt;equation&gt;b_jb^T_j&lt;/equation&gt;&lt;/li&gt;&lt;li&gt;M和N互为转置矩阵。即对&lt;equation&gt;D_{ij}&lt;/equation&gt;,要减去矩阵&lt;equation&gt;N_{j,i}&lt;/equation&gt;元素，而这个元素就是&lt;equation&gt;M_{ij}&lt;/equation&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;因此，可以在numpy中运用broadcasting机制，通过矩阵与行向量、列向量的运算传播机制（broadcasting)来完成计算&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;def compute_distances_no_loops(A, B):
+	m = np.shape(A)[0]
+	n = np.shape(B)[0]
+    dists = np.zeros((m, n)) 
+    
+    # 求得矩阵M为 m*n维
+    M = np.dot(A, B.T)
+    # 对于H,我们只需要A.A^T的对角线元素,下面的方法高效求解(只计算对角线元素)
+    # 结果H为m维行向量
+    H = np.square(A).sum(axis = 1)
+    #结果K为n维行向量.要将其元素运用到矩阵M的每一列,需要将其转置为行向量
+    K = np.square(B).sum(axis = 1)
+    #H对M在y轴方向上传播,即H加和到M上的第一行,K对M在x轴方向上传播,即K加和到M上的每一列
+    D = np.sqrt(-2*M+H+np.matrix(K).T)
+    return D
+&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;谈谈Numpy的broadcasting&lt;/h2&gt;&lt;p&gt;在numpy中，当一个数与矩阵相加时，实际上是将矩阵中的每一个元素都加上这个数。注意在矩阵代数里，这种相加是不允许的。但实际应用中又很常见，所以Numpy就扩展了这个定义，允许一个实数矩阵相加，这就是broadcasting。&lt;/p&gt;&lt;p&gt;broadcasting在工程中是非常实用的。在第四种方法中，没有使用 broadcasting机制，它是先取格拉姆矩阵的对角线元素（是n维列向量），再通过np.tile运算将其扩展为一个&lt;equation&gt;n\times n&lt;/equation&gt;的矩阵，然后才能完成相加的操作。而在扩展一节中，我们引入了行方向上（axis = 1)的传播（与K的相加），也引入了列方向上（axis = 0)的传播（与H的相加）。正因为有了这个传播，我们无须象第四种方法那样，显式地生成一个&lt;equation&gt;m\times n&lt;/equation&gt;矩阵&lt;equation&gt;H^{'},K^{'}&lt;/equation&gt;。&lt;/p&gt;&lt;p&gt;下面是broadcasting的规则：&lt;/p&gt;&lt;ol&gt;&lt;li&gt;让所有输入数组都向其中shape最长的数组看齐，shape中不足的部分都通过在前面加1补齐&lt;/li&gt;&lt;li&gt;输出数组的shape是输入数组shape的各个轴上的最大值&lt;/li&gt;&lt;li&gt;如果输入数组的某个轴和输出数组的对应轴的长度相同或者其长度为1时，这个数组能够用来计算，否则出错&lt;/li&gt;&lt;li&gt;当输入数组的某个轴的长度为1时，沿着此轴运算时都用此轴上的第一组值。&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;这里看一个例子：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;C = np.arange(0,3)
+D = np.arange(0, 40, 10).reshape(-1,1)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt; 这样生成的C和D分别是3维行向量和4*1阶矩阵。&lt;/p&gt;&lt;pre&gt;&lt;code lang="pytb"&gt;&amp;gt;&amp;gt;&amp;gt; C
+array([0, 1, 2])
+&amp;gt;&amp;gt;&amp;gt; D
+array([[ 0],
+       [10],
+       [20],
+       [30]])
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果计算C+D，结果如何？&lt;/p&gt;&lt;ol&gt;&lt;li&gt; 让输入数组向shape最长（维度最高）的数组看齐，shape中不足的部分都通过在前面加1补齐。这里D是二维数组，所以C被reshape为 array([[0,1,2]])。&lt;/li&gt;&lt;li&gt;根据规则2，确定运算的输出数组维度为4*3。&lt;/li&gt;&lt;li&gt;C与D都有一个轴同秩，所以可以计算。&lt;/li&gt;&lt;li&gt;将D沿 axis = 0的方向（即列方向）从上到下，逐一加上C的元素。依次得到 [0,1,2]，[10,11,12]...[30,31,32]&lt;/li&gt;&lt;/ol&gt;&lt;h2&gt;课程导航&lt;/h2&gt;&lt;p&gt;&lt;a class="" data-title="上一课：斯坦福CS231N课程学习笔记（二）.理解CIFAR-10图像数据库" data-editable="true" href="https://zhuanlan.zhihu.com/p/21329419"&gt;上一课：斯坦福CS231N课程学习笔记（二）.理解CIFAR-10图像数据库&lt;/a&gt;&lt;/p&gt;&lt;p&gt;下一课&lt;/p&gt;</description><author>杨勇</author><pubDate>Tue, 14 Jun 2016 22:11:29 GMT</pubDate></item></channel></rss>

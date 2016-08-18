@@ -26,6 +26,16 @@
   
     <outline type="rss" title="远东轶事" xmlUrl="https://raw.githubusercontent.com/RickyWong33/zhihu_rss/master/zhuanlan/AI/yuandong.xml" htmlUrl="https://zhuanlan.zhihu.com/yuandong"/>
   
+    <outline type="rss" title="Datartisan数据工匠" xmlUrl="https://raw.githubusercontent.com/RickyWong33/zhihu_rss/master/zhuanlan/AI/datartisan.xml" htmlUrl="https://zhuanlan.zhihu.com/datartisan"/>
+  
+    <outline type="rss" title="黑斑马团队-深度学习笔记" xmlUrl="https://raw.githubusercontent.com/RickyWong33/zhihu_rss/master/zhuanlan/AI/baina.xml" htmlUrl="https://zhuanlan.zhihu.com/baina"/>
+  
+    <outline type="rss" title="AutoVision" xmlUrl="https://raw.githubusercontent.com/RickyWong33/zhihu_rss/master/zhuanlan/AI/cyh24.xml" htmlUrl="https://zhuanlan.zhihu.com/cyh24"/>
+  
+    <outline type="rss" title="混沌巡洋舰" xmlUrl="https://raw.githubusercontent.com/RickyWong33/zhihu_rss/master/zhuanlan/AI/c_29122335.xml" htmlUrl="https://zhuanlan.zhihu.com/c_29122335"/>
+  
+    <outline type="rss" title="程序员山居笔记" xmlUrl="https://raw.githubusercontent.com/RickyWong33/zhihu_rss/master/zhuanlan/AI/coding-future.xml" htmlUrl="https://zhuanlan.zhihu.com/coding-future"/>
+  
   </outline>
  </body>
 </opml>
