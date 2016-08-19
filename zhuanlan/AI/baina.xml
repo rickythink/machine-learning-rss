@@ -1,7 +1,171 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>黑斑马团队-深度学习笔记 - 知乎专栏</title><link>https://zhuanlan.zhihu.com/baina</link><description>黑斑马团队是百纳下属的游戏团队。百纳是海豚浏览器的研发者。
 现团队致力于研究人工智能、深度学习、计算机视觉及其在游戏领域的运用。
-我们大量招收上述领域专家和高级技术人员。</description><lastBuildDate>Fri, 19 Aug 2016 15:02:46 GMT</lastBuildDate><generator>Ricky</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>SVM简介</title><link>https://zhuanlan.zhihu.com/p/21932911</link><description>SVM（支持向量机）主要用于分类问题，主要的应用场景有字符识别、面部识别、行人检测、文本分类等领域。&lt;p&gt;通常SVM用于二元分类问题，对于多元分类通常将其分解为多个二元分类问题，再进行分类。下面我们首先讨论一下二元分类问题。&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;线性可分数据集与线性不可分数据集&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;对于二元分类问题，如果存在一个分隔超平面能够将不同类别的数据完美的分隔开（即两类数据正好完全落在超平面的两侧），则称其为线性可分。反之，如果不存在这样的超平面，则称其为线性不可分。&lt;/p&gt;&lt;p&gt;所谓超平面，是指能够将n维空间划分为两部分的分隔面，其形如&lt;equation&gt;w^Tx+b=0&lt;/equation&gt;。简单来说，对于二维空间（指数据集有两个特征），对应的超平面就是一条直线；对于三维空间（指数据集拥有三个特征），对应的超平面就是一个平面。可以依次类推到n维空间。&lt;/p&gt;&lt;p&gt;在下面的图片中，左边的图表示二维空间的一个线性可分数据集，右图表示的是二维空间的一个线性不可分数据集。可以直观的看到，对于左图，我们很容易找到这样一条直线将红色点和蓝色点完全分隔开。但是对于右图，我们无法找到这样的直线。&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic2.zhimg.com/b6a3fa2731b6679da247ea1cee2aee02.png" data-rawwidth="541" data-rawheight="238"&gt;&lt;p&gt;线性不可分出现的原因：&lt;/p&gt;&lt;p&gt;（1）数据集本身就是线性不可分隔的。上图中右图就是数据集本身线性不可分的情况。这一点没有什么疑问，主要是第二点。&lt;/p&gt;&lt;p&gt;（2）由于数据集中存在噪声，或者人工对数据赋予分类标签出错等情况的原因导致数据集线性不可分。下图展示的就是由于噪声或者分错出错导致线性不可分的情况。&lt;/p&gt;&lt;p&gt;现在，只关注图中的实心点、空心点，以及绿色线段。&lt;b&gt;可以看到实心点和空心点大致分布在绿色线段的两侧，但是在实心点的一侧混杂了两个空心点，在空心点的一侧混杂了一个实心点&lt;/b&gt;，即此时绿色直线并没有完全将数据分为两类，即该数据集是线性不可分的。在后面我们会提到通过修正线性可分模型以使得模型能够“包容”数据集中的噪点，以使得SVM能够处理这种类型的线性不可分情况。&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic3.zhimg.com/f7050c1a1445a36d4eb5b6524da5ee8d.png" data-rawwidth="436" data-rawheight="386"&gt;&lt;p&gt;SVM的目标就是找到这样的一个超平面（对于上图来说，就是找到一条直线），使得不同类别的数据能够落在超平面的两侧。&lt;/p&gt;&lt;p&gt;&lt;b&gt;2. 分类效果好坏&lt;/b&gt;&lt;/p&gt;&lt;p&gt;对于线性可分数据集，有时我们可以找到无数多条直线进行分隔，那么如何判断哪一个超平面是最佳的呢?&lt;/p&gt;&lt;p&gt;我们先来看一个简单的例子。图中‘x’和‘o’分别代表数据的两种不同类型。可以看到存在图中这样一条直线将数据划分成两类。对于图中的A、B、C三点，虽然它们都被划分在了‘x’类，但是我们A、B、C真正属于‘x’类的把握却是不一样的，直觉上我们认为有足够大的把握A点确实属于'x'类，但是对于C点我们却没有足够的把握，因为图中分隔直线的稍稍偏离，C点有可能就被划分到了直线的另一侧。&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic4.zhimg.com/93695a259ffce22ccf80b925624bbd68.png" data-rawwidth="383" data-rawheight="338"&gt;&lt;p&gt;所以，SVM的目标是使得训练集中的所有数据点都距离分隔平面足够远，更确切地说是，&lt;b&gt;使距离分隔平面最近的点的距离最大。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;3. 距离衡量标准&lt;/b&gt;&lt;/p&gt;&lt;p&gt;上面提到了SVM的中心思想，即，&lt;b&gt;使距离分隔平面最近的点的距离最大&lt;/b&gt;。那么这个距离如何衡量呢？&lt;/p&gt;&lt;p&gt;通常采用&lt;b&gt;几何间隔&lt;/b&gt;作为距离度量的方式。简单来说，就是点到超平面的几何距离。&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic1.zhimg.com/1c9a8a6be8fe0037a5e2036c9973bc7a.png" data-rawwidth="380" data-rawheight="325"&gt;例如，在上图的二维空间中，点A到分隔超平面（直线）的距离即为线段AB的长度。&lt;/p&gt;&lt;p&gt;几何间隔的计算公式如下：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic2.zhimg.com/a7f7d415274417933da6489eed6eb575.png" data-rawwidth="423" data-rawheight="104"&gt;其中，y表示数据点的类别标签，w和b分别是超平面&lt;equation&gt;w^Tx+b=0&lt;/equation&gt;的参数。&lt;/p&gt;&lt;p&gt;注：&lt;/p&gt;&lt;p&gt;（1）在SVM的二元分类中，通常将数据分为“1”类（也称为正类或正例）和“-1”类（也称为负类负例）。通常对于数据点&lt;equation&gt;x_0&lt;/equation&gt;，如果&lt;equation&gt;w^Tx_0+b&amp;gt;0&lt;/equation&gt;，则其被分为正类，反之，如果&lt;equation&gt;w^Tx+b&amp;lt;0&lt;/equation&gt;则被分为负类。那么通过在几何间隔的计算中加入乘法因子y，即可保证只要数据点被分在了正确的类别，那么其几何间隔一定是一个正值。&lt;/p&gt;&lt;p&gt;（2）其中&lt;equation&gt;y^{(i)}(w^Tx+b)&lt;/equation&gt;通常也称为&lt;b&gt;函数间隔&lt;/b&gt;。当w的模||w||等于1时，函数间隔和几何间隔相等。函数间隔存在的一个问题是：等比放大w和b，函数间隔也会等比增大，而分隔超平面却不会发生变化。几何间隔可以看做是函数间隔的“&lt;b&gt;正规化”。&lt;/b&gt;几何间隔不会随着w和b的等比缩放而变化。&lt;/p&gt;&lt;p&gt;&lt;b&gt;4. 支持向量的概念和最优间隔分类器&lt;/b&gt;&lt;/p&gt;&lt;p&gt;所谓SVM，即支持向量机，那么到底什么是支持向量呢？&lt;/p&gt;&lt;p&gt;如下图所示，实心点和空心点分别代表数据的两种类别，他们被黄色区域中间的直线分隔成两部分。被蓝色和红色圆圈圈出的点即为&lt;b&gt;支持向量&lt;/b&gt;。所谓支持向量，就是指&lt;b&gt;距离分隔超平面最近的点。&lt;/b&gt;&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic3.zhimg.com/2b95db3701cf744d226913abfed2fbf0.png" data-rawwidth="221" data-rawheight="228"&gt;&lt;p&gt;那么：要最大化最近的点到分隔超平面的距离，就是最大化支持向量到超平面的距离。&lt;/p&gt;&lt;p&gt;则我们要优化的目标就是：（具体推导这里不具体详述，可以参考附录中的参考资料）&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic4.zhimg.com/e926f06894088f492fa27315dba31d27.png" data-rawwidth="469" data-rawheight="140"&gt;&lt;p&gt;这就是&lt;b&gt;最大间隔分类器&lt;/b&gt;的模型，也是SVM的雏形，其&lt;b&gt;可以利用二次优化软件（QP）直接求解。但是计算效率不高（甚至可以说非常低）。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;5.通过拉格朗日对偶法优化最优间隔分类器模型&lt;/b&gt;&lt;/p&gt;&lt;p&gt;为了提高计算效率以及方便使用核函数，采用拉格朗日对偶，将原始优化模型变成了如下对偶形式：&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic1.zhimg.com/149f83f632103db7341badaeb416d84f.png" data-rawwidth="622" data-rawheight="217"&gt;&lt;/p&gt;&lt;p&gt;公式的推导非常复杂，这里也不再赘述，详细参考后面给出的资料。&lt;/p&gt;&lt;p&gt;这里只需要知道&lt;b&gt;，&lt;/b&gt;&lt;b&gt;alpha仅在支持向量处为非零值。也就是说实际计算时，公式右边有大量零值，非常节省计算量。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;6. 模型修正和线性不可分的处理&lt;/b&gt;&lt;/p&gt;&lt;p&gt;在第二部分，我们提到：在分类问题中，并不是训练集的分类函数越“完美”越好，因为数据集中本来就存在噪声，且可能存在人工添加分类标签出错的情况。过于“完美”反而会导致过拟合，使得模型失去一般性（可推广性）。&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic2.zhimg.com/f7050c1a1445a36d4eb5b6524da5ee8d.png" data-rawwidth="436" data-rawheight="386"&gt;&lt;p&gt;为了修正这些分类错误的情况，需要修正模型，加上惩罚系数C。其中&lt;equation&gt;\varepsilon &lt;/equation&gt;表示错误分类的点到正确边界的距离。（即图中的紫色线段长度）&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic3.zhimg.com/3942f21e8988ad7da82fe36a8dcfd847.png" data-rawwidth="480" data-rawheight="75"&gt;修正后的模型，可以“容忍”模型错误分类的情况，并且通过惩罚系数的约束，使得模型错误分类的情况尽可能合理。&lt;/p&gt;&lt;p&gt;&lt;b&gt;7.核函数&lt;/b&gt;&lt;/p&gt;&lt;p&gt;在线性不可分的情况下的另一种处理方式是使用核函数，其基本思想是：&lt;b&gt;将原本的低维特征空间映射到一个更高维的特征空间，从而使得数据集线性可分。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic4.zhimg.com/177cc99803cbc7fe259dad3b0af2aff3.png" data-rawwidth="446" data-rawheight="216"&gt;在上面的图中，左侧的图是一个二维特征空间中的线性不可分数据集，其具有两个特征（x1，x2）。&lt;/p&gt;&lt;p&gt;通过特征映射：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic1.zhimg.com/16e3db5aaeec9d5ab933aafde1dd9f74.png" data-rawwidth="280" data-rawheight="225"&gt;我们可以得到右侧的图，其是一个三维特征空间中的线性可分数据集，具有三个特征（z1,z2,z3）。&lt;/p&gt;&lt;p&gt;即：我们通过特征映射，将一个二维的线性不可分数据集成功映射到了三维空间的线性可分数据集。&lt;/p&gt;&lt;p&gt;关于核函数有一个形象的解释：世界上本来没有两个完全一样的物体，对于所有的两个物体，我们可以通过增加维度来让他们最终有所区别，比如说两本书，从(&lt;b&gt;颜色，内容&lt;/b&gt;)两个维度来说，可能是一样的，我们可以加上&lt;b&gt;作者&lt;/b&gt;这个维度，是在不行我们还可以加入&lt;b&gt;页码&lt;/b&gt;，可以加入 &lt;b&gt;拥有者&lt;/b&gt;，可以加入
+我们大量招收上述领域专家和高级技术人员。</description><lastBuildDate>Fri, 19 Aug 2016 17:19:09 GMT</lastBuildDate><generator>Ricky</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>斯坦福CS231N课程学习笔记（一）.课程简介与准备</title><link>https://zhuanlan.zhihu.com/p/21353567</link><description>前言&lt;p&gt;开这个系列是因为工作中需要用到计算机视觉相关知识。几经淘洗，发现了斯坦福大学的CS231N课程。为了强制自己学习，强化学习效果，将学习中的笔记整理出来，与大家一起分享，也希望借此与同在学习这门课程、以及其他计算机视觉的学习者、研究者一起探讨和进步。&lt;/p&gt;&lt;p&gt;本人此前没有接触过这一领域，IT从业以来多以工程为主，少有接触学术和算法研究，所以学习笔记也会因为本人理解能力原因，存在谬误，恳请阅读者指正。&lt;/p&gt;&lt;p&gt;&lt;i&gt;请注意：本系列是以CS231N为蓝本进行学习的学习笔记，并不是对CS231N的翻译。在学习过程中不可避免地会针对个人知识体系特点补充学习相关内容。关于CS231N的课程翻译，可以参见知乎网友&lt;a data-title="@杜客" data-editable="true" class="member_mention" href="https://www.zhihu.com/people/928affb05b0b70a2c12e109d63b6bae5" data-hash="928affb05b0b70a2c12e109d63b6bae5" data-hovercard="p$b$928affb05b0b70a2c12e109d63b6bae5"&gt;@杜客&lt;/a&gt; 的&lt;a data-title="翻译" data-editable="true" href="https://zhuanlan.zhihu.com/intelligentunit" class=""&gt;翻译&lt;/a&gt;。&lt;/i&gt;&lt;/p&gt;&lt;h2&gt;CS231N课程简介&lt;/h2&gt;&lt;p&gt;CS231N课程的全称是卷积神经网络在视觉辨识中的应用（Convolutional Neural Networks for Visual Recognition），是一个学习时长跨度为两个月的课程。这门课程从2015年起第一次开设，授课者是&lt;a data-title="李飞飞" data-editable="true" class="" href="https://link.zhihu.com/?target=https%3A//profiles.stanford.edu/fei-fei-li%3Ftab%3Dbio"&gt;李飞飞&lt;/a&gt;，&lt;a data-title="Andrej Karpathy" data-editable="true" class="" href="https://link.zhihu.com/?target=https%3A//karpathy.github.io/"&gt;Andrej Karpathy&lt;/a&gt;，Justin Johnson。&lt;a data-title="李飞飞" data-editable="true" class="" href="https://link.zhihu.com/?target=https%3A//profiles.stanford.edu/fei-fei-li%3Ftab%3Dbio"&gt;李飞飞&lt;/a&gt;，斯坦福大学计算机科学系副教授，入选2015年“全球百大思想者”，现为斯坦福人工智能实验室（SAIL）主任。斯坦福大学在机器学习和计算机视觉上都非常牛。著名的人工智能专家， Google Brain之父吴恩达也是斯坦福大学副教授。&lt;/p&gt;&lt;p&gt;计
+算机视觉在搜索，图像理解，地图，医疗，无人机和无人驾驶汽车等方面的应用越来越重要和广泛。这些任务的核心就是视觉辨识，即图像分类，本地化
+（localization）和检测。而神经网络（即深度学习）在这一领域的应用又大大提高的视觉辨识系统的最新水平。这门课程将以上述任务，特别是图像
+分类为研究对象，以端到端的模式解析深度学习架构在视觉辨识领域的实现。&lt;/p&gt;&lt;p&gt;这门课程将教会学生如何实现、训练和调试他们自己的神经网络，并获
+得对计算机视觉这一前沿科学深入了解。在课程最后，你将训练一个有几百万参数的神经网络并将其应用于全球最大的图像分类数据库--ImageNet. 
+具体而言，课程重点将会是图像识别问题的设定，学习算法（即后向传播），神经网络训练和调优中的工程技术难题和技巧，以及如何上手完成布置的作业及最终的
+课业项目（final course project）。&lt;/p&gt;&lt;p&gt;学习这门课程需要对python很熟练，以及对C/C++有High-level
+的熟悉程度。作业主要使用python（以及python的库如numpy等），但一些关于深度学习的库，也可能使用C/C++。需要有一些大学微积分知
+识及线性代数知识，需要能看懂求导及矩阵运算。也需要一些基础的概率知识，如高斯分布，均值，标准差等等。这门课程还将讲述代价函数，求导和使用梯度下降
+法进行优化等，如果学习过CS229（机器学习），这些知识将直接可用。&lt;/p&gt;&lt;h2&gt;课程资源&lt;/h2&gt;&lt;p&gt;课程的主页在&lt;a data-title="这里" data-editable="true" href="https://link.zhihu.com/?target=http%3A//cs231n.stanford.edu/" class=""&gt;这里&lt;/a&gt;。在主页上使用一段JS向来访者显示一个正在进行的图像分类任务。这段javascript，被称之为&lt;a data-title="ConvNetJS" data-editable="true" href="https://link.zhihu.com/?target=http%3A//cs.stanford.edu/people/karpathy/convnetjs/" class=""&gt;ConvNetJS&lt;/a&gt;，由课程讲授者Andrej Karpathy贡献，在后面的学习中会专门提到。&lt;/p&gt;&lt;p&gt;课程的大纲和课程表见&lt;a data-title="这里" data-editable="true" href="https://link.zhihu.com/?target=http%3A//cs231n.stanford.edu/syllabus.html" class=""&gt;这里&lt;/a&gt;。这个课程表可以供自己学习时作为进度参考，同时，这个而面也列举了课程中使用的资源的链接地址。这些资源包括授课用的课件，工具使用指南及一些课程笔记。这些课程笔记非常详细，对于不能现场听课的人来讲，非常重要。&lt;a data-title="这里" data-editable="true" href="https://link.zhihu.com/?target=http%3A//cs231n.github.io/classification/" class=""&gt;这里&lt;/a&gt;是课程笔记的一个例子。 &lt;/p&gt;&lt;p&gt;这些课件也可以在google的&lt;a data-title="云盘" data-editable="true" href="https://link.zhihu.com/?target=https%3A//drive.google.com/folderview%3Fid%3D0B62MBK9B2knSY3ZmeHktSEhJNXM%26usp%3Ddrive_web" class=""&gt;云盘&lt;/a&gt;中获取。如果你要给其它人讲课，这些课件倒是很好的资源，如果仅用于自己学习，建议多从它的课程笔记开始，或者从本笔记开始。&lt;/p&gt;&lt;p&gt;这里有一份讲课的&lt;a data-title="视频播放清单" data-editable="true" class="" href="https://link.zhihu.com/?target=https%3A//www.youtube.com/playlist%3Flist%3DPLLvH2FwAQhnpj1WEB-jHmPuUeQ8mX-XXG"&gt;视频播放清单&lt;/a&gt;，是 youtube 的。如果无法访问youtube，也可以访问&lt;a data-title="百度云盘" data-editable="true" href="https://link.zhihu.com/?target=http%3A//url.cn/29YirMo" class=""&gt;百度云盘&lt;/a&gt;。&lt;/p&gt;&lt;p&gt;Andrej Karpathy的&lt;a data-title="博客" data-editable="true" class="" href="https://link.zhihu.com/?target=https%3A//karpathy.github.io/"&gt;博客&lt;/a&gt;及课程教职员的&lt;a data-title="twitter" data-editable="true" href="https://link.zhihu.com/?target=https%3A//twitter.com/cs231n" class=""&gt;twitter&lt;/a&gt;也值得关注，提供了最新的一些资讯。另外，你也可以访问&lt;a data-title="Reddit." data-editable="true" class="" href="https://link.zhihu.com/?target=https%3A//www.reddit.com/r/cs231n"&gt;Reddit.&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;课程准备 &lt;/h2&gt;&lt;h2&gt;编程和课程实践工具&lt;/h2&gt;&lt;p&gt;CS231N课程作业主要使用python。使用python 2.7版本就可以完成这些作业。安装完python之后，检查一下是否安装了numpy、scipy、Pillow和matplotlib:&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;bogon:~ aaron$ pip list |grep numpy
+numpy (1.8.0rc1)
+bogon:~ aaron$ pip list |grep scipy
+scipy (0.17.1)
+bogon:~ aaron$ pip list |grep matplot
+matplotlib (1.3.1)
+bogon:~aaron$ pip list |grep Pillow
+Pillow (3.2.0)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这里有一个trick，如果你要使用 
+scipy.misc.imread等图像文件操作函数（正如本文例子中所示），那么实际上需要导入Pillow。但是 
+scipy安装文件并没有把这个依赖写进来，所以如果你的系统中没有安装Pillow，在执行下面的语句时会出错：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;from scipy.misc import imread, imsave, imresize
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt; 错误是：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;&amp;gt;&amp;gt;&amp;gt; from scipy.misc import imread
+Traceback (most recent call last):
+  File "&amp;lt;stdin&amp;gt;", line 1, in &amp;lt;module&amp;gt;
+ImportError: cannot import name imread
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果没有安装，使用下面的命令安装：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;pip install numpy
+pip install scipy
+pip install matplotlib
+pip install Pillow
+&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;如何使用&lt;a data-title="scipy" data-editable="true" href="https://link.zhihu.com/?target=http%3A//docs.scipy.org/doc/" class=""&gt;scipy&lt;/a&gt;全家桶 &lt;/h2&gt;&lt;p&gt;SciPy提供用于科学计算的核心库。在我们的研究中，比较常用的有图像操作：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;from scipy.misc import imread, imsave, imresize
+
+# Read an JPEG image into a numpy array
+img = imread('assets/cat.jpg')
+print img.dtype, img.shape  # Prints "uint8 (400, 248, 3)"
+
+# We can tint the image by scaling each of the color channels
+# by a different scalar constant. The image has shape (400, 248, 3);
+# we multiply it by the array [1, 0.95, 0.9] of shape (3,);
+# numpy broadcasting means that this leaves the red channel unchanged,
+# and multiplies the green and blue channels by 0.95 and 0.9
+# respectively.
+img_tinted = img * [1, 0.95, 0.9]
+
+# Resize the tinted image to be 300 by 300 pixels.
+img_tinted = imresize(img_tinted, (300, 300))
+
+# Write the tinted image back to disk
+imsave('assets/cat_tinted.jpg', img_tinted)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;可以先花一点时间过一下它的quick start tutorial，对numpy的基本用法有个大致了解。当你需要完成某个任务，不知道numpy是否支持时，可以查看它的&lt;a data-title="参考文档" data-editable="true" href="https://link.zhihu.com/?target=http%3A//docs.scipy.org/doc/numpy/reference/index.html%23reference" class=""&gt;参考文档&lt;/a&gt;。如果你明确知道某个方法，需要详尽了解其具体用法，可以查看按字母顺序索引的&lt;a data-title="索引表" data-editable="true" class="" href="https://link.zhihu.com/?target=http%3A//docs.scipy.org/doc/numpy/genindex.html"&gt;索引表&lt;/a&gt;。&lt;/p&gt;&lt;p&gt;当然也可以使用python的终极帮助大法，通过全局函数dir()来查看一个对象（或者类）提供的属性和方法，然后通过 全局函数help() 来查看其用法。&lt;/p&gt;&lt;p&gt;在
+numpy中，最重要的数据类型是同构多维数组ndarray。它支持建立矩阵、reshape,copy等操作。linalg是numpy中处理线性代
+数运算的包，比如对矩阵进行转置，求逆， 
+点乘，求迹，求特征值和特征向量等。numpy还有用于傅立叶变换的库numpy.fft，与随机数、概率相关的库numpy.random。&lt;/p&gt;&lt;p&gt;matplotlib的主要工作是提供绘图操作：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;import numpy as np
+import matplotlib.pyplot as plt
+
+# Compute the x and y coordinates for points on sine and cosine curves
+x = np.arange(0, 3 * np.pi, 0.1)
+y_sin = np.sin(x)
+y_cos = np.cos(x)
+
+# Plot the points using matplotlib
+plt.plot(x, y_sin)
+plt.plot(x, y_cos)
+plt.xlabel('x axis label')
+plt.ylabel('y axis label')
+plt.title('Sine and Cosine')
+plt.legend(['Sine', 'Cosine'])
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;安装IPython notebook&lt;/h2&gt;&lt;p&gt;课程简介里提到了安装IPython 
+notebook。CS231N的课程作业使用这个工具来布置。他们的作业布置方法是下发一些后缀为ipnb的文件，通过在IPython 
+notebook中加载这些文件，你就能得到完成这些作业所必须的skeleton代码和作业指导，如下例所示：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="484" data-rawwidth="811" src="a7299924d780ffdb8d0938139aafae3d.png"&gt; 可以看到上方有详细的指示，告诉你需要完成的代码是实现一个K=5的KNN分类器，并且代码实现的位置已经指定，你需要做的就是在指定的位置填写上代码。这里面要求的一些skeleton的代码，已经事先写好了，比如第二课要用到的load_CIFAR10等。&lt;/p&gt;&lt;p&gt;从这些地方可以看出，这门课程的设计是多么精心，不由得让人感叹一下国内的大学跟世界一流大学的差距，其实不仅仅是在科研上，就连教学上也有很大的差距。&lt;/p&gt;&lt;p&gt;具体安装方法是：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;pip install "ipython[notebook]"
+python -m IPython notebook
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;最后一个命令会运行一个本地服务器，注意启动时提示的端口。打开浏览器，输入&lt;a data-title="http://localhost:8888/tree" data-editable="true" href="https://link.zhihu.com/?target=http%3A//localhost%3A8888/tree" class=""&gt;http://localhost:8888/tree&lt;/a&gt;即可以查看提供的服务。&lt;/p&gt;&lt;h2&gt;安装ConvNetJS&lt;/h2&gt;&lt;p&gt;从Github上下载convnetjs的&lt;a data-title="代码" data-editable="true" class="" href="https://link.zhihu.com/?target=https%3A//github.com/karpathy/convnetjs/releases"&gt;代码&lt;/a&gt;。在本地生成这个html文件(命名为index.html)：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;title&amp;gt;minimal demo&amp;lt;/title&amp;gt;
+ 
+&amp;lt;!-- CSS goes here --&amp;gt;
+&amp;lt;style&amp;gt;
+body {
+  background-color: #FFF; /* example... */
+}
+&amp;lt;/style&amp;gt;
+ 
+&amp;lt;!-- import convnetjs library --&amp;gt;
+&amp;lt;script src="convnet.js"&amp;gt;&amp;lt;/script&amp;gt;
+ 
+&amp;lt;!-- javascript goes here --&amp;gt;
+&amp;lt;script type="text/javascript"&amp;gt;
+ 
+function periodic() {
+  var d = document.getElementById('egdiv');
+  d.innerHTML = 'Random number: ' + Math.random()
+}
+ 
+var net; // declared outside -&amp;gt; global variable in window scope
+function start() {
+  // this gets executed on startup
+  //... 
+  net = new convnetjs.Net();
+  // ...
+ 
+  // example of running something every 1 second
+  setInterval(periodic, 1000);
+}
+ 
+&amp;lt;/script&amp;gt;
+&amp;lt;/head&amp;gt;
+ 
+&amp;lt;body onload="start()"&amp;gt;
+&amp;lt;div id="egdiv"&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;注意这里引用的JS文件是convnet.js，所以你需要在与本HTML相同的位置处保存一份从Github上下载的convnet.js.&lt;/p&gt;&lt;p&gt;现在运行命令：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;python -m SimpleHTTPServer 8000
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在浏览器中打开&lt;a data-title="http://localhost:8000" data-editable="true" href="https://link.zhihu.com/?target=http%3A//localhost%3A8000" class=""&gt;http://localhost:8000&lt;/a&gt;,如果看到一串随机数在不停跳动，说明部署成功了。这个简单的demo基本上不包含任何有用的内容，但我们后面需要用到它。现在你可以通过它来观察convnetjs的对象封装，并对Vol, Net等模块的代码进行阅读和调试。&lt;/p&gt;&lt;h2&gt;基础数学知识 &lt;/h2&gt;&lt;p&gt;&lt;b&gt;高斯分布&lt;/b&gt;，又称正态分布。可以使用Box-Muller方法来生成一个符合高斯分布的随机数。这个方法的核心是，如果在值域(0, 1]内有两个独立同分布的变量U,V, 那么可用以下两个等式之一生成服从高斯分布的随机变量Z:&lt;/p&gt;&lt;p&gt;或者，这里满足：&lt;/p&gt;&lt;p&gt;参考实现代码如下（引用至Karpathy的ConvNetJs):&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;var gaussRandom = function() {
+    if(return_v) { 
+      return_v = false;
+      return v_val; 
+    }
+    var u = 2*Math.random()-1;
+    var v = 2*Math.random()-1;
+    var r = u*u + v*v;
+    if(r == 0 || r &amp;gt; 1) return gaussRandom();
+    var c = Math.sqrt(-2*Math.log(r)/r);
+    v_val = v*c; // cache this
+    return_v = true;
+    return u*c;
+  }
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这个随机数可以通过numpy生成，代码是：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;import numpy as np
+np.random.normal()
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;现在我们来检验一下它生成的随机数是否真的是正态分布：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;import matplotlib.pyplot as plt
+import numpy as np
+a = []
+for i in range(50000):
+    a.append(np.random.normal())
+plt.hist(a, 10000)
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;矩阵相关知识&lt;/b&gt;&lt;/p&gt;&lt;p&gt;矩阵乘法。如果A是矩阵和B是矩阵，则A可以乘以B，即。在numpy里，矩阵的乘法是：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;b = a * a
+#or
+c = np.dot(a, a)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;转置。在python中使用下面的代码：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;A = np.array([[1,2,3],[4,5,6],[7,8,9]])
+print A.T
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;行列式&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="393" data-rawwidth="830" src="f575d2c482107cd76160fd2144aa34c8.png"&gt;&lt;img rel="noreferrer" data-rawheight="221" data-rawwidth="841" src="b38c274f79f01c075eb2b4204319fbe9.png"&gt; 在numpy里，计算行列式的方法是：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;import numpy as np
+A = np.array([[1, 2, 3], [4, 5,6], [7,8,9]])
+np.linalg.det(A)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;代数余子式&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;img rel="noreferrer" data-rawheight="173" data-rawwidth="815" src="5ce991876478866dbad69b6ab4ca11ea.png"&gt; 伴随矩阵&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="520" data-rawwidth="810" src="794504727fbafdf8e1bc458be4a9b0f1.png"&gt;在python中求伴随矩阵（)&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;A = np.array([[1,2,3], [4,5,6], [7,8,9]])
+print np.linalg.inv(A)*np.linalg.det(A)
+[[ -3.   6.  -3.]
+ [  6. -12.   6.]
+ [ -3.   6.  -3.]]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;逆矩阵（) &lt;/p&gt;&lt;p&gt; 在python中求矩阵的逆：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;import numpy as np
+A = np.array([[1, 2, 3], [4, 5, 6], [7,8,9]])
+print np.linalg.inv(A)
+&lt;/code&gt;&lt;/pre&gt;&lt;img rel="noreferrer" data-rawheight="160" data-rawwidth="755" src="6d8db82a6bb2583bb5f4a4b154a1f720.png"&gt;&lt;pre&gt;&lt;code lang="text"&gt;import numpy as np
+A = np.array([[1, 2, 3], [4, 5, 6], [7,8,9]])
+print np.linalg.trace(A)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;特征值和特征向量 &lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="113" data-rawwidth="789" src="bad0c867979868bdecf91809162f68fd.png"&gt;在python中求特征值和特征向量&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;import numpy as np
+x = numpy.array([[1, 0, 0], [0, 2,0], [0, 0,3]])
+a,b = numpy.linalg.eig(x)
+print a, b
+&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;&lt;b&gt;计算机视觉简介&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;请见&lt;a data-title="课程讲义" data-editable="true" href="https://link.zhihu.com/?target=http%3A//cs231n.stanford.edu/slides/winter1516_lecture1.pdf" class=""&gt;课程讲义&lt;/a&gt;。这部分CS231N主页未提供任何课堂笔记和讲课视频。所以本笔记以下内容完全是基于个人理解，并跳过了很多计算机视觉这门学科的发展史上的内容。&lt;/p&gt;&lt;p&gt;计算机视觉发展到现阶段，就是机器学习在可视化数据上的应用。它与数字图像处理、计算图形学等是相邻学科。见下图：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="742" data-rawwidth="1474" src="e2f3b3751d083b5c8e415b24058b2a3a.png"&gt;计算机视觉，就是让计算机能理解它所处理的图像内容，1966年，图灵奖得主Minksy给出以下描述：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="649" data-rawwidth="1289" src="5bc77acd3aa446045f0709eb7d0ff6ec.png"&gt;然
+而半个世纪过去了， 我们依然很难说完全解决了这一问题。在本课程授课者之一的Karpathy的博客中有一篇文章： The state of 
+Computer Vision and AI: we are really, really far away. 
+这篇文章里有一张美国总统奥巴马的照片：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="450" data-rawwidth="675" src="3dc2dd7b04aef805d6cf628f53d69af6.jpg"&gt; 这篇文章列举了近十个计算机视觉理解这张图片的难点。 &lt;/p&gt;&lt;h2&gt;其它 &lt;/h2&gt;&lt;p&gt;百纳（武汉）信息技术有限公司在武汉组织CS231N线下学习课堂，并通过QQ群（142961883）和腾讯课堂向不能到现场的同学进行直播。每周组织一次授课，具体学习时间地点请见微信公众号黑斑马团队(zero_zebra)及QQ群发布。课程学习中的相关知识点和笔记通过公众号、知乎专栏发布。&lt;/p&gt;&lt;p&gt;本课程也可以参考CS231N的在线资料及视频来自学。我们组织的课程学习将额外提供：&lt;/p&gt;&lt;ol&gt;&lt;li&gt;很多人需要良好的学习环境才能更有效率地学习。本课程通过组织大家集体学习，相互鼓励和监督，提供各种形式地交流互助，使得学习更有效率。&lt;/li&gt;&lt;li&gt;原课程录像是英文的，且部分课时不全。我们讲课全程使用中文，并且会根据学习者的程度不同，补充必要的预备知识。&lt;/li&gt;&lt;li&gt;提供对作业题的答疑和讨论，一些工具软件在使用中的困难帮助等等。&lt;/li&gt;&lt;li&gt;对课程体系的宏观把握，以方便大家入门，和根据自己的实际情况补充预备知识。 &lt;/li&gt;&lt;/ol&gt;&lt;b&gt;关于百纳（武汉）&lt;/b&gt;&lt;p&gt;&lt;a data-title="百纳（武汉）信息技术有限公司" data-editable="true" href="https://link.zhihu.com/?target=http%3A//cn.dolphin.com/" class=""&gt;百纳（武汉）信息技术有限公司&lt;/a&gt;（以下简称武汉百纳）成立于2010年。武汉百纳是武汉移动互联网行业的领先企业，公司专注于自主创新，以出色的市场前瞻力和卓越的技术创新力为依托，研发了著名的海豚浏览器（2015年全球用户超过2亿），先后得到红杉资本、经纬创投、高通及畅游的战略投资。&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="74" data-rawwidth="491" src="bad8209916ae3be389a01f14cd389176.png"&gt; 公司现面向全球招聘计算机视觉及虚拟现实项目相关人才，有意者请向recruiting@bainainfo.com投递简历。&lt;/p&gt;&lt;p&gt;JD请看&lt;a data-title="这里" data-editable="true" href="https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI1NzA2MDYwMw%3D%3D%26mid%3D503004410%26idx%3D5%26sn%3Dc4686a3e67ee6f9c2c8504e891d22ff7%26scene%3D18%26uin%3DMTMxNTMxNDU2Mw%253D%253D%26key%3Df5c31ae61525f82ea6db4457c282b778e18b8f056c5794869f42ebe3f0413b532e8c99efba0fb6309b254cd3bca96c85%26devicetype%3DiMac%2BMacBookAir6%252C1%2BOSX%2BOSX%2B10.11.5%2Bbuild%252815F34%2529%26version%3D11020201%26lang%3Dzh_CN%26pass_ticket%3DM%252B%252FzUdojRkqAB8sHUODJYKEUGkHV5DihFacpEgtzyTS2iTotVuWn6JsSqoc9kknX" class=""&gt;这里&lt;/a&gt;。 
+
+
+
+&lt;/p&gt;</description><author>杨勇</author><pubDate>Fri, 19 Aug 2016 17:10:25 GMT</pubDate></item><item><title>SVM简介</title><link>https://zhuanlan.zhihu.com/p/21932911</link><description>SVM（支持向量机）主要用于分类问题，主要的应用场景有字符识别、面部识别、行人检测、文本分类等领域。&lt;p&gt;通常SVM用于二元分类问题，对于多元分类通常将其分解为多个二元分类问题，再进行分类。下面我们首先讨论一下二元分类问题。&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;线性可分数据集与线性不可分数据集&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;对于二元分类问题，如果存在一个分隔超平面能够将不同类别的数据完美的分隔开（即两类数据正好完全落在超平面的两侧），则称其为线性可分。反之，如果不存在这样的超平面，则称其为线性不可分。&lt;/p&gt;&lt;p&gt;所谓超平面，是指能够将n维空间划分为两部分的分隔面，其形如&lt;equation&gt;w^Tx+b=0&lt;/equation&gt;。简单来说，对于二维空间（指数据集有两个特征），对应的超平面就是一条直线；对于三维空间（指数据集拥有三个特征），对应的超平面就是一个平面。可以依次类推到n维空间。&lt;/p&gt;&lt;p&gt;在下面的图片中，左边的图表示二维空间的一个线性可分数据集，右图表示的是二维空间的一个线性不可分数据集。可以直观的看到，对于左图，我们很容易找到这样一条直线将红色点和蓝色点完全分隔开。但是对于右图，我们无法找到这样的直线。&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic2.zhimg.com/b6a3fa2731b6679da247ea1cee2aee02.png" data-rawwidth="541" data-rawheight="238"&gt;&lt;p&gt;线性不可分出现的原因：&lt;/p&gt;&lt;p&gt;（1）数据集本身就是线性不可分隔的。上图中右图就是数据集本身线性不可分的情况。这一点没有什么疑问，主要是第二点。&lt;/p&gt;&lt;p&gt;（2）由于数据集中存在噪声，或者人工对数据赋予分类标签出错等情况的原因导致数据集线性不可分。下图展示的就是由于噪声或者分错出错导致线性不可分的情况。&lt;/p&gt;&lt;p&gt;现在，只关注图中的实心点、空心点，以及绿色线段。&lt;b&gt;可以看到实心点和空心点大致分布在绿色线段的两侧，但是在实心点的一侧混杂了两个空心点，在空心点的一侧混杂了一个实心点&lt;/b&gt;，即此时绿色直线并没有完全将数据分为两类，即该数据集是线性不可分的。在后面我们会提到通过修正线性可分模型以使得模型能够“包容”数据集中的噪点，以使得SVM能够处理这种类型的线性不可分情况。&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic3.zhimg.com/f7050c1a1445a36d4eb5b6524da5ee8d.png" data-rawwidth="436" data-rawheight="386"&gt;&lt;p&gt;SVM的目标就是找到这样的一个超平面（对于上图来说，就是找到一条直线），使得不同类别的数据能够落在超平面的两侧。&lt;/p&gt;&lt;p&gt;&lt;b&gt;2. 分类效果好坏&lt;/b&gt;&lt;/p&gt;&lt;p&gt;对于线性可分数据集，有时我们可以找到无数多条直线进行分隔，那么如何判断哪一个超平面是最佳的呢?&lt;/p&gt;&lt;p&gt;我们先来看一个简单的例子。图中‘x’和‘o’分别代表数据的两种不同类型。可以看到存在图中这样一条直线将数据划分成两类。对于图中的A、B、C三点，虽然它们都被划分在了‘x’类，但是我们A、B、C真正属于‘x’类的把握却是不一样的，直觉上我们认为有足够大的把握A点确实属于'x'类，但是对于C点我们却没有足够的把握，因为图中分隔直线的稍稍偏离，C点有可能就被划分到了直线的另一侧。&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic4.zhimg.com/93695a259ffce22ccf80b925624bbd68.png" data-rawwidth="383" data-rawheight="338"&gt;&lt;p&gt;所以，SVM的目标是使得训练集中的所有数据点都距离分隔平面足够远，更确切地说是，&lt;b&gt;使距离分隔平面最近的点的距离最大。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;3. 距离衡量标准&lt;/b&gt;&lt;/p&gt;&lt;p&gt;上面提到了SVM的中心思想，即，&lt;b&gt;使距离分隔平面最近的点的距离最大&lt;/b&gt;。那么这个距离如何衡量呢？&lt;/p&gt;&lt;p&gt;通常采用&lt;b&gt;几何间隔&lt;/b&gt;作为距离度量的方式。简单来说，就是点到超平面的几何距离。&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic1.zhimg.com/1c9a8a6be8fe0037a5e2036c9973bc7a.png" data-rawwidth="380" data-rawheight="325"&gt;例如，在上图的二维空间中，点A到分隔超平面（直线）的距离即为线段AB的长度。&lt;/p&gt;&lt;p&gt;几何间隔的计算公式如下：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic2.zhimg.com/a7f7d415274417933da6489eed6eb575.png" data-rawwidth="423" data-rawheight="104"&gt;其中，y表示数据点的类别标签，w和b分别是超平面&lt;equation&gt;w^Tx+b=0&lt;/equation&gt;的参数。&lt;/p&gt;&lt;p&gt;注：&lt;/p&gt;&lt;p&gt;（1）在SVM的二元分类中，通常将数据分为“1”类（也称为正类或正例）和“-1”类（也称为负类负例）。通常对于数据点&lt;equation&gt;x_0&lt;/equation&gt;，如果&lt;equation&gt;w^Tx_0+b&amp;gt;0&lt;/equation&gt;，则其被分为正类，反之，如果&lt;equation&gt;w^Tx+b&amp;lt;0&lt;/equation&gt;则被分为负类。那么通过在几何间隔的计算中加入乘法因子y，即可保证只要数据点被分在了正确的类别，那么其几何间隔一定是一个正值。&lt;/p&gt;&lt;p&gt;（2）其中&lt;equation&gt;y^{(i)}(w^Tx+b)&lt;/equation&gt;通常也称为&lt;b&gt;函数间隔&lt;/b&gt;。当w的模||w||等于1时，函数间隔和几何间隔相等。函数间隔存在的一个问题是：等比放大w和b，函数间隔也会等比增大，而分隔超平面却不会发生变化。几何间隔可以看做是函数间隔的“&lt;b&gt;正规化”。&lt;/b&gt;几何间隔不会随着w和b的等比缩放而变化。&lt;/p&gt;&lt;p&gt;&lt;b&gt;4. 支持向量的概念和最优间隔分类器&lt;/b&gt;&lt;/p&gt;&lt;p&gt;所谓SVM，即支持向量机，那么到底什么是支持向量呢？&lt;/p&gt;&lt;p&gt;如下图所示，实心点和空心点分别代表数据的两种类别，他们被黄色区域中间的直线分隔成两部分。被蓝色和红色圆圈圈出的点即为&lt;b&gt;支持向量&lt;/b&gt;。所谓支持向量，就是指&lt;b&gt;距离分隔超平面最近的点。&lt;/b&gt;&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic3.zhimg.com/2b95db3701cf744d226913abfed2fbf0.png" data-rawwidth="221" data-rawheight="228"&gt;&lt;p&gt;那么：要最大化最近的点到分隔超平面的距离，就是最大化支持向量到超平面的距离。&lt;/p&gt;&lt;p&gt;则我们要优化的目标就是：（具体推导这里不具体详述，可以参考附录中的参考资料）&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic4.zhimg.com/e926f06894088f492fa27315dba31d27.png" data-rawwidth="469" data-rawheight="140"&gt;&lt;p&gt;这就是&lt;b&gt;最大间隔分类器&lt;/b&gt;的模型，也是SVM的雏形，其&lt;b&gt;可以利用二次优化软件（QP）直接求解。但是计算效率不高（甚至可以说非常低）。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;5.通过拉格朗日对偶法优化最优间隔分类器模型&lt;/b&gt;&lt;/p&gt;&lt;p&gt;为了提高计算效率以及方便使用核函数，采用拉格朗日对偶，将原始优化模型变成了如下对偶形式：&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic1.zhimg.com/149f83f632103db7341badaeb416d84f.png" data-rawwidth="622" data-rawheight="217"&gt;&lt;/p&gt;&lt;p&gt;公式的推导非常复杂，这里也不再赘述，详细参考后面给出的资料。&lt;/p&gt;&lt;p&gt;这里只需要知道&lt;b&gt;，&lt;/b&gt;&lt;b&gt;alpha仅在支持向量处为非零值。也就是说实际计算时，公式右边有大量零值，非常节省计算量。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;6. 模型修正和线性不可分的处理&lt;/b&gt;&lt;/p&gt;&lt;p&gt;在第二部分，我们提到：在分类问题中，并不是训练集的分类函数越“完美”越好，因为数据集中本来就存在噪声，且可能存在人工添加分类标签出错的情况。过于“完美”反而会导致过拟合，使得模型失去一般性（可推广性）。&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic2.zhimg.com/f7050c1a1445a36d4eb5b6524da5ee8d.png" data-rawwidth="436" data-rawheight="386"&gt;&lt;p&gt;为了修正这些分类错误的情况，需要修正模型，加上惩罚系数C。其中&lt;equation&gt;\varepsilon &lt;/equation&gt;表示错误分类的点到正确边界的距离。（即图中的紫色线段长度）&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic3.zhimg.com/3942f21e8988ad7da82fe36a8dcfd847.png" data-rawwidth="480" data-rawheight="75"&gt;修正后的模型，可以“容忍”模型错误分类的情况，并且通过惩罚系数的约束，使得模型错误分类的情况尽可能合理。&lt;/p&gt;&lt;p&gt;&lt;b&gt;7.核函数&lt;/b&gt;&lt;/p&gt;&lt;p&gt;在线性不可分的情况下的另一种处理方式是使用核函数，其基本思想是：&lt;b&gt;将原本的低维特征空间映射到一个更高维的特征空间，从而使得数据集线性可分。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic4.zhimg.com/177cc99803cbc7fe259dad3b0af2aff3.png" data-rawwidth="446" data-rawheight="216"&gt;在上面的图中，左侧的图是一个二维特征空间中的线性不可分数据集，其具有两个特征（x1，x2）。&lt;/p&gt;&lt;p&gt;通过特征映射：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic1.zhimg.com/16e3db5aaeec9d5ab933aafde1dd9f74.png" data-rawwidth="280" data-rawheight="225"&gt;我们可以得到右侧的图，其是一个三维特征空间中的线性可分数据集，具有三个特征（z1,z2,z3）。&lt;/p&gt;&lt;p&gt;即：我们通过特征映射，将一个二维的线性不可分数据集成功映射到了三维空间的线性可分数据集。&lt;/p&gt;&lt;p&gt;关于核函数有一个形象的解释：世界上本来没有两个完全一样的物体，对于所有的两个物体，我们可以通过增加维度来让他们最终有所区别，比如说两本书，从(&lt;b&gt;颜色，内容&lt;/b&gt;)两个维度来说，可能是一样的，我们可以加上&lt;b&gt;作者&lt;/b&gt;这个维度，是在不行我们还可以加入&lt;b&gt;页码&lt;/b&gt;，可以加入 &lt;b&gt;拥有者&lt;/b&gt;，可以加入
 &lt;b&gt;购买地点&lt;/b&gt;，可以加入
 &lt;b&gt;笔记内容&lt;/b&gt;等等。&lt;b&gt;当维度增加到无限维的时候，一定可以让任意的两个物体可分了。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;这与核函数将低维特征映射到高维特征的思想基本类似。&lt;/p&gt;&lt;p&gt;常用的核函数有:&lt;/p&gt;&lt;p&gt;(1)多项式核函数&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic2.zhimg.com/523a6125abc4806416ad62202a186af9.png" data-rawwidth="308" data-rawheight="63"&gt;（2）高斯核函数&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic3.zhimg.com/826fa7c2702cdf94442e3855db4c93fd.png" data-rawwidth="300" data-rawheight="62"&gt;那么&lt;b&gt;如何应用核函数呢？&lt;/b&gt;&lt;/p&gt;回顾上面我们构建的模型：&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic4.zhimg.com/b3fdfaf3810a6cef1cd78def816b1b14.png" data-rawwidth="359" data-rawheight="186"&gt;注意到公式红色部分，表示两个&lt;equation&gt;x_i&lt;/equation&gt;和&lt;equation&gt;x_j&lt;/equation&gt;做内积，要应用核函数，我们只需要将这个部分替换为对应的核函数即可。&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic1.zhimg.com/20ee16aa7169d64047abfd81e024215b.png" data-rawwidth="249" data-rawheight="66"&gt;&lt;p&gt;&lt;b&gt;8. SMO算法&lt;/b&gt;&lt;/p&gt;&lt;p&gt;SMO算法就是为了高效计算上述优化模型而提出的。其是由&lt;b&gt;坐标上升算法&lt;/b&gt;衍生而来。&lt;/p&gt;&lt;p&gt;所谓坐标上升算法，就是指：对于含有多个变量的优化问题：每次只调整一个变量，而保证其他变量不变，来对模型进行优化，直到收敛。&lt;/p&gt;&lt;p&gt;举一个最简单的例子，对于如下优化问题：&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic2.zhimg.com/8f76d6cfa231032b81abe4f88390ab26.png" data-rawwidth="424" data-rawheight="91"&gt;&lt;p&gt;从任意点开始应用坐标上升算法，结果都会收敛到（0,0）。&lt;/p&gt;&lt;p&gt;不妨假设我们选择初始点（5,8），首先我们只调整x1的值，而保证x2的值不变，得到解（0,8）；然后我们只调整x2的值，而保证x1的值不变，得到解（0,0）；进一步，我们再次只调整x1的值，而保证x2的值不变，发现结果仍然是（0,0），说明收敛，算法结束，最终结果为（0,0）。&lt;/p&gt;&lt;p&gt;SMO的思想类似，由于约束条件 &lt;equation&gt;\sum_{i=1}^{m}{\alpha _iy^{(i)}} &lt;/equation&gt;的存在，如果按照坐标上升算法，每次只修改一个&lt;equation&gt;\alpha &lt;/equation&gt;的值，是不可行的（因为&lt;equation&gt;\alpha &lt;/equation&gt;的值完全取决于剩下的m-1个&lt;equation&gt;\alpha &lt;/equation&gt;值）。所以&lt;b&gt;每次至少改变一对&lt;/b&gt;&lt;b&gt;a的值。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;因而，类似坐标上升，&lt;b&gt;SMO算法每次选择一对可以进行优化的a值进行优化&lt;/b&gt;&lt;b&gt;，直到收敛&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;&lt;b&gt;9. SVM在多分类问题中的应用&lt;/b&gt;&lt;/p&gt;&lt;p&gt;SVM模型可以非常方便的进行二元分类问题的处理，不过也有许多方法将其扩展到多元分类问题中去。&lt;/p&gt;&lt;p&gt;常用的方法有一对其余法、一对一法等。详细可以参考一下&lt;a href="http://blog.sina.com.cn/s/blog_5eef0840010147pa.html" data-title="这里" class="" data-editable="true"&gt;这里&lt;/a&gt;。&lt;/p&gt;&lt;p&gt;&lt;b&gt;10. SVM应用实例&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;（1）SVM在手写识别中的应用&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;问题定义&lt;/b&gt;：如何利用SVM算法识别出数字0-9。在这里我们只讨论二元分类的情况，即判断一个手写数字是两个数字中的哪一个（例如，判断其是1还是9，在后面，我们会简要给出将其扩展到多元分类的方法）&lt;/p&gt;&lt;p&gt;&lt;b&gt;手写体的获取和处理&lt;/b&gt;：采集数字1和9的手写体，并将其转换为字符点阵。如下图所示，是一个手写数字1的字符点阵。其是一个32*32的点阵。&lt;/p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic3.zhimg.com/7c4d48e7c4f89c38511ab27e6661242c.png" data-rawwidth="275" data-rawheight="522"&gt;&lt;p&gt;&lt;b&gt;特征和类别标签&lt;/b&gt;：可以看到，每个数字的形状都是由1024个点描述的，因而训练样例具有1024个特征，每个特征对应字符点阵中的一点。类别标签只需要将同一类数字赋予相同类别即可，例如，将数字1归为“1”类，将数字9归为“-1”类。&lt;/p&gt;&lt;p&gt;&lt;b&gt;模型训练&lt;/b&gt;&lt;b&gt;：&lt;/b&gt;利用上述SMO算法，得到分类模型。&lt;/p&gt;&lt;p&gt;&lt;b&gt;模型优化&lt;/b&gt;&lt;b&gt;：&lt;/b&gt;调整核函数参数，以使得模型达到最小的泛化错误。通过&lt;b&gt;交叉验证&lt;/b&gt;，以取得最好的参数：&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic4.zhimg.com/4b7c646c263fa044a688dcb7575a911f.png" data-rawwidth="643" data-rawheight="298"&gt;&lt;/p&gt;&lt;p&gt;可以看到，当核参数大小在10附近时，具有较优的表现。&lt;/p&gt;&lt;p&gt;&lt;b&gt;（2）鸢尾花的分类&lt;/b&gt;&lt;/p&gt;&lt;p&gt;数据来源是UCI数据集iris。下面是数据的特征和不同的类别。&lt;/p&gt;&lt;p&gt;特征：&lt;/p&gt;&lt;p&gt;(1).
 sepal length in cm 萼片长度&lt;/p&gt;&lt;p&gt;(2).
