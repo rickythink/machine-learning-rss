@@ -1,7 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>黑斑马团队-深度学习笔记 - 知乎专栏</title><link>https://zhuanlan.zhihu.com/baina</link><description>黑斑马团队是百纳下属的游戏团队。百纳是海豚浏览器的研发者。
 现团队致力于研究人工智能、深度学习、计算机视觉及其在游戏领域的运用。
-我们大量招收上述领域专家和高级技术人员。</description><lastBuildDate>Fri, 19 Aug 2016 17:19:09 GMT</lastBuildDate><generator>Ricky</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>斯坦福CS231N课程学习笔记（一）.课程简介与准备</title><link>https://zhuanlan.zhihu.com/p/21353567</link><description>前言&lt;p&gt;开这个系列是因为工作中需要用到计算机视觉相关知识。几经淘洗，发现了斯坦福大学的CS231N课程。为了强制自己学习，强化学习效果，将学习中的笔记整理出来，与大家一起分享，也希望借此与同在学习这门课程、以及其他计算机视觉的学习者、研究者一起探讨和进步。&lt;/p&gt;&lt;p&gt;本人此前没有接触过这一领域，IT从业以来多以工程为主，少有接触学术和算法研究，所以学习笔记也会因为本人理解能力原因，存在谬误，恳请阅读者指正。&lt;/p&gt;&lt;p&gt;&lt;i&gt;请注意：本系列是以CS231N为蓝本进行学习的学习笔记，并不是对CS231N的翻译。在学习过程中不可避免地会针对个人知识体系特点补充学习相关内容。关于CS231N的课程翻译，可以参见知乎网友&lt;a data-title="@杜客" data-editable="true" class="member_mention" href="https://www.zhihu.com/people/928affb05b0b70a2c12e109d63b6bae5" data-hash="928affb05b0b70a2c12e109d63b6bae5" data-hovercard="p$b$928affb05b0b70a2c12e109d63b6bae5"&gt;@杜客&lt;/a&gt; 的&lt;a data-title="翻译" data-editable="true" href="https://zhuanlan.zhihu.com/intelligentunit" class=""&gt;翻译&lt;/a&gt;。&lt;/i&gt;&lt;/p&gt;&lt;h2&gt;CS231N课程简介&lt;/h2&gt;&lt;p&gt;CS231N课程的全称是卷积神经网络在视觉辨识中的应用（Convolutional Neural Networks for Visual Recognition），是一个学习时长跨度为两个月的课程。这门课程从2015年起第一次开设，授课者是&lt;a data-title="李飞飞" data-editable="true" class="" href="https://link.zhihu.com/?target=https%3A//profiles.stanford.edu/fei-fei-li%3Ftab%3Dbio"&gt;李飞飞&lt;/a&gt;，&lt;a data-title="Andrej Karpathy" data-editable="true" class="" href="https://link.zhihu.com/?target=https%3A//karpathy.github.io/"&gt;Andrej Karpathy&lt;/a&gt;，Justin Johnson。&lt;a data-title="李飞飞" data-editable="true" class="" href="https://link.zhihu.com/?target=https%3A//profiles.stanford.edu/fei-fei-li%3Ftab%3Dbio"&gt;李飞飞&lt;/a&gt;，斯坦福大学计算机科学系副教授，入选2015年“全球百大思想者”，现为斯坦福人工智能实验室（SAIL）主任。斯坦福大学在机器学习和计算机视觉上都非常牛。著名的人工智能专家， Google Brain之父吴恩达也是斯坦福大学副教授。&lt;/p&gt;&lt;p&gt;计
+我们大量招收上述领域专家和高级技术人员。</description><lastBuildDate>Sun, 21 Aug 2016 14:18:03 GMT</lastBuildDate><generator>Ricky</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>DeepMind的Neural Stack Machine及其代码实现（二）</title><link>https://zhuanlan.zhihu.com/p/22099077</link><description>&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic3.zhimg.com/3d3055c10ba737164b445d6935604cbe_r.jpg"&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;本文译自Trask的&lt;a class="" data-title="博客文章" data-editable="true" href="https://iamtrask.github.io/2016/02/25/deepminds-neural-stack-machine/"&gt;博客文章&lt;/a&gt;，为原文中的Part II部分。Andrew Trask是Digital Reasoning的Product Manager，著有《Modeling Order in Neural Word Embeddings at Scale》和《Modeling Order in Neural Word Embeddings at ScalPredicting Stock Change using Twitter and Artificial Neural Networks》。本文翻译未获授权，不保证正确性。&lt;/i&gt;&lt;/p&gt;&lt;p&gt;如篇头所述，我将就如何实现学术论文中的方法对元学习（meta-learning，如何学会学习）作一点讨论。现在，请点击打开&lt;a data-title="这篇论文" data-editable="true" href="http://papers.nips.cc/paper/5648-learning-to-transduce-with-unbounded-memory.pdf"&gt;这篇论文&lt;/a&gt;（《Learning to Transduce with Unbounded Memory》），粗略地看看。&lt;b&gt;声明：并不存在该如何阅读论文的正确打开方式！&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;初轮：&lt;/b&gt;我认识的很多人在这一轮会从头到尾把论文看一遍。不要强迫自己能理解所有的内容。只要对这些内容有一个概要性的理解就可以了：这篇论文的成就何在，有哪些关键术语，对使用的方法有一个基本观念。不要过于担心公式。花点时间多看看图表。这篇论文有相当多的图表，这对读者帮助颇大。如果这篇论文是关于造车的，那么初论阅读应该理解到这样的概念：”我们将制造一个可驾驶的机器，它将能在一个弯曲的道路上以60KPM的速度移动和转弯。它有轮子，使用汽油作燃料。应该由人来控制。"。在这一轮不要去管什么引擎，变速箱，和火花塞，更不要说什么最佳燃烧温度了。只要得到一般化的思想即可。&lt;/p&gt;&lt;p&gt;&lt;b&gt;第二轮：&lt;/b&gt;这一轮中，如果你觉得已经理解了论文背景（通常是最前面几节，贴着简介或者相关工作的标签），那么就可以跳到方法一节。在这篇论文中，方法一节从第2页底部的”3 Models"开始。在这一节中，要逐句细读。这些章节一般总是内容极为饱满。每一句都是精心雕琢，如果不理解上一句，那么通常下一句读起来就全无意义。在这一轮中，仍然不要太过关注公式，相反，只要理解算法中的“主要动作部件”就好。关注“什么”而不是”怎么“。同样，如果我们要是造一辆车，那么这一轮是要弄理出一个部件清单，并且载明每个部件叫什么，看上去象什么，如下所示：&lt;/p&gt;&lt;p&gt;&lt;img rel="noreferrer" data-rawheight="199" data-rawwidth="865" src="4aa16bcba572514279adfc43bcc4c971.png"&gt;作为一个附注，这一时段你需要创造一些助记符（metal pneumonics)来帮助记住这些变量谁是谁。比如，u_t中的u是向上开口的， 就象它是被"弹”开的一样。（译注：这一段没有往下译。主要是讲如何通过一些记忆钩子帮助你迅速记住各个变量的用法和含义。这种方法并非阅读论文必须）。&lt;/p&gt;&lt;p&gt;&lt;b&gt;更多轮阅读&lt;/b&gt;。现在反复阅读方法一节，直到你有一个可行的实现。（你可以在下一篇验证你的成果）。&lt;/p&gt;&lt;p&gt;上一篇： &lt;a data-editable="true" data-title="DeepMind的Neural Stack Machine及其代码实现（一）" class="" href="https://zhuanlan.zhihu.com/p/22090568"&gt;DeepMind的Neural Stack Machine及其代码实现（一）&lt;/a&gt;&lt;/p&gt;&lt;p&gt;下一篇：&lt;a data-title="eepMind的Neural Stack Machine及其代码实现（三）" class="" href="https://zhuanlan.zhihu.com/p/22102144"&gt;DeepMind的Neural Stack Machine及其代码实现（三）&lt;/a&gt;&lt;/p&gt;</description><author>杨勇</author><pubDate>Sat, 20 Aug 2016 16:53:36 GMT</pubDate></item><item><title>DeepMind的Neural Stack Machine及其代码实现（一）</title><link>https://zhuanlan.zhihu.com/p/22090568</link><description>&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic3.zhimg.com/3d3055c10ba737164b445d6935604cbe_r.jpg"&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;本文译自Trask的&lt;a class="" data-title="博客文章" data-editable="true" href="https://iamtrask.github.io/2016/02/25/deepminds-neural-stack-machine/"&gt;博客文章&lt;/a&gt;，
+为原文中的Part II部分。Andrew Trask是Digital Reasoning的Product 
+Manager，著有《Modeling Order in Neural Word Embeddings at Scale》和《Modeling 
+Order in Neural Word Embeddings at ScalPredicting Stock Change using 
+Twitter and Artificial Neural Networks》。本文翻译未获授权，不保证正确性。&lt;/i&gt;&lt;/p&gt;&lt;p&gt;这篇文章不仅帮助读者理解DeepMind的Neural Stack Machine的结果，还以这篇&lt;a data-title="论文" data-editable="true" href="http://papers.nips.cc/paper/5648-learning-to-transduce-with-unbounded-memory.pdf"&gt;论文&lt;/a&gt;为例，详细地讲述了如何从论文出发，完成其代码实现。文中的方法可以当成将论文转化为代码实现的经典的套路。&lt;/p&gt;&lt;h2&gt;（一）什么是Neural Stack？&lt;/h2&gt;&lt;p&gt;&lt;b&gt;一个简单的堆栈&lt;/b&gt;&lt;/p&gt;&lt;p&gt;在接触神经元堆栈前，让我们先从一个常规的栈定义开始。在计算机科学中，堆栈是数据结构的一种。在下面的代码中，我们把一些哈利.波特的书“摞”在一张（通过字符艺术画出的）桌子上。&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;class VerySimpleStack:
+    
+    def __init__(self):
+        self.contents = list()
+        
+    def push(self,item):
+        self.contents.append(item)
+    
+    def pop(self):
+        item = self.contents[-1]
+        self.contents = self.contents[:-1]
+        return item
+    
+    def pretty_print(self):
+      i = 1
+      print "\n--------TOP---------"
+      for item in (self.contents):
+          if(i != 1):
+              print "--------------------"            
+          print self.contents[-i]
+          i+=1
+
+      print  "-----------------------"
+      print  "---------(table)-------"
+      print  "-----------------------"
+      print  "-- --             -- --"            
+      print  "-- --             -- --"            
+      print  "-- --             -- --"            
+      print  "-- --             -- --"            
+      print  "--                --"            
+      print  "--                --\n\n"            
+      
+        
+print "1) Creating an empty stack of books..."
+stack = VerySimpleStack()
+
+print "2) Pushing two books onto our stack..."
+stack.push("Harry Potter and the Sorcerer's Stone")
+stack.push("Harry Potter and the Chamber of Secrets")
+
+print "3) Let's look at our stack..."
+stack.pretty_print() # what order will this print?
+
+print "4)Let's Pop a few...\n"
+print "POP: " + stack.pop() # which one does this remove?
+print "POP: " + stack.pop() # how bout this one?
+
+print "\n5)Let's push a few more!"
+
+stack.push("Harry Potter and the Prisoner of Azkaban")
+stack.push("Harry Potter and the Goblet of Fire")
+stack.push("Harry Potter and the Order of the Phoenix")
+stack.push("Harry Potter and the Half-Blood Prince")
+stack.push("Harry Potter and the Deathly Hallows")
+
+
+print "\n6)Let's look at our stack again..."
+stack.pretty_print()
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;想象一下你在桌子上摞了一堆哈利.波特的书。堆栈与列表极其相似，但有一点不同：你只能堆栈的顶部增加或者移除一本书。所以，你可以增加另一本书到栈顶（stack.push(book))，或者从栈顶移除一本书(stack.pop())，然而你无法操作这堆书中间的任何一本。&lt;/p&gt;&lt;p&gt;&lt;b&gt;Neural Stack&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Neural Stack也是一种堆栈。但是，我们将要实现的Neural Stack，将能够学习到如何使用堆栈来实现一个算法。它将学习到根据输入数据，在何时进行压栈和出栈操作，以正确地模态化输出数据。&lt;/p&gt;&lt;p&gt;神经网络如何学习到何时压栈，何时出栈？&lt;/p&gt;&lt;p&gt;神经网络将使用反向传播来学习。因此在读这篇文章前，必须要对神经网络和反向传播有一个直觉性的理解。读完这篇&lt;a data-title="博文" data-editable="true" href="http://iamtrask.github.io/2015/07/12/basic-python-network/"&gt;博文&lt;/a&gt;应该足够了。&lt;/p&gt;&lt;p&gt;因此，要回答神经网络如何学习何时做压栈和出栈操作的问题，我们需要理解一个正确的压栈和出栈序列看起来应该长什么样儿。因此，我们的输入数据和输出数据都是序列。那么，哪种数据序列是堆栈易于建模的呢？&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;class VerySimpleStack:
+    
+    def __init__(self):
+        self.contents = list()
+        
+    def push(self,item):
+        self.contents.append(item)
+    
+    def pop(self):
+        item = self.contents[-1]
+        self.contents = self.contents[:-1]
+        return item
+    
+    def pretty_print(self):
+      i = 1
+      print "\n--------TOP---------"
+      for item in (self.contents):
+          if(i != 1):
+              print "--------------------"            
+          print self.contents[-i]
+          i+=1
+
+      print  "-----------------------"
+      print  "---------(table)-------"
+      print  "-----------------------"
+      print  "-- --             -- --"            
+      print  "-- --             -- --"            
+      print  "-- --             -- --"            
+      print  "-- --             -- --"            
+      print  "--                --"            
+      print  "--                --\n\n"            
+      
+        
+
+print "1) Creating an empty stack of numbers..."
+stack = VerySimpleStack()
+
+print "\n2) Create an ordered sequence... "
+sequence = [0,1,2,3,4,5]
+print "sequence = " + str(sequence)
+
+print "\n3) Push sequence onto my stack"
+stack.push(sequence[0])
+stack.push(sequence[1])
+stack.push(sequence[2])
+stack.push(sequence[3])
+stack.push(sequence[4])
+stack.push(sequence[5])
+stack.pretty_print()
+
+print "\n4) Create New Sequence By Popping From Stack"
+new_sequence = list()
+new_sequence.append(stack.pop())
+new_sequence.append(stack.pop())
+new_sequence.append(stack.pop())
+new_sequence.append(stack.pop())
+new_sequence.append(stack.pop())
+new_sequence.append(stack.pop())
+
+print "\n5) Print new sequence... notice anything?"
+print "new_sequence = " + str(new_sequence)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;输出结果如下：&lt;/p&gt;&lt;pre&gt;&lt;code lang="pytb"&gt;1) Creating an empty stack of numbers...
+
+2) Create an ordered sequence... 
+sequence = [0, 1, 2, 3, 4, 5]
+
+3) Push sequence onto my stack
+
+--------TOP---------
+5
+--------------------
+4
+--------------------
+3
+--------------------
+2
+--------------------
+1
+--------------------
+0
+-----------------------
+---------(table)-------
+-----------------------
+-- --             -- --
+-- --             -- --
+-- --             -- --
+-- --             -- --
+--                --
+--                --
+
+4) Create New Sequence By Popping From Stack
+
+5) Print new sequence... notice anything?
+new_sequence = [5, 4, 3, 2, 1, 0]&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;b&gt;究竟什么是Neural Stack？&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Neural Stack&lt;/b&gt;是一种通过学习，能记忆输入序列并根据从数据中学习到的pattern来做出正确变换的栈。&lt;/p&gt;&lt;p&gt;&lt;b&gt;如何学习？&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Neural Stack通过以下方式进行学习：&lt;/p&gt;&lt;p&gt;1） 接收输入数据，根据神经网络的指令进行出栈和入栈。这样生成了输出数据序列（预测）。&lt;/p&gt;&lt;p&gt;2） 将输出数据与输入数据进行比较，看有多少数据是Neural Stack漏掉的。&lt;/p&gt;&lt;p&gt;3） 使用反向传播算法更新神经网络，以使得下次入栈和出栈操作能更加正确。&lt;/p&gt;&lt;p&gt;问题：如果错误发生在栈的输出上，而神经网络作用在栈的输入上，反向传播如何能学习到该如何入栈和出栈？一般来说我们将网络输出端的错误反向传播到权重值，从而我们可以更新权重。这里看起来neural stack正好阻塞了神经网络（正是神经网络控制着入栈和出栈)的决策。&lt;/p&gt;&lt;p&gt;回答：要使得neural stack是可微分的。如果我们能找出只使用加、减、乘法就能模拟栈的行为的工具，那么我们就能够象在神经网络里那样将错误反向传播通过隐藏层一样，将错误反向传播通过堆栈。而这些对我们来讲很熟悉。我们已经做过使用加、减、乘的序列来做反向传播，现在最难的部分只是要如何以一个完全可微分的方式来模拟栈的操作--Edward Grefenstette, Karl Moritz Hermann, Mustafa Suleyman和Phil Blunsom做到了，这也正是他们如此光芒夺目的原因！&lt;/p&gt;&lt;p&gt;下一篇：&lt;a data-title="DeepMind的Neural Stack Machine及其代码实现（二）" class="" href="https://zhuanlan.zhihu.com/p/22099077"&gt;DeepMind的Neural Stack Machine及其代码实现（二）&lt;/a&gt;&lt;/p&gt;</description><author>杨勇</author><pubDate>Sat, 20 Aug 2016 12:08:17 GMT</pubDate></item><item><title>斯坦福CS231N课程学习笔记（一）.课程简介与准备</title><link>https://zhuanlan.zhihu.com/p/21353567</link><description>前言&lt;p&gt;开这个系列是因为工作中需要用到计算机视觉相关知识。几经淘洗，发现了斯坦福大学的CS231N课程。为了强制自己学习，强化学习效果，将学习中的笔记整理出来，与大家一起分享，也希望借此与同在学习这门课程、以及其他计算机视觉的学习者、研究者一起探讨和进步。&lt;/p&gt;&lt;p&gt;本人此前没有接触过这一领域，IT从业以来多以工程为主，少有接触学术和算法研究，所以学习笔记也会因为本人理解能力原因，存在谬误，恳请阅读者指正。&lt;/p&gt;&lt;p&gt;&lt;i&gt;请注意：本系列是以CS231N为蓝本进行学习的学习笔记，并不是对CS231N的翻译。在学习过程中不可避免地会针对个人知识体系特点补充学习相关内容。关于CS231N的课程翻译，可以参见知乎网友&lt;a data-title="@杜客" data-editable="true" class="member_mention" href="https://www.zhihu.com/people/928affb05b0b70a2c12e109d63b6bae5" data-hash="928affb05b0b70a2c12e109d63b6bae5" data-hovercard="p$b$928affb05b0b70a2c12e109d63b6bae5"&gt;@杜客&lt;/a&gt; 的&lt;a data-title="翻译" data-editable="true" href="https://zhuanlan.zhihu.com/intelligentunit" class=""&gt;翻译&lt;/a&gt;。&lt;/i&gt;&lt;/p&gt;&lt;h2&gt;CS231N课程简介&lt;/h2&gt;&lt;p&gt;CS231N课程的全称是卷积神经网络在视觉辨识中的应用（Convolutional Neural Networks for Visual Recognition），是一个学习时长跨度为两个月的课程。这门课程从2015年起第一次开设，授课者是&lt;a data-title="李飞飞" data-editable="true" class="" href="https://link.zhihu.com/?target=https%3A//profiles.stanford.edu/fei-fei-li%3Ftab%3Dbio"&gt;李飞飞&lt;/a&gt;，&lt;a data-title="Andrej Karpathy" data-editable="true" class="" href="https://link.zhihu.com/?target=https%3A//karpathy.github.io/"&gt;Andrej Karpathy&lt;/a&gt;，Justin Johnson。&lt;a data-title="李飞飞" data-editable="true" class="" href="https://link.zhihu.com/?target=https%3A//profiles.stanford.edu/fei-fei-li%3Ftab%3Dbio"&gt;李飞飞&lt;/a&gt;，斯坦福大学计算机科学系副教授，入选2015年“全球百大思想者”，现为斯坦福人工智能实验室（SAIL）主任。斯坦福大学在机器学习和计算机视觉上都非常牛。著名的人工智能专家， Google Brain之父吴恩达也是斯坦福大学副教授。&lt;/p&gt;&lt;p&gt;计
 算机视觉在搜索，图像理解，地图，医疗，无人机和无人驾驶汽车等方面的应用越来越重要和广泛。这些任务的核心就是视觉辨识，即图像分类，本地化
 （localization）和检测。而神经网络（即深度学习）在这一领域的应用又大大提高的视觉辨识系统的最新水平。这门课程将以上述任务，特别是图像
 分类为研究对象，以端到端的模式解析深度学习架构在视觉辨识领域的实现。&lt;/p&gt;&lt;p&gt;这门课程将教会学生如何实现、训练和调试他们自己的神经网络，并获
@@ -533,81 +690,4 @@ num_train.
   dW += np.dot(X.T, margins)/num_train + reg * W     # D by C
 
   return loss, dW
-&lt;/code&gt;&lt;/pre&gt;</description><author>杨勇</author><pubDate>Fri, 08 Jul 2016 20:42:34 GMT</pubDate></item><item><title>计算机视觉学习笔记（2.2）-课程作业</title><link>https://zhuanlan.zhihu.com/p/21358431</link><description>&lt;p&gt;&lt;i&gt;本笔记系列以斯坦福大学CS231N课程为大纲，海豚浏览器每周组织一次授课和习题答疑。 具体时间地点请见微信公众号黑斑马团队（zero_zebra)和QQ群(1429 61883)的发布。同时课程也通过腾讯课堂（百纳公开课）进行视频直播。欢迎参与学习。&lt;/i&gt;&lt;/p&gt;&lt;p&gt;在&lt;a data-title="这里" data-editable="true" href="http://vision.stanford.edu/teaching/cs231n/winter1516_assignment1.zip"&gt;这里&lt;/a&gt;下载斯坦福CS231N的课程作业。如果上述地址无法访问，也可以在QQ群（142961883）的群文件里下载。&lt;/p&gt;&lt;p&gt;解压缩后（比如根目标为CS231N），进入根目录，从这里启动python -m IPython notebook。在新打开的浏览器窗口中，点击knn.ipynb文件，打开一个新的窗口。回到先前的窗口，进入cs321n/classifiers目录，点击打开k_nearest_neighbor.py文件。我们的作业就在这两个文件里。&lt;/p&gt;&lt;p&gt;打开knn.ipynb，搜索“Inline question"，并在Your answer处作答。 &lt;/p&gt;&lt;p&gt;完成k_nearest_neighbor.py中几个标记为”pass“的代码段。当你完成代码后，保存，回到knn.ipynb，测试你的答案是否正确。&lt;/p&gt;&lt;p&gt;如果课程作业中遇到困难，可以在QQ群里进行提问，我们安排有人负责解答。&lt;/p&gt;</description><author>杨勇</author><pubDate>Wed, 15 Jun 2016 15:45:26 GMT</pubDate></item><item><title>计算机视觉学习笔记（2.1）-KNN算法中距离矩阵的计算</title><link>https://zhuanlan.zhihu.com/p/21354489</link><description>&lt;p&gt;本笔记系列以斯坦福大学CS231N课程为大纲，海豚浏览器每周组织一次授课和习题答疑。具体时间地点请见微信公众号黑斑马团队(zero_zebra)和QQ群（142961883）发布。同时课程通过腾讯课堂（百纳公开课）进行视频直播.欢迎参与学习.&lt;/p&gt;&lt;p&gt;在CS231N的第二课，k-nearest
-neighbor这部分中，核心就是计算训练集与测试集之元素之间的欧氏距离。课后作业要求从训练集取5000个图像，测试集取了500个图像，计
-算这5000个用于训练的图像与500个用于测试的图像之间的欧氏距离，其结果就是一个5000*500的距离矩阵。&lt;/p&gt;&lt;p&gt;课后作业总共留了三道关于距离矩阵的计算题，分别是由易到难，从使用二重循环到不使用循环。特别是不使用循环的方法，需要一点数学基础，不是特别直观。经过研究&lt;a class="" data-title="《Numpy/ScipyRecipes for Data Science: Computing Nearest Neighbors》" data-editable="true" href="https://www.researchgate.net/publication/283568278_NumPy_SciPy_Recipes_for_Data_Science_Computing_Nearest_Neighbors"&gt;《Numpy/Scipy
-Recipes for Data Science: Computing Nearest Neighbors》&lt;/a&gt;之后，决定把其中的方法写出来。&lt;/p&gt;&lt;h2&gt;任务定义&lt;/h2&gt;&lt;p&gt;给定&lt;equation&gt;m\times n&lt;/equation&gt;阶矩阵&lt;equation&gt;X&lt;/equation&gt;，满足&lt;equation&gt;X=[x_1, x_2, ...x_n]&lt;/equation&gt;。这里第&lt;equation&gt;i&lt;/equation&gt;列向量是&lt;equation&gt;m&lt;/equation&gt;维向量。求&lt;equation&gt;n\times n&lt;/equation&gt;矩阵，使得：&lt;/p&gt;&lt;equation&gt;D_{ij}=||x_i-x_j||^2&lt;/equation&gt;&lt;h2&gt;计算方法 &lt;/h2&gt;&lt;p&gt;这里提供4种方法，需要使用到以下Python库：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;import numpy as np
-import numpy.linalg as la&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;第一种方法：使用两重循环
-
-&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;def compute_squared_EDM_method(X):
-  # determin dimensions of data matrix
-  m,n = X.shape
-  # initialize squared EDM D
-  D = np.zeros([n, n])
-  # iterate over upper triangle of D
-  for i in range(n):
-    for j in range(i+1, n):
-      D[i,j] = la.norm(X[:, i] - X[:, j])**2
-      D[j,i] = D[i,j]    #*1
-return D&lt;/code&gt;&lt;/pre&gt;由于是计算矩阵自身行向量之间的距离，所以结果是一个对称的三角矩阵。注意*1行代码处所做的优化。 &lt;p&gt;在上述方法中我们使用了两层循环，因此代码虽不简洁，但十分易懂。 &lt;/p&gt;&lt;h2&gt;第二种方法 &lt;/h2&gt;&lt;p&gt; 在第一种方法中，我们使用了numpy的norm这个方法，这个方法从数学上讲，其计算公式是：&lt;equation&gt;||x_i-x_j ||=\sqrt{(x_i-x_j ) (x_i-x_j )^T }&lt;/equation&gt;&lt;/p&gt;&lt;p&gt;然后我们又将这个计算结果平方后赋给&lt;equation&gt;D_{ij}:D_{ij}=||x_i-x_j||^2&lt;/equation&gt;&lt;/p&gt;&lt;p&gt;因此，我们实际上是在计算：&lt;/p&gt;&lt;equation&gt;D_{ij}=(x_i-x_j ) (x_i-x_j )^T &lt;/equation&gt;&lt;p&gt;上述运算可以使用点积（即矩阵内积）来计算：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;D[i,j] = np.dot(X[:,i]-X[:,j],(X[:,i]-X[:,j]).T)&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;现在代码变化为：&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;def compute_squared_EDM_method2(X):
-  # determin dimensions of data matrix
-  m,n = X.shape
-  # initialize squared EDM D
-  D = np.zeros([n, n])
-  # iterate over upper triangle of D
-  for i in range(n):
-    for j in range(i+1, n):
-      d = X[:,i] - X[:,j]
-      D[i,j] = np.dot(d, d)
-      D[j,i] = D[i,j]
-  return D
-&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;第三种方法：避免循环内的点积运算&lt;/h2&gt;&lt;p&gt;注意在上面的方法中，dot运算被调用了&lt;equation&gt;n^2-n&lt;/equation&gt;次，并且每次进行了&lt;equation&gt;m&lt;/equation&gt;次乘积运算和&lt;equation&gt;m-1&lt;/equation&gt;次加法运算。尽管numpy底层可能对点积运算做了优化，但这里还是存在可能进行进一步优化。请看下面的数学推导：&lt;/p&gt;&lt;equation&gt;\begin{split}
-D_{ij}&amp;amp;=(x_i-x_j)^T(x_i-x_j)\\
-&amp;amp;=x^T_ix_i-2x^T_ix_j+x^T_jx_j
-\end{split}&lt;/equation&gt;&lt;p&gt; 这里&lt;equation&gt;x^T_ix_i,x^T_jx_j,x^T_ix_j&lt;/equation&gt;属于格拉姆矩阵中的元素，可以通过在循环外计算矩阵，在循环内直接引用元素值即可，从而在循环内我们只需要做两次加（减）法运算：&lt;/p&gt;&lt;equation&gt;D_{ij}=G_{ii}-2G_{ij}+G_{jj}&lt;/equation&gt;&lt;p&gt;格拉姆矩阵的求法很简单，只需要：&lt;/p&gt;&lt;equation&gt;G=np.dot(X.T, X)&lt;/equation&gt;&lt;p&gt;现在代码变为：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;def compute_squared_EDM_method3(X):
-  # determin dimensions of data matrix
-  m,n = X.shape
-  # compute Gram matrix
-  G = np.dot(X.T, X)
-  # initialize squared EDM D
-  D = np.zeros([n, n])
-  # iterate over upper triangle of D
-  for i in range(n):
-    for j in range(i+1, n):
-      d = X[:,i] - X[:,j]
-      D[i,j] = G[i,i] - 2 * G[i,j] + G[j,j]
-      D[j,i] = D[i,j]
-  return D
-&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;第四种方法：避免循环&lt;/h2&gt;&lt;p&gt;假设距离矩阵可以表示为&lt;equation&gt;D = H+K-2G&lt;/equation&gt;，与公式&lt;equation&gt;D_{ij}=G_{ii}-2G_{ij}+G_{jj}&lt;/equation&gt;进行对比，有：&lt;/p&gt;&lt;equation&gt;H_{ij}=G_{ii}, K_{ij}=G_{jj}&lt;/equation&gt;&lt;p&gt;这里H中第&lt;i&gt;i&lt;/i&gt;行的每一个元素，取值都为&lt;equation&gt;G_{ii}&lt;/equation&gt;，也就是H的每一列，都对应着格拉姆矩阵的对角阵，因此，我们可以用下面的代码来计算H：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;H = np.tile(np.diag(G), (n,1))
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;此外，由于&lt;equation&gt;K= H^T&lt;/equation&gt;,所以最终距离矩阵可以计算为&lt;/p&gt;&lt;equation&gt;D=H+H^T-2G&lt;/equation&gt;&lt;p&gt;现在，代码不再需要循环了：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;def compute_squared_EDM_method4(x):
-  m,n = X.shape
-  G = np.dot(X.T, X)
-  H = np.tile(np.diag(G), (n,1))
-  return H + H.T - 2*G&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;扩展：任意行（列）同秩矩阵间的距离矩阵计算&lt;/h2&gt;&lt;p&gt;上述方法解决了矩阵自身（列）向量之间的距离矩阵运算问题。对CS231N第二讲的课程作业来说，需要求解的问题是：&lt;/p&gt;&lt;p&gt;给定训练矩阵A为&lt;equation&gt;5000\times 3072&lt;/equation&gt;阶矩阵。这里5000 代表5000幅带标签的图，3072是其各像素在RGB三个通道下的取值数。给定测试集矩阵B为&lt;equation&gt;500\times 3072&lt;/equation&gt;阶矩阵。求矩阵B的各行与矩阵A的各行的距离（即两幅图的差异）矩阵，这个矩阵是一个&lt;equation&gt;5000\times 500&lt;/equation&gt;的矩阵。&lt;/p&gt;&lt;p&gt;更一般地，这个问题可以描述如下：&lt;/p&gt;&lt;p&gt;给定矩阵A为&lt;equation&gt;m\times k&lt;/equation&gt;阶矩阵，矩阵B为&lt;equation&gt;n\times k&lt;/equation&gt;阶矩阵，求矩阵B的任意行向量与矩阵A的任意行向量的距离矩阵&lt;equation&gt;D_{m\times n}&lt;/equation&gt;。这个矩阵的数学表达式为(a, b均为行向量）：&lt;/p&gt;&lt;equation&gt;\begin{split}
-D_{ij}&amp;amp;=(a_i-b_j)(a_i-b_j)^T\\
-&amp;amp;=a_ia^T_i-a_ib^T_j-b_ja^T_i+b_jb^T_j
-\end{split}&lt;/equation&gt;&lt;p&gt; 为方便讨论，我们将上述各项分别记为H, M, N, K，即：&lt;/p&gt;&lt;equation&gt;D_{m\times n}=H_{m\times m}-M_{m\times n}-N_{n\times m}+K_{n\times n}&lt;/equation&gt;&lt;p&gt;显然上述公式是无法进行运算的，因为除了M与D外，其它矩阵的秩各不相同。所以我们要回到前一个数学表达式上。&lt;/p&gt;&lt;ol&gt;&lt;li&gt;H对D的贡献是对于D的每一行，都加上&lt;equation&gt;a_ia^T_i&lt;/equation&gt;&lt;/li&gt;&lt;li&gt;K对于D的贡献是对于D的每一列，都加上&lt;equation&gt;b_jb^T_j&lt;/equation&gt;&lt;/li&gt;&lt;li&gt;M和N互为转置矩阵。即对&lt;equation&gt;D_{ij}&lt;/equation&gt;,要减去矩阵&lt;equation&gt;N_{j,i}&lt;/equation&gt;元素，而这个元素就是&lt;equation&gt;M_{ij}&lt;/equation&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;因此，可以在numpy中运用broadcasting机制，通过矩阵与行向量、列向量的运算传播机制（broadcasting)来完成计算&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;def compute_distances_no_loops(A, B):
-	m = np.shape(A)[0]
-	n = np.shape(B)[0]
-    dists = np.zeros((m, n)) 
-    
-    # 求得矩阵M为 m*n维
-    M = np.dot(A, B.T)
-    # 对于H,我们只需要A.A^T的对角线元素,下面的方法高效求解(只计算对角线元素)
-    # 结果H为m维行向量
-    H = np.square(A).sum(axis = 1)
-    #结果K为n维行向量.要将其元素运用到矩阵M的每一列,需要将其转置为行向量
-    K = np.square(B).sum(axis = 1)
-    #H对M在y轴方向上传播,即H加和到M上的第一行,K对M在x轴方向上传播,即K加和到M上的每一列
-    D = np.sqrt(-2*M+H+np.matrix(K).T)
-    return D
-&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;谈谈Numpy的broadcasting&lt;/h2&gt;&lt;p&gt;在numpy中，当一个数与矩阵相加时，实际上是将矩阵中的每一个元素都加上这个数。注意在矩阵代数里，这种相加是不允许的。但实际应用中又很常见，所以Numpy就扩展了这个定义，允许一个实数矩阵相加，这就是broadcasting。&lt;/p&gt;&lt;p&gt;broadcasting在工程中是非常实用的。在第四种方法中，没有使用 broadcasting机制，它是先取格拉姆矩阵的对角线元素（是n维列向量），再通过np.tile运算将其扩展为一个&lt;equation&gt;n\times n&lt;/equation&gt;的矩阵，然后才能完成相加的操作。而在扩展一节中，我们引入了行方向上（axis = 1)的传播（与K的相加），也引入了列方向上（axis = 0)的传播（与H的相加）。正因为有了这个传播，我们无须象第四种方法那样，显式地生成一个&lt;equation&gt;m\times n&lt;/equation&gt;矩阵&lt;equation&gt;H^{'},K^{'}&lt;/equation&gt;。&lt;/p&gt;&lt;p&gt;下面是broadcasting的规则：&lt;/p&gt;&lt;ol&gt;&lt;li&gt;让所有输入数组都向其中shape最长的数组看齐，shape中不足的部分都通过在前面加1补齐&lt;/li&gt;&lt;li&gt;输出数组的shape是输入数组shape的各个轴上的最大值&lt;/li&gt;&lt;li&gt;如果输入数组的某个轴和输出数组的对应轴的长度相同或者其长度为1时，这个数组能够用来计算，否则出错&lt;/li&gt;&lt;li&gt;当输入数组的某个轴的长度为1时，沿着此轴运算时都用此轴上的第一组值。&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;这里看一个例子：&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;C = np.arange(0,3)
-D = np.arange(0, 40, 10).reshape(-1,1)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt; 这样生成的C和D分别是3维行向量和4*1阶矩阵。&lt;/p&gt;&lt;pre&gt;&lt;code lang="pytb"&gt;&amp;gt;&amp;gt;&amp;gt; C
-array([0, 1, 2])
-&amp;gt;&amp;gt;&amp;gt; D
-array([[ 0],
-       [10],
-       [20],
-       [30]])
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果计算C+D，结果如何？&lt;/p&gt;&lt;ol&gt;&lt;li&gt; 让输入数组向shape最长（维度最高）的数组看齐，shape中不足的部分都通过在前面加1补齐。这里D是二维数组，所以C被reshape为 array([[0,1,2]])。&lt;/li&gt;&lt;li&gt;根据规则2，确定运算的输出数组维度为4*3。&lt;/li&gt;&lt;li&gt;C与D都有一个轴同秩，所以可以计算。&lt;/li&gt;&lt;li&gt;将D沿 axis = 0的方向（即列方向）从上到下，逐一加上C的元素。依次得到 [0,1,2]，[10,11,12]...[30,31,32]&lt;/li&gt;&lt;/ol&gt;&lt;h2&gt;课程导航&lt;/h2&gt;&lt;p&gt;&lt;a class="" data-title="上一课：斯坦福CS231N课程学习笔记（二）.理解CIFAR-10图像数据库" data-editable="true" href="https://zhuanlan.zhihu.com/p/21329419"&gt;上一课：斯坦福CS231N课程学习笔记（二）.理解CIFAR-10图像数据库&lt;/a&gt;&lt;/p&gt;&lt;p&gt;下一课&lt;/p&gt;</description><author>杨勇</author><pubDate>Tue, 14 Jun 2016 22:11:29 GMT</pubDate></item></channel></rss>
+&lt;/code&gt;&lt;/pre&gt;</description><author>杨勇</author><pubDate>Fri, 08 Jul 2016 20:42:34 GMT</pubDate></item><item><title>计算机视觉学习笔记（2.2）-课程作业</title><link>https://zhuanlan.zhihu.com/p/21358431</link><description>&lt;p&gt;&lt;i&gt;本笔记系列以斯坦福大学CS231N课程为大纲，海豚浏览器每周组织一次授课和习题答疑。 具体时间地点请见微信公众号黑斑马团队（zero_zebra)和QQ群(1429 61883)的发布。同时课程也通过腾讯课堂（百纳公开课）进行视频直播。欢迎参与学习。&lt;/i&gt;&lt;/p&gt;&lt;p&gt;在&lt;a data-title="这里" data-editable="true" href="http://vision.stanford.edu/teaching/cs231n/winter1516_assignment1.zip"&gt;这里&lt;/a&gt;下载斯坦福CS231N的课程作业。如果上述地址无法访问，也可以在QQ群（142961883）的群文件里下载。&lt;/p&gt;&lt;p&gt;解压缩后（比如根目标为CS231N），进入根目录，从这里启动python -m IPython notebook。在新打开的浏览器窗口中，点击knn.ipynb文件，打开一个新的窗口。回到先前的窗口，进入cs321n/classifiers目录，点击打开k_nearest_neighbor.py文件。我们的作业就在这两个文件里。&lt;/p&gt;&lt;p&gt;打开knn.ipynb，搜索“Inline question"，并在Your answer处作答。 &lt;/p&gt;&lt;p&gt;完成k_nearest_neighbor.py中几个标记为”pass“的代码段。当你完成代码后，保存，回到knn.ipynb，测试你的答案是否正确。&lt;/p&gt;&lt;p&gt;如果课程作业中遇到困难，可以在QQ群里进行提问，我们安排有人负责解答。&lt;/p&gt;</description><author>杨勇</author><pubDate>Wed, 15 Jun 2016 15:45:26 GMT</pubDate></item></channel></rss>
