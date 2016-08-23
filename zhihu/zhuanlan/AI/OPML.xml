@@ -38,6 +38,8 @@
   
     <outline type="rss" title="机器鼓励师手册" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/zhihu/zhuanlan/AI/Stark.xml" htmlUrl="https://zhuanlan.zhihu.com/Stark"/>
   
+    <outline type="rss" title="菜鸡的啄米日常" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/zhihu/zhuanlan/AI/chicken-life.xml" htmlUrl="https://zhuanlan.zhihu.com/chicken-life"/>
+  
   </outline>
  </body>
 </opml>

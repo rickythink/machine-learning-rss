@@ -37,7 +37,8 @@
     <outline type="rss" title="程序员山居笔记" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/zhihu/zhuanlan/AI/coding-future.xml" htmlUrl="https://zhuanlan.zhihu.com/coding-future"/>
 
     <outline type="rss" title="机器鼓励师手册" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/zhihu/zhuanlan/AI/Stark.xml" htmlUrl="https://zhuanlan.zhihu.com/Stark"/>
-  
+    
+    <outline type="rss" title="菜鸡的啄米日常" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/zhihu/zhuanlan/AI/chicken-life.xml" htmlUrl="https://zhuanlan.zhihu.com/chicken-life"/>
   </outline>
   <outline text="机器学习 - 知乎收藏夹">
   	<outline type="rss" title="机器学习 - Ricky的知乎收藏夹" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/zhihu/collection/AI/113183484.xml" htmlUrl="https://www.zhihu.com/collection/113183484"/>
