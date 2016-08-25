@@ -17,9 +17,7 @@
     <outline type="rss" title="炼丹实验室" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/zhihu/zhuanlan/AI/easyml.xml" htmlUrl="https://zhuanlan.zhihu.com/easyml"/>
   
     <outline type="rss" title="无痛的机器学习" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/zhihu/zhuanlan/AI/hsmyy.xml" htmlUrl="https://zhuanlan.zhihu.com/hsmyy"/>
-  
-    <outline type="rss" title="impress your cat" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/zhihu/zhuanlan/AI/impress-your-cat.xml" htmlUrl="https://zhuanlan.zhihu.com/impress-your-cat"/>
-  
+   
     <outline type="rss" title="机器学习笔记" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/zhihu/zhuanlan/AI/mlearn.xml" htmlUrl="https://zhuanlan.zhihu.com/mlearn"/>
   
     <outline type="rss" title="PaperWeekly" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/zhihu/zhuanlan/AI/paperweekly.xml" htmlUrl="https://zhuanlan.zhihu.com/paperweekly"/>
