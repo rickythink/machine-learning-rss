@@ -54,5 +54,9 @@
   <outline text="机器学习 - 微博">
     <outline type="rss" title="爱可可 - 爱生活" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/weibo/AI/aikeke.xml" htmlUrl="http://weibo.com/fly51fly"/>
   </outline>
+  <outline text="个人博客">
+    <outline type="rss" title="我爱机器学习" xmlUrl="https://www.52ml.net/feed" htmlUrl="https://www.52ml.net/"/>
+    <outline type="rss" title="我爱自然语言处理" xmlUrl="http://www.52nlp.cn/feed" htmlUrl="http://www.52nlp.cn/"/>
+  </outline>
  </body>
 </opml>
