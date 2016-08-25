@@ -49,6 +49,7 @@
     <outline type="rss" title="新智元" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/weixin/AI/xinzhiyuan.xml"/>
     <outline type="rss" title="CSDN大数据" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/weixin/AI/CSDN.xml"/>
     <outline type="rss" title="36大数据" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/weixin/AI/36dashuju.xml"/>
+    <outline type="rss" title="AlgorithmDog" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/weixin/AI/AlgorithmDog.xml"/>
   </outline>
   <outline text="机器学习 - 微博">
     <outline type="rss" title="爱可可 - 爱生活" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/weibo/AI/aikeke.xml" htmlUrl="http://weibo.com/fly51fly"/>
