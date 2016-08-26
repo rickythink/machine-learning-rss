@@ -44,6 +44,7 @@
     <outline type="rss" title="我爱计算机" xmlUrl="http://www.52cs.org/?feed=rss2" htmlUrl="http://www.52cs.org/"/>
     <outline type="rss" title="数盟社区" xmlUrl="http://dataunion.org/?feed=rss2" htmlUrl="http://dataunion.org"/>
     <outline type="rss" title="好定西论坛" xmlUrl="http://forum.memect.com/feed/" htmlUrl="http://forum.memect.com/"/>
+    <outline type="rss" title="谷歌研发博客" xmlUrl="http://feeds.feedburner.com/blogspot/gJZg/" htmlUrl="https://research.googleblog.com/"/>
   </outline>
  </body>
 </opml>
