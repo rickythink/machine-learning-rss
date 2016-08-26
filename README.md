@@ -75,4 +75,4 @@ https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/OPML.x
 ## 致谢
 
 感谢以上提到的博主积极的知识输出  
-本repo也会不断更新，欢迎发起pull request推荐更多的优质机器学习阅读资源
+本repo也会不断更新，欢迎推荐更多的优质机器学习阅读资源
