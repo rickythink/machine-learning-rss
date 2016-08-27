@@ -18,6 +18,17 @@
 				<link>http://sinacn.weibodangan.com/user/1402400261/?utm_source=rss</link>
 			</item>
 			<item>
+				<title><![CDATA[//@丕子://@唐杰THU: Jiawei Han很喜欢的一篇文章。同时也有源码，大家可以试试RT @ArnetMiner:｛每日一推｝推荐一篇SIGMOD 2015的paper，这篇讨论的问题还是一个老问题，说白了就是关键词抽取。http://t.cn/Rtkzfjv 源代码下载：http://t.cn/RLeG9uH 论文的目标是抽取出高质量的关键词，因为传统的基于词频的关键词抽取方法往往得到的效果很差，而且很难scale up到超大规模的数据集上。]]></title>
+				<description>
+<![CDATA[
+//<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/丕子/">@丕子</a>://<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/唐杰THU/">@唐杰THU</a>: Jiawei Han很喜欢的一篇文章。同时也有源码，大家可以试试  RT @<a herf="http://weibo.wbdacdn.com/user/1870858943">ArnetMiner</a>:｛每日一推｝推荐一篇SIGMOD 2015的paper，这篇讨论的问题还是一个老问题，说白了就是关键词抽取。<a class="href" href="http://t.cn/Rtkzfjv" rel="nofollow" target="_blank">http://t.cn/Rtkzfjv</a> 源代码下载：<a class="href" href="http://t.cn/RLeG9uH" rel="nofollow" target="_blank">http://t.cn/RLeG9uH</a> 论文的目标是抽取出高质量的关键词，因为传统的基于词频的关键词抽取方法往往得到的效果很差，而且很难scale up到超大规模的数据集上。<br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4013150683029511#utm_source=rsspic"  title="点击看大图"><img src="http://ww3.sinaimg.cn/large/6f830abfgw1f77z1tuhj2j20mj0g810j.jpg"></a><br/><br/>
+]]>
+</description>
+				<pubDate>Sat, 27 Aug 2016 18:19:06 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4013150683029511.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4013150683029511.html#utm_source=rss</link>
+			</item>
+			<item>
 				<title><![CDATA[//@唐杰THU:写了个KDD 2016的介绍文章，欢迎大家看看RT @ArnetMiner:我发表了头条文章:《KDD2016》 http://t.cn/Rtg3k47]]></title>
 				<description>
 <![CDATA[
@@ -1325,17 +1336,6 @@ ref:《ClusterViSu, a method for clustering of protein complexes by Voronoi tess
 				<pubDate>Fri, 26 Aug 2016 09:47:19 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4012659495623983.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4012659495623983.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[转发微博RT @我爱机器学习:《大牛讲堂》第一期－“自动驾驶系统中的目标检测技术” 1.山世光－基于深度学习的目标检测技术进展与展望 http://t.cn/RtgdB6T 邬书哲－物体检测算法的革新与传承http://t.cn/RtgdB6Y 3.黄畅－基于DenesBox的目标检测在自动驾驶中的应用 http://t.cn/RtgdB6H 干货满满的讲座。]]></title>
-				<description>
-<![CDATA[
-转发微博  RT @<a herf="http://weibo.wbdacdn.com/user/5066241201">我爱机器学习</a>:《大牛讲堂》第一期－“自动驾驶系统中的目标检测技术” 1.山世光－基于深度学习的目标检测技术进展与展望 <a class="href" href="http://t.cn/RtgdB6T" rel="nofollow" target="_blank">http://t.cn/RtgdB6T</a> 邬书哲－物体检测算法的革新与传承<a class="href" href="http://t.cn/RtgdB6Y" rel="nofollow" target="_blank">http://t.cn/RtgdB6Y</a> 3.黄畅－基于DenesBox的目标检测在自动驾驶中的应用 <a class="href" href="http://t.cn/RtgdB6H" rel="nofollow" target="_blank">http://t.cn/RtgdB6H</a> 干货满满的讲座。<br/><br/>
-]]>
-</description>
-				<pubDate>Fri, 26 Aug 2016 09:31:04 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4012655414844821.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4012655414844821.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
