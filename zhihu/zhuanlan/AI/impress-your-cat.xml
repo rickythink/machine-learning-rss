@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>impress your cat - 知乎专栏</title><link>https://zhuanlan.zhihu.com/impress-your-cat</link><description>Erlang, the Bananarama of languages, is a language out of Sweden that can be used to build web scale, asynchronous, non-blocking, sharded, event driven, message passing, NoSQL, reliable, highly available, high performance, real time, clusterable, bad ass, rock star, get the girls, get the boys, impress your mom, impress your cat applications.</description><lastBuildDate>Sat, 27 Aug 2016 10:16:14 GMT</lastBuildDate><generator>Ricky</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>强烈推荐untrusted</title><link>https://zhuanlan.zhihu.com/p/21636039</link><description>&lt;p&gt;&lt;a class="" href="http://alexnisnevich.github.io/untrusted/"&gt;http://alexnisnevich.github.io/untrusted/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;不是什么新东西。不要怪我老土。 &lt;/p&gt;&lt;p&gt;很多所谓的教你学编程的游戏都非常无趣，他们总是站在居高临下的角度以怎么教你学习一点比如程序语言的知识。而且这也没有多大意义。学会trial and error，比掌握一点可怜的知识重要多了。因为思路的限制，大部分都做成了几个bot打来打去这种形式。而像Robocode这种单纯的bot对战，入门就比较困难，比这更糟糕的是，之后更困难，你在会写一些基于简单规则的bot之后直接就不知所措了。 &lt;/p&gt;&lt;p&gt;untrusted的目标只是做一个好玩的复古的游戏，你使用规定的方式作弊才能进入下一关。我认为这很可能是未来大部分计算机游戏(不要与视频游戏混淆)的起点。同时，尽管他们在开发时并没有考虑什么教育意义，用这个untrusted来入门，比其他你在网上找到的什么东西都强。目标明确，让你自己想办法去作弊，而不是生硬的塞给你一点知识。毫无疑问，把这个玩通关，效果就要比比如萧井陌的2K培训强多了。顺便提一下另外一个用Python的类似的游戏 &lt;a href="https://schilcote.itch.io/injection"&gt;https://schilcote.itch.io/injection&lt;/a&gt;&lt;/p&gt;</description><author>bhuztez</author><pubDate>Mon, 18 Jul 2016 23:03:30 GMT</pubDate></item><item><title>函数式-21天入门教程</title><link>https://zhuanlan.zhihu.com/p/21601402</link><description>&lt;p&gt;老是有人问函数式要如何入门。我早就说过了，只要识字的人，函数式就已经入门了 。所以当然-21天就可以入门了。&lt;/p&gt;&lt;p&gt;在原始APL里，求平均数，通常的写法是&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;avg←{(+⌿⍵)÷≢⍵}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;而J，求平均数&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;avg =: +/ % #
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;J相对原始APL的一大改进就是我们不再需要使用⍺⍵&lt;/p&gt;&lt;p&gt;J使用了 [ 和 ] 这两个函数&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;x [ y = x
+x ] y = y
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这样用J使用纯函数风格组合新函数时，所有用到的都是函数，毕竟 [ ] 是真正普通函数，而⍺⍵并不是。&lt;/p&gt;&lt;p&gt;这对我们有何启发呢？我们平时是如何说平均数的&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;相加 除以 项数
++/   %   #
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;除了J是从右向左计算的，我们是从左往右计算的，写法上并没有本质区别。相对应/，加对应+。 Alan J. Perlis 早就说过了 Though the Chinese should adore APL, it's FORTRAN they put their money on。APL你对应不起来还情有可原。J这个都已经完全一样了，你要是还看不出来，那我不禁要问，你到底识不识字了。&lt;/p&gt;&lt;p&gt;我们用西方不识字的人搞出来的文字理论，当然会觉得有各种省略， 各种倒序，各种词性乱用。明明很自然的说法，用这狗屁理论解释不通，那自然是理论有问题。 &lt;/p&gt;&lt;p&gt;看看九章算术&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;合分术曰
+母互乘子并以为实
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;你非要因为母指的是分母，认为这个是名词。那当然解释不通了。因为我们的文字从两千多年前就是函数式的，你得把母当成一个函数，作用是取出分母，那就全都能解释通了。&lt;/p&gt;&lt;p&gt;用类似ML的风格，近似可以写成这样&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;let 合(x:[分,分]) =
+  ...
+  where
+    实 = 并(互(乘)((母 x), (子 x)))&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这就导致了一个问题，你的代码就没法朗读了。&lt;/p&gt;&lt;p&gt;所以说，函数式你早就已经入门了，掌握的还是更高级的形式。而不是Haskell里那种 (.) . (.) 。&lt;/p&gt;</description><author>bhuztez</author><pubDate>Fri, 15 Jul 2016 11:40:06 GMT</pubDate></item><item><title>21天学通Erlang Slack Team</title><link>https://zhuanlan.zhihu.com/p/20774580</link><description>&lt;p&gt;&lt;a data-title="slack.com 的页面" data-editable="true" href="https://erlang3437.slack.com/"&gt;https://erlang3437.slack.com/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;前两天试了一下，感觉还行，至少他还提供一个凑合的gateway支持IRC和XMPP。就去注册一个，结果Slack嫌我给的域名太长不让我注册。后来我想了一下就注册了这个域名。评论或者私信或者邮件告诉我你的邮箱，&lt;b&gt;我就赶紧把你加进去&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;第一章内容重新调整之后，现在路线是一上来，学了一点点Erlang之后，就直接用学的这些东西写一个能解释之前刚学的这部分Erlang的解释器。在自己实现调用栈之后，就加上send/recv这两个特殊函数，使得刚好功能和最原始的Erlang一致。毕竟在消息之前已经实现一些Erlang的功能了，实在没必要用Prolog再来一遍。因此，Prolog部分也可以简化，只保留比Datalog对应的过来多一点点的就够了，高级的operator功能都先无视了。这几天先会完成Prolog部分的代码。我想在6月底之前完成到Prolog那一节之前的内容，因为现在已经有PEG风格的parser了，所以主要就缺一个好的backtracking的例子了。这样一开始几个节的思路理顺了，接下来几个21天还会有很多内容出现，所以我去弄了个Slack Team方便大家吐槽。&lt;/p&gt;</description><author>bhuztez</author><pubDate>Tue, 19 Apr 2016 22:54:50 GMT</pubDate></item><item><title>第6/7/8/9个21天</title><link>https://zhuanlan.zhihu.com/p/20760395</link><description>&lt;p&gt;因为现在在最最基本的语法之后，直接就开始解释Erlang的AST了，而不是从括号语言那里取绕了。而之前的做法有个问题是，在Prolog之后才开始写parser，但是要解释Prolog就得先写个parser。现在既然已经在用AST了，那么引入parse_transform也不是什么问题。所以可以用一个简单的parse_transform把代码转换成PEG风格的parser。所以在能解释之前所有Erlang模块的AST之后，就开始写PEG parser。这样在Prolog前就有parser了，且在backtracking之前过渡更自然一点。&lt;/p&gt;&lt;p&gt;expression.erl 类似 Erlang Shell 里解释Erlang表达式的功能。比如 &lt;/p&gt;&lt;pre&gt;&lt;code lang="erlang"&gt;{ok,1,[{'X',1}]} = expression:eval_string("X.",[{'X',1}]).
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;function.erl 更进一步，能解释单个模块里的函数，比如&lt;/p&gt;&lt;pre&gt;&lt;code lang="erlang"&gt;function:test({module,"seq.erl"}).
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt; 相当于&lt;/p&gt;&lt;pre&gt;&lt;code lang="erlang"&gt;ok = seq:test().
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;只是所有seq里的函数是由function.erl来解释的。目前，运行seq.erl, board.erl, bindings.erl, expression.erl以及function.erl都没有问题。&lt;/p&gt;&lt;p&gt;最简单的parse_transform，实现的功能相当于&lt;/p&gt;&lt;pre&gt;&lt;code lang="erlang"&gt;-compile(export_all).
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;因为是parse_transform，所以得这么用&lt;/p&gt;&lt;pre&gt;&lt;code lang="erlang"&gt;-compile({parse_transform, export_all}).
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接下来就可以有PEG transform了。plain Erlang风格写个简单的parse整数的功能&lt;/p&gt;&lt;pre&gt;&lt;code lang="erlang"&gt;digit([H|T])
+  when H &amp;gt;= $0, H =&amp;lt; $9 -&amp;gt;
+    {ok, H - $0, T};
+digit(_S) -&amp;gt;
+    error.
+
+int(Acc, S) -&amp;gt;
+    case digit(S) of
+        {ok, N, S1} -&amp;gt;
+            Acc1 = Acc*10 + N,
+            case int(Acc1, S1) of
+                {ok, N1, S2} -&amp;gt;
+                    {ok, N1, S2};
+                error -&amp;gt;
+                    {ok, Acc1, S1}
+            end;
+        error -&amp;gt;
+            error
+    end.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;有了peg_transform之后，可以只关心能匹配的情况，不匹配的情况自动返回error。特别的int函数，第一个clause失败后会尝试第二个clause。&lt;/p&gt;&lt;pre&gt;&lt;code lang="erlang"&gt;-compile({parse_transform, peg_transform}).
+
+-rules([int/2, digit/1]).
+
+digit([H|T])
+  when H &amp;gt;= $0, H =&amp;lt; $9 -&amp;gt;
+    {ok, H - $0, T}.
+
+int(Acc, S) -&amp;gt; %%
+    {ok, N, S1} = digit(S), %%
+    int(Acc*10+N, S1);
+int(Acc, S) -&amp;gt;
+    {ok, N, S1} = digit(S),
+    {ok, Acc*10+N, S1}.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;失败包括两种情况，一种是clause的pattern不匹配，另一种不匹配是发生在类似这种地方&lt;/p&gt;&lt;pre&gt;&lt;code lang="erlang"&gt;{ok, Expr, Remain} = rule(...)&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;利用peg_transform，就可以写一个简单的parser，替换掉 parse_util:parse_expr/1&lt;/p&gt;&lt;p&gt;这些代码都已经在 &lt;a data-title="GitHub - xn--21Erlang-p00o82pmp3o/skeleton" data-editable="true" href="https://github.com/xn--21Erlang-p00o82pmp3o/skeleton"&gt;GitHub - xn--21Erlang-p00o82pmp3o/skeleton&lt;/a&gt; 里更新了。&lt;/p&gt;</description><author>bhuztez</author><pubDate>Sat, 16 Apr 2016 20:50:09 GMT</pubDate></item><item><title>欢迎投稿本专栏</title><link>https://zhuanlan.zhihu.com/p/20689218</link><description>&lt;p&gt;假如您看得上只有仅仅2K+粉丝的专栏，刚好又没有专栏。任何和编程或者形式证明相关的，特别是能和Erlang, APL(包括APL家族的A+, J, K等等), Metamath等扯上关系的，欢迎来稿。&lt;/p&gt;&lt;p&gt;根据知乎专栏的新玩法，在知乎允许的范围(我也懒得了解了)内，假如有幸收录您的一篇投稿，就会把您列为作者之一，也就是下一次就可以直接发了。 (不知道能不能抢文章，那样就好玩了) &lt;/p&gt;</description><author>bhuztez</author><pubDate>Wed, 30 Mar 2016 21:06:10 GMT</pubDate></item><item><title>向OJ提交编译出来的汇编代码2</title><link>https://zhuanlan.zhihu.com/p/20656358</link><description>&lt;p&gt;之前只是解决了是否可能的问题。真正要能用，还是要把代码长度控制在允许的范围内。 &lt;/p&gt;&lt;p&gt;一是需要压缩率更高的算法&lt;/p&gt;&lt;p&gt;&lt;a class="" data-title="如何提高写在C语言里的汇编代码的压缩率？ - 知乎用户的回答" data-editable="true" href="https://www.zhihu.com/question/39504416/answer/88728975"&gt;如何提高写在C语言里的汇编代码的压缩率？ - 知乎用户的回答&lt;/a&gt;&lt;/p&gt;&lt;p&gt;二是用gcc编译时，加上参数 -fwhole-program 而不是通常的 -flto &lt;/p&gt;&lt;p&gt;这样提交上去的代码长度不少就只有10K左右了。而算法库的源代码目前都已经接近50K了，无脑复制成一个文件已经没啥OJ会接受了。&lt;/p&gt;</description><author>bhuztez</author><pubDate>Fri, 18 Mar 2016 21:15:21 GMT</pubDate></item><item><title>Awesome Ancient Chinese Books</title><link>https://zhuanlan.zhihu.com/p/20627628</link><description>&lt;p&gt;&lt;a class="" data-title="GitHub - bhuztez/awesome-ancient-chinese-books: A curated list of awesome chinese books" data-editable="true" href="https://github.com/bhuztez/awesome-ancient-chinese-books"&gt;GitHub - bhuztez/awesome-ancient-chinese-books: A curated list of awesome chinese books&lt;/a&gt;&lt;/p&gt;&lt;p&gt;暂时没时间维护。先把坑挖开，&lt;b&gt;求支持&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;目标就是整理个目录，把网上能找到的古籍的地址按书名记录好，以便查阅。 &lt;/p&gt;&lt;p&gt;主要是为了以后开发中文编程语言时有据可循，而不是自己胡编乱造&lt;/p&gt;&lt;p&gt;就是这样&lt;/p&gt;</description><author>bhuztez</author><pubDate>Mon, 07 Mar 2016 20:21:45 GMT</pubDate></item><item><title>[黑魔法]Python模拟HTML表单提交</title><link>https://zhuanlan.zhihu.com/p/20612720</link><description>&lt;p&gt;application/x-www-form-urlencoded这种比较简单就不讨论了。&lt;/p&gt;&lt;p&gt;multipart/form-data就比较麻烦了。搜了一下结果发现要么是远古时期的，要么就是推荐requests。有必要这么麻烦么？Python明明自带MIME库了，为啥就没人推荐用标准库的方法？只能自己来了&lt;/p&gt;&lt;pre&gt;&lt;code lang="python"&gt;from urllib2 import Request
+from email.message import Message
+
+
+class Form(Message):
+
+    def __init__(self):
+        Message.__init__(self)
+        self.add_header('Content-Type', 'multipart/form-data')
+        self._payload = []
+
+    def _write_headers(self, _generator):
+        # DARK MAGIC followed
+        pass
+
+
+class Field(Message):
+
+    def __init__(self,name,text):
+        Message.__init__(self)
+        self.add_header('Content-Disposition','form-data',name=name)
+        self.set_payload(text,None)
+
+
+def make_request(url,form_data):
+    form = Form()
+
+    for name,value in form_data.iteritems():
+        form.attach(Field(name,str(value)))
+
+    data = form.as_string()
+    # THIS IS A SEPARATION BARRIER
+    # NEVER LET CODE MOVE ACROSS THIS
+    headers = {'Content-Type': form['Content-Type']}
+
+    return Request(url,data,headers)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt; 就是这样&lt;/p&gt;</description><author>bhuztez</author><pubDate>Tue, 01 Mar 2016 20:32:54 GMT</pubDate></item><item><title>barelibc问题修复及其他</title><link>https://zhuanlan.zhihu.com/p/20521163</link><description>&lt;p&gt;&lt;a data-title="bhuztez/barelibc" data-editable="true" href="https://github.com/bhuztez/barelibc"&gt;bhuztez/barelibc&lt;/a&gt;&lt;/p&gt;&lt;p&gt;在&lt;a class="" data-title="为什么链接时__libc_start_main和__syscall行为不同？ - bsdelf 的回答" data-editable="true" href="https://www.zhihu.com/question/39519315/answer/81747490"&gt;为什么链接时__libc_start_main和__syscall行为不同？ - bsdelf 的回答&lt;/a&gt;的启发下，我把 __syscall 挪到 crt1.o 里去了，免得被覆盖还不知道。&lt;/p&gt;&lt;p&gt;之前可能没提用barelibc也可以支持一部分C++了。注意编译的命令是 gcc 而不是 g++，不然会链接 libstdc++ ，就见鬼了。&lt;/p&gt;&lt;p&gt;--------------------------&lt;/p&gt;&lt;p&gt;正式开始在刷题的库。主要卖点是写完运行一行命令可以生成能提交到OJ的代码。在正式发布之前暂时不会公开源代码。假如你手上有很多现成优质代码捐赠给我，那果断加入吧。&lt;/p&gt;&lt;p&gt;没代码，你也可以来完善这个TODO list。目标是收集各种topic，可能出现的题型，以及每个题型一个例题。以便我的库能覆盖所有常见题型。&lt;/p&gt;&lt;p&gt;&lt;a class="" data-title="oj-solutions/TODO.md at master · bhuztez/oj-solutions · GitHub" data-editable="true" href="https://github.com/bhuztez/oj-solutions/blob/master/TODO.md"&gt;oj-solutions/TODO.md at master · bhuztez/oj-solutions · GitHub&lt;/a&gt;&lt;/p&gt;&lt;p&gt;欢迎Pull Request &lt;/p&gt;&lt;p&gt;--------------------------&lt;/p&gt;&lt;p&gt;另外，第6个21天的更新会和第7个21天一起发布&lt;/p&gt;</description><author>bhuztez</author><pubDate>Thu, 21 Jan 2016 22:45:21 GMT</pubDate></item><item><title>向OJ提交编译出来的汇编代码</title><link>https://zhuanlan.zhihu.com/p/20494114</link><description>&lt;p&gt; 比如 x.c 的内容如下&lt;/p&gt;&lt;pre&gt;&lt;code lang="c"&gt;asm("\t.globl main\n"
+"\t.type main,@function\n"
+"main:\n"
+"\tmovl $1,%eax\n"
+"\tret\n");
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;编译，运行，可以看到退出代码确实是1&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;$ gcc -o x x.c
+$ ./x
+$ echo $?
+1
+$
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;所以，理论上我们只需要把汇编代码，改写成C语言字符串就好了。&lt;/p&gt;&lt;p&gt;用 gcc -S -o- x.c 就能看到编译出来的汇编代码了&lt;/p&gt;&lt;p&gt;可是，发现在某些运行在Windows的OJ(用老版本的MinGW gcc)提交这些汇编代码时，会编译不过去，提示缺少 ___chkstk_ms ，假如关掉这个会导致程序出错。参考&lt;a class="" data-title="c++ - What is the purpose of the _chkstk() function?" data-editable="true" href="https://stackoverflow.com/questions/8400118/what-is-the-purpose-of-the-chkstk-function"&gt;c++ - What is the purpose of the _chkstk() function?&lt;/a&gt;&lt;/p&gt;&lt;p&gt;假设当前函数栈横跨 B - E ，假如直接跳过C页访问D页，就出错了&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;  A    B    C    D    E
++----+----+----+----+----
+|    |    |    |    |
++----+----+----+----+----
+       |         ^     |-&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;暂时的办法就是直接抄一份现在版本的代码进去，反正也不长&lt;/p&gt;&lt;p&gt;&lt;a class="" data-title="mingw-w64/dll_dependency.S at cf136d93e41ffff7f593230e20c5854a68322b5d · mirror/mingw-w64 · GitHub" data-editable="true" href="https://github.com/mirror/mingw-w64/blob/cf136d93e41ffff7f593230e20c5854a68322b5d/mingw-w64-libraries/winpthreads/src/libgcc/dll_dependency.S"&gt;mingw-w64/dll_dependency.S at cf136d93e41ffff7f593230e20c5854a68322b5d · mirror/mingw-w64 · GitHub&lt;/a&gt;&lt;/p&gt;&lt;p&gt;那C++怎么办？不同的libstdc++可能有不小的区别。需要关掉一些C++的功能，使得用gcc也能正常链接C++代码就没问题了。也就是使用以下命令编译&lt;/p&gt;&lt;pre&gt;&lt;code lang="text"&gt;gcc -fno-rtti -fno-exceptions
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;-----------------------------------------------------------------------&lt;/p&gt;&lt;p&gt;这样生成出来的汇编代码很长，尝试压缩。比如&lt;/p&gt;&lt;pre&gt;&lt;code lang="c"&gt;asm("...movl...")
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt; 可以替换成&lt;/p&gt;&lt;pre&gt;&lt;code lang="c"&gt;#define M "movl"
+asm("..."M"...")
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这么做的好处是不需要考虑escape什么的。 可是压缩率不太行，找了几个文件试了一下，仅仅在10%-15%之间。&lt;/p&gt;</description><author>bhuztez</author><pubDate>Tue, 12 Jan 2016 18:57:45 GMT</pubDate></item></channel></rss>
