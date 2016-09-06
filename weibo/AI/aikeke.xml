@@ -1,73 +1,254 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="zh-CN">
-<head>
-<script type="text/javascript">var _gaq =_gaq ||[];var pluginUrl ='http://www.google-analytics.com/plugins/ga/inpage_linkid.js';_gaq.push(['_require','inpage_linkid',pluginUrl]);_gaq.push(['_setAllowAnchor',true]);_gaq.push(['_setAccount','UA-32148013-1']);_gaq.push(['_trackPageview']);(function () {var ga =document.createElement('script');ga.type ='text/javascript';ga.async =true;ga.src =('https:' ==document.location.protocol ?'https://' :'http://') + 'stats.g.doubleclick.net/dc.js';var s =document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();var _hmt =_hmt ||[];(function () {var hm =document.createElement("script");hm.async =true;hm.src ="http://hm.baidu.com/hm.js?89a66370aa510fbbbd27e859e44a04a0";var s =document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s);})();function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage:'zh-CN',layout:google.translate.TranslateElement.InlineLayout.SIMPLE,multilanguagePage:true,gaTrack:true,gaId:'UA-32148013-1'
-},'google_translate_element');}
-static_url ="/static/";</script>
-<meta name="google-translate-customization" content="6b2c390c4e001c73-7b1f76fed90c6e29-g155eba901fc762b1-17"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-<meta name="renderer" content="webkit"/>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta name="keywords" content="麦小晴kimi,微博看看,新浪微博rss,rss"/>
-<meta name="description" content="这里有无数人微博看看，有明星，也有普通人，也有你。"/>
-<link rel="alternate" type="application/rss+xml" href="http://rss.weibodangan.com/weibo/rss/3229125510/"/>
-<link id="bootstrap" href="//openapi.baidu.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
-<link type="text/css" href="//wbdacdn.com/g=css" rel="stylesheet"/>
-<title>对不起，档案君正在用服务器下片，请去微博暴打档案君</title>
-</head>
-<body>
-<div id="google_translate_element"></div>
-<div id="header">
-<nav class="navbar2">
-<div class="navbar-collapse2">
-<ul class="nav2">
-<li class="hidden-xs"><a rel="nofollow" onclick="logout()"><span class="glyphicon glyphicon-off"></span>退出</a></li>
-<li class="hidden-xs"><a href="/category/"><span class="glyphicon glyphicon-th-list"></span>分类</a></li>
-<li class="hidden-xs"><a href="/mimi/">秘密</a></li>
-<li class="hidden-xs"><a href="/hot/">热门</a></li>
-<li><a href="/people/home/"><span class="glyphicon glyphicon-star"></span>收藏夹</a></li>
-<li class="hidden-xs"><a class="index" href="/"><span class="glyphicon glyphicon-home"></span>首页</a></li>
-<li class="pull-left sitename"><a class="index" href="/">微博看看</a></li>
-<li class="pull-left hidden-xs">
-<form class="form-search" action="/search/user/" id="global-nav-search">
-<input type="hidden" name="type" value="weibo">
-<input id="keywrod" class="search-input" type="text" id="search-query" placeholder="搜索微博" name="q" autocomplete="off" spellcheck="false" aria-autocomplete="list" aria-expanded="false" aria-owns="typeahead-dropdown-1">
-<span class="glyphicon glyphicon-search" tabindex="-1" onclick="search()">
-</span>
-</form>
-</li>
-</ul>
-</div>
-</nav>
-</div>
-<div id="user_status">
-<div class="description">
-<div class="status">
-<p>对不起，档案君正在用服务器下片，请去微博暴打档案君</p>
-<p><a href="http://service.weibo.com/share/share.php?type=button&language=zh_cn&appkey=381465235&searchPic=false&style=simple&url=&title=%40%E4%BD%A0%E7%9A%84%E6%A1%A3%E6%A1%88+%E6%A1%A3%E6%A1%88%E5%90%9B%EF%BC%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8C%82%E4%BA%86%EF%BC%8C%E5%88%AB%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8B%E7%89%87%E4%BA%86&pic=">点这里通知档案君</a> </p>
-<p>错误码502</p>
-</div>
-<div class="status weibo_ad" id="1340521675">
-<span class="status_word">
-<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5753713469153170" data-ad-slot="1340521675" data-ad-format="auto"></ins>
-<script>(adsbygoogle =window.adsbygoogle ||[]).push({});</script>
-</span>
-</div>
-</div>
-</div>
-<footer id="footer" class="footer">
-<div class="container">
-<p class="text-muted text-center">Copyright © 2012-2016 微博看看 <a class="href" rel="nofollow" data-url="http://ticket.weibodangan.com/ticket/add/">意见反馈</a>
-<a rel="nofollow" class="href visible-lg-block" data-url="http://www.miibeian.gov.cn">蜀ICP备14017334号-1</a>
-</p>
-</div>
-</footer>
-</div>
-</body>
-<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.11.3/jquery.min.js"></script>
-<script type="text/javascript" src="http://wbdacdn.com/g=js"></script>
-<script>$(document).ready(function () {tongji("502")
-});</script>
-</html>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0">
+	<channel>
+		<title>爱可可-爱生活 的微博rss</title>
+		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
+		<description>北邮网络搜索中心老师</description>
+		<language>zh-cn</language>
+		<lastBuildDate>Tue, 06 Sep 2016 14:41:06 +0800</lastBuildDate>
+		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[#转发赠书#《统计会犯错——如何避免数据分析中的统计陷阱》[美]Alex Reinhart 刘乐平 等译 “值得珍藏的小书……统计门外汉入门必读” “……将永远改变你对统计的看法” 转发即可参与，2016.9.10 12:00截止，抽5位赠书，感谢@人民邮电出版社 @瘦夫子 友情提供赠书，预售链接:http://t.cn/RcyxpfU]]></title>
+				<description>
+<![CDATA[
+#<a target="_blank"  rel="nofollow" href="http://so.weibodangan.com/cse/search?s=1026724581749658160&nsid=0&q=转发赠书">转发赠书</a>#《统计会犯错——如何避免数据分析中的统计陷阱》[美]Alex Reinhart 刘乐平 等译 “值得珍藏的小书……统计门外汉入门必读” “……将永远改变你对统计的看法” 转发即可参与，2016.9.10 12:00截止，抽5位赠书，感谢<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/人民邮电出版社/">@人民邮电出版社</a> <a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/瘦夫子/">@瘦夫子</a> 友情提供赠书，预售链接:<a class="href" href="http://t.cn/RcyxpfU" rel="nofollow" target="_blank">http://t.cn/RcyxpfU</a> 
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016719699675407#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f7jtz4swquj21kw1trdyj.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016719699675407#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f7ju68mts6j20c30icdih.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016719699675407#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f7jud3yy2oj21320ce432.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016719699675407#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f7ju7ssgmyj20co0oudik.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016719699675407#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f7ju07fudzj21kw2o0e81.jpg" >
+				</a>
+			 <br/><br/>
+]]>
+</description>
+				<pubDate>Tue, 06 Sep 2016 14:41:06 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4016719699675407.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4016719699675407.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[Owen Zhang的Kaggle参赛经验，Vowpal Wabbit、XGBoost、LibFFM、NN的调参经验很实用，值得认真体会RT @爱可可-爱生活:【幻灯:开源工具与数据科学竞赛】《Open Source Tools & DataScience Competitions》by Owen Zhang http://t.cn/R29PWww pdf:http://t.cn/R29PeLy]]></title>
+				<description>
+<![CDATA[
+Owen Zhang的Kaggle参赛经验，Vowpal Wabbit、XGBoost、LibFFM、NN的调参经验很实用，值得认真体会  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【幻灯:开源工具与数据科学竞赛】《Open Source Tools & DataScience Competitions》by Owen Zhang <a class="href" href="http://t.cn/R29PWww" rel="nofollow" target="_blank">http://t.cn/R29PWww</a> pdf:<a class="href" href="http://t.cn/R29PeLy" rel="nofollow" target="_blank">http://t.cn/R29PeLy</a><br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=3850479702231813#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1estiiuzth6j20hq0dbmy1.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=3850479702231813#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1estikp1yfkj20hq0dbmyf.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=3850479702231813#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1estikswn6wj20hq0dbmyg.jpg" >
+						</a>
+					<br/><br/>
+]]>
+</description>
+				<pubDate>Tue, 06 Sep 2016 14:40:44 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4016719607567273.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4016719607567273.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA["rewrite the matlab code of pcanet into c++" by 梁德澎 GitHub:http://t.cn/RcUroeuRT @爱可可-爱生活:【论文+Matlab代码: 用于图像分类的简化PCA深度网络PCANet】《PCANet: A simple deep learning baseline for image classification?》T.-H. Chan, K. Jia, S. Gao, J. Lu, Z. Zeng, and Y. Ma (2015) http://t.cn/R2qw6Ma 代码:http://t.cn/R2qw6M6 云:http://t.cn/R2qw6MS]]></title>
+				<description>
+<![CDATA[
+"rewrite the matlab code of pcanet into c++" by 梁德澎 GitHub:<a class="href" href="http://t.cn/RcUroeu" rel="nofollow" target="_blank">http://t.cn/RcUroeu</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【论文+Matlab代码: 用于图像分类的简化PCA深度网络PCANet】《PCANet: A simple deep learning baseline for image classification?》T.-H. Chan, K. Jia, S. Gao, J. Lu, Z. Zeng, and Y. Ma (2015) <a class="href" href="http://t.cn/R2qw6Ma" rel="nofollow" target="_blank">http://t.cn/R2qw6Ma</a> 代码:<a class="href" href="http://t.cn/R2qw6M6" rel="nofollow" target="_blank">http://t.cn/R2qw6M6</a> 云:<a class="href" href="http://t.cn/R2qw6MS" rel="nofollow" target="_blank">http://t.cn/R2qw6MS</a><br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=3845969181168766#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1esf4fjmvdcj20ej0f2diy.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=3845969181168766#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1esf4fss7erj20s109a0vb.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=3845969181168766#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1esf4g3v6tfj20ei0eead1.jpg" >
+						</a>
+					<br/><br/>
+]]>
+</description>
+				<pubDate>Tue, 06 Sep 2016 14:04:48 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4016710564178822.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4016710564178822.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA['Benchmarking nearest neighbors - Benchmarks of approximate nearest neighbor libraries in Python' by Erik Bernhardsson GitHub: http://t.cn/R2OJj8P]]></title>
+				<description>
+<![CDATA[
+'Benchmarking nearest neighbors - Benchmarks of approximate nearest neighbor libraries in Python' by Erik Bernhardsson GitHub: <a class="href" href="http://t.cn/R2OJj8P" rel="nofollow" target="_blank">http://t.cn/R2OJj8P</a> 
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016699931426091#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f7jso5zp9sj20mg0i2n0w.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016699931426091#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f7jspkkemrj21fj51ge81.jpg" >
+				</a>
+			 <br/><br/>
+]]>
+</description>
+				<pubDate>Tue, 06 Sep 2016 13:22:34 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4016699931426091.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4016699931426091.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA['TGen - A statistical natural language generator for spoken dialogue systems'  GitHub: http://t.cn/RteNmQP]]></title>
+				<description>
+<![CDATA[
+'TGen - A statistical natural language generator for spoken dialogue systems'  GitHub: <a class="href" href="http://t.cn/RteNmQP" rel="nofollow" target="_blank">http://t.cn/RteNmQP</a> <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4016697662616685#utm_source=rsspic" title="点击看大图"><img src="http://ww2.sinaimg.cn/large/5396ee05jw1f7jsgo1y2kj21fd31ub25.jpg" ></a> <br/><br/>
+]]>
+</description>
+				<pubDate>Tue, 06 Sep 2016 13:13:32 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4016697662616685.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4016697662616685.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[《在NLP上，CNN、RNN（认为LSTM等变体也是RNN）、最简单全连结MLP，三者相比，各有何优劣? - 知乎》 http://t.cn/RcURI9v]]></title>
+				<description>
+<![CDATA[
+《在NLP上，CNN、RNN（认为LSTM等变体也是RNN）、最简单全连结MLP，三者相比，各有何优劣? - 知乎》 <a class="href" href="http://t.cn/RcURI9v" rel="nofollow" target="_blank">http://t.cn/RcURI9v</a>  <br/><br/>
+]]>
+</description>
+				<pubDate>Tue, 06 Sep 2016 13:04:52 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4016695481306081.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4016695481306081.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[【C/C++性能优化资源大列表】’AwesomePerfCpp - A curated list of awesome C/C++ performance optimization resources: talks, articles, books, libraries, tools, sites, blogs. Inspired by awesome.' by Bartłomiej Filipek GitHub: http://t.cn/RcURqCI]]></title>
+				<description>
+<![CDATA[
+【C/C++性能优化资源大列表】’AwesomePerfCpp - A curated list of awesome C/C++ performance optimization resources: talks, articles, books, libraries, tools, sites, blogs. Inspired by awesome.' by Bartłomiej Filipek GitHub: <a class="href" href="http://t.cn/RcURqCI" rel="nofollow" target="_blank">http://t.cn/RcURqCI</a> <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4016695133117837#utm_source=rsspic" title="点击看大图"><img src="http://ww2.sinaimg.cn/large/5396ee05jw1f7js63r1t8j21en4fbkjl.jpg" ></a> <br/><br/>
+]]>
+</description>
+				<pubDate>Tue, 06 Sep 2016 13:03:30 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4016695133117837.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4016695133117837.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[《如何用简单易懂的例子解释条件随机场（CRF）模型？它和HMM有什么区别？ - 知乎》 http://t.cn/RcU8Yxz]]></title>
+				<description>
+<![CDATA[
+《如何用简单易懂的例子解释条件随机场（CRF）模型？它和HMM有什么区别？ - 知乎》 <a class="href" href="http://t.cn/RcU8Yxz" rel="nofollow" target="_blank">http://t.cn/RcU8Yxz</a> 
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016693116064095#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f7jrxz67dfj21800m2tew.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016693116064095#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f7jrxz0sdqj20lb06imxv.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016693116064095#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f7jrxz5u9dj206y04t3yg.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016693116064095#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f7jrxzd54zj20go0b5gmc.jpg" >
+				</a>
+			 <br/><br/>
+]]>
+</description>
+				<pubDate>Tue, 06 Sep 2016 12:55:28 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4016693116064095.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4016693116064095.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[《主成分分析PCA算法：为什么去均值以后的高维矩阵乘以其协方差矩阵的特征向量矩阵就是“投影”？ - 知乎》 http://t.cn/RcU8X5S]]></title>
+				<description>
+<![CDATA[
+《主成分分析PCA算法：为什么去均值以后的高维矩阵乘以其协方差矩阵的特征向量矩阵就是“投影”？ - 知乎》 <a class="href" href="http://t.cn/RcU8X5S" rel="nofollow" target="_blank">http://t.cn/RcU8X5S</a> 
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016692361377200#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f7jruugwtpj20fm0dj0ti.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016692361377200#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f7jruuqkwaj20fg091q3u.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016692361377200#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f7jruuss2qj20go0653z1.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016692361377200#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f7jruuswfoj20go05g3yz.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016692361377200#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f7jruunaz2j20go0a575w.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016692361377200#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f7jruul2atj20f409lac2.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016692361377200#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f7jruuxat6j20dd0ctjtl.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016692361377200#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f7jruuptbrj20h105p3zb.jpg" >
+				</a>
+			 <br/><br/>
+]]>
+</description>
+				<pubDate>Tue, 06 Sep 2016 12:52:28 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4016692361377200.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4016692361377200.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[《离散数学/图论应用在数学/CS以外学科的例子? - 知乎》 http://t.cn/RcU8b1Z]]></title>
+				<description>
+<![CDATA[
+《离散数学/图论应用在数学/CS以外学科的例子? - 知乎》 <a class="href" href="http://t.cn/RcU8b1Z" rel="nofollow" target="_blank">http://t.cn/RcU8b1Z</a> 
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016691442913876#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f7jrr2dmsej20go04q41u.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016691442913876#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f7jrr297h3j205004bmx2.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4016691442913876#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f7jrr2ijebj206y04dglt.jpg" >
+				</a>
+			 <br/><br/>
+]]>
+</description>
+				<pubDate>Tue, 06 Sep 2016 12:48:49 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4016691442913876.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4016691442913876.html#utm_source=rss</link>
+			</item>
+</channel>
+</rss><!--net-->
