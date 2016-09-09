@@ -3,7 +3,7 @@
 
 深度增强学习领域论文和项目的原创思考和Demo复现。
 
-领域内其他感兴趣论文和项目的原创思考解读。</description><lastBuildDate>Fri, 09 Sep 2016 19:15:10 GMT</lastBuildDate><generator>Ricky</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>关于图像语义分割的总结和感悟</title><link>https://zhuanlan.zhihu.com/p/22308032</link><description>&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic2.zhimg.com/cb5e078e5008907cb04b300369b7d621_r.jpg"&gt;&lt;/p&gt;&lt;h2&gt;前言 &lt;/h2&gt;&lt;p&gt;
+领域内其他感兴趣论文和项目的原创思考解读。</description><lastBuildDate>Fri, 09 Sep 2016 20:15:11 GMT</lastBuildDate><generator>Ricky</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>关于图像语义分割的总结和感悟</title><link>https://zhuanlan.zhihu.com/p/22308032</link><description>&lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic2.zhimg.com/cb5e078e5008907cb04b300369b7d621_r.jpg"&gt;&lt;/p&gt;&lt;h2&gt;前言 &lt;/h2&gt;&lt;p&gt;
 (呕血制作啊！)前几天刚好做了个图像语义分割的汇报，把最近看的论文和一些想法讲了一下。所以今天就把它总结成文章啦，方便大家一起讨论讨论。本文只是展示了一些比较经典和自己觉得比较不错的结构，毕竟这方面还是有挺多的结构方法了。&lt;/p&gt;&lt;h2&gt;介绍 &lt;/h2&gt;&lt;blockquote&gt;&lt;b&gt;图像语义分割&lt;/b&gt;，简单而言就是给定一张图片，对图片上的每一个像素点分类&lt;/blockquote&gt;
 
 从图像上来看，就是我们需要将实际的场景图分割成下面的分割图： &lt;p&gt;&lt;img rel="noreferrer" src="https://images.weserv.nl/?url=ssl:pic1.zhimg.com/cb5e078e5008907cb04b300369b7d621.jpg" data-rawwidth="738" data-rawheight="472"&gt;不同颜色代表不同类别。
