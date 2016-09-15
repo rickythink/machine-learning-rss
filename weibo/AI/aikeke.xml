@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Thu, 15 Sep 2016 08:04:25 +0800</lastBuildDate>
+		<lastBuildDate>Thu, 15 Sep 2016 09:08:01 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[【CNN原理讲解(视频)】《How an algorithm behind Deep Learning works》by David Smith http://t.cn/Rc6uBBc Youku:http://t.cn/Rc6uBBV]]></title>
+				<description>
+<![CDATA[
+【CNN原理讲解(视频)】《How an algorithm behind Deep Learning works》by David Smith <a class="href" href="http://t.cn/Rc6uBBc" rel="nofollow" target="_blank">http://t.cn/Rc6uBBc</a> Youku:<a class="href" href="http://t.cn/Rc6uBBV" rel="nofollow" target="_blank">http://t.cn/Rc6uBBV</a> <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4019897366992449#utm_source=rsspic" title="点击看大图"><img src="http://ww1.sinaimg.cn/large/5396ee05jw1f7tzx9hzgvj20rq0fm77t.jpg" ></a> <br/><br/>
+]]>
+</description>
+				<pubDate>Thu, 15 Sep 2016 09:08:01 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4019897366992449.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4019897366992449.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[转发微博RT @hankcs:【序列标注模型算法比较】偶然浏览到一篇挺有实际参考价值的论文Nguyen and Guo(2007)。该文比较了一些模型和算法在词性标注和OCR任务上的性能，包括HMM、CRF、AP、Structured SVM、M3N、SEARN算法以及SLE算法，对算法选型很有指导意义…http://t.cn/Rc6QvXB]]></title>
 				<description>
@@ -256,42 +267,6 @@
 				<pubDate>Thu, 15 Sep 2016 07:00:53 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4019865372608129.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4019865372608129.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《Character-Level Language Modeling with Hierarchical Recurrent Neural Networks》K Hwang, W Sung [Seoul National University] (2016) http://t.cn/Rci7A1F]]></title>
-				<description>
-<![CDATA[
-《Character-Level Language Modeling with Hierarchical Recurrent Neural Networks》K Hwang, W Sung [Seoul National University] (2016) <a class="href" href="http://t.cn/Rci7A1F" rel="nofollow" target="_blank">http://t.cn/Rci7A1F</a> 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4019860684041480#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f7tvpbfzx5j211k0ko1ch.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4019860684041480#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f7tvphm8naj20r80e2mz1.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4019860684041480#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f7tvprudkhj217012qala.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4019860684041480#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f7tvpyzintj20x60mu7eo.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4019860684041480#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f7tvqd6i31j21ak0iq7or.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Thu, 15 Sep 2016 06:42:15 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4019860684041480.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4019860684041480.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
