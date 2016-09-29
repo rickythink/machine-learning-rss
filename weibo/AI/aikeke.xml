@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Thu, 29 Sep 2016 15:37:05 +0800</lastBuildDate>
+		<lastBuildDate>Thu, 29 Sep 2016 17:57:44 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[转发微博RT @昊奋:CCKS2016全国知识图谱大会工业论坛干货放出，http://t.cn/RcrIeV7]]></title>
+				<description>
+<![CDATA[
+转发微博  RT @<a herf="http://weibo.wbdacdn.com/user/2045933955">昊奋</a>:CCKS2016全国知识图谱大会工业论坛干货放出，<a class="href" href="http://t.cn/RcrIeV7" rel="nofollow" target="_blank">http://t.cn/RcrIeV7</a><br/><br/>
+]]>
+</description>
+				<pubDate>Thu, 29 Sep 2016 17:57:44 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4025104109170971.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4025104109170971.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[【目前阻碍深度学习系统性能提高的瓶颈在哪里】《What are the major bottlenecks in making deep learning systems more effective (as of 2016)? - Quora》 http://t.cn/RcrtmpJ]]></title>
 				<description>
@@ -243,17 +254,6 @@ Part 8: Improving the Model <a class="href" href="http://t.cn/RcrbTgv" rel="nofo
 				<pubDate>Thu, 29 Sep 2016 14:27:56 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4025051306862068.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4025051306862068.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA["scikit-learn机器学习库中文文档翻译项目"RT @勇敢的程序猿:搞了一个http://t.cn/RtRO4EH中文翻译项目，这几天翻译的人多了起来，说明还是有用的，有兴趣的都可以加入呀😄 http://t.cn/z82Keu0]]></title>
-				<description>
-<![CDATA[
-"scikit-learn机器学习库中文文档翻译项目"  RT @<a herf="http://weibo.wbdacdn.com/user/2286526884">勇敢的程序猿</a>:搞了一个<a class="href" href="http://t.cn/RtRO4EH" rel="nofollow" target="_blank">http://t.cn/RtRO4EH</a>中文翻译项目，这几天翻译的人多了起来，说明还是有用的，有兴趣的都可以加入呀😄 <a class="href" href="http://t.cn/z82Keu0" rel="nofollow" target="_blank">http://t.cn/z82Keu0</a><br/><br/>
-]]>
-</description>
-				<pubDate>Thu, 29 Sep 2016 14:17:23 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4025048655773903.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4025048655773903.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
