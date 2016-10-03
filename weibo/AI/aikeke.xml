@@ -4,8 +4,41 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Mon, 03 Oct 2016 09:59:46 +0800</lastBuildDate>
+		<lastBuildDate>Mon, 03 Oct 2016 15:16:28 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[“The amount of human brainpower on the planet is actually increasing exponentially as well, but with a very, very, very small exponent. It’s very slow growth rate compared to the data growth rate.” -Yann LeCun( http://t.cn/RcsiA3Q )]]></title>
+				<description>
+<![CDATA[
+“The amount of human brainpower on the planet is actually increasing exponentially as well, but with a very, very, very small exponent. It’s very slow growth rate compared to the data growth rate.” -Yann LeCun( <a class="href" href="http://t.cn/RcsiA3Q" rel="nofollow" target="_blank">http://t.cn/RcsiA3Q</a> )  <br/><br/>
+]]>
+</description>
+				<pubDate>Mon, 03 Oct 2016 15:16:28 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4026513071972762.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4026513071972762.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[数据垄断远比工具垄断威胁大得多，就像我们从来不必担心Python或JS统治世界一样，谁拥有独特、全面的数据，谁才是真正的王RT @龙星镖局:转自圈子里的消息：@余凯_西二旗民工 对TF要一统江山的野心表示担忧，并鼓励大家使用更开放的机器学习平台，如MXNet，Caffe等。]]></title>
+				<description>
+<![CDATA[
+数据垄断远比工具垄断威胁大得多，就像我们从来不必担心Python或JS统治世界一样，谁拥有独特、全面的数据，谁才是真正的王  RT @<a herf="http://weibo.wbdacdn.com/user/1830516311">龙星镖局</a>:转自圈子里的消息：<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/余凯_西二旗民工/">@余凯_西二旗民工</a> 对TF要一统江山的野心表示担忧，并鼓励大家使用更开放的机器学习平台，如MXNet，Caffe等。<br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4026508080820553#utm_source=rsspic"  title="点击看大图"><img src="http://ww1.sinaimg.cn/large/6d1b7657gw1f8eextxuunj20k00k0af2.jpg"></a><br/><br/>
+]]>
+</description>
+				<pubDate>Mon, 03 Oct 2016 14:56:38 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4026508080820553.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4026508080820553.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[《机器学习初学者最常见的5个错误：你该怎么避开它们？》via:@机器之心synced http://t.cn/Rcsb6DsRT @爱可可-爱生活:【机器学习初学者常踩的那些“坑”】《How Beginners Get It Wrong In Machine Learning | Machine Learning Mastery》by Jason Brownlee http://t.cn/RcFg5kn]]></title>
+				<description>
+<![CDATA[
+《机器学习初学者最常见的5个错误：你该怎么避开它们？》via:<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/机器之心synced/">@机器之心synced</a> <a class="href" href="http://t.cn/Rcsb6Ds" rel="nofollow" target="_blank">http://t.cn/Rcsb6Ds</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【机器学习初学者常踩的那些“坑”】《How Beginners Get It Wrong In Machine Learning | Machine Learning Mastery》by Jason Brownlee <a class="href" href="http://t.cn/RcFg5kn" rel="nofollow" target="_blank">http://t.cn/RcFg5kn</a><br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4026502103878236#utm_source=rsspic"  title="点击看大图"><img src="http://ww3.sinaimg.cn/large/5396ee05jw1f8eq63h8z5j20zl9bhhdu.jpg"></a><br/><br/>
+]]>
+</description>
+				<pubDate>Mon, 03 Oct 2016 14:32:53 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4026502103878236.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4026502103878236.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[【Python数据可视化世界漫游】《A Dramatic Tour through Python’s Data Visualization Landscape (including ggplot and Altair)》by Dan Saber http://t.cn/Rcs7bzn]]></title>
 				<description>
@@ -192,39 +225,6 @@
 				<pubDate>Mon, 03 Oct 2016 07:44:26 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4026399314180784.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4026399314180784.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【Nvidia无人驾驶论文实现(TensorFlow)】’Nvidia-Autopilot-TensorFlow - A TensorFlow implementation of Nvidia paper: 《End to End Learning for Self-Driving Cars》 with some changes' by Sully Chen GitHub: http://t.cn/RckfK8A ref:http://weibo.com/1402400261/DtWonsUok]]></title>
-				<description>
-<![CDATA[
-【Nvidia无人驾驶论文实现(TensorFlow)】’Nvidia-Autopilot-TensorFlow - A TensorFlow implementation of Nvidia paper: 《End to End Learning for Self-Driving Cars》 with some changes' by Sully Chen GitHub: <a class="href" href="http://t.cn/RckfK8A" rel="nofollow" target="_blank">http://t.cn/RckfK8A</a> ref:http://weibo.com/1402400261/DtWonsUok <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4026397066340891#utm_source=rsspic" title="点击看大图"><img src="http://ww3.sinaimg.cn/large/5396ee05jw1f8eqei6sm8j20vg0jon0a.jpg" ></a> <br/><br/>
-]]>
-</description>
-				<pubDate>Mon, 03 Oct 2016 07:35:29 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4026397066340891.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4026397066340891.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【《神经网络与深度学习》读后感】《Reading Michael Nielsen’s “Neural Networks and Deep Learning”》by Grand Janitor http://t.cn/RcFgKiT]]></title>
-				<description>
-<![CDATA[
-【《神经网络与深度学习》读后感】《Reading Michael Nielsen’s “Neural Networks and Deep Learning”》by Grand Janitor <a class="href" href="http://t.cn/RcFgKiT" rel="nofollow" target="_blank">http://t.cn/RcFgKiT</a> <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4026395992560443#utm_source=rsspic" title="点击看大图"><img src="http://ww4.sinaimg.cn/large/5396ee05jw1f8eqavlp34j20r37rqnpe.jpg" ></a> <br/><br/>
-]]>
-</description>
-				<pubDate>Mon, 03 Oct 2016 07:31:14 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4026395992560443.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4026395992560443.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【机器学习初学者常踩的那些“坑”】《How Beginners Get It Wrong In Machine Learning | Machine Learning Mastery》by Jason Brownlee http://t.cn/RcFg5kn]]></title>
-				<description>
-<![CDATA[
-【机器学习初学者常踩的那些“坑”】《How Beginners Get It Wrong In Machine Learning | Machine Learning Mastery》by Jason Brownlee <a class="href" href="http://t.cn/RcFg5kn" rel="nofollow" target="_blank">http://t.cn/RcFg5kn</a> <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4026394839314617#utm_source=rsspic" title="点击看大图"><img src="http://ww3.sinaimg.cn/large/5396ee05jw1f8eq63h8z5j20zl9bhhdu.jpg" ></a> <br/><br/>
-]]>
-</description>
-				<pubDate>Mon, 03 Oct 2016 07:26:39 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4026394839314617.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4026394839314617.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
