@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Thu, 06 Oct 2016 14:47:51 +0800</lastBuildDate>
+		<lastBuildDate>Thu, 06 Oct 2016 17:04:25 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA["Various NLP methods (in python) to perform sentiment analysis"RT @G_Auss:使用MXNet复现字符级卷积网络在DBPedia和Amazon Review上的结果 http://t.cn/RVzIuvy]]></title>
+				<description>
+<![CDATA[
+"Various NLP methods (in python) to perform sentiment analysis"  RT @<a herf="http://weibo.wbdacdn.com/user/1681372824">G_Auss</a>:使用MXNet复现字符级卷积网络在DBPedia和Amazon Review上的结果 <a class="href" href="http://t.cn/RVzIuvy" rel="nofollow" target="_blank">http://t.cn/RVzIuvy</a><br/><br/>
+]]>
+</description>
+				<pubDate>Thu, 06 Oct 2016 17:04:25 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4027627402074940.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4027627402074940.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[Notes by Adrian Colyer http://t.cn/RVzCrxVRT @爱可可-爱生活:《Why does deep and cheap learning work so well?》H W. Lin, M Tegmark [Harvard & MIT] (2016) http://t.cn/Rc7uHqp]]></title>
 				<description>
@@ -246,17 +257,6 @@ Notes by Adrian Colyer <a class="href" href="http://t.cn/RVzCrxV" rel="nofollow"
 				<pubDate>Thu, 06 Oct 2016 09:37:44 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4027514994959679.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4027514994959679.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《纯CS（machine learning) 背景转quant 需要学习些什么？ - 知乎》 http://t.cn/RVz4HCQ]]></title>
-				<description>
-<![CDATA[
-《纯CS（machine learning) 背景转quant 需要学习些什么？ - 知乎》 <a class="href" href="http://t.cn/RVz4HCQ" rel="nofollow" target="_blank">http://t.cn/RVz4HCQ</a>  <br/><br/>
-]]>
-</description>
-				<pubDate>Thu, 06 Oct 2016 09:35:09 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4027514340395655.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4027514340395655.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
