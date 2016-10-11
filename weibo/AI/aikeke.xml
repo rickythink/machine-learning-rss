@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Tue, 11 Oct 2016 14:52:28 +0800</lastBuildDate>
+		<lastBuildDate>Tue, 11 Oct 2016 17:01:41 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[转发微博RT @万小军PKU:本组推出文档自动摘要小工具PKUSUMSUM，集成多种无监督摘要提取算法，支持多种摘要任务与多种语言，采用Java编写，代码完全开源，欢迎批评指正，也欢迎同行一起完善该工具，具体介绍和下载地址为http://t.cn/RVbBwVJ]]></title>
+				<description>
+<![CDATA[
+转发微博  RT @<a herf="http://weibo.wbdacdn.com/user/1916416185">万小军PKU</a>:本组推出文档自动摘要小工具PKUSUMSUM，集成多种无监督摘要提取算法，支持多种摘要任务与多种语言，采用Java编写，代码完全开源，欢迎批评指正，也欢迎同行一起完善该工具，具体介绍和下载地址为<a class="href" href="http://t.cn/RVbBwVJ" rel="nofollow" target="_blank">http://t.cn/RVbBwVJ</a><br/><br/>
+]]>
+</description>
+				<pubDate>Tue, 11 Oct 2016 17:01:41 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4029438658311692.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4029438658311692.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA["2nd ImageNet and COCO Visual Recognition Challenges Joint Workshop"RT @星空下的巫师:今年ImageNet和COCO联合Workshop上的Slides已经初步公布了，官网地址：http://t.cn/R5cEJuI，我们的slide也在，欢迎关注。#ECCV2016#  http://t.cn/z8UXNku]]></title>
 				<description>
@@ -208,37 +219,6 @@
 				<pubDate>Tue, 11 Oct 2016 13:46:50 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4029389613602417.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4029389613602417.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【Python梯度下降实践】《Gradient descent with Python | PyImageSearch》by Adrian Rosebrock http://t.cn/RVbuOQs]]></title>
-				<description>
-<![CDATA[
-【Python梯度下降实践】《Gradient descent with Python | PyImageSearch》by Adrian Rosebrock <a class="href" href="http://t.cn/RVbuOQs" rel="nofollow" target="_blank">http://t.cn/RVbuOQs</a> 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4029389471717130#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f8oa1umluxj20go072gmb.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4029389471717130#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f8oa1vqas8j2046046a9v.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4029389471717130#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f8oa23ahp2j20b408cq3e.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4029389471717130#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f8oa3jaqrcj210tjkohdy.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Tue, 11 Oct 2016 13:46:15 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4029389471717130.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4029389471717130.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
