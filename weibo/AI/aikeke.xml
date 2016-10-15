@@ -4,8 +4,145 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Sat, 15 Oct 2016 09:58:34 +0800</lastBuildDate>
+		<lastBuildDate>Sat, 15 Oct 2016 16:11:43 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[符合文本特性的摘要(词/句/片段)做Hash确实比SimHash更有效，SimHash对字符的一致对待不是很适合文本排重；挑选依据可以是词性(词)、TextRank/词加权(句)等 //@推酷网: 我们是两层过滤，一层是找出文本中最可能代表文本特征的几句话做签名做匹配，和simhash有些类似……RT @Easy:大家做海量文章排重的时候，都是怎么搞的啊？我们用 sim-hash 发现重复率挺高的…打算再加上标题的编辑距离确认一遍。 有更好的解决方案么。[可怜]]]></title>
+				<description>
+<![CDATA[
+符合文本特性的摘要(词/句/片段)做Hash确实比SimHash更有效，SimHash对字符的一致对待不是很适合文本排重；挑选依据可以是词性(词)、TextRank/词加权(句)等 //<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/推酷网/">@推酷网</a>: 我们是两层过滤，一层是找出文本中最可能代表文本特征的几句话做签名做匹配，和simhash有些类似……  RT @<a herf="http://weibo.wbdacdn.com/user/1088413295">Easy</a>:大家做海量文章排重的时候，都是怎么搞的啊？我们用 sim-hash 发现重复率挺高的…打算再加上标题的编辑距离确认一遍。 有更好的解决方案么。<img src="http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/af/kl_org.gif" title="[可怜]"/><br/><br/>
+]]>
+</description>
+				<pubDate>Sat, 15 Oct 2016 16:11:43 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030875630540644.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4030875630540644.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[Torch Implementation by harryyang.hk GitHub:http://t.cn/RVMZlLrRT @爱可可-爱生活:《Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network》C Ledig, L Theis, F Huszar, J Caballero, A Aitken, A Tejani, J Totz, Z Wang, W Shi [Twitter] (2016) http://t.cn/Rco2RgI]]></title>
+				<description>
+<![CDATA[
+Torch Implementation by harryyang.hk GitHub:<a class="href" href="http://t.cn/RVMZlLr" rel="nofollow" target="_blank">http://t.cn/RVMZlLr</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:《Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network》C Ledig, L Theis, F Huszar, J Caballero, A Aitken, A Tejani, J Totz, Z Wang, W Shi [Twitter] (2016) <a class="href" href="http://t.cn/Rco2RgI" rel="nofollow" target="_blank">http://t.cn/Rco2RgI</a><br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020593852090659#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f7w7u4ejfvj20rs16a1kx.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020593852090659#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f7w7ub7gclj20ru0ieak3.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020593852090659#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f7w7um1wo9j21kw0rp4kn.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020593852090659#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f7w7utkibrj20t60tkn9w.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020593852090659#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f7w7v0d2ctj21ke0vkaqf.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020593852090659#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f7w7vej03gj21k40v0qtd.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020593852090659#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f7w7vwwmuoj213218unlv.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020593852090659#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f7w7vi98vxj20rk0gitj0.jpg" >
+						</a>
+					<br/><br/>
+]]>
+</description>
+				<pubDate>Sat, 15 Oct 2016 15:53:40 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030871088208013.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4030871088208013.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[【用Hyperopt/Sacred高效完成优化】《Effectively running thousands of experiments: Hyperopt with Sacred》by Anna B http://t.cn/RVMZMjt]]></title>
+				<description>
+<![CDATA[
+【用Hyperopt/Sacred高效完成优化】《Effectively running thousands of experiments: Hyperopt with Sacred》by Anna B <a class="href" href="http://t.cn/RVMZMjt" rel="nofollow" target="_blank">http://t.cn/RVMZMjt</a> 
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030869858968163#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f8t03t7ejij218g0k4ag6.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030869858968163#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f8t03yk5t5j20go0dwq3g.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030869858968163#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f8t03n7f6yj214ze2lkjo.jpg" >
+				</a>
+			 <br/><br/>
+]]>
+</description>
+				<pubDate>Sat, 15 Oct 2016 15:48:47 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030869858968163.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4030869858968163.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[【高性能Neural Style Transfer的Tensorflow实现(Nvidia Titan X/1200x630/0.05s)】’Feed-forward neural network for real-time artistic style transfer' by Junru Shao GitHub: http://t.cn/RVMzc2p]]></title>
+				<description>
+<![CDATA[
+【高性能Neural Style Transfer的Tensorflow实现(Nvidia Titan X/1200x630/0.05s)】’Feed-forward neural network for real-time artistic style transfer' by Junru Shao GitHub: <a class="href" href="http://t.cn/RVMzc2p" rel="nofollow" target="_blank">http://t.cn/RVMzc2p</a> <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4030867069846897#utm_source=rsspic" title="点击看大图"><img src="http://ww2.sinaimg.cn/large/5396ee05jw1f8szs3le3sj21f252b4qr.jpg" ></a> <br/><br/>
+]]>
+</description>
+				<pubDate>Sat, 15 Oct 2016 15:37:42 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030867069846897.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4030867069846897.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA["Code for the experiments in the paper" GitHub:http://t.cn/RVMz2HrRT @爱可可-爱生活:《Gated Word-Character Recurrent Language Model》Y Miyamoto, K Cho [New York University] (2016) http://t.cn/R5VoeXr]]></title>
+				<description>
+<![CDATA[
+"Code for the experiments in the paper" GitHub:<a class="href" href="http://t.cn/RVMz2Hr" rel="nofollow" target="_blank">http://t.cn/RVMz2Hr</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:《Gated Word-Character Recurrent Language Model》Y Miyamoto, K Cho [New York University] (2016) <a class="href" href="http://t.cn/R5VoeXr" rel="nofollow" target="_blank">http://t.cn/R5VoeXr</a><br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=3983983555106064#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f4nfatb3fmj209c0dcadf.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=3983983555106064#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f4nfatjop9j20b00b8gna.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=3983983555106064#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f4nfaug8mzj20lx067413.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=3983983555106064#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f4nfauvxm1j20ap059aat.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=3983983555106064#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f4nfavc38hj20b1076aaw.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=3983983555106064#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f4nfaw4nesj20b306mwg2.jpg" >
+						</a>
+					<br/><br/>
+]]>
+</description>
+				<pubDate>Sat, 15 Oct 2016 15:28:01 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030864633101496.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4030864633101496.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[【Python/R数据整理(Data wrangling)超级参考指南】’The ultimate reference guide to data wrangling with Python and R' by Ben GitHub: http://t.cn/RVM718q]]></title>
+				<description>
+<![CDATA[
+【Python/R数据整理(Data wrangling)超级参考指南】’The ultimate reference guide to data wrangling with Python and R' by Ben GitHub: <a class="href" href="http://t.cn/RVM718q" rel="nofollow" target="_blank">http://t.cn/RVM718q</a> <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4030863450628038#utm_source=rsspic" title="点击看大图"><img src="http://ww2.sinaimg.cn/large/5396ee05jw1f8szdrxppwj21e71khaoh.jpg" ></a> <br/><br/>
+]]>
+</description>
+				<pubDate>Sat, 15 Oct 2016 15:23:19 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030863450628038.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4030863450628038.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[【时序趋势/周期性估计工具seasonal】’seasonal - Robustly estimate trend and periodicity in a timeseries.' by Will Welch GitHub: http://t.cn/RVINge1]]></title>
 				<description>
@@ -65,126 +202,6 @@
 				<pubDate>Sat, 15 Oct 2016 09:38:27 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030776657501425.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4030776657501425.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA["基于Scikit-Learn的机器学习教程" 1:http://t.cn/RVICGBX 2:http://t.cn/RVICGBi 3:http://t.cn/RVICGBa 4:http://t.cn/RVICGB6 5:http://t.cn/RVICGBJ 6-10: http://t.cn/RVI9ToaRT @爱可可-爱生活:“Machine learning in Python with scikit-learn - Youtube” by Kevin Markham http://t.cn/RLcmE1O GitHub(Jupyter notebooks):http://t.cn/RACz575]]></title>
-				<description>
-<![CDATA[
-"基于Scikit-Learn的机器学习教程" 1:<a class="href" href="http://t.cn/RVICGBX" rel="nofollow" target="_blank">http://t.cn/RVICGBX</a> 2:<a class="href" href="http://t.cn/RVICGBi" rel="nofollow" target="_blank">http://t.cn/RVICGBi</a> 3:<a class="href" href="http://t.cn/RVICGBa" rel="nofollow" target="_blank">http://t.cn/RVICGBa</a> 4:<a class="href" href="http://t.cn/RVICGB6" rel="nofollow" target="_blank">http://t.cn/RVICGB6</a> 5:<a class="href" href="http://t.cn/RVICGBJ" rel="nofollow" target="_blank">http://t.cn/RVICGBJ</a> 6-10: <a class="href" href="http://t.cn/RVI9Toa" rel="nofollow" target="_blank">http://t.cn/RVI9Toa</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:“Machine learning in Python with scikit-learn - Youtube” by Kevin Markham <a class="href" href="http://t.cn/RLcmE1O" rel="nofollow" target="_blank">http://t.cn/RLcmE1O</a> GitHub(Jupyter notebooks):<a class="href" href="http://t.cn/RACz575" rel="nofollow" target="_blank">http://t.cn/RACz575</a><br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4011924980615620#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f74kalzxqij20hs0a0q5x.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4011924980615620#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f74kb4wq1ej21ba0wqti6.jpg" >
-						</a>
-					<br/><br/>
-]]>
-</description>
-				<pubDate>Sat, 15 Oct 2016 09:30:39 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030774699233982.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4030774699233982.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[分组分享: 1-5:http://t.cn/RVI9To6 6-10:http://t.cn/RVI9Toa //@爱可可-爱生活: "基于Scikit-Learn的机器学习教程" 云: http://t.cn/RVI978QRT @爱可可-爱生活:“Machine learning in Python with scikit-learn - Youtube” by Kevin Markham http://t.cn/RLcmE1O GitHub(Jupyter notebooks):http://t.cn/RACz575]]></title>
-				<description>
-<![CDATA[
-分组分享: 1-5:<a class="href" href="http://t.cn/RVI9To6" rel="nofollow" target="_blank">http://t.cn/RVI9To6</a> 6-10:<a class="href" href="http://t.cn/RVI9Toa" rel="nofollow" target="_blank">http://t.cn/RVI9Toa</a> //<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/爱可可-爱生活/">@爱可可-爱生活</a>: "基于Scikit-Learn的机器学习教程" 云: <a class="href" href="http://t.cn/RVI978Q" rel="nofollow" target="_blank">http://t.cn/RVI978Q</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:“Machine learning in Python with scikit-learn - Youtube” by Kevin Markham <a class="href" href="http://t.cn/RLcmE1O" rel="nofollow" target="_blank">http://t.cn/RLcmE1O</a> GitHub(Jupyter notebooks):<a class="href" href="http://t.cn/RACz575" rel="nofollow" target="_blank">http://t.cn/RACz575</a><br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4011924980615620#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f74kalzxqij20hs0a0q5x.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4011924980615620#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f74kb4wq1ej21ba0wqti6.jpg" >
-						</a>
-					<br/><br/>
-]]>
-</description>
-				<pubDate>Sat, 15 Oct 2016 09:21:59 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030772518083291.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4030772518083291.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA["基于Scikit-Learn的机器学习教程" 云:http://t.cn/RVI978QRT @爱可可-爱生活:“Machine learning in Python with scikit-learn - Youtube” by Kevin Markham http://t.cn/RLcmE1O GitHub(Jupyter notebooks):http://t.cn/RACz575]]></title>
-				<description>
-<![CDATA[
-"基于Scikit-Learn的机器学习教程" 云:<a class="href" href="http://t.cn/RVI978Q" rel="nofollow" target="_blank">http://t.cn/RVI978Q</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:“Machine learning in Python with scikit-learn - Youtube” by Kevin Markham <a class="href" href="http://t.cn/RLcmE1O" rel="nofollow" target="_blank">http://t.cn/RLcmE1O</a> GitHub(Jupyter notebooks):<a class="href" href="http://t.cn/RACz575" rel="nofollow" target="_blank">http://t.cn/RACz575</a><br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4011924980615620#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f74kalzxqij20hs0a0q5x.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4011924980615620#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f74kb4wq1ej21ba0wqti6.jpg" >
-						</a>
-					<br/><br/>
-]]>
-</description>
-				<pubDate>Sat, 15 Oct 2016 09:12:24 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030770101618945.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4030770101618945.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[爱可可老师一周热门分享：1、【手把手搭建神经网络】2、《如何系统地学习Python 中 matplotlib, numpy, scipy, pandas？ - 知乎》3、《Python 有哪些好的学习资料或者博客？ - 知乎》4、《基础机器学习算法》5、【如何打造无人驾驶小车】…… http://t.cn/RVISgFp]]></title>
-				<description>
-<![CDATA[
-爱可可老师一周热门分享：1、【手把手搭建神经网络】2、《如何系统地学习Python 中 matplotlib, numpy, scipy, pandas？ - 知乎》3、《Python 有哪些好的学习资料或者博客？ - 知乎》4、《基础机器学习算法》5、【如何打造无人驾驶小车】…… <a class="href" href="http://t.cn/RVISgFp" rel="nofollow" target="_blank">http://t.cn/RVISgFp</a>  <br/><br/>
-]]>
-</description>
-				<pubDate>Sat, 15 Oct 2016 08:34:08 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030760471580921.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4030760471580921.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【混合模型分类】《Mixture Model-Based Classification》by Paul D. McNicholas (CRC Press 2016) http://t.cn/RVISRv3]]></title>
-				<description>
-<![CDATA[
-【混合模型分类】《Mixture Model-Based Classification》by Paul D. McNicholas (CRC Press 2016) <a class="href" href="http://t.cn/RVISRv3" rel="nofollow" target="_blank">http://t.cn/RVISRv3</a> 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030759637030452#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f8sng8ttetj20bs0i0aby.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030759637030452#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f8sngiz1w3j20vi0zuwr1.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Sat, 15 Oct 2016 08:30:48 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030759637030452.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4030759637030452.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【ResNets, HighwayNets, DenseNets大盘点(及Tensorflow实现)】《ResNets, HighwayNets, and DenseNets, Oh My!》by Arthur Juliani http://t.cn/RVISfb9 GitHub:http://t.cn/RVISfbC]]></title>
-				<description>
-<![CDATA[
-【ResNets, HighwayNets, DenseNets大盘点(及Tensorflow实现)】《ResNets, HighwayNets, and DenseNets, Oh My!》by Arthur Juliani <a class="href" href="http://t.cn/RVISfb9" rel="nofollow" target="_blank">http://t.cn/RVISfb9</a> GitHub:<a class="href" href="http://t.cn/RVISfbC" rel="nofollow" target="_blank">http://t.cn/RVISfbC</a> 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030757543983107#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f8sn6lzov6j214c0tgtbv.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030757543983107#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f8sn6okzlqj218g0lkwfo.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030757543983107#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f8sn6rpx9kj218g0jsdju.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030757543983107#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f8sn7w45a8j2158e1y4qt.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Sat, 15 Oct 2016 08:22:30 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030757543983107.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4030757543983107.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
