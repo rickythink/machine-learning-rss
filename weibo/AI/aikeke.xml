@@ -4,8 +4,49 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Sat, 15 Oct 2016 17:15:12 +0800</lastBuildDate>
+		<lastBuildDate>Sat, 15 Oct 2016 17:54:42 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[《机器学习理论研究方法探讨》via:云栖社区 http://t.cn/RtGR3WXRT @爱可可-爱生活:《The Machine Learning Casino》by alexirpan http://t.cn/Rt7qgQx]]></title>
+				<description>
+<![CDATA[
+《机器学习理论研究方法探讨》via:云栖社区 <a class="href" href="http://t.cn/RtGR3WX" rel="nofollow" target="_blank">http://t.cn/RtGR3WX</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:《The Machine Learning Casino》by alexirpan <a class="href" href="http://t.cn/Rt7qgQx" rel="nofollow" target="_blank">http://t.cn/Rt7qgQx</a><br/><br/>
+]]>
+</description>
+				<pubDate>Sat, 15 Oct 2016 17:54:42 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030901551568445.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4030901551568445.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[《Google Interview University - 坚持完成这套学习手册，你就可以去 Google 面试了》via:掘金翻译计划 http://t.cn/RVq68VuRT @爱可可-爱生活:【Google(软件工程师)面试学院】’A complete daily plan for studying to become a Google software engineer.' by John Washam GitHub: http://t.cn/RV706E1]]></title>
+				<description>
+<![CDATA[
+《Google Interview University - 坚持完成这套学习手册，你就可以去 Google 面试了》via:掘金翻译计划 <a class="href" href="http://t.cn/RVq68Vu" rel="nofollow" target="_blank">http://t.cn/RVq68Vu</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【Google(软件工程师)面试学院】’A complete daily plan for studying to become a Google software engineer.' by John Washam GitHub: <a class="href" href="http://t.cn/RV706E1" rel="nofollow" target="_blank">http://t.cn/RV706E1</a><br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4027338851021152#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f8hqks9m73j20go0a0q5r.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4027338851021152#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f8hqkv0nwvj20bz07p74u.jpg" >
+						</a>
+					<br/><br/>
+]]>
+</description>
+				<pubDate>Sat, 15 Oct 2016 17:44:24 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030898955297646.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4030898955297646.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[《千行代码入门Python》by xianhu http://t.cn/RVtOluF GitHub:http://t.cn/RVt18F1]]></title>
+				<description>
+<![CDATA[
+《千行代码入门Python》by xianhu <a class="href" href="http://t.cn/RVtOluF" rel="nofollow" target="_blank">http://t.cn/RVtOluF</a> GitHub:<a class="href" href="http://t.cn/RVt18F1" rel="nofollow" target="_blank">http://t.cn/RVt18F1</a>  <br/><br/>
+]]>
+</description>
+				<pubDate>Sat, 15 Oct 2016 17:19:13 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030892617488700.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4030892617488700.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[《普通人对于现代数学各个分支的理解难度，从高到低排名是怎样的？ - 知乎》 http://t.cn/RVMyKPu]]></title>
 				<description>
@@ -169,86 +210,6 @@
 				<pubDate>Sat, 15 Oct 2016 16:24:36 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030878873273537.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4030878873273537.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[符合文本特性的摘要(词/句/片段)做Hash确实比SimHash更有效，SimHash对字符的一致对待不是很适合文本排重；挑选依据可以是词性(词)、TextRank/词加权(句)等 //@推酷网: 我们是两层过滤，一层是找出文本中最可能代表文本特征的几句话做签名做匹配，和simhash有些类似……RT @Easy:大家做海量文章排重的时候，都是怎么搞的啊？我们用 sim-hash 发现重复率挺高的…打算再加上标题的编辑距离确认一遍。 有更好的解决方案么。[可怜]]]></title>
-				<description>
-<![CDATA[
-符合文本特性的摘要(词/句/片段)做Hash确实比SimHash更有效，SimHash对字符的一致对待不是很适合文本排重；挑选依据可以是词性(词)、TextRank/词加权(句)等 //<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/推酷网/">@推酷网</a>: 我们是两层过滤，一层是找出文本中最可能代表文本特征的几句话做签名做匹配，和simhash有些类似……  RT @<a herf="http://weibo.wbdacdn.com/user/1088413295">Easy</a>:大家做海量文章排重的时候，都是怎么搞的啊？我们用 sim-hash 发现重复率挺高的…打算再加上标题的编辑距离确认一遍。 有更好的解决方案么。<img src="http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/af/kl_org.gif" title="[可怜]"/><br/><br/>
-]]>
-</description>
-				<pubDate>Sat, 15 Oct 2016 16:11:43 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030875630540644.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4030875630540644.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[Torch Implementation by harryyang.hk GitHub:http://t.cn/RVMZlLrRT @爱可可-爱生活:《Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network》C Ledig, L Theis, F Huszar, J Caballero, A Aitken, A Tejani, J Totz, Z Wang, W Shi [Twitter] (2016) http://t.cn/Rco2RgI]]></title>
-				<description>
-<![CDATA[
-Torch Implementation by harryyang.hk GitHub:<a class="href" href="http://t.cn/RVMZlLr" rel="nofollow" target="_blank">http://t.cn/RVMZlLr</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:《Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network》C Ledig, L Theis, F Huszar, J Caballero, A Aitken, A Tejani, J Totz, Z Wang, W Shi [Twitter] (2016) <a class="href" href="http://t.cn/Rco2RgI" rel="nofollow" target="_blank">http://t.cn/Rco2RgI</a><br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020593852090659#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f7w7u4ejfvj20rs16a1kx.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020593852090659#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f7w7ub7gclj20ru0ieak3.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020593852090659#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f7w7um1wo9j21kw0rp4kn.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020593852090659#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f7w7utkibrj20t60tkn9w.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020593852090659#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f7w7v0d2ctj21ke0vkaqf.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020593852090659#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f7w7vej03gj21k40v0qtd.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020593852090659#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f7w7vwwmuoj213218unlv.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020593852090659#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f7w7vi98vxj20rk0gitj0.jpg" >
-						</a>
-					<br/><br/>
-]]>
-</description>
-				<pubDate>Sat, 15 Oct 2016 15:53:40 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030871088208013.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4030871088208013.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【用Hyperopt/Sacred高效完成优化】《Effectively running thousands of experiments: Hyperopt with Sacred》by Anna B http://t.cn/RVMZMjt]]></title>
-				<description>
-<![CDATA[
-【用Hyperopt/Sacred高效完成优化】《Effectively running thousands of experiments: Hyperopt with Sacred》by Anna B <a class="href" href="http://t.cn/RVMZMjt" rel="nofollow" target="_blank">http://t.cn/RVMZMjt</a> 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030869858968163#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f8t03t7ejij218g0k4ag6.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030869858968163#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f8t03yk5t5j20go0dwq3g.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030869858968163#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f8t03n7f6yj214ze2lkjo.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Sat, 15 Oct 2016 15:48:47 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4030869858968163.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4030869858968163.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
