@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Sun, 16 Oct 2016 13:24:22 +0800</lastBuildDate>
+		<lastBuildDate>Sun, 16 Oct 2016 16:20:12 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[本周精选RT @爱可可-爱生活:爱可可老师一周热门分享：1、【手把手搭建神经网络】2、《如何系统地学习Python 中 matplotlib, numpy, scipy, pandas？ - 知乎》3、《Python 有哪些好的学习资料或者博客？ - 知乎》4、《基础机器学习算法》5、【如何打造无人驾驶小车】…… http://t.cn/RVISgFp]]></title>
+				<description>
+<![CDATA[
+本周精选  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:爱可可老师一周热门分享：1、【手把手搭建神经网络】2、《如何系统地学习Python 中 matplotlib, numpy, scipy, pandas？ - 知乎》3、《Python 有哪些好的学习资料或者博客？ - 知乎》4、《基础机器学习算法》5、【如何打造无人驾驶小车】…… <a class="href" href="http://t.cn/RVISgFp" rel="nofollow" target="_blank">http://t.cn/RVISgFp</a><br/><br/>
+]]>
+</description>
+				<pubDate>Sun, 16 Oct 2016 16:20:12 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4031240153324409.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4031240153324409.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[《微软开源GB框架LightGBM，表现超越已有boosting工具》via:@机器之心synced  http://t.cn/RVxmXPkRT @爱可可-爱生活:【微软分布式高性能GB框架LightGBM】'LightGBM - fast, distributed, high performance gradient boosting (GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks.' by MS GitHub: http://t.cn/RVtWiep]]></title>
 				<description>
@@ -264,37 +275,6 @@
 				<pubDate>Sun, 16 Oct 2016 06:24:36 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4031090261327819.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4031090261327819.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[Demo: http://t.cn/RVxMn1uRT @爱可可-爱生活:【浏览器里运行的Keras】’keras-js - Run trained Keras models in the browser, with GPU support' by Leon Chen GitHub: http://t.cn/RVVXzbv]]></title>
-				<description>
-<![CDATA[
-Demo: <a class="href" href="http://t.cn/RVxMn1u" rel="nofollow" target="_blank">http://t.cn/RVxMn1u</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【浏览器里运行的Keras】’keras-js - Run trained Keras models in the browser, with GPU support' by Leon Chen GitHub: <a class="href" href="http://t.cn/RVVXzbv" rel="nofollow" target="_blank">http://t.cn/RVVXzbv</a><br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030478845181844#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f8rr71ov3dj20sn0kidhz.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030478845181844#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f8rr724br0j20oa0ju0vs.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030478845181844#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f8rr72odzyj20of0k8tc0.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030478845181844#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f8rr73r458j20r10hrqac.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030478845181844#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f8rr7j6q51j21fv6dpu0x.jpg" >
-						</a>
-					<br/><br/>
-]]>
-</description>
-				<pubDate>Sun, 16 Oct 2016 06:14:39 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4031087761938696.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4031087761938696.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
