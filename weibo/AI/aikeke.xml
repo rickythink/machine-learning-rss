@@ -4,8 +4,93 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Mon, 17 Oct 2016 15:47:10 +0800</lastBuildDate>
+		<lastBuildDate>Mon, 17 Oct 2016 19:43:42 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[//@Ldpe2G：在Mxnet上实现了一下，速度和效果还不错。 http://t.cn/RV64CmWRT @爱可可-爱生活:【Neural Style图片风格化高效实现(Torch)】’fast-neural-style - Feedforward style transfer' by J Johnson GitHub: http://t.cn/RVP4ETG ref:《Perceptual Losses for Real-Time Style Transfer and Super-Resolution》J Johnson, A Alahi, L Fei-Fei (2016) http://t.cn/RqwvI5J]]></title>
+				<description>
+<![CDATA[
+//<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/Ldpe2G/">@Ldpe2G</a>：在Mxnet上实现了一下，速度和效果还不错。 <a class="href" href="http://t.cn/RV64CmW" rel="nofollow" target="_blank">http://t.cn/RV64CmW</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【Neural Style图片风格化高效实现(Torch)】’fast-neural-style - Feedforward style transfer' by J Johnson GitHub: <a class="href" href="http://t.cn/RVP4ETG" rel="nofollow" target="_blank">http://t.cn/RVP4ETG</a> ref:《Perceptual Losses for Real-Time Style Transfer and Super-Resolution》J Johnson, A Alahi, L Fei-Fei (2016) <a class="href" href="http://t.cn/RqwvI5J" rel="nofollow" target="_blank">http://t.cn/RqwvI5J</a><br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4026923845311234#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f8geqowe6cj21180wqx0l.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4026923845311234#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f8gerhcmd6j21d80rytxy.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4026923845311234#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f8gerdinbvj21dk0u2b29.jpg" >
+						</a>
+					<br/><br/>
+]]>
+</description>
+				<pubDate>Mon, 17 Oct 2016 19:43:42 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4031653753567726.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4031653753567726.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[//@tobe迪豪: Keras-js直接读取Keras训练出来的hdf5模型，然后使用Python解码成JS访问的graph文件、weights文件和metadata文件，依赖NodeJS实现的ndarray库生成Tensor  http://t.cn/RVizBDp  ，然后自己实现了Convolution、Dropout、BatchNormalization等算法，让JS前端也可以做InferenceRT @爱可可-爱生活:【浏览器里运行的Keras】’keras-js - Run trained Keras models in the browser, with GPU support' by Leon Chen GitHub: http://t.cn/RVVXzbv]]></title>
+				<description>
+<![CDATA[
+//<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/tobe迪豪/">@tobe迪豪</a>: Keras-js直接读取Keras训练出来的hdf5模型，然后使用Python解码成JS访问的graph文件、weights文件和metadata文件，依赖NodeJS实现的ndarray库生成Tensor  <a class="href" href="http://t.cn/RVizBDp" rel="nofollow" target="_blank">http://t.cn/RVizBDp</a>  ，然后自己实现了Convolution、Dropout、BatchNormalization等算法，让JS前端也可以做Inference  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【浏览器里运行的Keras】’keras-js - Run trained Keras models in the browser, with GPU support' by Leon Chen GitHub: <a class="href" href="http://t.cn/RVVXzbv" rel="nofollow" target="_blank">http://t.cn/RVVXzbv</a><br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030478845181844#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f8rr71ov3dj20sn0kidhz.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030478845181844#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f8rr724br0j20oa0ju0vs.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030478845181844#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f8rr72odzyj20of0k8tc0.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030478845181844#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f8rr73r458j20r10hrqac.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4030478845181844#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f8rr7j6q51j21fv6dpu0x.jpg" >
+						</a>
+					<br/><br/>
+]]>
+</description>
+				<pubDate>Mon, 17 Oct 2016 19:41:47 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4031653271810936.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4031653271810936.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[《IJCAI16论文速读：Deep Learning论文选读（上）》by 朱鹏飞 via:深度学习大讲堂 http://t.cn/RV6bBZ1]]></title>
+				<description>
+<![CDATA[
+《IJCAI16论文速读：Deep Learning论文选读（上）》by 朱鹏飞 via:深度学习大讲堂 <a class="href" href="http://t.cn/RV6bBZ1" rel="nofollow" target="_blank">http://t.cn/RV6bBZ1</a> 
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4031652747540614#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f8vi0tj6uxj20hs03djru.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4031652747540614#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f8vi0vmjqxj20hl07r0ty.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4031652747540614#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f8vi10gqjnj20hs0ej414.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4031652747540614#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f8vi16ryy2j20hs06dmye.jpg" >
+				</a>
+			 <br/><br/>
+]]>
+</description>
+				<pubDate>Mon, 17 Oct 2016 19:39:42 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4031652747540614.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4031652747540614.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[《微博用户传播行为预测》by 李洋 via:哈工大SCIR http://t.cn/RViuXdi]]></title>
 				<description>
@@ -180,63 +265,6 @@ http://t.cn/RVJ1go9  #统计学习方法]]></title>
 				<pubDate>Mon, 17 Oct 2016 06:49:47 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4031458991178513.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4031458991178513.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[Part10:More on Optimization http://t.cn/RVitflq Part11:Generalization and Overfitting http://t.cn/RVitfl5RT @爱可可-爱生活:【向TensorFlow进军】《The Road to TensorFlow》by smist08 Part1:http://t.cn/RcjisgN Part2:http://t.cn/Rcj6vaf Part3:http://t.cn/Rcj6vub Part4:http://t.cn/Rcj6Pyb Part5.An Introduction to Neural Networks http://t.cn/Rcj6PSt  Part6.Optimization and Training http://t.cn/Rcj6P34]]></title>
-				<description>
-<![CDATA[
-Part10:More on Optimization <a class="href" href="http://t.cn/RVitflq" rel="nofollow" target="_blank">http://t.cn/RVitflq</a> Part11:Generalization and Overfitting <a class="href" href="http://t.cn/RVitfl5" rel="nofollow" target="_blank">http://t.cn/RVitfl5</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【向TensorFlow进军】《The Road to TensorFlow》by smist08 Part1:<a class="href" href="http://t.cn/RcjisgN" rel="nofollow" target="_blank">http://t.cn/RcjisgN</a> Part2:<a class="href" href="http://t.cn/Rcj6vaf" rel="nofollow" target="_blank">http://t.cn/Rcj6vaf</a> Part3:<a class="href" href="http://t.cn/Rcj6vub" rel="nofollow" target="_blank">http://t.cn/Rcj6vub</a> Part4:<a class="href" href="http://t.cn/Rcj6Pyb" rel="nofollow" target="_blank">http://t.cn/Rcj6Pyb</a> Part5.An Introduction to Neural Networks <a class="href" href="http://t.cn/Rcj6PSt" rel="nofollow" target="_blank">http://t.cn/Rcj6PSt</a>  Part6.Optimization and Training <a class="href" href="http://t.cn/Rcj6P34" rel="nofollow" target="_blank">http://t.cn/Rcj6P34</a><br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4022584594916384#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f82khshwhpj20gw09i0t5.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4022584594916384#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f82kftt3qlj20gw0dzac8.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4022584594916384#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f82kgc87zkj20gw09i0wv.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4022584594916384#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f82ki3oiz0j20dw08ewfg.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4022584594916384#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f82ki682pgj20gw08a75p.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4022584594916384#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f82kiurauqj20gw08tjsr.jpg" >
-						</a>
-					<br/><br/>
-]]>
-</description>
-				<pubDate>Mon, 17 Oct 2016 06:46:13 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4031458097775832.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4031458097775832.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【为TensorFlow文本摘要准备数据集】’Preparing a dataset for TensorFlow text summarization (TextSum) model.' by surmenok GitHub: http://t.cn/RVJaT1Q]]></title>
-				<description>
-<![CDATA[
-【为TensorFlow文本摘要准备数据集】’Preparing a dataset for TensorFlow text summarization (TextSum) model.' by surmenok GitHub: <a class="href" href="http://t.cn/RVJaT1Q" rel="nofollow" target="_blank">http://t.cn/RVJaT1Q</a>  <br/><br/>
-]]>
-</description>
-				<pubDate>Mon, 17 Oct 2016 06:28:54 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4031453735454953.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4031453735454953.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【基于Tensorflow seq2seq的易用seq2seq模型】’An easy to use seq2seq model based on tensorflow's seq2seq' by Suriyadeepan Ramamoorthy GitHub: http://t.cn/RVi5QEP]]></title>
-				<description>
-<![CDATA[
-【基于Tensorflow seq2seq的易用seq2seq模型】’An easy to use seq2seq model based on tensorflow's seq2seq' by Suriyadeepan Ramamoorthy GitHub: <a class="href" href="http://t.cn/RVi5QEP" rel="nofollow" target="_blank">http://t.cn/RVi5QEP</a> <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4031453228160947#utm_source=rsspic" title="点击看大图"><img src="http://ww2.sinaimg.cn/large/5396ee05jw1f8uv3z9plcj21eb1qbdpg.jpg" ></a> <br/><br/>
-]]>
-</description>
-				<pubDate>Mon, 17 Oct 2016 06:26:53 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4031453228160947.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4031453228160947.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
