@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Sat, 29 Oct 2016 08:07:45 +0800</lastBuildDate>
+		<lastBuildDate>Sat, 29 Oct 2016 10:39:58 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[赞RT @化学专家:我是马春鹏。关于那本PRML的中文翻译，跟实验室的boss商量了一下，结论是：以仅用于学术交流为前提，大家可以尽情地下载。主要原因：目前已经发现在淘宝以及CSDN等诸多地方，已经有人用这个翻译版本来盈利了，这与自己当初翻译这本书的初衷并不相符。所以……度盘链接：http://t.cn/RVEey1C]]></title>
+				<description>
+<![CDATA[
+赞  RT @<a herf="http://weibo.wbdacdn.com/user/1768582942">化学专家</a>:我是马春鹏。关于那本PRML的中文翻译，跟实验室的boss商量了一下，结论是：以仅用于学术交流为前提，大家可以尽情地下载。主要原因：目前已经发现在淘宝以及CSDN等诸多地方，已经有人用这个翻译版本来盈利了，这与自己当初翻译这本书的初衷并不相符。所以……度盘链接：<a class="href" href="http://t.cn/RVEey1C" rel="nofollow" target="_blank">http://t.cn/RVEey1C</a><br/><br/>
+]]>
+</description>
+				<pubDate>Sat, 29 Oct 2016 10:39:58 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4035865573663271.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4035865573663271.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[《机器学习工程师需要掌握哪些编程语言? - 知乎》 http://t.cn/RVE3Noq]]></title>
 				<description>
@@ -145,17 +156,6 @@ ref:《Distributed and parallel time series feature extraction for industrial bi
 				<pubDate>Sat, 29 Oct 2016 06:27:11 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4035801953829642.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4035801953829642.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【在OpenCL设备上运行Tensorflow】’Tensorflow-cl - OpenCL implementation for Tensorflow (under construction...)' by Hugh Perkins GitHub: http://t.cn/RVEEWn1]]></title>
-				<description>
-<![CDATA[
-【在OpenCL设备上运行Tensorflow】’Tensorflow-cl - OpenCL implementation for Tensorflow (under construction...)' by Hugh Perkins GitHub: <a class="href" href="http://t.cn/RVEEWn1" rel="nofollow" target="_blank">http://t.cn/RVEEWn1</a> <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4035801303854604#utm_source=rsspic" title="点击看大图"><img src="http://ww1.sinaimg.cn/large/5396ee05jw1f98qhjejs2j21eh6g0e82.jpg" ></a> <br/><br/>
-]]>
-</description>
-				<pubDate>Sat, 29 Oct 2016 06:24:34 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4035801303854604.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4035801303854604.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
