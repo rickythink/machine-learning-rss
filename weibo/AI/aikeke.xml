@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Sat, 29 Oct 2016 10:39:58 +0800</lastBuildDate>
+		<lastBuildDate>Sat, 29 Oct 2016 16:56:32 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[《构建深度学习系统的十条经验》via:@阿里云云栖社区  http://t.cn/RVnagPyRT @爱可可-爱生活:【构建深度学习系统的十点体会】《10 Lessons Learned from Building Deep Learning Systems》by Carlos E. Perez http://t.cn/RVj4AuM]]></title>
+				<description>
+<![CDATA[
+《构建深度学习系统的十条经验》via:<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/阿里云云栖社区/">@阿里云云栖社区</a>  <a class="href" href="http://t.cn/RVnagPy" rel="nofollow" target="_blank">http://t.cn/RVnagPy</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【构建深度学习系统的十点体会】《10 Lessons Learned from Building Deep Learning Systems》by Carlos E. Perez <a class="href" href="http://t.cn/RVj4AuM" rel="nofollow" target="_blank">http://t.cn/RVj4AuM</a><br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4035960339038881#utm_source=rsspic"  title="点击看大图"><img src="http://ww1.sinaimg.cn/large/5396ee05jw1f94bwc2ln7j214f5f9qv5.jpg"></a><br/><br/>
+]]>
+</description>
+				<pubDate>Sat, 29 Oct 2016 16:56:32 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4035960339038881.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4035960339038881.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[赞RT @化学专家:我是马春鹏。关于那本PRML的中文翻译，跟实验室的boss商量了一下，结论是：以仅用于学术交流为前提，大家可以尽情地下载。主要原因：目前已经发现在淘宝以及CSDN等诸多地方，已经有人用这个翻译版本来盈利了，这与自己当初翻译这本书的初衷并不相符。所以……度盘链接：http://t.cn/RVEey1C]]></title>
 				<description>
@@ -145,17 +156,6 @@ ref:《Distributed and parallel time series feature extraction for industrial bi
 				<pubDate>Sat, 29 Oct 2016 06:29:41 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4035802587366990.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4035802587366990.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【Kaggle竞赛：Stack Exchange标签迁移学习】“Transfer Learning on Stack Exchange Tags - Predict tags from models trained on unrelated topics | Kaggle” http://t.cn/RVEEQbF]]></title>
-				<description>
-<![CDATA[
-【Kaggle竞赛：Stack Exchange标签迁移学习】“Transfer Learning on Stack Exchange Tags - Predict tags from models trained on unrelated topics | Kaggle” <a class="href" href="http://t.cn/RVEEQbF" rel="nofollow" target="_blank">http://t.cn/RVEEQbF</a> <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4035801953829642#utm_source=rsspic" title="点击看大图"><img src="http://ww2.sinaimg.cn/large/5396ee05jw1f98qk90t6tj210y0piaib.jpg" ></a> <br/><br/>
-]]>
-</description>
-				<pubDate>Sat, 29 Oct 2016 06:27:11 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4035801953829642.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4035801953829642.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
