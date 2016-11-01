@@ -4,8 +4,30 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Tue, 01 Nov 2016 07:01:33 +0800</lastBuildDate>
+		<lastBuildDate>Tue, 01 Nov 2016 08:12:44 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[转发微博RT @刘群MT-to-Death:AMTA2016上爱丁堡大学的Rico Sennrich做了一个报告，提到在一些曾经的难点问题，在NMT下不再是问题，一个Fluency流利度问题，NMT的流利度非常好了，另一个是Interactive MT，NMT下IMT的实现非常简单，还有一个是Incremental Training，也几乎不需要额外的工作。很好的总结。]]></title>
+				<description>
+<![CDATA[
+转发微博  RT @<a herf="http://weibo.wbdacdn.com/user/1917491813">刘群MT-to-Death</a>:AMTA2016上爱丁堡大学的Rico Sennrich做了一个报告，提到在一些曾经的难点问题，在NMT下不再是问题，一个Fluency流利度问题，NMT的流利度非常好了，另一个是Interactive MT，NMT下IMT的实现非常简单，还有一个是Incremental Training，也几乎不需要额外的工作。很好的总结。<br/><br/>
+]]>
+</description>
+				<pubDate>Tue, 01 Nov 2016 08:12:44 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4036915684540782.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4036915684540782.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[转发微博RT @phunter_lau:微软的云端深度学习教学（R Server，Azure Data Lake），MXNet作为后端全程支持基于云端的深度学习，感谢微软对#MXNet#和对我们#DMLC#工作的肯定 http://t.cn/RVBPk43]]></title>
+				<description>
+<![CDATA[
+转发微博  RT @<a herf="http://weibo.wbdacdn.com/user/1770891687">phunter_lau</a>:微软的云端深度学习教学（R Server，Azure Data Lake），MXNet作为后端全程支持基于云端的深度学习，感谢微软对#<a target="_blank"  rel="nofollow" href="http://so.weibodangan.com/cse/search?s=1026724581749658160&nsid=0&q=MXNet">MXNet</a>#和对我们#<a target="_blank"  rel="nofollow" href="http://so.weibodangan.com/cse/search?s=1026724581749658160&nsid=0&q=DMLC">DMLC</a>#工作的肯定 <a class="href" href="http://t.cn/RVBPk43" rel="nofollow" target="_blank">http://t.cn/RVBPk43</a><br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4036915495934669#utm_source=rsspic"  title="点击看大图"><img src="http://ww1.sinaimg.cn/large/698da9a7gw1f9bzas2lojj20in0ayq5c.jpg"></a><br/><br/>
+]]>
+</description>
+				<pubDate>Tue, 01 Nov 2016 08:11:59 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4036915495934669.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4036915495934669.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[《如何用简单例子讲解 Q - learning 的具体过程？ - 知乎》 http://t.cn/RVBAA7q]]></title>
 				<description>
@@ -162,40 +184,6 @@ new Documentation for spaCy 1.0 released: <a class="href" href="http://t.cn/RVBw
 				<pubDate>Tue, 01 Nov 2016 06:29:24 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4036889679820925.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4036889679820925.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【GTA 5模拟自驾(Caffe Model/Dataset/Tips and Tricks)】"DeepDrive.io - self-driving car AI" by Craig Quiter http://t.cn/RVBwUr1 http://t.cn/RVBwUr8 .]]></title>
-				<description>
-<![CDATA[
-【GTA 5模拟自驾(Caffe Model/Dataset/Tips and Tricks)】"DeepDrive.io - self-driving car AI" by Craig Quiter <a class="href" href="http://t.cn/RVBwUr1" rel="nofollow" target="_blank">http://t.cn/RVBwUr1</a> <a class="href" href="http://t.cn/RVBwUr8" rel="nofollow" target="_blank">http://t.cn/RVBwUr8</a> .  <br/><br/>
-]]>
-</description>
-				<pubDate>Tue, 01 Nov 2016 06:22:33 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4036887955400542.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4036887955400542.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《Two papers released on arXiv, "Operator Variational Inference" and "Model Criticism for Bayesian Causal Inference"》by Dustin Tran http://t.cn/RV1GaERRT @爱可可-爱生活:《Operator Variational Inference》R Ranganath, J Altosaar, D Tran, D M. Blei [Princeton University & Columbia University] (2016) http://t.cn/RVBZZ9r]]></title>
-				<description>
-<![CDATA[
-《Two papers released on arXiv, "Operator Variational Inference" and "Model Criticism for Bayesian Causal Inference"》by Dustin Tran <a class="href" href="http://t.cn/RV1GaER" rel="nofollow" target="_blank">http://t.cn/RV1GaER</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:《Operator Variational Inference》R Ranganath, J Altosaar, D Tran, D M. Blei [Princeton University & Columbia University] (2016) <a class="href" href="http://t.cn/RVBZZ9r" rel="nofollow" target="_blank">http://t.cn/RVBZZ9r</a><br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4036872634092221#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f9c5iyopqrj211e0lah5q.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4036872634092221#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f9c5iz8fl3j21940fin6l.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4036872634092221#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f9c5izg2gaj21980lottb.jpg" >
-						</a>
-					<br/><br/>
-]]>
-</description>
-				<pubDate>Tue, 01 Nov 2016 06:15:35 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4036886202533855.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4036886202533855.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
