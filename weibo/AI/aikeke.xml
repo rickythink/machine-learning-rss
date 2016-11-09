@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Wed, 09 Nov 2016 17:07:14 +0800</lastBuildDate>
+		<lastBuildDate>Wed, 09 Nov 2016 18:03:58 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[转发微博RT @涂兆鹏:发布了头条文章：《比较Coverage Model (Huawei)和Coverage Penalty (Google)》 http://t.cn/RfwuNXC]]></title>
+				<description>
+<![CDATA[
+转发微博  RT @<a herf="http://weibo.wbdacdn.com/user/1747876061">涂兆鹏</a>:发布了头条文章：《比较Coverage Model (Huawei)和Coverage Penalty (Google)》 <a class="href" href="http://t.cn/RfwuNXC" rel="nofollow" target="_blank">http://t.cn/RfwuNXC</a><br/><br/>
+]]>
+</description>
+				<pubDate>Wed, 09 Nov 2016 18:03:58 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4039963576635674.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4039963576635674.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[【聊天机器人(Chatbot)相关资源大列表】’awesome-chatbot - A collection of awesome things regarding chat bots' by shaohua GitHub: http://t.cn/RfweWe7]]></title>
 				<description>
@@ -203,17 +214,6 @@ http://t.cn/RfwNqzy]]></title>
 				<pubDate>Wed, 09 Nov 2016 12:49:57 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4039884551310270.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4039884551310270.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[转发微博RT @岁月催人老不正经:昨晚手贱误删了以前blog的md源文件，可能这正是一个new start吧。更新三篇。主要讲这周用Tensorflow+CNN识别6位数字字母混合验证码的一些想法。效果还不错，1小时能达到98%以上准确率。文章中详细讲了如何使用tfrecords构建数据集，如何用Coordinator在训练时多线程调度数据，如何设计整个tensorflow项目的分析思路。分三部分，1：http://t.cn/RfwXWIp ，2：http://t.cn/RfwXWI0 ，3：http://t.cn/RfwXWIO ，完整代码在github：http://t.cn/RfwXWIN 。还有几项任务在做，代码会持续更新。@爱可可-爱生活]]></title>
-				<description>
-<![CDATA[
-转发微博  RT @<a herf="http://weibo.wbdacdn.com/user/2417990255">岁月催人老不正经</a>:昨晚手贱误删了以前blog的md源文件，可能这正是一个new start吧。更新三篇。主要讲这周用Tensorflow+CNN识别6位数字字母混合验证码的一些想法。效果还不错，1小时能达到98%以上准确率。文章中详细讲了如何使用tfrecords构建数据集，如何用Coordinator在训练时多线程调度数据，如何设计整个tensorflow项目的分析思路。分三部分，1：<a class="href" href="http://t.cn/RfwXWIp" rel="nofollow" target="_blank">http://t.cn/RfwXWIp</a> ，2：<a class="href" href="http://t.cn/RfwXWI0" rel="nofollow" target="_blank">http://t.cn/RfwXWI0</a> ，3：<a class="href" href="http://t.cn/RfwXWIO" rel="nofollow" target="_blank">http://t.cn/RfwXWIO</a> ，完整代码在github：<a class="href" href="http://t.cn/RfwXWIN" rel="nofollow" target="_blank">http://t.cn/RfwXWIN</a> 。还有几项任务在做，代码会持续更新。<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/爱可可-爱生活/">@爱可可-爱生活</a><br/><br/>
-]]>
-</description>
-				<pubDate>Wed, 09 Nov 2016 11:35:01 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4039865697894374.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4039865697894374.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
