@@ -4,8 +4,30 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Wed, 09 Nov 2016 09:52:15 +0800</lastBuildDate>
+		<lastBuildDate>Wed, 09 Nov 2016 11:35:01 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[转发微博RT @岁月催人老不正经:昨晚手贱误删了以前blog的md源文件，可能这正是一个new start吧。更新三篇。主要讲这周用Tensorflow+CNN识别6位数字字母混合验证码的一些想法。效果还不错，1小时能达到98%以上准确率。文章中详细讲了如何使用tfrecords构建数据集，如何用Coordinator在训练时多线程调度数据，如何设计整个tensorflow项目的分析思路。分三部分，1：http://t.cn/RfwXWIp ，2：http://t.cn/RfwXWI0 ，3：http://t.cn/RfwXWIO ，完整代码在github：http://t.cn/RfwXWIN 。还有几项任务在做，代码会持续更新。@爱可可-爱生活]]></title>
+				<description>
+<![CDATA[
+转发微博  RT @<a herf="http://weibo.wbdacdn.com/user/2417990255">岁月催人老不正经</a>:昨晚手贱误删了以前blog的md源文件，可能这正是一个new start吧。更新三篇。主要讲这周用Tensorflow+CNN识别6位数字字母混合验证码的一些想法。效果还不错，1小时能达到98%以上准确率。文章中详细讲了如何使用tfrecords构建数据集，如何用Coordinator在训练时多线程调度数据，如何设计整个tensorflow项目的分析思路。分三部分，1：<a class="href" href="http://t.cn/RfwXWIp" rel="nofollow" target="_blank">http://t.cn/RfwXWIp</a> ，2：<a class="href" href="http://t.cn/RfwXWI0" rel="nofollow" target="_blank">http://t.cn/RfwXWI0</a> ，3：<a class="href" href="http://t.cn/RfwXWIO" rel="nofollow" target="_blank">http://t.cn/RfwXWIO</a> ，完整代码在github：<a class="href" href="http://t.cn/RfwXWIN" rel="nofollow" target="_blank">http://t.cn/RfwXWIN</a> 。还有几项任务在做，代码会持续更新。<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/爱可可-爱生活/">@爱可可-爱生活</a><br/><br/>
+]]>
+</description>
+				<pubDate>Wed, 09 Nov 2016 11:35:01 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4039865697894374.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4039865697894374.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[《Facebook贾扬清发文，Caffe2go将开源，手机就能训练神经网络》via:@新智元 http://t.cn/RfwaUopRT @爱可可-爱生活:【Facebook基于Caffe2go框架实现手机上的实时画风转换】《Delivering real-time AI in the palm of your hand | Facebook Code》by Yangqing Jia, Peter Vajda  http://t.cn/Rfwybm2]]></title>
+				<description>
+<![CDATA[
+《Facebook贾扬清发文，Caffe2go将开源，手机就能训练神经网络》via:<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/新智元/">@新智元</a> <a class="href" href="http://t.cn/RfwaUop" rel="nofollow" target="_blank">http://t.cn/RfwaUop</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【Facebook基于Caffe2go框架实现手机上的实时画风转换】《Delivering real-time AI in the palm of your hand | Facebook Code》by Yangqing Jia, Peter Vajda  <a class="href" href="http://t.cn/Rfwybm2" rel="nofollow" target="_blank">http://t.cn/Rfwybm2</a><br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4039863466798957#utm_source=rsspic"  title="点击看大图"><img src="http://ww4.sinaimg.cn/large/5396ee05jw1f9lg1pftboj215n8a5u0z.jpg"></a><br/><br/>
+]]>
+</description>
+				<pubDate>Wed, 09 Nov 2016 11:26:09 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4039863466798957.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4039863466798957.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[《ICLR 2017 | Attention 和 Memory Networks》by @summerrlee via:程序媛的日常 http://t.cn/RfwVryP]]></title>
 				<description>
@@ -245,68 +267,6 @@ Reddit:<a class="href" href="http://t.cn/Rfw5R1F" rel="nofollow" target="_blank"
 				<pubDate>Wed, 09 Nov 2016 09:01:35 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4039827076406389.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4039827076406389.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【无监督跨域图像生成：自动生成传神卡通头像】《Unsupervised Cross-Domain Image Generation》Y Taigman, A Polyak, L Wolf [Facebook AI Research] (2016) http://t.cn/Rfw596h]]></title>
-				<description>
-<![CDATA[
-【无监督跨域图像生成：自动生成传神卡通头像】《Unsupervised Cross-Domain Image Generation》Y Taigman, A Polyak, L Wolf [Facebook AI Research] (2016) <a class="href" href="http://t.cn/Rfw596h" rel="nofollow" target="_blank">http://t.cn/Rfw596h</a> 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4039826090997966#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f9lkq1p01uj211q0j47j0.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4039826090997966#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f9lkq2sxmgj21960keagi.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4039826090997966#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f9lkq46z1pj212s12ah81.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4039826090997966#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f9lkq45wwjj211a0fodod.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4039826090997966#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f9lkq537lbj212m0r4dz5.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4039826090997966#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f9lkq5o7zzj212e0ua1d0.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4039826090997966#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f9lkq5rt1jj212k0p8nax.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4039826090997966#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f9lkq5uxw5j211o0io4g7.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Wed, 09 Nov 2016 08:57:39 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4039826090997966.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4039826090997966.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【XGBoost时序预测】《Timeseries forecasting using extreme gradient boosting》by Peter Ellis http://t.cn/Rfw52V1 http://t.cn/Rfw52V3RT @爱可可-爱生活:'forecastxgb-r-package - An R package for time series models and forecasts with xgboost compatible with {forecast} S3 classes' by Peter Ellis GitHub: http://t.cn/RfZfb1A]]></title>
-				<description>
-<![CDATA[
-【XGBoost时序预测】《Timeseries forecasting using extreme gradient boosting》by Peter Ellis <a class="href" href="http://t.cn/Rfw52V1" rel="nofollow" target="_blank">http://t.cn/Rfw52V1</a> <a class="href" href="http://t.cn/Rfw52V3" rel="nofollow" target="_blank">http://t.cn/Rfw52V3</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:'forecastxgb-r-package - An R package for time series models and forecasts with xgboost compatible with {forecast} S3 classes' by Peter Ellis GitHub: <a class="href" href="http://t.cn/RfZfb1A" rel="nofollow" target="_blank">http://t.cn/RfZfb1A</a><br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4039824111299966#utm_source=rsspic"  title="点击看大图"><img src="http://ww2.sinaimg.cn/large/5396ee05jw1f9kypro8gej21et7h8hdu.jpg"></a><br/><br/>
-]]>
-</description>
-				<pubDate>Wed, 09 Nov 2016 08:49:47 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4039824111299966.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4039824111299966.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
