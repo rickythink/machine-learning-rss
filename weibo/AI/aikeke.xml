@@ -4,8 +4,93 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Sun, 13 Nov 2016 09:14:53 +0800</lastBuildDate>
+		<lastBuildDate>Sun, 13 Nov 2016 10:08:41 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[//@tobe迪豪: 第二步，安装gdb或lldb设置断点调试，lldb可以通过apt-get install lldb-3.8安装，运行时找不到lldb-server可以参考  http://t.cn/RfbAIMW  。调试的应用最好是ipython，导入so文件后break TF_NewSession或tensorflow/c/c_api.cc:223，参考  http://t.cn/R5jCBLIRT @tobe迪豪:TensorFlow是C++和Python实现的深度学习框架，阅读源代码最好的方式是单步调试，在Python代码层可以用pudb/ipdb，然后通过so动态依赖库调用C++，这时候需要试用gdb/lldb。第一步，你需要用“g++ -g”编译支持调试的TensorFlow代码，在bazel中对应参数是“-c dbg”，准备编译环境安装Java 8、Bazel等参...全文： http://m.weibo.cn/2622517194/4041252675162787]]></title>
+				<description>
+<![CDATA[
+//<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/tobe迪豪/">@tobe迪豪</a>: 第二步，安装gdb或lldb设置断点调试，lldb可以通过apt-get install lldb-3.8安装，运行时找不到lldb-server可以参考  <a class="href" href="http://t.cn/RfbAIMW" rel="nofollow" target="_blank">http://t.cn/RfbAIMW</a>  。调试的应用最好是ipython，导入so文件后break TF_NewSession或tensorflow/c/c_api.cc:223，参考  <a class="href" href="http://t.cn/R5jCBLI" rel="nofollow" target="_blank">http://t.cn/R5jCBLI</a>  RT @<a herf="http://weibo.wbdacdn.com/user/2622517194">tobe迪豪</a>:TensorFlow是C++和Python实现的深度学习框架，阅读源代码最好的方式是单步调试，在Python代码层可以用pudb/ipdb，然后通过so动态依赖库调用C++，这时候需要试用gdb/lldb。第一步，你需要用“g++ -g”编译支持调试的TensorFlow代码，在bazel中对应参数是“-c dbg”，准备编译环境安装Java 8、Bazel等参<a class="btn href longtext" target="_blank"  uid="2622517194" mid="4041252675162787">全文</a><br/>
+						<a href="http://weibo.wbdacdn.com/user/2622517194/?status=4041252675162787#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/9c506fcagw1f9q4jombzij213w0m57cn.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/2622517194/?status=4041252675162787#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/9c506fcagw1f9q4jtuc6gj20xr0m7wlo.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/2622517194/?status=4041252675162787#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww1.sinaimg.cn/large/9c506fcagw1f9q4jxekoyj20rg0m9gzu.jpg" >
+						</a>
+					<br/><br/>
+]]>
+</description>
+				<pubDate>Sun, 13 Nov 2016 10:08:41 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4041293514055293.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4041293514055293.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[【TensorFlow实现的DeepMind可微神经计算机(DNC)】’DNC-tensorflow - A TensorFlow implementation of DeepMind's Differential Neural Computers (DNC)' by Mostafa Samir GitHub: http://t.cn/Rfb4ai9]]></title>
+				<description>
+<![CDATA[
+【TensorFlow实现的DeepMind可微神经计算机(DNC)】’DNC-tensorflow - A TensorFlow implementation of DeepMind's Differential Neural Computers (DNC)' by Mostafa Samir GitHub: <a class="href" href="http://t.cn/Rfb4ai9" rel="nofollow" target="_blank">http://t.cn/Rfb4ai9</a> 
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4041283229744388#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f9q82a6vnwj21e762ju0x.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4041283229744388#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f9q82d8afsj20gs0nn76l.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4041283229744388#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f9q82eugqfj20hr0fwdhi.jpg" >
+				</a>
+			 <br/><br/>
+]]>
+</description>
+				<pubDate>Sun, 13 Nov 2016 09:27:48 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4041283229744388.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4041283229744388.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[【对话机器人(Chatbot)开发指南】《How to build a Chatbot》by Aerolab Part1:http://t.cn/Rfb4vp8]]></title>
+				<description>
+<![CDATA[
+【对话机器人(Chatbot)开发指南】《How to build a Chatbot》by Aerolab Part1:<a class="href" href="http://t.cn/Rfb4vp8" rel="nofollow" target="_blank">http://t.cn/Rfb4vp8</a> 
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4041281153813908#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f9q7th2474j214sbhse84.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4041281153813908#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f9q7tgurfyj21hc0u0dp4.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4041281153813908#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f9q7tkh6qaj218g0p84fi.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4041281153813908#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f9q7tmxnnjj20m80goq6l.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4041281153813908#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f9q7ttjxz1g20dc0a0kjl.gif" >
+				</a>
+			 <br/><br/>
+]]>
+</description>
+				<pubDate>Sun, 13 Nov 2016 09:19:33 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4041281153813908.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4041281153813908.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[【看漫画品编程之道】《Coding Explained in 25 Profound Comics》http://t.cn/RfbURgv]]></title>
 				<description>
@@ -170,39 +255,6 @@ Part2 <a class="href" href="http://t.cn/RfbUv0U" rel="nofollow" target="_blank">
 				<pubDate>Sun, 13 Nov 2016 08:42:54 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4041271930413477.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4041271930413477.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《如何简单易懂地理解变分推断(variational inference)？ - 知乎》 http://t.cn/RfbyvTG]]></title>
-				<description>
-<![CDATA[
-《如何简单易懂地理解变分推断(variational inference)？ - 知乎》 <a class="href" href="http://t.cn/RfbyvTG" rel="nofollow" target="_blank">http://t.cn/RfbyvTG</a>  <br/><br/>
-]]>
-</description>
-				<pubDate>Sun, 13 Nov 2016 08:41:59 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4041271695189373.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4041271695189373.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《你的私人书单是什么？ - 知乎》 http://t.cn/R4cpsJ0]]></title>
-				<description>
-<![CDATA[
-《你的私人书单是什么？ - 知乎》 <a class="href" href="http://t.cn/R4cpsJ0" rel="nofollow" target="_blank">http://t.cn/R4cpsJ0</a> <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4041271460277242#utm_source=rsspic" title="点击看大图"><img src="http://ww4.sinaimg.cn/large/5396ee05jw1f9q6q7okihj20go08675x.jpg" ></a> <br/><br/>
-]]>
-</description>
-				<pubDate>Sun, 13 Nov 2016 08:41:03 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4041271460277242.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4041271460277242.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《工作中能力很强的人平时有哪些共同的特征？ - 知乎》 http://t.cn/RGCJd5q]]></title>
-				<description>
-<![CDATA[
-《工作中能力很强的人平时有哪些共同的特征？ - 知乎》 <a class="href" href="http://t.cn/RGCJd5q" rel="nofollow" target="_blank">http://t.cn/RGCJd5q</a>  <br/><br/>
-]]>
-</description>
-				<pubDate>Sun, 13 Nov 2016 08:07:56 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4041263130887150.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4041263130887150.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
