@@ -2,10 +2,21 @@
 	<channel>
 		<title>爱可可-爱生活 的微博rss</title>
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
-		<description>北邮网络搜索中心老师</description>
+		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Tue, 22 Nov 2016 21:03:36 +0800</lastBuildDate>
+		<lastBuildDate>Tue, 22 Nov 2016 21:24:05 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[【制作自己的名人“拼接”版讲话视频】“Speech-Hacker - Makes famous people speak whatever you wish by linking their words” by Parham Pourdavood GitHub:http://t.cn/RfSue8O http://t.cn/RfSueQC .]]></title>
+				<description>
+<![CDATA[
+【制作自己的名人“拼接”版讲话视频】“Speech-Hacker - Makes famous people speak whatever you wish by linking their words” by Parham Pourdavood GitHub:<a class="href" href="http://t.cn/RfSue8O" rel="nofollow" target="_blank">http://t.cn/RfSue8O</a> <a class="href" href="http://t.cn/RfSueQC" rel="nofollow" target="_blank">http://t.cn/RfSueQC</a> .  <br/><br/>
+]]>
+</description>
+				<pubDate>Tue, 22 Nov 2016 21:24:05 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4044724983719655.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4044724983719655.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[【预测数据挖掘模型】《Predictive Data Mining Models》by D.L. Olson, D. Wu (Springer 2017) http://t.cn/RfSReJn]]></title>
 				<description>
@@ -1281,42 +1292,6 @@ published on JAIR: <a class="href" href="http://t.cn/Rfa8ZIq" rel="nofollow" tar
 				<pubDate>Tue, 22 Nov 2016 05:10:46 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4044480035928485.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4044480035928485.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《Generative Deep Neural Networks for Dialogue: A Short Review》I V Serban, R Lowe, L Charlin, J Pineau [University of Montreal & McGill University] (2016) http://t.cn/RfX2bms]]></title>
-				<description>
-<![CDATA[
-《Generative Deep Neural Networks for Dialogue: A Short Review》I V Serban, R Lowe, L Charlin, J Pineau [University of Montreal & McGill University] (2016) <a class="href" href="http://t.cn/RfX2bms" rel="nofollow" target="_blank">http://t.cn/RfX2bms</a> 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4044479243355931#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fa0f4tqrxrj211k0jotpk.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4044479243355931#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fa0f4u8sd6j219k0osqk5.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4044479243355931#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fa0f4uksotj21980iy4fx.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4044479243355931#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fa0f4uy46oj21a60cw7cz.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4044479243355931#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fa0f4vs2cij21a213ykjl.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Tue, 22 Nov 2016 05:07:37 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4044479243355931.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4044479243355931.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
