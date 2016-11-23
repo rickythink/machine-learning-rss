@@ -4,8 +4,51 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Wed, 23 Nov 2016 13:08:25 +0800</lastBuildDate>
+		<lastBuildDate>Wed, 23 Nov 2016 14:22:47 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[Summary by @洪亮劼 http://t.cn/Rfo8LKVRT @爱可可-爱生活:《Using Fast Weights to Attend to the Recent Past》J Ba, G Hinton, V Mnih, J Z. Leibo, C Ionescu [University of Toronto & Google DeepMind] (2016) http://t.cn/RVN1rDF]]></title>
+				<description>
+<![CDATA[
+Summary by <a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/洪亮劼/">@洪亮劼</a> <a class="href" href="http://t.cn/Rfo8LKV" rel="nofollow" target="_blank">http://t.cn/Rfo8LKV</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:《Using Fast Weights to Attend to the Recent Past》J Ba, G Hinton, V Mnih, J Z. Leibo, C Ionescu [University of Toronto & Google DeepMind] (2016) <a class="href" href="http://t.cn/RVN1rDF" rel="nofollow" target="_blank">http://t.cn/RVN1rDF</a><br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4033244334561491#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f90ktg4s5fj212a0heqh6.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4033244334561491#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f90ktghuuqj218o0ly43w.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4033244334561491#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f90kth1rocj219o0h6ai6.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4033244334561491#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f90kthnvr5j219e0qg44f.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4033244334561491#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f90kti10bxj20sa0cin15.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4033244334561491#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f90kticxl9j20x60eyjvy.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4033244334561491#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f90ktj1nqgj218k0h8wkh.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4033244334561491#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f90ktjfatfj218c0ko4l5.jpg" >
+						</a>
+					<br/><br/>
+]]>
+</description>
+				<pubDate>Wed, 23 Nov 2016 14:22:47 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4044981344132088.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4044981344132088.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[帮转RT @鲁东东胖:我们招人啦 [嘻嘻] 小伙伴请帮忙转起 [抱抱] [抱抱] [抱抱]]]></title>
 				<description>
@@ -1368,21 +1411,6 @@ Part3:<a class="href" href="http://t.cn/RfSVMMm" rel="nofollow" target="_blank">
 				<pubDate>Tue, 22 Nov 2016 15:19:09 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4044633144960519.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4044633144960519.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA["Fusion and Runtime Compilation for NNVM and TinyFlow"RT @陈天奇怪:#DMLC# 成员ziheng的工作, NNVM新组件。基于NNVM快速实现运行时编译。可以比较有效地把用户自定义的代码编译成高效的kernel。并且无缝插入到其它NNVM执行器中。使用样例依然是2k行小TF tinyflow
-
-http://t.cn/RfSyHKM]]></title>
-				<description>
-<![CDATA[
-"Fusion and Runtime Compilation for NNVM and TinyFlow"  RT @<a herf="http://weibo.wbdacdn.com/user/2397265244">陈天奇怪</a>:#<a target="_blank"  rel="nofollow" href="http://so.weibodangan.com/cse/search?s=1026724581749658160&nsid=0&q=DMLC">DMLC</a># 成员ziheng的工作, NNVM新组件。基于NNVM快速实现运行时编译。可以比较有效地把用户自定义的代码编译成高效的kernel。并且无缝插入到其它NNVM执行器中。使用样例依然是2k行小TF tinyflow<br />
-<br />
-<a class="href" href="http://t.cn/RfSyHKM" rel="nofollow" target="_blank">http://t.cn/RfSyHKM</a><br/><br/>
-]]>
-</description>
-				<pubDate>Tue, 22 Nov 2016 15:16:33 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4044632486371453.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4044632486371453.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
