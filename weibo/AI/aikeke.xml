@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Thu, 24 Nov 2016 18:39:22 +0800</lastBuildDate>
+		<lastBuildDate>Thu, 24 Nov 2016 20:14:20 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[《TensorFlow练习7: 基于RNN生成古诗词》by 斗大的熊猫 http://t.cn/Rf98CKJ]]></title>
+				<description>
+<![CDATA[
+《TensorFlow练习7: 基于RNN生成古诗词》by 斗大的熊猫 <a class="href" href="http://t.cn/Rf98CKJ" rel="nofollow" target="_blank">http://t.cn/Rf98CKJ</a>  <br/><br/>
+]]>
+</description>
+				<pubDate>Thu, 24 Nov 2016 20:14:20 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4045432202185950.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4045432202185950.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[#转发赠书# 送出5本@图灵教育 的《Python科学计算基础教程》by Hemant Kumar Mehta “本书十分详细地介绍了利用NumPy和SciPy进行科学计算的方法，适合各层次的Python程序员。读完本书后，你的Python科学计算能力将踏上一个新台阶。” 转发即可参与，2016.12.1 12:00截止 试读：http://t.cn/Rf5t1Qz]]></title>
 				<description>
@@ -1608,42 +1619,6 @@ Keras implementation by Thibault de Boissiere GitHub:<a class="href" href="http:
 				<pubDate>Thu, 24 Nov 2016 04:51:58 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4045200076188846.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4045200076188846.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《Associative Adversarial Networks(AANs)》T Arici, A Celikyilmaz [Microsoft AI and Research] (2016) http://t.cn/Rf9wKKS]]></title>
-				<description>
-<![CDATA[
-《Associative Adversarial Networks(AANs)》T Arici, A Celikyilmaz [Microsoft AI and Research] (2016) <a class="href" href="http://t.cn/Rf9wKKS" rel="nofollow" target="_blank">http://t.cn/Rf9wKKS</a> 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4045199460066121#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fa2pukm6xtj21220kuqlz.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4045199460066121#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fa2pul4jklj21a8154h4t.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4045199460066121#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fa2pulmqa6j219w0m2n5r.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4045199460066121#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fa2pun1d9dj20xy1cc1kx.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4045199460066121#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fa2punimx7j219u0og7tw.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Thu, 24 Nov 2016 04:49:29 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4045199460066121.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4045199460066121.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
