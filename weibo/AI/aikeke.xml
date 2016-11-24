@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Thu, 24 Nov 2016 15:04:31 +0800</lastBuildDate>
+		<lastBuildDate>Thu, 24 Nov 2016 15:57:17 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[【两分钟论文解读：音画自动同步】《Synchronizing Animations To Sound | Two Minute Papers - YouTube》by Károly Zsolnai-Fehér http://t.cn/Rf9nWJs  ref:《Inverse-Foley Animation: Synchronizing rigid-body motions to sound》http://t.cn/Rf9n8D2 http://t.cn/Rf9nd3Y .]]></title>
+				<description>
+<![CDATA[
+【两分钟论文解读：音画自动同步】《Synchronizing Animations To Sound | Two Minute Papers - YouTube》by Károly Zsolnai-Fehér <a class="href" href="http://t.cn/Rf9nWJs" rel="nofollow" target="_blank">http://t.cn/Rf9nWJs</a>  ref:《Inverse-Foley Animation: Synchronizing rigid-body motions to sound》<a class="href" href="http://t.cn/Rf9n8D2" rel="nofollow" target="_blank">http://t.cn/Rf9n8D2</a> <a class="href" href="http://t.cn/Rf9nd3Y" rel="nofollow" target="_blank">http://t.cn/Rf9nd3Y</a> .  <br/><br/>
+]]>
+</description>
+				<pubDate>Thu, 24 Nov 2016 15:57:17 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4045367512941584.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4045367512941584.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[《On the Connection of Deep Fusion to Ensembling》L Zhao, J Wang, X Li, Z Tu, W Zeng (2016) http://t.cn/Rf9HsAIRT @liming712:在微软亚洲研究院的实习即将结束，在王井东老师@王井东的微博 的指导下，收获和学习到了很多。在探索最近提出的深度神经网络结构为什么效果好等方面做了一点研究： 
 论文【深度融合网络的研究】在ResNet，Inception类型的网络与Ensemble的关联进行了探索，发现加深网络层数对本身性能的提升不是最关键的，重要的是增加模型的潜在网络数目。基于这样的假设与观察，我们提出新的Merge-and-Run结构，在不同的图像分类数据集上均取得了不错的表现。
@@ -1673,37 +1684,6 @@ Keras implementation by Thibault de Boissiere GitHub:<a class="href" href="http:
 				<pubDate>Thu, 24 Nov 2016 04:43:45 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4045198013147906.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4045198013147906.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《Investigating the influence of noise and distractors on the interpretation of neural networks》P Kindermans, K Schütt, K Müller, S Dähne [TU Berlin] (2016) http://t.cn/Rf9wM9z]]></title>
-				<description>
-<![CDATA[
-《Investigating the influence of noise and distractors on the interpretation of neural networks》P Kindermans, K Schütt, K Müller, S Dähne [TU Berlin] (2016) <a class="href" href="http://t.cn/Rf9wM9z" rel="nofollow" target="_blank">http://t.cn/Rf9wM9z</a> 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4045197534388160#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fa2pmkyueaj211o0cgn6a.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4045197534388160#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fa2pmlhu8ej219s0podrs.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4045197534388160#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fa2pmm89vuj219w0r8nhc.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4045197534388160#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fa2pmp5mwmj219o0f2wrp.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Thu, 24 Nov 2016 04:41:51 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4045197534388160.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4045197534388160.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
