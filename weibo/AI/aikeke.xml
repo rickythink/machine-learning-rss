@@ -4,8 +4,38 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Mon, 28 Nov 2016 10:07:17 +0800</lastBuildDate>
+		<lastBuildDate>Mon, 28 Nov 2016 10:59:42 +0800</lastBuildDate>
 		<ttl>36000</ttl>
+			<item>
+				<title><![CDATA[//@tobe迪豪: 这是三个月前的用法了，用Python saver保存模型和加载，作者代码中指定模型的输入输出tensor名导致server端加载不同模型需求修改代码，我们在deep_recommend_system项目中已经实现了通用TensorFlow模型的predict server，开放Django的HTTP接口和gRPC接口   http://t.cn/Rfji85HRT @爱可可-爱生活:【Tensorflow最佳实践之模型固化与(python)API部署】《Tensorflow: How to freeze a model and serve it with a python API》by Morgan http://t.cn/RfjAr2e]]></title>
+				<description>
+<![CDATA[
+//<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/tobe迪豪/">@tobe迪豪</a>: 这是三个月前的用法了，用Python saver保存模型和加载，作者代码中指定模型的输入输出tensor名导致server端加载不同模型需求修改代码，我们在deep_recommend_system项目中已经实现了通用TensorFlow模型的predict server，开放Django的HTTP接口和gRPC接口   <a class="href" href="http://t.cn/Rfji85H" rel="nofollow" target="_blank">http://t.cn/Rfji85H</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【Tensorflow最佳实践之模型固化与(python)API部署】《Tensorflow: How to freeze a model and serve it with a python API》by Morgan <a class="href" href="http://t.cn/RfjAr2e" rel="nofollow" target="_blank">http://t.cn/RfjAr2e</a><br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4046742175523847#utm_source=rsspic"  title="点击看大图"><img src="http://ww1.sinaimg.cn/large/5396ee05jw1fa7eqh1707j215ed43kjn.jpg"></a><br/><br/>
+]]>
+</description>
+				<pubDate>Mon, 28 Nov 2016 10:59:42 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4046742175523847.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4046742175523847.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA["CMU 15-721 (SPRING 2016) Database Systems"RT @何_登成:周末看了CMU16年最新的数据库课件，相当之赞，忍不住推荐：http://t.cn/R495xx9 http://t.cn/RflLDQp 课件是最新的，但内容却是经典和创新兼而有之。看课件过程中，又想起自己本科毕业答辩时，导师问我的一个问题：Lock和Latch有何区别？没想到从那时起，一直在数据库领域做了近10几年，未来仍将继续]]></title>
+				<description>
+<![CDATA[
+"CMU 15-721 (SPRING 2016) Database Systems"  RT @<a herf="http://weibo.wbdacdn.com/user/2216172320">何_登成</a>:周末看了CMU16年最新的数据库课件，相当之赞，忍不住推荐：<a class="href" href="http://t.cn/R495xx9" rel="nofollow" target="_blank">http://t.cn/R495xx9</a> <a class="href" href="http://t.cn/RflLDQp" rel="nofollow" target="_blank">http://t.cn/RflLDQp</a> 课件是最新的，但内容却是经典和创新兼而有之。看课件过程中，又想起自己本科毕业答辩时，导师问我的一个问题：Lock和Latch有何区别？没想到从那时起，一直在数据库领域做了近10几年，未来仍将继续<br/>
+						<a href="http://weibo.wbdacdn.com/user/2216172320/?status=4046525045048561#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/84181b20gw1fa6y2yrnm4j20sf0gr439.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/2216172320/?status=4046525045048561#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/84181b20gw1fa6y2zsldyj20y60hetel.jpg" >
+						</a>
+					<br/><br/>
+]]>
+</description>
+				<pubDate>Mon, 28 Nov 2016 10:59:09 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4046742036988048.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4046742036988048.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[【经济学家爱跟风，最新一波是机器学习】《Economists are prone to fads, and the latest is machine learning | The Economist》 http://t.cn/RfO0uZJ]]></title>
 				<description>
@@ -853,44 +883,6 @@ Summary by <a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/�
 				<pubDate>Sun, 27 Nov 2016 21:25:56 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4046537379681450.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4046537379681450.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[爱可可老师24小时热门分享：1、《Python科学计算基础教程》2、【Keras教程：Python深度学习入门指南】3、《服务器端人工智能FPGA和GPU到底谁更强？》4、【机器学习初学者进阶路线图】5、【Python编程22本图书推荐】……【邮件订阅：http://t.cn/RfUl6dv】 http://t.cn/Rfly095]]></title>
-				<description>
-<![CDATA[
-爱可可老师24小时热门分享：1、《Python科学计算基础教程》2、【Keras教程：Python深度学习入门指南】3、《服务器端人工智能FPGA和GPU到底谁更强？》4、【机器学习初学者进阶路线图】5、【Python编程22本图书推荐】……【邮件订阅：<a class="href" href="http://t.cn/RfUl6dv" rel="nofollow" target="_blank">http://t.cn/RfUl6dv</a>】 <a class="href" href="http://t.cn/Rfly095" rel="nofollow" target="_blank">http://t.cn/Rfly095</a>  <br/><br/>
-]]>
-</description>
-				<pubDate>Sun, 27 Nov 2016 20:43:42 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4046526755462502.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4046526755462502.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《今年GitHub排名前20的Python机器学习开源项目》via:@机器之心synced http://t.cn/RfW5qf5RT @爱可可-爱生活:【(Github)最受欢迎的20个Python机器学习开源项目】《Top 20 Python Machine Learning Open Source Projects, updated》by Prasad Pore http://t.cn/RfSVvL9]]></title>
-				<description>
-<![CDATA[
-《今年GitHub排名前20的Python机器学习开源项目》via:<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/机器之心synced/">@机器之心synced</a> <a class="href" href="http://t.cn/RfW5qf5" rel="nofollow" target="_blank">http://t.cn/RfW5qf5</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【(Github)最受欢迎的20个Python机器学习开源项目】《Top 20 Python Machine Learning Open Source Projects, updated》by Prasad Pore <a class="href" href="http://t.cn/RfSVvL9" rel="nofollow" target="_blank">http://t.cn/RfSVvL9</a><br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4044631924554924#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fa0wnhsgk9j20ro5oub2a.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4044631924554924#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fa0wnpyqfjj217k0wg7al.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4044631924554924#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fa0wnsfet3j217k0r8wl0.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4044631924554924#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fa0wntt4sdj217k0wgjvl.jpg" >
-						</a>
-					<br/><br/>
-]]>
-</description>
-				<pubDate>Sun, 27 Nov 2016 15:06:45 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4046441964111939.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4046441964111939.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
