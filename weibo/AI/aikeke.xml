@@ -5,7 +5,7 @@
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
 		<lastBuildDate>Thu, 01 Dec 2016 10:13:53 +0800</lastBuildDate>
-		<ttl>36000</ttl>
+		<ttl>3600</ttl>
 			<item>
 				<title><![CDATA[【初试(TensorFlow)TensorBoard之Embedding可视化】《TensorBoard: Embedding Visualization | Ahogrammer》by Hironsan http://t.cn/RfEaa7g ref:http://weibo.com/1402400261/EjTb9aW4g]]></title>
 				<description>
