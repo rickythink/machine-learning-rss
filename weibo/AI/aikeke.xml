@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Thu, 08 Dec 2016 16:38:13 +0800</lastBuildDate>
+		<lastBuildDate>Thu, 08 Dec 2016 17:21:39 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[//@phunter_lau:xgboost dart 实现文档 http://t.cn/RIPHf8QRT @马超Terminal:最近学到的一个小 trick, 如何用GBDT(xgboost)训练随机森林？答案是用DART(dropout in mart), 设置参数，使得每棵树拟合残差的时候把之前所有训练过的树都dropout 掉。相当于每课树都是随机森林中的一棵单独的决策树。]]></title>
+				<description>
+<![CDATA[
+//<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/phunter_lau/">@phunter_lau</a>:xgboost dart 实现文档 <a class="href" href="http://t.cn/RIPHf8Q" rel="nofollow" target="_blank">http://t.cn/RIPHf8Q</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1633615122">马超Terminal</a>:最近学到的一个小 trick, 如何用GBDT(xgboost)训练随机森林？答案是用DART(dropout in mart), 设置参数，使得每棵树拟合残差的时候把之前所有训练过的树都dropout 掉。相当于每课树都是随机森林中的一棵单独的决策树。<br/><br/>
+]]>
+</description>
+				<pubDate>Thu, 08 Dec 2016 17:21:39 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4050462174688184.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4050462174688184.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[【轻量多语言实体链接工具正式开源】《Presenting an Open Source Toolkit for Lightweight Multilingual Entity Linking | Yahoo Research》 http://t.cn/RIPmKf2 http://t.cn/RIPmKfART @爱可可-爱生活:【Yahoo出品的快速实体链接工具】’FEL(Fast Entity Linker Core) - Fast Entity Linker Toolkit for training models to link entities to KnowledgeBase (Wikipedia) in documents and queries.' by Yahoo GitHub: http://t.cn/RIP43e8]]></title>
 				<description>
@@ -896,49 +907,6 @@ Stanalone Version: <a class="href" href="http://t.cn/RIP44fr" rel="nofollow" tar
 				<pubDate>Thu, 08 Dec 2016 05:53:21 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4050288958682496.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4050288958682496.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[Updated to v3. Poster at NIPS 2016: http://t.cn/RIvFAQuRT @爱可可-爱生活:《Sampling Generative Networks: Notes on a Few Effective Techniques》T White [Victoria University of Wellington] (2016) http://t.cn/RcoLtip]]></title>
-				<description>
-<![CDATA[
-Updated to v3. Poster at NIPS 2016: <a class="href" href="http://t.cn/RIvFAQu" rel="nofollow" target="_blank">http://t.cn/RIvFAQu</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:《Sampling Generative Networks: Notes on a Few Effective Techniques》T White [Victoria University of Wellington] (2016) <a class="href" href="http://t.cn/RcoLtip" rel="nofollow" target="_blank">http://t.cn/RcoLtip</a><br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020596213431147#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f7w85lrrnaj20t20ec7fc.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020596213431147#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f7w85zvqdsj20ti0zik4o.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020596213431147#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f7w8659wiuj20v00qan6n.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020596213431147#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f7w86c2az9j20u00q2k24.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020596213431147#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f7w86ms0zlj20sy168nfs.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020596213431147#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f7w86sgi7sj20t40ao0ww.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020596213431147#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f7w86wyl8xj20sy0toqdq.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4020596213431147#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f7w87461h5j20t40j0tfb.jpg" >
-						</a>
-					<br/><br/>
-]]>
-</description>
-				<pubDate>Thu, 08 Dec 2016 05:45:57 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4050287100555044.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4050287100555044.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
