@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Mon, 12 Dec 2016 22:06:07 +0800</lastBuildDate>
+		<lastBuildDate>Mon, 12 Dec 2016 22:26:58 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[//@tobe迪豪: 使用TensorFlow原生API实现的DQN模型，基于DeepMind 2013 NIPS论文，实现了experience replay队列、基于马尔科夫决策树和Bellman方程的discount factor、基于value function的Q-learning算法，将Q value与神经网络结合实现论文中的DQN模型，集成gym中吃豆人等Atari游戏......RT @爱可可-爱生活:【TensorFlow深度增强学习示例】’Deep Q - Deep reinforcement learning with TensorFlow' by @tobe迪豪  GitHub: http://t.cn/RIAIdjr]]></title>
+				<description>
+<![CDATA[
+//<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/tobe迪豪/">@tobe迪豪</a>: 使用TensorFlow原生API实现的DQN模型，基于DeepMind 2013 NIPS论文，实现了experience replay队列、基于马尔科夫决策树和Bellman方程的discount factor、基于value function的Q-learning算法，将Q value与神经网络结合实现论文中的DQN模型，集成gym中吃豆人等Atari游戏......  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【TensorFlow深度增强学习示例】’Deep Q - Deep reinforcement learning with TensorFlow' by <a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/tobe迪豪/">@tobe迪豪</a>  GitHub: <a class="href" href="http://t.cn/RIAIdjr" rel="nofollow" target="_blank">http://t.cn/RIAIdjr</a><br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4051988562110028#utm_source=rsspic"  title="点击看大图"><img src="http://ww1.sinaimg.cn/large/5396ee05jw1faoccv1a2vj21f80xcq6x.jpg"></a><br/><br/>
+]]>
+</description>
+				<pubDate>Mon, 12 Dec 2016 22:26:58 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4051988562110028.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4051988562110028.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[“深度神经网络中深度究竟带来了什么？”RT @微软亚洲研究院:【深度神经网络中深度究竟带来了什么？】 这个问题可能每个研究深度学习的人都思考过。我们实习生赵黎明同学@liming712 实习期间在主管研究员王井东老师@王井东的微博 的指导下进行了探索。他基于增加模型的潜在网络数目是提升性能的关键的假设，提出了新结构 http://t.cn/RIL908Q]]></title>
 				<description>
@@ -579,17 +590,6 @@
 				<pubDate>Mon, 12 Dec 2016 05:49:37 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4051737570085813.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4051737570085813.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks》E Ilg, N Mayer, T Saikia, M Keuper, A Dosovitskiy, T Brox [University of Freiburg] (2016) http://t.cn/RI2U3gS Home:http://t.cn/RI2UEnQ http://t.cn/RI2U3gM .]]></title>
-				<description>
-<![CDATA[
-《FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks》E Ilg, N Mayer, T Saikia, M Keuper, A Dosovitskiy, T Brox [University of Freiburg] (2016) <a class="href" href="http://t.cn/RI2U3gS" rel="nofollow" target="_blank">http://t.cn/RI2U3gS</a> Home:<a class="href" href="http://t.cn/RI2UEnQ" rel="nofollow" target="_blank">http://t.cn/RI2UEnQ</a> <a class="href" href="http://t.cn/RI2U3gM" rel="nofollow" target="_blank">http://t.cn/RI2U3gM</a> .  <br/><br/>
-]]>
-</description>
-				<pubDate>Mon, 12 Dec 2016 05:45:14 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4051736462680702.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4051736462680702.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
