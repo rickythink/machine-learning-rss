@@ -148,10 +148,10 @@ Summary by Adrian Colyer  <a class="href" href="http://t.cn/RIt6370" rel="nofoll
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4053322060559561.html#utm_source=rss</link>
 			</item>
 			<item>
-				<title><![CDATA[//@LIBBLE-AI: 忘记发开源项目的地址了：   http://t.cn/RIqHRnCRT @LIBBLE-AI:LIBBLE-Spark现在支持分类 (LR, SVM, LR with L1-norm regularization)、回归 (线性回归、Lasso)、广义线性模型 (加L1范数或者L2范数正则化)、降维 (主成分分析PCA、奇异值分解SVD)、矩阵分解、聚类等功能。除聚类外，这些功能都基于我们提出的分布式随机学习算法SCOPE，SCOPE不但在理论上能证明具有线性收敛率，而且具有通信开销小的优点。基于9台机器（1 master + 16 worker，一个线程对应一个worker），在KDD Cup 2012竞赛数据集（7千万样本、140万维特征）上的LR实验表明，SCOPE能在1分钟左右收敛到最优值附近，比MLlib快5倍以上]]></title>
+				<title><![CDATA[//@LIBBLE-AI: 忘记发开源项目的地址了：   http://t.cn/RIqHRnCRT @LIBBLE-AI:LIBBLE-Spark现在支持分类 (LR, SVM, LR with L1-norm regularization)、回归 (线性回归、Lasso)、广义线性模型 (加L1范数或者L2范数正则化)、降维 (主成分分析PCA、奇异值分解SVD)、矩阵分解、聚类等功能。除聚类外，这些功能都基于我们提出的分布式随机学习算法SCOPE，SCOPE不但在理论上能证明具有线...全文： http://m.weibo.cn/6086771131/4052996466194475]]></title>
 				<description>
 <![CDATA[
-//<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/LIBBLE-AI/">@LIBBLE-AI</a>: 忘记发开源项目的地址了：   <a class="href" href="http://t.cn/RIqHRnC" rel="nofollow" target="_blank">http://t.cn/RIqHRnC</a>  RT @<a herf="http://weibo.wbdacdn.com/user/6086771131">LIBBLE-AI</a>:LIBBLE-Spark现在支持分类 (LR, SVM, LR with L1-norm regularization)、回归 (线性回归、Lasso)、广义线性模型 (加L1范数或者L2范数正则化)、降维 (主成分分析PCA、奇异值分解SVD)、矩阵分解、聚类等功能。除聚类外，这些功能都基于我们提出的分布式随机学习算法SCOPE，SCOPE不但在理论上能证明具有线性收敛率，而且具有通信开销小的优点。基于9台机器（1 master + 16 worker，一个线程对应一个worker），在KDD Cup 2012竞赛数据集（7千万样本、140万维特征）上的LR实验表明，SCOPE能在1分钟左右收敛到最优值附近，比MLlib快5倍以上<br/><br/>
+//<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/LIBBLE-AI/">@LIBBLE-AI</a>: 忘记发开源项目的地址了：   <a class="href" href="http://t.cn/RIqHRnC" rel="nofollow" target="_blank">http://t.cn/RIqHRnC</a>  RT @<a herf="http://weibo.wbdacdn.com/user/6086771131">LIBBLE-AI</a>:LIBBLE-Spark现在支持分类 (LR, SVM, LR with L1-norm regularization)、回归 (线性回归、Lasso)、广义线性模型 (加L1范数或者L2范数正则化)、降维 (主成分分析PCA、奇异值分解SVD)、矩阵分解、聚类等功能。除聚类外，这些功能都基于我们提出的分布式随机学习算法SCOPE，SCOPE不但在理论上能证明具有线<a class="btn href longtext" target="_blank"  uid="6086771131" mid="4052996466194475">全文</a><br/><br/>
 ]]>
 </description>
 				<pubDate>Fri, 16 Dec 2016 09:46:21 +0800</pubDate>
