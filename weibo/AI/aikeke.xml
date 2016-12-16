@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Fri, 16 Dec 2016 08:43:17 +0800</lastBuildDate>
+		<lastBuildDate>Fri, 16 Dec 2016 09:46:21 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[//@LIBBLE-AI: 忘记发开源项目的地址了：   http://t.cn/RIqHRnCRT @LIBBLE-AI:LIBBLE-Spark现在支持分类 (LR, SVM, LR with L1-norm regularization)、回归 (线性回归、Lasso)、广义线性模型 (加L1范数或者L2范数正则化)、降维 (主成分分析PCA、奇异值分解SVD)、矩阵分解、聚类等功能。除聚类外，这些功能都基于我们提出的分布式随机学习算法SCOPE，SCOPE不但在理论上能证明具有线性收敛率，而且具有通信开销小的优点。基于9台机器（1 master + 16 worker，一个线程对应一个worker），在KDD Cup 2012竞赛数据集（7千万样本、140万维特征）上的LR实验表明，SCOPE能在1分钟左右收敛到最优值附近，比MLlib快5倍以上]]></title>
+				<description>
+<![CDATA[
+//<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/LIBBLE-AI/">@LIBBLE-AI</a>: 忘记发开源项目的地址了：   <a class="href" href="http://t.cn/RIqHRnC" rel="nofollow" target="_blank">http://t.cn/RIqHRnC</a>  RT @<a herf="http://weibo.wbdacdn.com/user/6086771131">LIBBLE-AI</a>:LIBBLE-Spark现在支持分类 (LR, SVM, LR with L1-norm regularization)、回归 (线性回归、Lasso)、广义线性模型 (加L1范数或者L2范数正则化)、降维 (主成分分析PCA、奇异值分解SVD)、矩阵分解、聚类等功能。除聚类外，这些功能都基于我们提出的分布式随机学习算法SCOPE，SCOPE不但在理论上能证明具有线性收敛率，而且具有通信开销小的优点。基于9台机器（1 master + 16 worker，一个线程对应一个worker），在KDD Cup 2012竞赛数据集（7千万样本、140万维特征）上的LR实验表明，SCOPE能在1分钟左右收敛到最优值附近，比MLlib快5倍以上<br/><br/>
+]]>
+</description>
+				<pubDate>Fri, 16 Dec 2016 09:46:21 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4053246693273550.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4053246693273550.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[【(MATLAB)11行代码实现深度目标识别】《Deep Learning in 11 Lines of MATLAB Code - YouTube》 http://t.cn/RI5RFKL files:http://t.cn/RI5RFK2 http://t.cn/RI5RFod .]]></title>
 				<description>
@@ -828,62 +839,6 @@
 				<pubDate>Thu, 15 Dec 2016 20:14:15 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4053042325788860.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4053042325788860.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《卷积神经网络（CNN）在无人驾驶中的应用》by 吴双，王江，刘少山  via:@极客头条 http://t.cn/RIqrR2d]]></title>
-				<description>
-<![CDATA[
-《卷积神经网络（CNN）在无人驾驶中的应用》by 吴双，王江，刘少山  via:<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/极客头条/">@极客头条</a> <a class="href" href="http://t.cn/RIqrR2d" rel="nofollow" target="_blank">http://t.cn/RIqrR2d</a> 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053033375056925#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1farpjxeyabj20af0hdaaz.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053033375056925#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1farpjypf4oj20ku05mq3s.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053033375056925#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1farpjzz38aj20dj08tmxp.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053033375056925#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1farpk1des7j20ra0eyq5q.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053033375056925#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1farpk2ph7zj20hx07nwfi.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053033375056925#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1farpk45iabj20c706w3z6.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053033375056925#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1farpk61s3ij20cn052ab0.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053033375056925#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1farpk7clbyj20qz0ccmyv.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053033375056925#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1farpk8ous5j20nq087gmc.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Thu, 15 Dec 2016 19:38:41 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4053033375056925.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4053033375056925.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
