@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Fri, 16 Dec 2016 15:07:35 +0800</lastBuildDate>
+		<lastBuildDate>Fri, 16 Dec 2016 19:10:16 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[转发微博RT @陈天奇怪:XGBoost社区不断发展壮大，最近有不少新东西。其中之一是基于GPU的加速，来自于新西兰 Waikato University 的Rory(他们的组的著名工作有数据挖掘工具Weka)。http://t.cn/RItiAFz  在exact greedy模式下TitanX可以有不少的加速]]></title>
+				<description>
+<![CDATA[
+转发微博  RT @<a herf="http://weibo.wbdacdn.com/user/2397265244">陈天奇怪</a>:XGBoost社区不断发展壮大，最近有不少新东西。其中之一是基于GPU的加速，来自于新西兰 Waikato University 的Rory(他们的组的著名工作有数据挖掘工具Weka)。<a class="href" href="http://t.cn/RItiAFz" rel="nofollow" target="_blank">http://t.cn/RItiAFz</a>  在exact greedy模式下TitanX可以有不少的加速<br/><br/>
+]]>
+</description>
+				<pubDate>Fri, 16 Dec 2016 19:10:16 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4053388612722080.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4053388612722080.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[【深度学习端到端学习】《End-to-End learning of deep learning》by vivek yadav Part0:http://t.cn/RItXtvK]]></title>
 				<description>
@@ -148,10 +159,10 @@ Summary by Adrian Colyer  <a class="href" href="http://t.cn/RIt6370" rel="nofoll
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4053322060559561.html#utm_source=rss</link>
 			</item>
 			<item>
-				<title><![CDATA[//@LIBBLE-AI: 忘记发开源项目的地址了：   http://t.cn/RIqHRnCRT @LIBBLE-AI:LIBBLE-Spark现在支持分类 (LR, SVM, LR with L1-norm regularization)、回归 (线性回归、Lasso)、广义线性模型 (加L1范数或者L2范数正则化)、降维 (主成分分析PCA、奇异值分解SVD)、矩阵分解、聚类等功能。除聚类外，这些功能都基于我们提出的分布式随机学习算法SCOPE，SCOPE不但在理论上能证明具有线...全文： http://m.weibo.cn/6086771131/4052996466194475]]></title>
+				<title><![CDATA[//@LIBBLE-AI: 忘记发开源项目的地址了：   http://t.cn/RIqHRnCRT @LIBBLE-AI:LIBBLE-Spark现在支持分类 (LR, SVM, LR with L1-norm regularization)、回归 (线性回归、Lasso)、广义线性模型 (加L1范数或者L2范数正则化)、降维 (主成分分析PCA、奇异值分解SVD)、矩阵分解、聚类等功能。除聚类外，这些功能都基于我们提出的分布式随机学习算法SCOPE，SCOPE不但在理论上能证明具有线性收敛率，而且具有通信开销小的优点。基于9台机器（1 master + 16 worker，一个线程对应一个worker），在KDD Cup 2012竞赛数据集（7千万样本、140万维特征）上的LR实验表明，SCOPE能在1分钟左右收敛到最优值附近，比MLlib快5倍以上]]></title>
 				<description>
 <![CDATA[
-//<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/LIBBLE-AI/">@LIBBLE-AI</a>: 忘记发开源项目的地址了：   <a class="href" href="http://t.cn/RIqHRnC" rel="nofollow" target="_blank">http://t.cn/RIqHRnC</a>  RT @<a herf="http://weibo.wbdacdn.com/user/6086771131">LIBBLE-AI</a>:LIBBLE-Spark现在支持分类 (LR, SVM, LR with L1-norm regularization)、回归 (线性回归、Lasso)、广义线性模型 (加L1范数或者L2范数正则化)、降维 (主成分分析PCA、奇异值分解SVD)、矩阵分解、聚类等功能。除聚类外，这些功能都基于我们提出的分布式随机学习算法SCOPE，SCOPE不但在理论上能证明具有线<a class="btn href longtext" target="_blank"  uid="6086771131" mid="4052996466194475">全文</a><br/><br/>
+//<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/LIBBLE-AI/">@LIBBLE-AI</a>: 忘记发开源项目的地址了：   <a class="href" href="http://t.cn/RIqHRnC" rel="nofollow" target="_blank">http://t.cn/RIqHRnC</a>  RT @<a herf="http://weibo.wbdacdn.com/user/6086771131">LIBBLE-AI</a>:LIBBLE-Spark现在支持分类 (LR, SVM, LR with L1-norm regularization)、回归 (线性回归、Lasso)、广义线性模型 (加L1范数或者L2范数正则化)、降维 (主成分分析PCA、奇异值分解SVD)、矩阵分解、聚类等功能。除聚类外，这些功能都基于我们提出的分布式随机学习算法SCOPE，SCOPE不但在理论上能证明具有线性收敛率，而且具有通信开销小的优点。基于9台机器（1 master + 16 worker，一个线程对应一个worker），在KDD Cup 2012竞赛数据集（7千万样本、140万维特征）上的LR实验表明，SCOPE能在1分钟左右收敛到最优值附近，比MLlib快5倍以上<br/><br/>
 ]]>
 </description>
 				<pubDate>Fri, 16 Dec 2016 09:46:21 +0800</pubDate>
@@ -677,52 +688,6 @@ Summary by Adrian Colyer  <a class="href" href="http://t.cn/RIt6370" rel="nofoll
 				<pubDate>Fri, 16 Dec 2016 05:16:19 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4053178741295084.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4053178741295084.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《Deep Function Machines: Generalized Neural Networks for Topological Layer Expression》W H. Guss [UC Berkeley] (2016) http://t.cn/RI5W2TS]]></title>
-				<description>
-<![CDATA[
-《Deep Function Machines: Generalized Neural Networks for Topological Layer Expression》W H. Guss [UC Berkeley] (2016) <a class="href" href="http://t.cn/RI5W2TS" rel="nofollow" target="_blank">http://t.cn/RI5W2TS</a> 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053178053422179#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fas64z5wp9j20zfo6u1l2.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053178053422179#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fas64q5viaj212e0h47j4.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053178053422179#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fas65soqr0j219s0i2wlo.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053178053422179#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fas66engazj21a00qqqbb.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053178053422179#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fas64uf5h4j219k0gadp4.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053178053422179#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fas65w5q41j21a00fi7av.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053178053422179#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fas64wjcgvj21960qwx5c.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Fri, 16 Dec 2016 05:13:36 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4053178053422179.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4053178053422179.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
