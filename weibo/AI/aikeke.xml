@@ -4,8 +4,86 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Sun, 18 Dec 2016 13:02:08 +0800</lastBuildDate>
+		<lastBuildDate>Sun, 18 Dec 2016 15:06:45 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[【《数据之美》自然语言数据集/代码】《Natural Language Corpus Data: Beautiful Data》 http://t.cn/hBOTM4]]></title>
+				<description>
+<![CDATA[
+【《数据之美》自然语言数据集/代码】《Natural Language Corpus Data: Beautiful Data》 <a class="href" href="http://t.cn/hBOTM4" rel="nofollow" target="_blank">http://t.cn/hBOTM4</a> 
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4054052105132431#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fauyjsg6edj205006k3zc.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4054052105132431#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fauyk4hpiqj21kw12y4qp.jpg" >
+				</a>
+			 <br/><br/>
+]]>
+</description>
+				<pubDate>Sun, 18 Dec 2016 15:06:45 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4054052105132431.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4054052105132431.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[【2016机器学习/人工智能主要进展】《What were the main advances in machine learning/artificial intelligence in 2016?》 http://t.cn/RIMwh7r]]></title>
+				<description>
+<![CDATA[
+【2016机器学习/人工智能主要进展】《What were the main advances in machine learning/artificial intelligence in 2016?》 <a class="href" href="http://t.cn/RIMwh7r" rel="nofollow" target="_blank">http://t.cn/RIMwh7r</a> <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4054051220294225#utm_source=rsspic" title="点击看大图"><img src="http://ww1.sinaimg.cn/large/5396ee05jw1fauygj3trfj20z53a1hdu.jpg" ></a> <br/><br/>
+]]>
+</description>
+				<pubDate>Sun, 18 Dec 2016 15:03:13 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4054051220294225.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4054051220294225.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[《孰优孰劣：Gradient-Boosted Trees与Random Forest》via:大数据应用 http://t.cn/RIMZtKhRT @爱可可-爱生活:【Gradient-Boosted Trees VS Random Forest】《What is better: gradient-boosted trees, or random forest? - FastML》by Zygmunt Zając http://t.cn/RbumSvR]]></title>
+				<description>
+<![CDATA[
+《孰优孰劣：Gradient-Boosted Trees与Random Forest》via:大数据应用 <a class="href" href="http://t.cn/RIMZtKh" rel="nofollow" target="_blank">http://t.cn/RIMZtKh</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【Gradient-Boosted Trees VS Random Forest】《What is better: gradient-boosted trees, or random forest? - FastML》by Zygmunt Zając <a class="href" href="http://t.cn/RbumSvR" rel="nofollow" target="_blank">http://t.cn/RbumSvR</a><br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4054049173186417#utm_source=rsspic"  title="点击看大图"><img src="http://ww3.sinaimg.cn/large/5396ee05jw1f0esqxjgkhj20g00c0q48.jpg"></a><br/><br/>
+]]>
+</description>
+				<pubDate>Sun, 18 Dec 2016 14:55:05 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4054049173186417.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4054049173186417.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[//@深度学习小学生: 对caffe平台，Slover参数设置需确定epoch，学习速率，批量个数等，即每一epoch下的迭代数是不变的；故优化目标函数的收敛性能往往与批量尺寸有很大关系！本文突破这种批量固定设置策略，可通过优化目标函数值与梯度下降量来在每一个epoch自动调整更改批量数！这种方式收敛更快！RT @爱可可-爱生活:《Coupling Adaptive Batch Sizes with Learning Rates》L Balles, J Romero, P Hennig [Max Planck Institute for Intelligent Systems] (2016) http://t.cn/RIcryDq GitHub:http://t.cn/RIcryDG]]></title>
+				<description>
+<![CDATA[
+//<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/深度学习小学生/">@深度学习小学生</a>: 对caffe平台，Slover参数设置需确定epoch，学习速率，批量个数等，即每一epoch下的迭代数是不变的；故优化目标函数的收敛性能往往与批量尺寸有很大关系！本文突破这种批量固定设置策略，可通过优化目标函数值与梯度下降量来在每一个epoch自动调整更改批量数！这种方式收敛更快！  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:《Coupling Adaptive Batch Sizes with Learning Rates》L Balles, J Romero, P Hennig [Max Planck Institute for Intelligent Systems] (2016) <a class="href" href="http://t.cn/RIcryDq" rel="nofollow" target="_blank">http://t.cn/RIcryDq</a> GitHub:<a class="href" href="http://t.cn/RIcryDG" rel="nofollow" target="_blank">http://t.cn/RIcryDG</a><br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053565036632319#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05gw1fatefvzu65j20rq0y0e2x.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053565036632319#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05gw1fatefou66ij20pc0oan2x.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053565036632319#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww3.sinaimg.cn/large/5396ee05gw1fatefrghlpj20pw0oan34.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053565036632319#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/5396ee05gw1fateg06dowj20po0o07am.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053565036632319#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05gw1fatefw11faj20rw0rqqar.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053565036632319#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05gw1fatefxc1twj20rg0g8tip.jpg" >
+						</a>
+					<br/><br/>
+]]>
+</description>
+				<pubDate>Sun, 18 Dec 2016 14:50:23 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4054047986331994.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4054047986331994.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[《关于 NIPS 2016 你应该知道的 50 件事情》via:@新智元 http://t.cn/RIImXmMRT @爱可可-爱生活:【NIPS 2016见闻录】《50 things I learned at NIPS 2016》by Andreas Stuhlmüller http://t.cn/RIGEbuB]]></title>
 				<description>
@@ -561,190 +639,6 @@
 				<pubDate>Sun, 18 Dec 2016 06:58:30 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4053929233338029.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4053929233338029.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《Feedback Neural Network for Weakly Supervised Geo-Semantic Segmentation》X Liu, A Zhang, T Tiecke, A Gros, T S. Huang [Facebook Connectivity Lab & Facebook Core Data Science & University of Illinois] (2016) http://t.cn/RIIVTFx]]></title>
-				<description>
-<![CDATA[
-《Feedback Neural Network for Weakly Supervised Geo-Semantic Segmentation》X Liu, A Zhang, T Tiecke, A Gros, T S. Huang [Facebook Connectivity Lab & Facebook Core Data Science & University of Illinois] (2016) <a class="href" href="http://t.cn/RIIVTFx" rel="nofollow" target="_blank">http://t.cn/RIIVTFx</a> 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053928054467065#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05gw1faukaoe8khj20zfbginpf.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053928054467065#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05gw1faukai9z0wj21260fsgy4.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053928054467065#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05gw1faukajh51oj219m0ikq9v.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053928054467065#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05gw1faukajvu5dj20cw0j840l.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053928054467065#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05gw1faukanutwyj21980dqjxx.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053928054467065#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05gw1faukarmmdvj219u1dg1kx.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053928054467065#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05gw1faukanih12j219e0eqaod.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Sun, 18 Dec 2016 06:53:49 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4053928054467065.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4053928054467065.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《Learning in the Machine: Random Backpropagation and the Learning Channel》P Baldi, P Sadowski, Z Lu [University of California] (2016) http://t.cn/RIIViZ3]]></title>
-				<description>
-<![CDATA[
-《Learning in the Machine: Random Backpropagation and the Learning Channel》P Baldi, P Sadowski, Z Lu [University of California] (2016) <a class="href" href="http://t.cn/RIIViZ3" rel="nofollow" target="_blank">http://t.cn/RIIViZ3</a> 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053925944267951#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05gw1fauk2ecsq2j212g16g7wh.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053925944267951#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05gw1fauk2f99ivj211u1f0dzm.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053925944267951#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05gw1fauk2fnmicj211u10s16z.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053925944267951#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05gw1fauk2gh063j211i190gtk.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053925944267951#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05gw1fauk2hopi8j211w11wk9b.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053925944267951#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05gw1fauk2h8of6j211q0lqjy0.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053925944267951#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05gw1fauk2iae47j211u0ty7b4.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053925944267951#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05gw1fauk2l53djj20v20x84m2.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Sun, 18 Dec 2016 06:45:26 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4053925944267951.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4053925944267951.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《How Grammatical is Character-level Neural Machine Translation? Assessing MT Quality with Contrastive Translation Pairs》R Sennrich [University of Edinburgh] (2016) http://t.cn/RIIV2hF GitHub:http://t.cn/RIIV2hs]]></title>
-				<description>
-<![CDATA[
-《How Grammatical is Character-level Neural Machine Translation? Assessing MT Quality with Contrastive Translation Pairs》R Sennrich [University of Edinburgh] (2016) <a class="href" href="http://t.cn/RIIV2hF" rel="nofollow" target="_blank">http://t.cn/RIIV2hF</a> GitHub:<a class="href" href="http://t.cn/RIIV2hs" rel="nofollow" target="_blank">http://t.cn/RIIV2hs</a> 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053924019163287#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05gw1faujumu2e8j20yg84cqv6.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053924019163287#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05gw1faujukdvtuj20ly1884jq.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053924019163287#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05gw1faujum0kmjj20pu0gwwi5.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053924019163287#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05gw1faujumwgpzj20pk1541fi.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Sun, 18 Dec 2016 06:37:47 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4053924019163287.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4053924019163287.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《Automatic Model Based Dataset Generation for Fast and Accurate Crop and Weeds Detection》M D Cicco, C Potena, G Grisetti, A Pretto [Sapienza University of Rome] (2016) http://t.cn/RIIVhQp]]></title>
-				<description>
-<![CDATA[
-《Automatic Model Based Dataset Generation for Fast and Accurate Crop and Weeds Detection》M D Cicco, C Potena, G Grisetti, A Pretto [Sapienza University of Rome] (2016) <a class="href" href="http://t.cn/RIIVhQp" rel="nofollow" target="_blank">http://t.cn/RIIVhQp</a> 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053923373285579#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05gw1faujrvsrmej20zf8wuhdv.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053923373285579#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05gw1faujr9b2hyj20t60mmdyh.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053923373285579#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05gw1faujrctxdij20so14edxu.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053923373285579#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05gw1faujrcjeqrj20fk0pgjt6.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053923373285579#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05gw1faujrd65k5j20sy0li7c2.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053923373285579#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05gw1faujriswutj20sy1einej.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053923373285579#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05gw1faujrgcotlj20t41f41a7.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053923373285579#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05gw1faujrfhpuxj21jq0gw7cc.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053923373285579#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05gw1faujrgg4iqj20sq0mmgzw.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Sun, 18 Dec 2016 06:35:13 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4053923373285579.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4053923373285579.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
