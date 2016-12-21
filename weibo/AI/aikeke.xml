@@ -205,11 +205,11 @@
 			</item>
 			<item>
 				<title><![CDATA[转发微博RT @刘知远THU:今天NUS @xiangnanhe 应张敏老师邀请在清华做了Collaborative Filtering for 
-Implicit Feedback的学术报告，介绍了包括Neural Collaborative Filtering在内的两个最新工作，断言DL即将席卷推荐系统领域。报告很有深度。其中比较感兴趣的是，他提到MSR在KDD2016上的工作“Collaborative Knowledge Base Embedding for Recommender Systems”，利用TransE/TransR将知识图谱信息引入推荐系统。可见Distributed Representation能够为KG赋予计算能力从而让KG有效应用于各大任务，想象空间巨大。]]></title>
+Implicit Feedback的学术报告，介绍了包括Neural Collaborative Filtering在内的两个最新工作，断言DL即将席卷推荐系统领域。报告很有深度。其中比较感兴趣的是，他提到MSR在KDD2016上的工作“Collaborative Knowledge Base...全文： http://m.weibo.cn/1464484735/4055083697998432]]></title>
 				<description>
 <![CDATA[
 转发微博  RT @<a herf="http://weibo.wbdacdn.com/user/1464484735">刘知远THU</a>:今天NUS <a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/xiangnanhe/">@xiangnanhe</a> 应张敏老师邀请在清华做了Collaborative Filtering for <br />
-Implicit Feedback的学术报告，介绍了包括Neural Collaborative Filtering在内的两个最新工作，断言DL即将席卷推荐系统领域。报告很有深度。其中比较感兴趣的是，他提到MSR在KDD2016上的工作“Collaborative Knowledge Base Embedding for Recommender Systems”，利用TransE/TransR将知识图谱信息引入推荐系统。可见Distributed Representation能够为KG赋予计算能力从而让KG有效应用于各大任务，想象空间巨大。<br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4055185502446672#utm_source=rsspic"  title="点击看大图"><img src="http://ww4.sinaimg.cn/large/574a437fjw1fay90ejd6mj20z90l9jxp.jpg"></a><br/><br/>
+Implicit Feedback的学术报告，介绍了包括Neural Collaborative Filtering在内的两个最新工作，断言DL即将席卷推荐系统领域。报告很有深度。其中比较感兴趣的是，他提到MSR在KDD2016上的工作“Collaborative Knowledge Base<a class="btn href longtext" target="_blank"  uid="1464484735" mid="4055083697998432">全文</a><br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4055185502446672#utm_source=rsspic"  title="点击看大图"><img src="http://ww4.sinaimg.cn/large/574a437fjw1fay90ejd6mj20z90l9jxp.jpg"></a><br/><br/>
 ]]>
 </description>
 				<pubDate>Wed, 21 Dec 2016 18:10:28 +0800</pubDate>
