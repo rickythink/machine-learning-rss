@@ -4,8 +4,61 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Wed, 21 Dec 2016 18:10:28 +0800</lastBuildDate>
+		<lastBuildDate>Wed, 21 Dec 2016 20:14:44 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[【ResNet的Tensorflow复现】’ResNet in Tensorflow - Re-implement Kaiming He's deep residual networks in tensorflow. Can be trained with cifar10.' by Wenxin Xu GitHub: http://t.cn/RIo3ohA]]></title>
+				<description>
+<![CDATA[
+【ResNet的Tensorflow复现】’ResNet in Tensorflow - Re-implement Kaiming He's deep residual networks in tensorflow. Can be trained with cifar10.' by Wenxin Xu GitHub: <a class="href" href="http://t.cn/RIo3ohA" rel="nofollow" target="_blank">http://t.cn/RIo3ohA</a> <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4055216770469476#utm_source=rsspic" title="点击看大图"><img src="http://ww4.sinaimg.cn/large/5396ee05jw1fayob4h4evj21eq7cqqv7.jpg" ></a> <br/><br/>
+]]>
+</description>
+				<pubDate>Wed, 21 Dec 2016 20:14:44 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4055216770469476.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4055216770469476.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[【词向量应用教程(Slides+IPN)：电影流派分类】“Word Embeddings for Fun and Profit(tutorial at PyData Berlin 2016)” GitHub:http://t.cn/RIoQmzC]]></title>
+				<description>
+<![CDATA[
+【词向量应用教程(Slides+IPN)：电影流派分类】“Word Embeddings for Fun and Profit(tutorial at PyData Berlin 2016)” GitHub:<a class="href" href="http://t.cn/RIoQmzC" rel="nofollow" target="_blank">http://t.cn/RIoQmzC</a> 
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4055208717895409#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fayn7kkcohj215o1a8ku13.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4055208717895409#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fayncmes5qj209l05z74d.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4055208717895409#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1faynbrdclnj20nq0bjdhn.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4055208717895409#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fayn8x3zx8j20dg06o0ta.jpg" >
+				</a>
+			 <br/><br/>
+]]>
+</description>
+				<pubDate>Wed, 21 Dec 2016 19:42:43 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4055208717895409.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4055208717895409.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[【编程、数学都不在行能搞定机器学习吗】《Can a non programmer, non mathematician ever learn machine learning? - Quora》 http://t.cn/RIoYlu5]]></title>
+				<description>
+<![CDATA[
+【编程、数学都不在行能搞定机器学习吗】《Can a non programmer, non mathematician ever learn machine learning? - Quora》 <a class="href" href="http://t.cn/RIoYlu5" rel="nofollow" target="_blank">http://t.cn/RIoYlu5</a> <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4055203860303895#utm_source=rsspic" title="点击看大图"><img src="http://ww1.sinaimg.cn/large/5396ee05jw1faymskmbqzj20y254d4qr.jpg" ></a> <br/><br/>
+]]>
+</description>
+				<pubDate>Wed, 21 Dec 2016 19:23:25 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4055203860303895.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4055203860303895.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[转发微博RT @刘知远THU:今天NUS @xiangnanhe 应张敏老师邀请在清华做了Collaborative Filtering for 
 Implicit Feedback的学术报告，介绍了包括Neural Collaborative Filtering在内的两个最新工作，断言DL即将席卷推荐系统领域。报告很有深度。其中比较感兴趣的是，他提到MSR在KDD2016上的工作“Collaborative Knowledge Base Embedding for Recommender Systems”，利用TransE/TransR将知识图谱信息引入推荐系统。可见Distributed Representation能够为KG赋予计算能力从而让KG有效应用于各大任务，想象空间巨大。]]></title>
@@ -913,99 +966,6 @@ GitHub:<a class="href" href="http://t.cn/RIS5f2S" rel="nofollow" target="_blank"
 				<pubDate>Wed, 21 Dec 2016 05:18:05 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4054991125326296.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4054991125326296.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《Mutual information for fitting deep nonlinear models》J S. Hunter, N O. Hodas [Pacific Northwest National Laboratory] (2016) http://t.cn/RIS4Opl]]></title>
-				<description>
-<![CDATA[
-《Mutual information for fitting deep nonlinear models》J S. Hunter, N O. Hodas [Pacific Northwest National Laboratory] (2016) <a class="href" href="http://t.cn/RIS4Opl" rel="nofollow" target="_blank">http://t.cn/RIS4Opl</a> 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4054989930123156#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1faxy9qfjdij20zfj3i7wk.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4054989930123156#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1faxy9kjbtzj219o0iq7ju.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4054989930123156#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1faxy9lkio1j21g8170ne0.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4054989930123156#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1faxy9owmwhj21841a2alp.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4054989930123156#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1faxy9o701dj21841a2alp.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4054989930123156#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1faxy9obw6pj218q19iqgb.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4054989930123156#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1faxy9o1dw5j217g19aapu.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4054989930123156#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1faxy9o7w5vj21780i018t.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Wed, 21 Dec 2016 05:13:20 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4054989930123156.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4054989930123156.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《On Random Weights for Texture Generation in One Layer Neural Networks》M Mongia, K Kumar, A Erraqabi, Y Bengio [Stanford University & IIT Kanpur & Montreal Institute f or Learning Algorithms] (2016) http://t.cn/RIS49Ai]]></title>
-				<description>
-<![CDATA[
-《On Random Weights for Texture Generation in One Layer Neural Networks》M Mongia, K Kumar, A Erraqabi, Y Bengio [Stanford University & IIT Kanpur & Montreal Institute f or Learning Algorithms] (2016) <a class="href" href="http://t.cn/RIS49Ai" rel="nofollow" target="_blank">http://t.cn/RIS49Ai</a> 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4054988914893669#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1faxy5fljsnj20zf6d67wi.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4054988914893669#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1faxy5f0p7ej20sq0jwaqo.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4054988914893669#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1faxy5gbzajj20su1hotiv.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4054988914893669#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1faxy5g92ctj20so18m1kx.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Wed, 21 Dec 2016 05:09:19 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4054988914893669.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4054988914893669.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《今日学术视野(2016.12.21)》 http://t.cn/RIS4X13]]></title>
-				<description>
-<![CDATA[
-《今日学术视野(2016.12.21)》 <a class="href" href="http://t.cn/RIS4X13" rel="nofollow" target="_blank">http://t.cn/RIS4X13</a>  <br/><br/>
-]]>
-</description>
-				<pubDate>Wed, 21 Dec 2016 05:06:02 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4054988097161785.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4054988097161785.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
