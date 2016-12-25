@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Sun, 25 Dec 2016 08:59:31 +0800</lastBuildDate>
+		<lastBuildDate>Sun, 25 Dec 2016 09:18:46 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA["Cross-Domain Visual Matching"RT @林倞:本实验室最新的Cross-Domain Matching的代码发布了 （一个新的Generalized 的Distance Metric Model，并且与Feature Learning联合优化，适用于多种视觉模式匹配问题，例如Person Re-ID，Face Verification等），论文发表于IEEE T-PAMI。参见 http://t.cn/RIWQVeE]]></title>
+				<description>
+<![CDATA[
+"Cross-Domain Visual Matching"  RT @<a herf="http://weibo.wbdacdn.com/user/2599594202">林倞</a>:本实验室最新的Cross-Domain Matching的代码发布了 （一个新的Generalized 的Distance Metric Model，并且与Feature Learning联合优化，适用于多种视觉模式匹配问题，例如Person Re-ID，Face Verification等），论文发表于IEEE T-PAMI。参见 <a class="href" href="http://t.cn/RIWQVeE" rel="nofollow" target="_blank">http://t.cn/RIWQVeE</a><br/><br/>
+]]>
+</description>
+				<pubDate>Sun, 25 Dec 2016 09:18:46 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4056501251463080.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4056501251463080.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[一周论文精选RT @爱可可-爱生活:爱可可老师一周论文精选：1、《Parallelizing Word2Vec in Shared and Distributed Memory》2、【论文组织的十项基本原则】3、《Coupling Adaptive Batch Sizes with Learning Rates》…… （邮件订阅：http://t.cn/RfUl6dv） http://t.cn/RIOuET8]]></title>
 				<description>
@@ -747,49 +758,6 @@ Merry Christmas! <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/140
 				<pubDate>Sat, 24 Dec 2016 17:36:45 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4056264180356440.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4056264180356440.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[another TensorFlow implementaion by Philippe Rémy GitHub:http://t.cn/RIWvM0u //@爱可可-爱生活: "Phased LSTM implementation in Tensorflow" by Enea Ceolini GitHub: http://t.cn/RIqbAACRT @爱可可-爱生活:《Phased LSTM: Accelerating Recurrent Network Training for Long or Event-based Sequences》D Neil, M Pfeiffer, S Liu [University of Zurich and ETH Zurich] (2016) http://t.cn/Rfw2k34]]></title>
-				<description>
-<![CDATA[
-another TensorFlow implementaion by Philippe Rémy GitHub:<a class="href" href="http://t.cn/RIWvM0u" rel="nofollow" target="_blank">http://t.cn/RIWvM0u</a> //<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/爱可可-爱生活/">@爱可可-爱生活</a>: "Phased LSTM implementation in Tensorflow" by Enea Ceolini GitHub: <a class="href" href="http://t.cn/RIqbAAC" rel="nofollow" target="_blank">http://t.cn/RIqbAAC</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:《Phased LSTM: Accelerating Recurrent Network Training for Long or Event-based Sequences》D Neil, M Pfeiffer, S Liu [University of Zurich and ETH Zurich] (2016) <a class="href" href="http://t.cn/Rfw2k34" rel="nofollow" target="_blank">http://t.cn/Rfw2k34</a><br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4039771384275404#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f9lefx9sx5j211s0omx0d.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4039771384275404#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f9lefxm44tj219u0mctgn.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4039771384275404#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f9lefxuitjj219u0sgdws.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4039771384275404#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1f9lefyhhvaj219q0psx1t.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4039771384275404#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1f9lefyvyg2j219u0pkk8w.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4039771384275404#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1f9lefz7sxkj219u0kw4a3.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4039771384275404#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f9lefzq6x4j21a00r47ms.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4039771384275404#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1f9leg02gr3j219s0m6qrh.jpg" >
-						</a>
-					<br/><br/>
-]]>
-</description>
-				<pubDate>Sat, 24 Dec 2016 17:30:38 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4056262645889841.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4056262645889841.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
