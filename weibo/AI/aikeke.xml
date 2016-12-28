@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Wed, 28 Dec 2016 10:30:03 +0800</lastBuildDate>
+		<lastBuildDate>Wed, 28 Dec 2016 13:09:08 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[《深度学习新应用：通过聆听机器声音精确分析故障》via:@机器之心synced  http://t.cn/RIE4iZRRT @爱可可-爱生活:【用深度学习监听机器故障】《Deep Learning AI Listens to Machines For Signs of Trouble | IEEE Spectrum》by Jeremy Hsu http://t.cn/RIR0eX2 http://t.cn/RIR0eXP .]]></title>
+				<description>
+<![CDATA[
+《深度学习新应用：通过聆听机器声音精确分析故障》via:<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/机器之心synced/">@机器之心synced</a>  <a class="href" href="http://t.cn/RIE4iZR" rel="nofollow" target="_blank">http://t.cn/RIE4iZR</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【用深度学习监听机器故障】《Deep Learning AI Listens to Machines For Signs of Trouble | IEEE Spectrum》by Jeremy Hsu <a class="href" href="http://t.cn/RIR0eX2" rel="nofollow" target="_blank">http://t.cn/RIR0eX2</a> <a class="href" href="http://t.cn/RIR0eXP" rel="nofollow" target="_blank">http://t.cn/RIR0eXP</a> .<br/><br/>
+]]>
+</description>
+				<pubDate>Wed, 28 Dec 2016 13:09:08 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4057646388977267.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4057646388977267.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[//@tobe迪豪: XLA是TensorFlow下一个杀手级应用，极大简化和优化深度学习模型在mobile device上的应用，目前也只release了文档，做模型预测、移动开发以及芯片设计的务必关注[赞]RT @爱可可-爱生活:【TensorFlow线代编译框架XLA】《XLA: The TensorFlow compiler framework  |  TensorFlow》 http://t.cn/RIROhTJ]]></title>
 				<description>
@@ -825,17 +836,6 @@
 				<pubDate>Wed, 28 Dec 2016 05:10:34 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4057525949285155.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4057525949285155.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[爱可可老师24小时热门分享：1、《Language Modeling with Gated Convolutional Networks》2、【手把手Python数据科学简单入门】3、【反向传播详解】4、【深入了解自动驾驶】5、《香港科技大学杨强 KDD China 技术峰会演讲：迁移学习的本质与实际应用》…… http://t.cn/RI8kYVp]]></title>
-				<description>
-<![CDATA[
-爱可可老师24小时热门分享：1、《Language Modeling with Gated Convolutional Networks》2、【手把手Python数据科学简单入门】3、【反向传播详解】4、【深入了解自动驾驶】5、《香港科技大学杨强 KDD China 技术峰会演讲：迁移学习的本质与实际应用》…… <a class="href" href="http://t.cn/RI8kYVp" rel="nofollow" target="_blank">http://t.cn/RI8kYVp</a>  <br/><br/>
-]]>
-</description>
-				<pubDate>Tue, 27 Dec 2016 22:13:25 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4057420969369880.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4057420969369880.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
