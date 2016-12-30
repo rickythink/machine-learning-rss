@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Fri, 30 Dec 2016 07:08:56 +0800</lastBuildDate>
+		<lastBuildDate>Fri, 30 Dec 2016 13:17:40 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[转发微博RT @唐源Terry:[arXiv] lfda: An R Package for Local Fisher Discriminant Analysis and Visualization arxiv.org/abs/1612.09219]]></title>
+				<description>
+<![CDATA[
+转发微博  RT @<a herf="http://weibo.wbdacdn.com/user/5681818134">唐源Terry</a>:[arXiv] lfda: An R Package for Local Fisher Discriminant Analysis and Visualization arxiv.org/abs/1612.09219<br/><br/>
+]]>
+</description>
+				<pubDate>Fri, 30 Dec 2016 13:17:40 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4058373308236151.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4058373308236151.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[《现场展示破解人脸识别技术的5种方法》by 谢幺 via:@雷锋网 http://t.cn/RImXqET]]></title>
 				<description>
@@ -860,25 +871,6 @@ GitHub(snorkel):<a class="href" href="http://t.cn/RcBj11p" rel="nofollow" target
 				<pubDate>Thu, 29 Dec 2016 14:44:01 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4058032651033311.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4058032651033311.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《从迭代的五个层面理解机器学习》via:@机器之心synced http://t.cn/RIufSFuRT @爱可可-爱生活:【机器学习迭代的5个层次】《The 5 Levels of Machine Learning Iteration》 http://t.cn/RIquKNB]]></title>
-				<description>
-<![CDATA[
-《从迭代的五个层面理解机器学习》via:<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/机器之心synced/">@机器之心synced</a> <a class="href" href="http://t.cn/RIufSFu" rel="nofollow" target="_blank">http://t.cn/RIufSFu</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【机器学习迭代的5个层次】《The 5 Levels of Machine Learning Iteration》 <a class="href" href="http://t.cn/RIquKNB" rel="nofollow" target="_blank">http://t.cn/RIquKNB</a><br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053022046859411#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1faro93xr1mj2100gxp7wl.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4053022046859411#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1faro99vt5aj20hs09c76r.jpg" >
-						</a>
-					<br/><br/>
-]]>
-</description>
-				<pubDate>Thu, 29 Dec 2016 14:35:33 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4058030520161026.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4058030520161026.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
