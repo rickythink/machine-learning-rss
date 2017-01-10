@@ -4,8 +4,31 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Tue, 10 Jan 2017 08:46:07 +0800</lastBuildDate>
+		<lastBuildDate>Tue, 10 Jan 2017 13:26:11 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[//@G_Auss: 这篇评论没有什么道理。上来就假设以词为基本单位，这完全忽略了亚洲和其他词形变换复杂的文字，这是自然语言处理学界亟需改变的一个偏见，我们应该多研究统一化多语言的模型。此外，离散不是问题，图像有限精度存储也是离散的。不可取的是离散空间巨大时，非要在整个空间上计算概率的思路RT @爱可可-爱生活:【为什么深度学习用在NLP上不那么容易】《Is Google Hyping it? Why Deep Learning cannot be Applied to Natural Languages Easily》by Riza C. Berkan http://t.cn/RMxlp0y]]></title>
+				<description>
+<![CDATA[
+//<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/G_Auss/">@G_Auss</a>: 这篇评论没有什么道理。上来就假设以词为基本单位，这完全忽略了亚洲和其他词形变换复杂的文字，这是自然语言处理学界亟需改变的一个偏见，我们应该多研究统一化多语言的模型。此外，离散不是问题，图像有限精度存储也是离散的。不可取的是离散空间巨大时，非要在整个空间上计算概率的思路  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【为什么深度学习用在NLP上不那么容易】《Is Google Hyping it? Why Deep Learning cannot be Applied to Natural Languages Easily》by Riza C. Berkan <a class="href" href="http://t.cn/RMxlp0y" rel="nofollow" target="_blank">http://t.cn/RMxlp0y</a><br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4062256708313552#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fbl4txn7z6j216tb90qv8.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4062256708313552#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fbl4tyzogcj20g709x76t.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4062256708313552#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fbl4tzcrtrj20gd0aatbt.jpg" >
+						</a>
+					<br/><br/>
+]]>
+</description>
+				<pubDate>Tue, 10 Jan 2017 13:26:11 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4062361717395697.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4062361717395697.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[《深度学习的下一个热点——GANs将改变世界》via:AI100  http://t.cn/RMxEZhvRT @爱可可-爱生活:【对抗生成网络(GANs)将改变世界(?)】《GANs will change the world》by Nikolai YakovenkoFollowing http://t.cn/RMwis9t]]></title>
 				<description>
@@ -631,17 +654,6 @@ Keras implementation by Thibault de Boissiere GitHub:<a class="href" href="http:
 				<pubDate>Tue, 10 Jan 2017 05:59:43 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4062249355741496.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4062249355741496.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《NIPS 2016 Workshop on Representation Learning in Artificial and Biological Neural Networks (MLINI 2016)》L Wehbe, A Nunez-Elizalde, M v Gerven, I Rish, B Murphy, M Grosse-Wentrup, G Langs, G Cecchi (2017) http://t.cn/RMxW4mr]]></title>
-				<description>
-<![CDATA[
-《NIPS 2016 Workshop on Representation Learning in Artificial and Biological Neural Networks (MLINI 2016)》L Wehbe, A Nunez-Elizalde, M v Gerven, I Rish, B Murphy, M Grosse-Wentrup, G Langs, G Cecchi (2017) <a class="href" href="http://t.cn/RMxW4mr" rel="nofollow" target="_blank">http://t.cn/RMxW4mr</a> <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4062246373521537#utm_source=rsspic" title="点击看大图"><img src="http://ww4.sinaimg.cn/large/5396ee05jw1fbl3nv3apgj21kw0ti4i1.jpg" ></a> <br/><br/>
-]]>
-</description>
-				<pubDate>Tue, 10 Jan 2017 05:47:51 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4062246373521537.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4062246373521537.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
