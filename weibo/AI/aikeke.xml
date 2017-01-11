@@ -4,8 +4,27 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Wed, 11 Jan 2017 07:50:16 +0800</lastBuildDate>
+		<lastBuildDate>Wed, 11 Jan 2017 09:24:20 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[//@phunter_lau: LightGBM的histogram optimized grower想法很有意思，XGBoost也准备包含进这个新特性，8x to 10x Speedup 参见这个issue  http://t.cn/RM6i6RGRT @爱可可-爱生活:【LightGBM vs XGBoost性能比较】《Benchmarking LightGBM: how fast is LightGBM vs xgboost?》by Laurae http://t.cn/RM6Jner]]></title>
+				<description>
+<![CDATA[
+//<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/phunter_lau/">@phunter_lau</a>: LightGBM的histogram optimized grower想法很有意思，XGBoost也准备包含进这个新特性，8x to 10x Speedup 参见这个issue  <a class="href" href="http://t.cn/RM6i6RG" rel="nofollow" target="_blank">http://t.cn/RM6i6RG</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【LightGBM vs XGBoost性能比较】《Benchmarking LightGBM: how fast is LightGBM vs xgboost?》by Laurae <a class="href" href="http://t.cn/RM6Jner" rel="nofollow" target="_blank">http://t.cn/RM6Jner</a><br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4062639568687748#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fbmcspo2wyj21569wvhdu.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4062639568687748#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fbmctelzsrj2189106aoh.jpg" >
+						</a>
+					<br/><br/>
+]]>
+</description>
+				<pubDate>Wed, 11 Jan 2017 09:24:20 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4062663241806735.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4062663241806735.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[【LightGBM vs XGBoost性能比较】《Benchmarking LightGBM: how fast is LightGBM vs xgboost?》by Laurae http://t.cn/RM6Jner]]></title>
 				<description>
@@ -767,17 +786,6 @@ Keras Reimplementation by Pradeep Dasigi GitHub:<a class="href" href="http://t.c
 				<pubDate>Tue, 10 Jan 2017 20:31:53 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4062468848346645.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4062468848346645.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[帮转RT @喵大树:@爱可可-爱生活 @视觉机器人 @图像视觉研究  阿里巴巴图像相关高薪急聘，各位大V帮帮忙，小女子这厢谢过了。]]></title>
-				<description>
-<![CDATA[
-帮转  RT @<a herf="http://weibo.wbdacdn.com/user/2533160441">喵大树</a>:<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/爱可可-爱生活/">@爱可可-爱生活</a> <a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/视觉机器人/">@视觉机器人</a> <a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/图像视觉研究/">@图像视觉研究</a>  阿里巴巴图像相关高薪急聘，各位大V帮帮忙，小女子这厢谢过了。<br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4062446840514472#utm_source=rsspic"  title="点击看大图"><img src="http://wx4.sinaimg.cn/large/96fcf5f9ly1fblqmivqubj20kx0egwgw.jpg"></a><br/><br/>
-]]>
-</description>
-				<pubDate>Tue, 10 Jan 2017 19:04:26 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4062446840514472.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4062446840514472.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
