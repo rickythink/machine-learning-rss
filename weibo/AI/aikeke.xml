@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Sat, 14 Jan 2017 09:17:05 +0800</lastBuildDate>
+		<lastBuildDate>Sat, 14 Jan 2017 09:25:32 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[“人工智能的犄角旮旯”RT @西瓜大丸子汤:人工智能的犄角旮旯 - 来自知乎专栏·「IndieWeb.Tech」，作者：MasterPa，http://t.cn/RMcqvND 讲得好 ​]]></title>
+				<description>
+<![CDATA[
+“人工智能的犄角旮旯”  RT @<a herf="http://weibo.wbdacdn.com/user/1932835417">西瓜大丸子汤</a>:人工智能的犄角旮旯 - 来自知乎专栏·「IndieWeb.Tech」，作者：MasterPa，<a class="href" href="http://t.cn/RMcqvND" rel="nofollow" target="_blank">http://t.cn/RMcqvND</a> 讲得好 ​<br/><br/>
+]]>
+</description>
+				<pubDate>Sat, 14 Jan 2017 09:25:32 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4063750706974989.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4063750706974989.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[转发微博RT @phunter_lau:Data Science Bowl 2017 肺癌数据比赛的一个baseline，用MXNet的resnet50 pretrain model直接抽取数据集的高阶特征，然后通过xgboost作预测，虽然最终解决方法应该不是这样，但是这个MXNet+XGBoost的DMLC套装可以暂时不用GPU就可以得到成绩 LB 0.57，大家可以先玩起来 http://t.cn/RMNdk4Q ​]]></title>
 				<description>
@@ -817,17 +828,6 @@ Part3:<a class="href" href="http://t.cn/RMCVWYL" rel="nofollow" target="_blank">
 				<pubDate>Fri, 13 Jan 2017 17:17:09 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4063507006019651.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4063507006019651.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【Greg Diamos访谈：大规模计算如何助燃深度学习“火箭”】《How big compute is powering the deep learning rocket ship | O'Reilly Media》by Ben Lorica http://t.cn/RMCtgPM mp3:http://t.cn/RMCtgPx ​]]></title>
-				<description>
-<![CDATA[
-【Greg Diamos访谈：大规模计算如何助燃深度学习“火箭”】《How big compute is powering the deep learning rocket ship | O'Reilly Media》by Ben Lorica <a class="href" href="http://t.cn/RMCtgPM" rel="nofollow" target="_blank">http://t.cn/RMCtgPM</a> mp3:<a class="href" href="http://t.cn/RMCtgPx" rel="nofollow" target="_blank">http://t.cn/RMCtgPx</a> ​ <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4063503868682630#utm_source=rsspic" title="点击看大图"><img src="http://ww4.sinaimg.cn/large/5396ee05jw1fbp3y7w05fj21dz5pi4qq.jpg" ></a> <br/><br/>
-]]>
-</description>
-				<pubDate>Fri, 13 Jan 2017 17:04:41 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4063503868682630.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4063503868682630.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
