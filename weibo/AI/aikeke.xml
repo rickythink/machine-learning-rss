@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Wed, 08 Feb 2017 12:55:52 +0800</lastBuildDate>
+		<lastBuildDate>Wed, 08 Feb 2017 16:38:08 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[【曲·直】 ​]]></title>
+				<description>
+<![CDATA[
+【曲·直】 ​ <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4072919271356118#utm_source=rsspic" title="点击看大图"><img src="http://wx4.sinaimg.cn/large/5396ee05ly1fcj5eo1c7fg20cc06y7m5.gif" ></a> <br/><br/>
+]]>
+</description>
+				<pubDate>Wed, 08 Feb 2017 16:38:08 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4072919271356118.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4072919271356118.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[【TensorFlow实现的faster RCNN】’tf-faster-rcnn - A tensorflow implementation of faster RCNN' by Xinlei Chen GitHub: http://t.cn/RJ4LuCf ​]]></title>
 				<description>
@@ -649,42 +660,6 @@ updated to v3. With new Multiscale Dilated Conv and Ortho Reg experiments. //<a 
 				<pubDate>Wed, 08 Feb 2017 05:33:09 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4072751922863161.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4072751922863161.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《Attentional Network for Visual Object Detection》K Hara, M Liu, O Tuzel, A Farahmand [University of Maryland & Mitsubishi Electric Research Laboratories] (2017) http://t.cn/RJUILtR ​]]></title>
-				<description>
-<![CDATA[
-《Attentional Network for Visual Object Detection》K Hara, M Liu, O Tuzel, A Farahmand [University of Maryland & Mitsubishi Electric Research Laboratories] (2017) <a class="href" href="http://t.cn/RJUILtR" rel="nofollow" target="_blank">http://t.cn/RJUILtR</a> ​ 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4072750567506682#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://wx1.sinaimg.cn/large/5396ee05ly1fcim1ef507j20zfa6oe84.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4072750567506682#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://wx4.sinaimg.cn/large/5396ee05ly1fcim19yb3vj20su0me0xs.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4072750567506682#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://wx4.sinaimg.cn/large/5396ee05ly1fcim1ap3ffj21kw10s1kx.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4072750567506682#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://wx3.sinaimg.cn/large/5396ee05ly1fcim1fo2fgj21kw1chkjn.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4072750567506682#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://wx3.sinaimg.cn/large/5396ee05ly1fcim1c1hnxj20t20kigpb.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Wed, 08 Feb 2017 05:27:46 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4072750567506682.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4072750567506682.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
