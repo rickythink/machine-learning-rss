@@ -4,13 +4,32 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Mon, 13 Feb 2017 11:12:40 +0800</lastBuildDate>
+		<lastBuildDate>Mon, 13 Feb 2017 12:14:28 +0800</lastBuildDate>
 		<ttl>3600</ttl>
 			<item>
-				<title><![CDATA["Neural Text Embeddings for Information Retrieval"RT @洪亮劼:在最近召开的WSDM 2017会议上，来自微软的Bhaskar Mitra和Nick Craswell对Deep Learning在Information Retrieval上的应用和目前技术做了一个总结性的Tutorial，叫“Neural Text Embeddings for Information Retrieval”。Slides在http://t.cn/RJiJ8Vp。看了一下，感觉除了在学习Word Embedding和Docume...全文： http://m.weibo.cn/3193816967/4074135908958893 ​]]></title>
+				<title><![CDATA[[赞]RT @唐源Terry:《TensorFlow实战》 是由PPmoney大数据算法总监黄文坚和美国Uptake数据科学家唐源倾力编写的新书。本书是Google TensorFlow研发团队内部推荐的教程，两位作者均是TensorFlow开发者，其中唐源是TensorFlow研发团队的Committer。本书结合了大量代码实例，深入浅出地介绍了如何使用TensorFlow。 京东预售...全文： http://m.weibo.cn/5681818134/4074662478449214 ​]]></title>
 				<description>
 <![CDATA[
-"Neural Text Embeddings for Information Retrieval"  RT @<a herf="http://weibo.wbdacdn.com/user/3193816967">洪亮劼</a>:在最近召开的WSDM 2017会议上，来自微软的Bhaskar Mitra和Nick Craswell对Deep Learning在Information Retrieval上的应用和目前技术做了一个总结性的Tutorial，叫“Neural Text Embeddings for Information Retrieval”。Slides在<a class="href" href="http://t.cn/RJiJ8Vp" rel="nofollow" target="_blank">http://t.cn/RJiJ8Vp</a>。看了一下，感觉除了在学习Word Embedding和Docume<a class="btn href longtext" target="_blank"  uid="3193816967" mid="4074135908958893">全文</a> ​<br/><br/>
+<img class="lazy" src="/static/loading.gif" data-o="http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/d0/z2_org.gif" title="[赞]"/>  RT @<a herf="http://weibo.wbdacdn.com/user/5681818134">唐源Terry</a>:《TensorFlow实战》 是由PPmoney大数据算法总监黄文坚和美国Uptake数据科学家唐源倾力编写的新书。本书是Google TensorFlow研发团队内部推荐的教程，两位作者均是TensorFlow开发者，其中唐源是TensorFlow研发团队的Committer。本书结合了大量代码实例，深入浅出地介绍了如何使用TensorFlow。 京东预售<a class="btn href longtext" target="_blank"  uid="5681818134" mid="4074662478449214">全文</a> ​<br/>
+						<a href="http://weibo.wbdacdn.com/user/5681818134/?status=4074662478449214#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://wx4.sinaimg.cn/large/006cwkrYgy1fcopk5g2g0j30on0wtwl2.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/5681818134/?status=4074662478449214#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://wx4.sinaimg.cn/large/006cwkrYgy1fcopki2svzj305k05k0sz.jpg" >
+						</a>
+					<br/><br/>
+]]>
+</description>
+				<pubDate>Mon, 13 Feb 2017 12:14:28 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4074664851942382.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4074664851942382.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA["Neural Text Embeddings for Information Retrieval"RT @洪亮劼:在最近召开的WSDM 2017会议上，来自微软的Bhaskar Mitra和Nick Craswell对Deep Learning在Information Retrieval上的应用和目前技术做了一个总结性的Tutorial，叫“Neural Text Embeddings for Information Retrieval”。Slides在http://t.cn/RJiJ8Vp。看了一下，感觉除了在学习Word Embedding和Document Embedding有比较明显的优势以外，在Retrieval Model方面Deep Learning还处在摸索阶段。]]></title>
+				<description>
+<![CDATA[
+"Neural Text Embeddings for Information Retrieval"  RT @<a herf="http://weibo.wbdacdn.com/user/3193816967">洪亮劼</a>:在最近召开的WSDM 2017会议上，来自微软的Bhaskar Mitra和Nick Craswell对Deep Learning在Information Retrieval上的应用和目前技术做了一个总结性的Tutorial，叫“Neural Text Embeddings for Information Retrieval”。Slides在<a class="href" href="http://t.cn/RJiJ8Vp" rel="nofollow" target="_blank">http://t.cn/RJiJ8Vp</a>。看了一下，感觉除了在学习Word Embedding和Document Embedding有比较明显的优势以外，在Retrieval Model方面Deep Learning还处在摸索阶段。<br/><br/>
 ]]>
 </description>
 				<pubDate>Mon, 13 Feb 2017 11:12:40 +0800</pubDate>
@@ -74,10 +93,10 @@
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4074648905536374.html#utm_source=rss</link>
 			</item>
 			<item>
-				<title><![CDATA["Recent Advances in Distributed Machine Learning"RT @洪亮劼:微软亚洲研究院的刘铁岩等人近日在AAAI 2017上做的有关优化以及大规模机器学习的Tutorial，"Recent Advances in Distributed Machine Learning"（Slides:http://t.cn/RJaSnjK）很值得一看。里面对传统的优化算法，特别是一些理论特性以及分布式算法的相应理论特性都有一个比较详尽的总结。非常适合想快...全文： http://m.weibo.cn/3193816967/4074500108176693 ​]]></title>
+				<title><![CDATA["Recent Advances in Distributed Machine Learning"RT @洪亮劼:微软亚洲研究院的刘铁岩等人近日在AAAI 2017上做的有关优化以及大规模机器学习的Tutorial，"Recent Advances in Distributed Machine Learning"（Slides:http://t.cn/RJaSnjK）很值得一看。里面对传统的优化算法，特别是一些理论特性以及分布式算法的相应理论特性都有一个比较详尽的总结。非常适合想快速了解这些领域的学者和工程师。另外，这个Tutorial还介绍了DMTK的一些情况，作为一个分布式计算平台的优缺点，还顺带比较了Spark和TensorFlow等流行框架。]]></title>
 				<description>
 <![CDATA[
-"Recent Advances in Distributed Machine Learning"  RT @<a herf="http://weibo.wbdacdn.com/user/3193816967">洪亮劼</a>:微软亚洲研究院的刘铁岩等人近日在AAAI 2017上做的有关优化以及大规模机器学习的Tutorial，"Recent Advances in Distributed Machine Learning"（Slides:<a class="href" href="http://t.cn/RJaSnjK" rel="nofollow" target="_blank">http://t.cn/RJaSnjK</a>）很值得一看。里面对传统的优化算法，特别是一些理论特性以及分布式算法的相应理论特性都有一个比较详尽的总结。非常适合想快<a class="btn href longtext" target="_blank"  uid="3193816967" mid="4074500108176693">全文</a> ​<br/><br/>
+"Recent Advances in Distributed Machine Learning"  RT @<a herf="http://weibo.wbdacdn.com/user/3193816967">洪亮劼</a>:微软亚洲研究院的刘铁岩等人近日在AAAI 2017上做的有关优化以及大规模机器学习的Tutorial，"Recent Advances in Distributed Machine Learning"（Slides:<a class="href" href="http://t.cn/RJaSnjK" rel="nofollow" target="_blank">http://t.cn/RJaSnjK</a>）很值得一看。里面对传统的优化算法，特别是一些理论特性以及分布式算法的相应理论特性都有一个比较详尽的总结。非常适合想快速了解这些领域的学者和工程师。另外，这个Tutorial还介绍了DMTK的一些情况，作为一个分布式计算平台的优缺点，还顺带比较了Spark和TensorFlow等流行框架。<br/><br/>
 ]]>
 </description>
 				<pubDate>Mon, 13 Feb 2017 11:04:43 +0800</pubDate>
@@ -864,52 +883,6 @@ GitHub:<a class="href" href="http://t.cn/R58jUHW" rel="nofollow" target="_blank"
 				<pubDate>Mon, 13 Feb 2017 05:39:47 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4074565531262959.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4074565531262959.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《Question Answering through Transfer Learning from Large Fine-grained Supervision Data》S Min, M Seo, H Hajishirzi [Seoul National University & University of Washington] (2017) http://t.cn/RJaW8A5 ​]]></title>
-				<description>
-<![CDATA[
-《Question Answering through Transfer Learning from Large Fine-grained Supervision Data》S Min, M Seo, H Hajishirzi [Seoul National University & University of Washington] (2017) <a class="href" href="http://t.cn/RJaW8A5" rel="nofollow" target="_blank">http://t.cn/RJaW8A5</a> ​ 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4074564947918631#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://wx2.sinaimg.cn/large/5396ee05ly1fcoefijg87j20ygatsnpf.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4074564947918631#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://wx1.sinaimg.cn/large/5396ee05ly1fcoefeur0ij20mg0tgq7r.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4074564947918631#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://wx4.sinaimg.cn/large/5396ee05ly1fcoeffdf45j21gm0g47a6.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4074564947918631#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://wx3.sinaimg.cn/large/5396ee05ly1fcoeffoow1j20q60p2tfa.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4074564947918631#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://wx1.sinaimg.cn/large/5396ee05ly1fcoefhz0qmj20q20iugo0.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4074564947918631#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://wx1.sinaimg.cn/large/5396ee05ly1fcoefgxc4bj20qm0l4adn.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4074564947918631#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://wx2.sinaimg.cn/large/5396ee05ly1fcoefh8droj20q20imtbx.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Mon, 13 Feb 2017 05:37:29 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4074564947918631.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4074564947918631.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
