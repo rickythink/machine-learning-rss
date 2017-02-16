@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Thu, 16 Feb 2017 09:15:18 +0800</lastBuildDate>
+		<lastBuildDate>Thu, 16 Feb 2017 09:53:35 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[“深度增强学习前沿算法思想”RT @CSDN:【深度增强学习前沿算法思想】2016年AlphaGo计算机围棋系统战胜顶尖职业棋手李世石，引起了全世界的广泛关注，而其中的深度增强学习算法是AlphaGo的核心，也是通用人工智能的实现关键。本文将带领大家了解深度增强学习的前沿算法思想，领略人工智能的核心奥秘 http://t.cn/RJjc43F ​]]></title>
+				<description>
+<![CDATA[
+“深度增强学习前沿算法思想”  RT @<a herf="http://weibo.wbdacdn.com/user/1798777247">CSDN</a>:【深度增强学习前沿算法思想】2016年AlphaGo计算机围棋系统战胜顶尖职业棋手李世石，引起了全世界的广泛关注，而其中的深度增强学习算法是AlphaGo的核心，也是通用人工智能的实现关键。本文将带领大家了解深度增强学习的前沿算法思想，领略人工智能的核心奥秘 <a class="href" href="http://t.cn/RJjc43F" rel="nofollow" target="_blank">http://t.cn/RJjc43F</a> ​<br/><br/>
+]]>
+</description>
+				<pubDate>Thu, 16 Feb 2017 09:53:35 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4075716566449109.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4075716566449109.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[【数学菜鸟的AI学习攻略(四)：(猫)图解张量】《Learning AI if You Suck at Math — P4 — Tensors Illustrated (with Cats!)》by Daniel Jeffries http://t.cn/RJjqLfF ​]]></title>
 				<description>
@@ -627,17 +638,6 @@ new TensorFlow performance guides: <a class="href" href="http://t.cn/RJlFmHu" re
 				<pubDate>Thu, 16 Feb 2017 06:01:06 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4075658059608428.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4075658059608428.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【TensorFlow 1.0正式发布——更快、更灵活、更产品化，XLA、high-level API、tf.keras、Python API stability……】《Announcing TensorFlow 1.0 | Google Developers Blog》by Amy McDonald Sandjideh http://t.cn/RJld5I4 ​]]></title>
-				<description>
-<![CDATA[
-【TensorFlow 1.0正式发布——更快、更灵活、更产品化，XLA、high-level API、tf.keras、Python API stability……】《Announcing TensorFlow 1.0 | Google Developers Blog》by Amy McDonald Sandjideh <a class="href" href="http://t.cn/RJld5I4" rel="nofollow" target="_blank">http://t.cn/RJld5I4</a> ​ <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4075651243557278#utm_source=rsspic" title="点击看大图"><img src="http://ww4.sinaimg.cn/large/5396ee05jw1fcrv35qg32j212o3tne81.jpg" ></a> <br/><br/>
-]]>
-</description>
-				<pubDate>Thu, 16 Feb 2017 05:34:01 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4075651243557278.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4075651243557278.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
