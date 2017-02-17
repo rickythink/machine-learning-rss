@@ -4,8 +4,50 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Fri, 17 Feb 2017 13:34:33 +0800</lastBuildDate>
+		<lastBuildDate>Fri, 17 Feb 2017 16:05:58 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[【深度学习里“目标函数”和“损失函数”的差别】《Is there a real practical and significant difference between the terms 'objective function' and 'loss function' in deep learning? - Quora》 http://t.cn/RJQnMR0 ​]]></title>
+				<description>
+<![CDATA[
+【深度学习里“目标函数”和“损失函数”的差别】《Is there a real practical and significant difference between the terms 'objective function' and 'loss function' in deep learning? - Quora》 <a class="href" href="http://t.cn/RJQnMR0" rel="nofollow" target="_blank">http://t.cn/RJQnMR0</a> ​ <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4076172666699354#utm_source=rsspic" title="点击看大图"><img src="http://ww1.sinaimg.cn/large/5396ee05jw1fctj1razwkj20zz3ymb2a.jpg" ></a> <br/><br/>
+]]>
+</description>
+				<pubDate>Fri, 17 Feb 2017 16:05:58 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4076172666699354.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4076172666699354.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[//@G_Auss: 这篇文章很有意思，结果很大程度上说明了语言建模（Language Modeling）这一任务并不能体现出回归神经网络（Recurrent Neural Network）是否能够生成并使用远期（Long-term）信息。已被ICLR 2017大会接收RT @爱可可-爱生活:《Frustratingly Short Attention Spans in Neural Language Modeling》M Daniluk, T Rocktäschel, J Welbl, S Riedel [University College London] (2017) http://t.cn/RJTaPGv ​]]></title>
+				<description>
+<![CDATA[
+//<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/G_Auss/">@G_Auss</a>: 这篇文章很有意思，结果很大程度上说明了语言建模（Language Modeling）这一任务并不能体现出回归神经网络（Recurrent Neural Network）是否能够生成并使用远期（Long-term）信息。已被ICLR 2017大会接收  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:《Frustratingly Short Attention Spans in Neural Language Modeling》M Daniluk, T Rocktäschel, J Welbl, S Riedel [University College London] (2017) <a class="href" href="http://t.cn/RJTaPGv" rel="nofollow" target="_blank">http://t.cn/RJTaPGv</a> ​<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4076004299266188#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fcszqht3v1j20zfcqce83.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4076004299266188#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fcszqdkfapj212g0ostw2.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4076004299266188#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fcszqegai3j21bw18cgyn.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4076004299266188#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fcszqfh5g1j21b21e0dsy.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4076004299266188#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fcszqeln5lj21a00hsarx.jpg" >
+						</a>
+					<br/><br/>
+]]>
+</description>
+				<pubDate>Fri, 17 Feb 2017 15:46:55 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4076167872827351.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4076167872827351.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[“Why PhD students should embrace arXiv?” via:Siva Reddy http://t.cn/RJQxvjq ​]]></title>
 				<description>
@@ -19,11 +61,11 @@
 			</item>
 			<item>
 				<title><![CDATA[//@pangolulu: @我的印象笔记 非常感谢张敏老师的邀请和致远的支持！报告的PPT在：   http://t.cn/RI9P8l0     论文Neural Collaborative Filtering刚被WWW接受, 提交版本的PDF在：   http://t.cn/RI9P8lp     论文最终版和代码还在整理中，稍后几周会发布RT @刘知远THU:今天NUS @xiangnanhe 应张敏老师邀请在清华做了Collaborative Filtering for 
-Implicit Feedback的学术报告，介绍了包括Neural Collaborative Filtering在内的两个最新工作，断言DL即将席卷推荐系统领域。报告很有深度。其中比较感兴趣的是，他提到MSR在KDD2016上的工作“Collaborative Knowledge Base...全文： http://m.weibo.cn/1464484735/4055083697998432 ​]]></title>
+Implicit Feedback的学术报告，介绍了包括Neural Collaborative Filtering在内的两个最新工作，断言DL即将席卷推荐系统领域。报告很有深度。其中比较感兴趣的是，他提到MSR在KDD2016上的工作“Collaborative Knowledge Base Embedding for Recommender Systems”，利用TransE/TransR将知识图谱信息引入推荐系统。可见Distributed Representation能够为KG赋予计算能力从而让KG有效应用于各大任务，想象空间巨大。]]></title>
 				<description>
 <![CDATA[
 //<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/pangolulu/">@pangolulu</a>: <a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/我的印象笔记/">@我的印象笔记</a> 非常感谢张敏老师的邀请和致远的支持！报告的PPT在：   <a class="href" href="http://t.cn/RI9P8l0" rel="nofollow" target="_blank">http://t.cn/RI9P8l0</a>     论文Neural Collaborative Filtering刚被WWW接受, 提交版本的PDF在：   <a class="href" href="http://t.cn/RI9P8lp" rel="nofollow" target="_blank">http://t.cn/RI9P8lp</a>     论文最终版和代码还在整理中，稍后几周会发布  RT @<a herf="http://weibo.wbdacdn.com/user/1464484735">刘知远THU</a>:今天NUS <a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/xiangnanhe/">@xiangnanhe</a> 应张敏老师邀请在清华做了Collaborative Filtering for <br />
-Implicit Feedback的学术报告，介绍了包括Neural Collaborative Filtering在内的两个最新工作，断言DL即将席卷推荐系统领域。报告很有深度。其中比较感兴趣的是，他提到MSR在KDD2016上的工作“Collaborative Knowledge Base<a class="btn href longtext" target="_blank"  uid="1464484735" mid="4055083697998432">全文</a> ​<br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4076132535573548#utm_source=rsspic"  title="点击看大图"><img src="http://ww4.sinaimg.cn/large/574a437fjw1fay90ejd6mj20z90l9jxp.jpg"></a><br/><br/>
+Implicit Feedback的学术报告，介绍了包括Neural Collaborative Filtering在内的两个最新工作，断言DL即将席卷推荐系统领域。报告很有深度。其中比较感兴趣的是，他提到MSR在KDD2016上的工作“Collaborative Knowledge Base Embedding for Recommender Systems”，利用TransE/TransR将知识图谱信息引入推荐系统。可见Distributed Representation能够为KG赋予计算能力从而让KG有效应用于各大任务，想象空间巨大。<br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4076132535573548#utm_source=rsspic"  title="点击看大图"><img src="http://ww4.sinaimg.cn/large/574a437fjw1fay90ejd6mj20z90l9jxp.jpg"></a><br/><br/>
 ]]>
 </description>
 				<pubDate>Fri, 17 Feb 2017 13:26:31 +0800</pubDate>
@@ -582,73 +624,6 @@ Implicit Feedback的学术报告，介绍了包括Neural Collaborative Filtering
 				<pubDate>Fri, 17 Feb 2017 07:45:29 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4076046711524745.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4076046711524745.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【哈佛大学CS50计算机导论如何利用GitHub开展教学】《How CS50 at Harvard uses GitHub to teach computer science》by mozzadrella http://t.cn/RJHSoeD CS50’s home:http://t.cn/8kAa95j ​]]></title>
-				<description>
-<![CDATA[
-【哈佛大学CS50计算机导论如何利用GitHub开展教学】《How CS50 at Harvard uses GitHub to teach computer science》by mozzadrella <a class="href" href="http://t.cn/RJHSoeD" rel="nofollow" target="_blank">http://t.cn/RJHSoeD</a> CS50’s home:<a class="href" href="http://t.cn/8kAa95j" rel="nofollow" target="_blank">http://t.cn/8kAa95j</a> ​ 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4076045843689884#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fct4hzt7nhj214d8ghkjo.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4076045843689884#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fct4hzutupj20xc0hiwjp.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4076045843689884#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fct4i1egjoj20re0gvq5i.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4076045843689884#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fct4i5b3dlj21kw11yh1u.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4076045843689884#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fct4i5tmhqj20qo0hsq9l.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4076045843689884#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fct4i6qugvj20nm0d7jvq.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4076045843689884#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fct4i8ldkpj21kw0vw4a6.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Fri, 17 Feb 2017 07:42:01 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4076045843689884.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4076045843689884.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【Amazon AI研究与应用速览】《Welcome to the New AWS AI Blog! | AWS AI Blog》by Swami Sivasubramanian, Matt Wood, and Alexander Smola http://t.cn/RJHXMpa ​]]></title>
-				<description>
-<![CDATA[
-【Amazon AI研究与应用速览】《Welcome to the New AWS AI Blog! | AWS AI Blog》by Swami Sivasubramanian, Matt Wood, and Alexander Smola <a class="href" href="http://t.cn/RJHXMpa" rel="nofollow" target="_blank">http://t.cn/RJHXMpa</a> ​ 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4076040831748239#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fct3wovjmmj21d825hx6p.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4076040831748239#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fct3wqn1m2j20q80asmzc.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Fri, 17 Feb 2017 07:22:06 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4076040831748239.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4076040831748239.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
