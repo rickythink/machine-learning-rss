@@ -4,8 +4,19 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮网络搜索中心陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Tue, 21 Feb 2017 13:44:46 +0800</lastBuildDate>
+		<lastBuildDate>Tue, 21 Feb 2017 16:49:10 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[//@tobe-陈迪豪:非常详细的内容回顾和PPT截图，想了解深度学习模型服务的可以看看，同时感谢Caicloud小伙伴的整理[good]RT @才云Caicloud:发布了头条文章：《2.12 K8S Meetup 回顾｜小米·陈迪豪《深度学习模型应用与实践》》 http://t.cn/RJeVcLo ​]]></title>
+				<description>
+<![CDATA[
+//<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/tobe-陈迪豪/">@tobe-陈迪豪</a>:非常详细的内容回顾和PPT截图，想了解深度学习模型服务的可以看看，同时感谢Caicloud小伙伴的整理<img class="lazy" src="/static/loading.gif" data-o="http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/d8/good_org.gif" title="[good]"/>  RT @<a herf="http://weibo.wbdacdn.com/user/5756634285">才云Caicloud</a>:发布了头条文章：《2.12 K8S Meetup 回顾｜小米·陈迪豪《深度学习模型应用与实践》》 <a class="href" href="http://t.cn/RJeVcLo" rel="nofollow" target="_blank">http://t.cn/RJeVcLo</a> ​<br/><br/>
+]]>
+</description>
+				<pubDate>Tue, 21 Feb 2017 16:49:10 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4077633090294195.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4077633090294195.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[《七个小贴士，顺利提升TensorFlow模型训练表现》via:@机器之心synced http://t.cn/RJenDNXRT @爱可可-爱生活:【TensorFlow小技巧】《TensorFlow Quick Tips》by Malte Baumann http://t.cn/RJg1uJ0 ​]]></title>
 				<description>
@@ -655,17 +666,6 @@
 				<pubDate>Tue, 21 Feb 2017 05:57:35 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4077469109081555.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4077469109081555.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【将Theano下的Skip-Thoughts与训练模型迁移至Torch7】’Skip-Thoughts.torch - Porting of Skip-Thoughts pretrained models from Theano to Torch7' by Remi GitHub: http://t.cn/RJgBvsP ​]]></title>
-				<description>
-<![CDATA[
-【将Theano下的Skip-Thoughts与训练模型迁移至Torch7】’Skip-Thoughts.torch - Porting of Skip-Thoughts pretrained models from Theano to Torch7' by Remi GitHub: <a class="href" href="http://t.cn/RJgBvsP" rel="nofollow" target="_blank">http://t.cn/RJgBvsP</a> ​ <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4077467964271887#utm_source=rsspic" title="点击看大图"><img src="http://ww2.sinaimg.cn/large/5396ee05jw1fcxnu0j6rsj21ft58bu0y.jpg" ></a> <br/><br/>
-]]>
-</description>
-				<pubDate>Tue, 21 Feb 2017 05:53:02 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4077467964271887.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4077467964271887.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
