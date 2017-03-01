@@ -6,7 +6,7 @@
     <description>AlgorithmDog 讲述机器学习和系统研发的轶事,希望把这些事讲得生动有趣.每周日更新哦.欢迎关注.</description>
     <item>
       <title>Akka 使用系列之三: 层次结构</title>
-      <link>http://www.iwgc.cn/link/</link>
+      <link>http://www.iwgc.cn/link/d3fb3a3862deee70327f4e95df92883274bb7166</link>
       <description>
 &lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Akka 是用层次结构组织 Actors 的。&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel="attachment wp-att-3677" style="background: transparent; border-width: 0px; border-style: initial; border-color: initial; vertical-align: baseline; color: rgb(116, 51, 153);"&gt;&lt;img src="http://img04.iwgc.cn/mpimg/87efa647b1e254dc6522dd3bd7ed5dab36f0d330"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;我们需要实现一个翻译模块，其功能是输入中文输出多国语言。我们可以让一个 Master Actor 负责接收外界输入，多个 Worker Actor 负责将输入翻译成特定语言，Master Actor 和 Worker Actor 之间是上下级层次关系。下图展示了这种层级结构。&lt;/p&gt;&lt;p&gt;&lt;a rel="attachment wp-att-3889" style="background: transparent; border-width: 0px; border-style: initial; border-color: initial; vertical-align: baseline; color: rgb(116, 51, 153);"&gt;&lt;img src="http://img04.iwgc.cn/mpimg/1bd35e79c94af4933c76523d1aca69f88f241f21"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;具体代码实现如下所示。&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;class&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Master&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;extends&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Actor&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;with&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;ActorLogging&lt;/span&gt;&lt;span&gt;{&lt;/span&gt;&lt;span&gt;
  &amp;nbsp; &amp;nbsp;val english2chinese 
