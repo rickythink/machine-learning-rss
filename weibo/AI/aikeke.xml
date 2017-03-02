@@ -4,8 +4,453 @@
 		<link>http://sinacn.weibodangan.com/user/1402400261/</link>
 		<description>北邮PRIS模式识别实验室陈老师</description>
 		<language>zh-cn</language>
-		<lastBuildDate>Fri, 03 Mar 2017 05:16:12 +0800</lastBuildDate>
+		<lastBuildDate>Fri, 03 Mar 2017 06:11:06 +0800</lastBuildDate>
 		<ttl>3600</ttl>
+			<item>
+				<title><![CDATA[今日焦点：可微分界树深度最近邻表示学习——用深度学习构造高效、可解释的最近邻分类树RT @爱可可-爱生活:《Learning Deep Nearest Neighbor Representations Using Differentiable Boundary Trees》D Zoran, B Lakshminarayanan, C Blundell [DeepMind] (2017) http://t.cn/RiJ9xdZ ​]]></title>
+				<description>
+<![CDATA[
+今日焦点：可微分界树深度最近邻表示学习——用深度学习构造高效、可解释的最近邻分类树  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:《Learning Deep Nearest Neighbor Representations Using Differentiable Boundary Trees》D Zoran, B Lakshminarayanan, C Blundell [DeepMind] (2017) <a class="href" href="http://t.cn/RiJ9xdZ" rel="nofollow" target="_blank">http://t.cn/RiJ9xdZ</a> ​<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081094980266438#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd98cuca4vj20no0z8qlj.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081094980266438#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd98cukxg1j20re0ga12g.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081094980266438#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd98dnbbahj212d0fkwj9.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081094980266438#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd98dnk2gtj20j00nhn1y.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081094980266438#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd98dnf60ej212d0nh7cj.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081094980266438#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd98dnec60j20j00pcdio.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081094980266438#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd98dnje0aj20j10gqn0f.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081094980266438#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd98dnqdmrj212h0khn4s.jpg" >
+						</a>
+					<br/>
+						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081094980266438#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
+						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd98dqxw5wj21b8fa0x6r.jpg" >
+						</a>
+					<br/><br/>
+]]>
+</description>
+				<pubDate>Fri, 03 Mar 2017 06:11:06 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4081096389334132.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4081096389334132.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[《Learning Deep Nearest Neighbor Representations Using Differentiable Boundary Trees》D Zoran, B Lakshminarayanan, C Blundell [DeepMind] (2017) http://t.cn/RiJ9xdZ ​]]></title>
+				<description>
+<![CDATA[
+《Learning Deep Nearest Neighbor Representations Using Differentiable Boundary Trees》D Zoran, B Lakshminarayanan, C Blundell [DeepMind] (2017) <a class="href" href="http://t.cn/RiJ9xdZ" rel="nofollow" target="_blank">http://t.cn/RiJ9xdZ</a> ​ 
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081094980266438#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd98cuca4vj20no0z8qlj.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081094980266438#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd98cukxg1j20re0ga12g.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081094980266438#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd98dnbbahj212d0fkwj9.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081094980266438#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd98dnk2gtj20j00nhn1y.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081094980266438#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd98dnf60ej212d0nh7cj.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081094980266438#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd98dnec60j20j00pcdio.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081094980266438#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd98dnje0aj20j10gqn0f.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081094980266438#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd98dnqdmrj212h0khn4s.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081094980266438#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd98dqxw5wj21b8fa0x6r.jpg" >
+				</a>
+			 <br/><br/>
+]]>
+</description>
+				<pubDate>Fri, 03 Mar 2017 06:05:30 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4081094980266438.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4081094980266438.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[【深度学习入门路线图(文献指南)】《Where can I start with Deep Learning? | Open Data Science》by Rotek Song http://t.cn/RiJKF0Z GitHub:http://t.cn/RVa7lIe ​]]></title>
+				<description>
+<![CDATA[
+【深度学习入门路线图(文献指南)】《Where can I start with Deep Learning? | Open Data Science》by Rotek Song <a class="href" href="http://t.cn/RiJKF0Z" rel="nofollow" target="_blank">http://t.cn/RiJKF0Z</a> GitHub:<a class="href" href="http://t.cn/RVa7lIe" rel="nofollow" target="_blank">http://t.cn/RVa7lIe</a> ​ <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4081090794741260#utm_source=rsspic" title="点击看大图"><img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd97w8hmsij2143e8fu15.jpg" ></a> <br/><br/>
+]]>
+</description>
+				<pubDate>Fri, 03 Mar 2017 05:48:51 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4081090794741260.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4081090794741260.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[《ste-GAN-ography: Generating Steganographic Images via Adversarial Training》J Hayes, G Danezis [University College London] (2017) http://t.cn/RiJKQ1Z ​]]></title>
+				<description>
+<![CDATA[
+《ste-GAN-ography: Generating Steganographic Images via Adversarial Training》J Hayes, G Danezis [University College London] (2017) <a class="href" href="http://t.cn/RiJKQ1Z" rel="nofollow" target="_blank">http://t.cn/RiJKQ1Z</a> ​ 
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081088428592602#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd97lizewhj20ru10qe3m.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081088428592602#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd97m6hes5j20r80dign9.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081088428592602#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd97lperjcj20zk0b20wq.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081088428592602#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd97lpeok1j20zx0ufafs.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081088428592602#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd97lp8zvbj20iv0c1q4f.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081088428592602#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd97mt303qj21fm1147e6.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081088428592602#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd97lp9ditj20vt0d8tat.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081088428592602#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd97lkl8xtj20ne19g1hq.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081088428592602#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd97ltpkfej21b8fa07wk.jpg" >
+				</a>
+			 <br/><br/>
+]]>
+</description>
+				<pubDate>Fri, 03 Mar 2017 05:39:28 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4081088428592602.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4081088428592602.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[《Virtual-to-real Deep Reinforcement Learning: Continuous Control of Mobile Robots for Mapless Navigation》L Tai, G Paolo, M Liu [City University of Hong Kong & the Hong Kong University of Science and Technology & ETH Zurich] (2017) http://t.cn/RiJK0FP ​]]></title>
+				<description>
+<![CDATA[
+《Virtual-to-real Deep Reinforcement Learning: Continuous Control of Mobile Robots for Mapless Navigation》L Tai, G Paolo, M Liu [City University of Hong Kong & the Hong Kong University of Science and Technology & ETH Zurich] (2017) <a class="href" href="http://t.cn/RiJK0FP" rel="nofollow" target="_blank">http://t.cn/RiJK0FP</a> ​ 
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081087379990442#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd97fttyi7j20so0ocat0.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081087379990442#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd97imjlx5j20si0n2122.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081087379990442#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd97imt7ukj20t40osajw.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081087379990442#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd97in8tbtj20t00mcwkw.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081087379990442#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd97iog7jlj20sq0loqcj.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081087379990442#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd97ioanqmj20si0jqn2q.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081087379990442#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd97ip1c39j21kw0redv5.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081087379990442#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd97iq2nuvj20sm18wtlg.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081087379990442#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd97iqrcytj20t20hyqe3.jpg" >
+				</a>
+			 <br/><br/>
+]]>
+</description>
+				<pubDate>Fri, 03 Mar 2017 05:35:17 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4081087379990442.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4081087379990442.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[《Remote Sensing Image Scene Classification: Benchmark and State of the Art》G Cheng, J Han, X Lu [Northwestern Polytechnical University & Chinese Academy of Sciences] (2017) http://t.cn/RiJKiZJ ​]]></title>
+				<description>
+<![CDATA[
+《Remote Sensing Image Scene Classification: Benchmark and State of the Art》G Cheng, J Han, X Lu [Northwestern Polytechnical University & Chinese Academy of Sciences] (2017) <a class="href" href="http://t.cn/RiJKiZJ" rel="nofollow" target="_blank">http://t.cn/RiJKiZJ</a> ​ 
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081085887376950#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd97a7d9l2j20su0w0azl.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081085887376950#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd97bpi9srj20sy0k2guj.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081085887376950#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd97c2dbwqj21kw0h57ff.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081085887376950#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd97b8qwzvj213s1f97wh.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081085887376950#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd97ceic35j21kw0lyn6z.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081085887376950#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd97b4sh4pj213r0q07t3.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081085887376950#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd97b4v6c1j213r0q1tyz.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081085887376950#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd97bhdvulj219xuoj1l8.jpg" >
+				</a>
+			 <br/><br/>
+]]>
+</description>
+				<pubDate>Fri, 03 Mar 2017 05:29:21 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4081085887376950.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4081085887376950.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[《Personal Model Training under Privacy Constraints》S Servia-Rodriguez, L Wang, J R. Zhao, R Mortier, H Haddadi [Queen Mary University of London & University of Cambridge] (2017) http://t.cn/RiJKcgb ​]]></title>
+				<description>
+<![CDATA[
+《Personal Model Training under Privacy Constraints》S Servia-Rodriguez, L Wang, J R. Zhao, R Mortier, H Haddadi [Queen Mary University of London & University of Cambridge] (2017) <a class="href" href="http://t.cn/RiJKcgb" rel="nofollow" target="_blank">http://t.cn/RiJKcgb</a> ​ 
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081084951429744#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd977ot7tbj20sk0u0wwz.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081084951429744#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd977zgdu3j20jb0hnwgd.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081084951429744#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd977z95ewj20jb0glabh.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081084951429744#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd977zfvy8j20jb0gnwjj.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081084951429744#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd977zd5lzj20jb0n3q7f.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081084951429744#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd977zahk0j20jb0gn40h.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081084951429744#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd977zbu10j213p0coaf1.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081084951429744#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd977qffabj20qq1ba1kx.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081084951429744#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd97856ha6j21b8io8kjq.jpg" >
+				</a>
+			 <br/><br/>
+]]>
+</description>
+				<pubDate>Fri, 03 Mar 2017 05:25:38 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4081084951429744.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4081084951429744.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[《Multi-Sensor Data Pattern Recognition for Multi-Target Localization: A Machine Learning Approach》K Suresh, S Silva, J Votion, Y Cao [The University of Texas] (2017) http://t.cn/RiJKbBh ​]]></title>
+				<description>
+<![CDATA[
+《Multi-Sensor Data Pattern Recognition for Multi-Target Localization: A Machine Learning Approach》K Suresh, S Silva, J Votion, Y Cao [The University of Texas] (2017) <a class="href" href="http://t.cn/RiJKbBh" rel="nofollow" target="_blank">http://t.cn/RiJKbBh</a> ​ 
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081084221865948#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd9740n62dj20ss0j0qiz.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081084221865948#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd974f67svj20pq0c4q4i.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081084221865948#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd974v1t6pj20o21oqqbk.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081084221865948#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd9753bo2xj20py1s2doq.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081084221865948#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd975baeogj20ri16step.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081084221865948#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd975grv0yj20sg16444c.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081084221865948#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd975ni7q9j20qw0mkwij.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081084221865948#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd9741lwgnj20t20p8qiu.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081084221865948#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd9745t54uj21b8dkwqv7.jpg" >
+				</a>
+			 <br/><br/>
+]]>
+</description>
+				<pubDate>Fri, 03 Mar 2017 05:22:45 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4081084221865948.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4081084221865948.html#utm_source=rss</link>
+			</item>
+			<item>
+				<title><![CDATA[《HolStep: A Machine Learning Dataset for Higher-order Logic Theorem Proving》C Kaliszyk, F Chollet, C Szegedy [University of Innsbruck & Google Research] (2017) http://t.cn/RiJKLfC Home(dataset&code):http://t.cn/RVg1VFV ​]]></title>
+				<description>
+<![CDATA[
+《HolStep: A Machine Learning Dataset for Higher-order Logic Theorem Proving》C Kaliszyk, F Chollet, C Szegedy [University of Innsbruck & Google Research] (2017) <a class="href" href="http://t.cn/RiJKLfC" rel="nofollow" target="_blank">http://t.cn/RiJKLfC</a> Home(dataset&code):<a class="href" href="http://t.cn/RVg1VFV" rel="nofollow" target="_blank">http://t.cn/RVg1VFV</a> ​ 
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081083462677068#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd970qb6y2j21240j04f0.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081083462677068#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd971gozsxj20zc0cq78z.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081083462677068#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd970ts9bhj20j60jqgnx.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081083462677068#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd971twlzzj211e184dp7.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081083462677068#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd970twea2j20fg0citad.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081083462677068#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd970ttp1xj20fg0chq4s.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081083462677068#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd970tq60yj20fg0chgn9.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081083462677068#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd970qmtrhj219k0js4k3.jpg" >
+				</a>
+			
+			<br/>
+				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4081083462677068#utm_source=rsspic" target="_blank" title="点击看大图">
+				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd970yo288j21b8kdcx6s.jpg" >
+				</a>
+			 <br/><br/>
+]]>
+</description>
+				<pubDate>Fri, 03 Mar 2017 05:19:44 +0800</pubDate>
+				<guid>http://weibo.wbdacdn.com/user/1402400261/status4081083462677068.html#utm_source=rss</guid>
+				<link>http://weibo.wbdacdn.com/user/1402400261/status4081083462677068.html#utm_source=rss</link>
+			</item>
 			<item>
 				<title><![CDATA[《SARAH: A Novel Method for Machine Learning Problems Using Stochastic Recursive Gradient》L Nguyen, J Liu, K Scheinberg, M Takáč [Lehigh University, Bethlehem] (2017) http://t.cn/RiJKPyh deteset(LIBSVM Data: Classification, Regression, and Multi-label):http://t.cn/zlLMsyg ​]]></title>
 				<description>
@@ -743,229 +1188,6 @@
 				<pubDate>Thu, 02 Mar 2017 19:02:58 +0800</pubDate>
 				<guid>http://weibo.wbdacdn.com/user/1402400261/status4080928252401370.html#utm_source=rss</guid>
 				<link>http://weibo.wbdacdn.com/user/1402400261/status4080928252401370.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[//@winsty: 认领一下，我们北美同事去年暑期的工作，很有insight，简单work。这个技术也同时用在了我们去年刷cityscape和产品中~ 然而被cvpr reviewer一顿狂喷... //@phunter_lau: 很好，MXNet实现的RT @爱可可-爱生活:《Understanding Convolution for Semantic Segmentation》P Wang, P Chen, Y Yuan, D Liu, Z Huang, X Hou, G Cottrell [UC San Diego & CMU & UIUC & TuSimple, LLC] (2017) http://t.cn/RiMhHrm Pretrained models:http://t.cn/RiMhHru ​]]></title>
-				<description>
-<![CDATA[
-//<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/winsty/">@winsty</a>: 认领一下，我们北美同事去年暑期的工作，很有insight，简单work。这个技术也同时用在了我们去年刷cityscape和产品中~ 然而被cvpr reviewer一顿狂喷... //<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/phunter_lau/">@phunter_lau</a>: 很好，MXNet实现的  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:《Understanding Convolution for Semantic Segmentation》P Wang, P Chen, Y Yuan, D Liu, Z Huang, X Hou, G Cottrell [UC San Diego & CMU & UIUC & TuSimple, LLC] (2017) <a class="href" href="http://t.cn/RiMhHrm" rel="nofollow" target="_blank">http://t.cn/RiMhHrm</a> Pretrained models:<a class="href" href="http://t.cn/RiMhHru" rel="nofollow" target="_blank">http://t.cn/RiMhHru</a> ​<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080720215018468#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd81as1iuvj20s60ugwz6.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080720215018468#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd81bhg58hj20s20fwadc.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080720215018468#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd81b5t36ej20jx0jzdke.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080720215018468#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd81bzqqnkj21kw0qr7l1.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080720215018468#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd81ccdpiwj20rq0nsjzf.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080720215018468#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd81b6ca0wj20jj0b0wjk.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080720215018468#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd81b60hx8j20j00h2adn.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080720215018468#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd81asqtbyj20ry0dqaio.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080720215018468#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd81baxqyvj21b8gz4kjp.jpg" >
-						</a>
-					<br/><br/>
-]]>
-</description>
-				<pubDate>Thu, 02 Mar 2017 16:33:58 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4080890760341925.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4080890760341925.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【PyTorch数据增强与采样工具包】’torch-sample : data augmentation and sampling for pytorch' by NC Cullen GitHub: http://t.cn/RiMnjQg ​]]></title>
-				<description>
-<![CDATA[
-【PyTorch数据增强与采样工具包】’torch-sample : data augmentation and sampling for pytorch' by NC Cullen GitHub: <a class="href" href="http://t.cn/RiMnjQg" rel="nofollow" target="_blank">http://t.cn/RiMnjQg</a> ​ 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080850461137007#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd8gam3khkj20t40fkabt.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080850461137007#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd8gau8u4yj21f61f2nnc.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080850461137007#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd8gb0h5v2j21f80v24bi.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Thu, 02 Mar 2017 13:53:51 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4080850461137007.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4080850461137007.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《周志华最新论文 | 深度森林：探索深度神经网络以外的方法》via:@新智元 http://t.cn/RiMEHs5RT @爱可可-爱生活:《Deep Forest: Towards An Alternative to Deep Neural Networks》Z Zhou, J Feng [Nanjing University] (2017) http://t.cn/RiIJPyW ​]]></title>
-				<description>
-<![CDATA[
-《周志华最新论文 | 深度森林：探索深度神经网络以外的方法》via:<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/新智元/">@新智元</a> <a class="href" href="http://t.cn/RiMEHs5" rel="nofollow" target="_blank">http://t.cn/RiMEHs5</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:《Deep Forest: Towards An Alternative to Deep Neural Networks》Z Zhou, J Feng [Nanjing University] (2017) <a class="href" href="http://t.cn/RiIJPyW" rel="nofollow" target="_blank">http://t.cn/RiIJPyW</a> ​<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080715475482412#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd80rsj81fj20oc0rok8h.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080715475482412#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd80swt40dj20t00midot.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080715475482412#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd80sxkz3dj20sm0ee428.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080715475482412#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd80sy8hefj20t20n2jyx.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080715475482412#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd80sywacaj21kw0qwdpa.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080715475482412#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd80rsocu9j20si0yob00.jpg" >
-						</a>
-					<br/>
-						<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080715475482412#utm_source=rsspic" rel="nofollow" target="_blank"  title="点击看大图">
-						<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd80sbh6gyj21b8bvse84.jpg" >
-						</a>
-					<br/><br/>
-]]>
-</description>
-				<pubDate>Thu, 02 Mar 2017 13:45:32 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4080848368353331.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4080848368353331.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【PyTorch实现的t-SNE聚类】’t-SNE experiments in pytorch' by Christopher Erick Moody GitHub: http://t.cn/RiMEy91 ​]]></title>
-				<description>
-<![CDATA[
-【PyTorch实现的t-SNE聚类】’t-SNE experiments in pytorch' by Christopher Erick Moody GitHub: <a class="href" href="http://t.cn/RiMEy91" rel="nofollow" target="_blank">http://t.cn/RiMEy91</a> ​ <br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4080847285678228#utm_source=rsspic" title="点击看大图"><img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd8fxy9n6xg20im0ej1ky.gif" ></a> <br/><br/>
-]]>
-</description>
-				<pubDate>Thu, 02 Mar 2017 13:41:14 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4080847285678228.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4080847285678228.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【自主车经济远景前瞻】《Goodbye car ownership, hello clean air: welcome to the future of transport | World Economic Forum》by Thomas Birr, Carsten Stöcker http://t.cn/RiM8EQp ​]]></title>
-				<description>
-<![CDATA[
-【自主车经济远景前瞻】《Goodbye car ownership, hello clean air: welcome to the future of transport | World Economic Forum》by Thomas Birr, Carsten Stöcker <a class="href" href="http://t.cn/RiM8EQp" rel="nofollow" target="_blank">http://t.cn/RiM8EQp</a> ​ 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080844610105235#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd8fl2f05cj20u209xtct.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080844610105235#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd8fl3a697j209w0cldgz.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080844610105235#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd8fl4o3paj20p509k76n.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080844610105235#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd8fls8qbbj212m6ugqv6.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Thu, 02 Mar 2017 13:30:36 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4080844610105235.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4080844610105235.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[【也许是最轻便最“抗造”的无人机】“Crash landing, no problem! This #drone is made of carbon fiber, making it lightweight and nearly indestructible.” http://t.cn/RiMQel6 http://t.cn/RiMQd0t . ​]]></title>
-				<description>
-<![CDATA[
-【也许是最轻便最“抗造”的无人机】“Crash landing, no problem! This #drone is made of carbon fiber, making it lightweight and nearly indestructible.” <a class="href" href="http://t.cn/RiMQel6" rel="nofollow" target="_blank">http://t.cn/RiMQel6</a> <a class="href" href="http://t.cn/RiMQd0t" rel="nofollow" target="_blank">http://t.cn/RiMQd0t</a> . ​  <br/><br/>
-]]>
-</description>
-				<pubDate>Thu, 02 Mar 2017 13:23:51 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4080842906659607.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4080842906659607.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[Baseline: http://t.cn/RiMQUOiRT @爱可可-爱生活:【假新闻(识别)挑战赛】“Post-facto Fake News Challenge” http://t.cn/RI7CLfj GitHub:http://t.cn/RI7CLfl ​]]></title>
-				<description>
-<![CDATA[
-Baseline: <a class="href" href="http://t.cn/RiMQUOi" rel="nofollow" target="_blank">http://t.cn/RiMQUOi</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【假新闻(识别)挑战赛】“Post-facto Fake News Challenge” <a class="href" href="http://t.cn/RI7CLfj" rel="nofollow" target="_blank">http://t.cn/RI7CLfj</a> GitHub:<a class="href" href="http://t.cn/RI7CLfl" rel="nofollow" target="_blank">http://t.cn/RI7CLfl</a> ​<br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4080841326292264#utm_source=rsspic"  title="点击看大图"><img src="http://ww2.sinaimg.cn/large/5396ee05jw1faki1va80rj214s3ksnjv.jpg"></a><br/><br/>
-]]>
-</description>
-				<pubDate>Thu, 02 Mar 2017 13:17:33 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4080841326292264.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4080841326292264.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《LSTM的反向传播过程推导》via:@极客头条 http://t.cn/RiMNFDNRT @爱可可-爱生活:【LSTM反向传播梯度推导】《Deriving LSTM Gradient for Backpropagation》by Agustinus Kristiadi http://t.cn/RiULXnX ​]]></title>
-				<description>
-<![CDATA[
-《LSTM的反向传播过程推导》via:<a class="href" target="_blank" href="http://weibo.wbdacdn.com/user/极客头条/">@极客头条</a> <a class="href" href="http://t.cn/RiMNFDN" rel="nofollow" target="_blank">http://t.cn/RiMNFDN</a>  RT @<a herf="http://weibo.wbdacdn.com/user/1402400261">爱可可-爱生活</a>:【LSTM反向传播梯度推导】《Deriving LSTM Gradient for Backpropagation》by Agustinus Kristiadi <a class="href" href="http://t.cn/RiULXnX" rel="nofollow" target="_blank">http://t.cn/RiULXnX</a> ​<br/><a target="_blank" href="http://weibo.wbdacdn.com/user/1402400261/?status=4080833347986474#utm_source=rsspic"  title="点击看大图"><img src="http://ww3.sinaimg.cn/large/5396ee05jw1fd3sqdjv9tj217qb1jx6s.jpg"></a><br/><br/>
-]]>
-</description>
-				<pubDate>Thu, 02 Mar 2017 12:45:51 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4080833347986474.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4080833347986474.html#utm_source=rss</link>
-			</item>
-			<item>
-				<title><![CDATA[《SSD关键源码解析》by 狗头山人七 http://t.cn/RiMSbbq ​]]></title>
-				<description>
-<![CDATA[
-《SSD关键源码解析》by 狗头山人七 <a class="href" href="http://t.cn/RiMSbbq" rel="nofollow" target="_blank">http://t.cn/RiMSbbq</a> ​ 
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080809570914411#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww2.sinaimg.cn/large/5396ee05jw1fd8bm7mecyj20go0b3mya.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080809570914411#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd8bm7rr11j20go0csgmr.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080809570914411#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd8bm82vwqj20go08074z.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080809570914411#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww1.sinaimg.cn/large/5396ee05jw1fd8bm80z9hj20go06kdgu.jpg" >
-				</a>
-			
-			<br/>
-				<a href="http://weibo.wbdacdn.com/user/1402400261/?status=4080809570914411#utm_source=rsspic" target="_blank" title="点击看大图">
-				<img src="http://ww4.sinaimg.cn/large/5396ee05jw1fd8bm7i9cpj20go05o3zh.jpg" >
-				</a>
-			 <br/><br/>
-]]>
-</description>
-				<pubDate>Thu, 02 Mar 2017 11:11:22 +0800</pubDate>
-				<guid>http://weibo.wbdacdn.com/user/1402400261/status4080809570914411.html#utm_source=rss</guid>
-				<link>http://weibo.wbdacdn.com/user/1402400261/status4080809570914411.html#utm_source=rss</link>
 			</item>
 </channel>
 </rss><!--net-->
